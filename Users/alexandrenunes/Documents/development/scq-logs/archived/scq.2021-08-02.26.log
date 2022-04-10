@@ -1,0 +1,128 @@
+[2021-08-02 23:30:53] - Attribute (`enabled`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:53] - Processing attribute `mail` : value = Alexandre@cationbrasil.com.br
+[2021-08-02 23:30:53] - Attribute (`mail`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:53] - Processing attribute `name` : value = Alexandre
+[2021-08-02 23:30:53] - Attribute (`name`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:53] - Processing attribute `password` : value = $2a$10$jkkH12mWrSy9ijRj7Xg2XeRpZ2swGujWHa4f8PwXEYGen.K0dMaRO
+[2021-08-02 23:30:53] - Attribute (`password`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:53] - Done materializing entity [com.bluebudy.SCQ.domain.User#1]
+[2021-08-02 23:30:53] - /parametros at position 7 of 12 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+[2021-08-02 23:30:53] - /parametros at position 8 of 12 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+[2021-08-02 23:30:53] - /parametros at position 9 of 12 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+[2021-08-02 23:30:53] - /trocas at position 7 of 12 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+[2021-08-02 23:30:53] - /etapas at position 7 of 12 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+[2021-08-02 23:30:53] - SecurityContextHolder not populated with anonymous token, as it already contained: 'org.springframework.security.authentication.UsernamePasswordAuthenticationToken@da9fc90f: Principal: com.bluebudy.SCQ.domain.User@21defd19; Credentials: [PROTECTED]; Authenticated: true; Details: null; Granted Authorities: ROLE_USER, ROLE_ADMIN'
+[2021-08-02 23:30:53] - Attribute (`admin`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:53] - /processos at position 7 of 12 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+[2021-08-02 23:30:53] - Processing attribute `enabled` : value = true
+[2021-08-02 23:30:53] - Attribute (`enabled`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:53] - Processing attribute `mail` : value = Alexandre@cationbrasil.com.br
+[2021-08-02 23:30:53] - Attribute (`mail`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:53] - Processing attribute `name` : value = Alexandre
+[2021-08-02 23:30:53] - Attribute (`name`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:53] - Processing attribute `password` : value = $2a$10$jkkH12mWrSy9ijRj7Xg2XeRpZ2swGujWHa4f8PwXEYGen.K0dMaRO
+[2021-08-02 23:30:53] - Attribute (`password`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:53] - Done materializing entity [com.bluebudy.SCQ.domain.User#1]
+[2021-08-02 23:30:53] - /tarefas at position 12 of 12 in additional filter chain; firing Filter: 'FilterSecurityInterceptor'
+[2021-08-02 23:30:53] - /parametros at position 10 of 12 in additional filter chain; firing Filter: 'SessionManagementFilter'
+[2021-08-02 23:30:53] - /processos at position 8 of 12 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+[2021-08-02 23:30:53] - /materiaPrimas at position 7 of 12 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+[2021-08-02 23:30:53] - /materiaPrimas at position 8 of 12 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+[2021-08-02 23:30:53] - /materiaPrimas at position 9 of 12 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+[2021-08-02 23:30:53] - /trocas at position 8 of 12 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+[2021-08-02 23:30:53] - /trocas at position 9 of 12 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+[2021-08-02 23:30:53] - SecurityContextHolder not populated with anonymous token, as it already contained: 'org.springframework.security.authentication.UsernamePasswordAuthenticationToken@9d7b5c68: Principal: com.bluebudy.SCQ.domain.User@663a687e; Credentials: [PROTECTED]; Authenticated: true; Details: null; Granted Authorities: ROLE_USER, ROLE_ADMIN'
+[2021-08-02 23:30:53] - /materiaPrimas at position 10 of 12 in additional filter chain; firing Filter: 'SessionManagementFilter'
+[2021-08-02 23:30:53] - /etapas at position 8 of 12 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+[2021-08-02 23:30:53] - Delegating to org.springframework.security.web.authentication.session.ChangeSessionIdAuthenticationStrategy@205eabac
+[2021-08-02 23:30:53] - /processos at position 9 of 12 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+[2021-08-02 23:30:53] - SecurityContextHolder not populated with anonymous token, as it already contained: 'org.springframework.security.authentication.UsernamePasswordAuthenticationToken@b4ed1f41: Principal: com.bluebudy.SCQ.domain.User@4fac2b57; Credentials: [PROTECTED]; Authenticated: true; Details: null; Granted Authorities: ROLE_USER, ROLE_ADMIN'
+[2021-08-02 23:30:53] - /etapas at position 9 of 12 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+[2021-08-02 23:30:53] - Delegating to org.springframework.security.web.authentication.session.ChangeSessionIdAuthenticationStrategy@205eabac
+[2021-08-02 23:30:53] - SecurityContextHolder not populated with anonymous token, as it already contained: 'org.springframework.security.authentication.UsernamePasswordAuthenticationToken@8b7443e0: Principal: com.bluebudy.SCQ.domain.User@703577f6; Credentials: [PROTECTED]; Authenticated: true; Details: null; Granted Authorities: ROLE_USER, ROLE_ADMIN'
+[2021-08-02 23:30:53] - /parametros at position 11 of 12 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+[2021-08-02 23:30:53] - /parametros at position 12 of 12 in additional filter chain; firing Filter: 'FilterSecurityInterceptor'
+[2021-08-02 23:30:53] - /trocas at position 10 of 12 in additional filter chain; firing Filter: 'SessionManagementFilter'
+[2021-08-02 23:30:53] - Request 'GET /parametros' doesn't match 'POST /auth'
+[2021-08-02 23:30:53] - /processos at position 10 of 12 in additional filter chain; firing Filter: 'SessionManagementFilter'
+[2021-08-02 23:30:53] - Delegating to org.springframework.security.web.authentication.session.ChangeSessionIdAuthenticationStrategy@205eabac
+[2021-08-02 23:30:53] - Request 'GET /parametros' doesn't match 'POST /user/registration'
+[2021-08-02 23:30:53] - /materiaPrimas at position 11 of 12 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+[2021-08-02 23:30:53] - Delegating to org.springframework.security.web.authentication.session.ChangeSessionIdAuthenticationStrategy@205eabac
+[2021-08-02 23:30:53] - /processos at position 11 of 12 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+[2021-08-02 23:30:53] - /processos at position 12 of 12 in additional filter chain; firing Filter: 'FilterSecurityInterceptor'
+[2021-08-02 23:30:53] - Checking match of request : '/parametros'; against '/regitrationConfirm/*'
+[2021-08-02 23:30:53] - /trocas at position 11 of 12 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+[2021-08-02 23:30:53] - Request 'GET /processos' doesn't match 'POST /auth'
+[2021-08-02 23:30:53] - /trocas at position 12 of 12 in additional filter chain; firing Filter: 'FilterSecurityInterceptor'
+[2021-08-02 23:30:53] - /materiaPrimas at position 12 of 12 in additional filter chain; firing Filter: 'FilterSecurityInterceptor'
+[2021-08-02 23:30:53] - Request 'GET /processos' doesn't match 'POST /user/registration'
+[2021-08-02 23:30:53] - Checking match of request : '/parametros'; against '/user/adminRoleGrant/*'
+[2021-08-02 23:30:53] - Request 'GET /trocas' doesn't match 'POST /auth'
+[2021-08-02 23:30:53] - Checking match of request : '/processos'; against '/regitrationConfirm/*'
+[2021-08-02 23:30:53] - Request 'GET /parametros' doesn't match 'POST /gs-guide-websocket/**'
+[2021-08-02 23:30:53] - Checking match of request : '/parametros'; against '/gs-guide-websocket/**'
+[2021-08-02 23:30:53] - Request 'GET /materiaPrimas' doesn't match 'POST /auth'
+[2021-08-02 23:30:53] - Checking match of request : '/processos'; against '/user/adminRoleGrant/*'
+[2021-08-02 23:30:53] - Checking match of request : '/parametros'; against '/hCheck'
+[2021-08-02 23:30:53] - Request 'GET /materiaPrimas' doesn't match 'POST /user/registration'
+[2021-08-02 23:30:53] - Request 'GET /processos' doesn't match 'POST /gs-guide-websocket/**'
+[2021-08-02 23:30:53] - Checking match of request : '/processos'; against '/gs-guide-websocket/**'
+[2021-08-02 23:30:53] - Request 'GET /trocas' doesn't match 'POST /user/registration'
+[2021-08-02 23:30:53] - SecurityContextHolder not populated with anonymous token, as it already contained: 'org.springframework.security.authentication.UsernamePasswordAuthenticationToken@ffbb1e6c: Principal: com.bluebudy.SCQ.domain.User@4fa2a7a; Credentials: [PROTECTED]; Authenticated: true; Details: null; Granted Authorities: ROLE_USER, ROLE_ADMIN'
+[2021-08-02 23:30:53] - /etapas at position 10 of 12 in additional filter chain; firing Filter: 'SessionManagementFilter'
+[2021-08-02 23:30:53] - Delegating to org.springframework.security.web.authentication.session.ChangeSessionIdAuthenticationStrategy@205eabac
+[2021-08-02 23:30:53] - /etapas at position 11 of 12 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+[2021-08-02 23:30:53] - /etapas at position 12 of 12 in additional filter chain; firing Filter: 'FilterSecurityInterceptor'
+[2021-08-02 23:30:53] - Checking match of request : '/trocas'; against '/regitrationConfirm/*'
+[2021-08-02 23:30:53] - Checking match of request : '/trocas'; against '/user/adminRoleGrant/*'
+[2021-08-02 23:30:53] - Request 'GET /trocas' doesn't match 'POST /gs-guide-websocket/**'
+[2021-08-02 23:30:53] - Checking match of request : '/trocas'; against '/gs-guide-websocket/**'
+[2021-08-02 23:30:53] - Checking match of request : '/trocas'; against '/hCheck'
+[2021-08-02 23:30:53] - Checking match of request : '/materiaPrimas'; against '/regitrationConfirm/*'
+[2021-08-02 23:30:53] - Checking match of request : '/materiaPrimas'; against '/user/adminRoleGrant/*'
+[2021-08-02 23:30:53] - Request 'GET /materiaPrimas' doesn't match 'POST /gs-guide-websocket/**'
+[2021-08-02 23:30:53] - Request 'GET /tarefas' doesn't match 'POST /auth'
+[2021-08-02 23:30:53] - Checking match of request : '/materiaPrimas'; against '/gs-guide-websocket/**'
+[2021-08-02 23:30:53] - Request 'GET /tarefas' doesn't match 'POST /user/registration'
+[2021-08-02 23:30:53] - Checking match of request : '/tarefas'; against '/regitrationConfirm/*'
+[2021-08-02 23:30:53] - Checking match of request : '/materiaPrimas'; against '/hCheck'
+[2021-08-02 23:30:53] - Checking match of request : '/tarefas'; against '/user/adminRoleGrant/*'
+[2021-08-02 23:30:53] - Secure object: FilterInvocation: URL: /materiaPrimas; Attributes: [authenticated]
+[2021-08-02 23:30:53] - Previously Authenticated: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@9d7b5c68: Principal: com.bluebudy.SCQ.domain.User@663a687e; Credentials: [PROTECTED]; Authenticated: true; Details: null; Granted Authorities: ROLE_USER, ROLE_ADMIN
+[2021-08-02 23:30:53] - Request 'GET /tarefas' doesn't match 'POST /gs-guide-websocket/**'
+[2021-08-02 23:30:53] - Request 'GET /etapas' doesn't match 'POST /auth'
+[2021-08-02 23:30:53] - Checking match of request : '/tarefas'; against '/gs-guide-websocket/**'
+[2021-08-02 23:30:53] - Checking match of request : '/tarefas'; against '/hCheck'
+[2021-08-02 23:30:53] - Secure object: FilterInvocation: URL: /trocas; Attributes: [authenticated]
+[2021-08-02 23:30:53] - Previously Authenticated: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@8b7443e0: Principal: com.bluebudy.SCQ.domain.User@703577f6; Credentials: [PROTECTED]; Authenticated: true; Details: null; Granted Authorities: ROLE_USER, ROLE_ADMIN
+[2021-08-02 23:30:53] - Request 'GET /etapas' doesn't match 'POST /user/registration'
+[2021-08-02 23:30:53] - Checking match of request : '/etapas'; against '/regitrationConfirm/*'
+[2021-08-02 23:30:53] - Checking match of request : '/etapas'; against '/user/adminRoleGrant/*'
+[2021-08-02 23:30:53] - Checking match of request : '/processos'; against '/hCheck'
+[2021-08-02 23:30:53] - Secure object: FilterInvocation: URL: /parametros; Attributes: [authenticated]
+[2021-08-02 23:30:53] - Secure object: FilterInvocation: URL: /processos; Attributes: [authenticated]
+[2021-08-02 23:30:53] - Request 'GET /etapas' doesn't match 'POST /gs-guide-websocket/**'
+[2021-08-02 23:30:53] - Previously Authenticated: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@da9fc90f: Principal: com.bluebudy.SCQ.domain.User@21defd19; Credentials: [PROTECTED]; Authenticated: true; Details: null; Granted Authorities: ROLE_USER, ROLE_ADMIN
+[2021-08-02 23:30:53] - Secure object: FilterInvocation: URL: /tarefas; Attributes: [authenticated]
+[2021-08-02 23:30:53] - Previously Authenticated: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@b4ed1f41: Principal: com.bluebudy.SCQ.domain.User@4fac2b57; Credentials: [PROTECTED]; Authenticated: true; Details: null; Granted Authorities: ROLE_USER, ROLE_ADMIN
+[2021-08-02 23:30:53] - Checking match of request : '/etapas'; against '/gs-guide-websocket/**'
+[2021-08-02 23:30:53] - Previously Authenticated: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@d45d8266: Principal: com.bluebudy.SCQ.domain.User@2f1cb670; Credentials: [PROTECTED]; Authenticated: true; Details: null; Granted Authorities: ROLE_USER, ROLE_ADMIN
+[2021-08-02 23:30:53] - Checking match of request : '/etapas'; against '/hCheck'
+[2021-08-02 23:30:53] - Secure object: FilterInvocation: URL: /etapas; Attributes: [authenticated]
+[2021-08-02 23:30:53] - Previously Authenticated: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@ffbb1e6c: Principal: com.bluebudy.SCQ.domain.User@4fa2a7a; Credentials: [PROTECTED]; Authenticated: true; Details: null; Granted Authorities: ROLE_USER, ROLE_ADMIN
+[2021-08-02 23:30:53] - Voter: org.springframework.security.web.access.expression.WebExpressionVoter@57d27bce, returned: 1
+[2021-08-02 23:30:53] - Voter: org.springframework.security.web.access.expression.WebExpressionVoter@57d27bce, returned: 1
+[2021-08-02 23:30:53] - Authorization successful
+[2021-08-02 23:30:53] - RunAsManager did not change Authentication object
+[2021-08-02 23:30:53] - Authorization successful
+[2021-08-02 23:30:53] - RunAsManager did not change Authentication object
+[2021-08-02 23:30:53] - /trocas reached end of additional filter chain; proceeding with original chain
+[2021-08-02 23:30:53] - /etapas reached end of additional filter chain; proceeding with original chain
+[2021-08-02 23:30:53] - GET "/trocas", parameters={}
+[2021-08-02 23:30:53] - Voter: org.springframework.security.web.access.expression.WebExpressionVoter@57d27bce, returned: 1
+[2021-08-02 23:30:53] - Authorization successful
+[2021-08-02 23:30:53] - RunAsManager did not change Authentication object
+[2021-08-02 23:30:53] - /processos reached end of additional filter chain; proceeding with original chain
+[2021-08-02 23:30:53] - GET "/etapas", parameters={}
+[2021-08-02 23:30:53] - GET "/processos", parameters={}

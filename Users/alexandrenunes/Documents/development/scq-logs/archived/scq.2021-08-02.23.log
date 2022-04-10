@@ -1,0 +1,179 @@
+[2021-08-02 23:28:32] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-08-02 23:29:02] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-08-02 23:29:07] - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 2, active threads = 1, queued tasks = 1, completed tasks = 0]
+[2021-08-02 23:29:32] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-08-02 23:30:02] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-08-02 23:30:32] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-08-02 23:30:43] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-08-02 23:30:43] - Initializing Servlet 'dispatcherServlet'
+[2021-08-02 23:30:43] - Detected StandardServletMultipartResolver
+[2021-08-02 23:30:43] - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[2021-08-02 23:30:43] - Completed initialization in 143 ms
+[2021-08-02 23:30:43] - /gs-guide-websocket at position 1 of 12 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+[2021-08-02 23:30:43] - /gs-guide-websocket at position 2 of 12 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+[2021-08-02 23:30:43] - /gs-guide-websocket at position 3 of 12 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+[2021-08-02 23:30:43] - /gs-guide-websocket at position 4 of 12 in additional filter chain; firing Filter: 'CorsFilter'
+[2021-08-02 23:30:43] - /gs-guide-websocket at position 5 of 12 in additional filter chain; firing Filter: 'LogoutFilter'
+[2021-08-02 23:30:43] - Trying to match using Ant [pattern='/logout', GET]
+[2021-08-02 23:30:43] - Checking match of request : '/gs-guide-websocket'; against '/logout'
+[2021-08-02 23:30:43] - Trying to match using Ant [pattern='/logout', POST]
+[2021-08-02 23:30:43] - Request 'GET /gs-guide-websocket' doesn't match 'POST /logout'
+[2021-08-02 23:30:43] - Trying to match using Ant [pattern='/logout', PUT]
+[2021-08-02 23:30:43] - Request 'GET /gs-guide-websocket' doesn't match 'PUT /logout'
+[2021-08-02 23:30:43] - Trying to match using Ant [pattern='/logout', DELETE]
+[2021-08-02 23:30:43] - Request 'GET /gs-guide-websocket' doesn't match 'DELETE /logout'
+[2021-08-02 23:30:43] - No matches found
+[2021-08-02 23:30:43] - /gs-guide-websocket at position 6 of 12 in additional filter chain; firing Filter: 'AutenticacaoTokenFilter'
+[2021-08-02 23:30:43] - /gs-guide-websocket at position 7 of 12 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+[2021-08-02 23:30:43] - /gs-guide-websocket at position 8 of 12 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+[2021-08-02 23:30:43] - /gs-guide-websocket at position 9 of 12 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+[2021-08-02 23:30:43] - Populated SecurityContextHolder with anonymous token: 'org.springframework.security.authentication.AnonymousAuthenticationToken@e569f4fa: Principal: anonymousUser; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ANONYMOUS'
+[2021-08-02 23:30:43] - /gs-guide-websocket at position 10 of 12 in additional filter chain; firing Filter: 'SessionManagementFilter'
+[2021-08-02 23:30:43] - Requested session ID E65A2C40346ADBD2A78DA7AE5E873B97 is invalid.
+[2021-08-02 23:30:43] - /gs-guide-websocket at position 11 of 12 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+[2021-08-02 23:30:43] - /gs-guide-websocket at position 12 of 12 in additional filter chain; firing Filter: 'FilterSecurityInterceptor'
+[2021-08-02 23:30:43] - Request 'GET /gs-guide-websocket' doesn't match 'POST /auth'
+[2021-08-02 23:30:43] - Request 'GET /gs-guide-websocket' doesn't match 'POST /user/registration'
+[2021-08-02 23:30:43] - Checking match of request : '/gs-guide-websocket'; against '/regitrationConfirm/*'
+[2021-08-02 23:30:43] - Checking match of request : '/gs-guide-websocket'; against '/user/adminRoleGrant/*'
+[2021-08-02 23:30:43] - Request 'GET /gs-guide-websocket' doesn't match 'POST /gs-guide-websocket/**'
+[2021-08-02 23:30:43] - Checking match of request : '/gs-guide-websocket'; against '/gs-guide-websocket/**'
+[2021-08-02 23:30:43] - Secure object: FilterInvocation: URL: /gs-guide-websocket; Attributes: [permitAll]
+[2021-08-02 23:30:43] - Previously Authenticated: org.springframework.security.authentication.AnonymousAuthenticationToken@e569f4fa: Principal: anonymousUser; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ANONYMOUS
+[2021-08-02 23:30:43] - Voter: org.springframework.security.web.access.expression.WebExpressionVoter@57d27bce, returned: 1
+[2021-08-02 23:30:43] - Authorization successful
+[2021-08-02 23:30:43] - RunAsManager did not change Authentication object
+[2021-08-02 23:30:43] - /gs-guide-websocket reached end of additional filter chain; proceeding with original chain
+[2021-08-02 23:30:43] - GET "/gs-guide-websocket", parameters={}
+[2021-08-02 23:30:43] - Mapped to org.springframework.web.socket.server.support.WebSocketHttpRequestHandler@15b13804
+[2021-08-02 23:30:43] - GET /gs-guide-websocket
+[2021-08-02 23:30:43] - Completed 101 SWITCHING_PROTOCOLS
+[2021-08-02 23:30:43] - Chain processed normally
+[2021-08-02 23:30:43] - Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@772ee90d
+[2021-08-02 23:30:43] - SecurityContextHolder now cleared, as request processing completed
+[2021-08-02 23:30:43] - New StandardWebSocketSession[id=73abe6a1-b244-deaa-d26a-c046f66a2e99, uri=ws://localhost:8080/gs-guide-websocket]
+[2021-08-02 23:30:43] - Processing CONNECT session=73abe6a1-b244-deaa-d26a-c046f66a2e99
+[2021-08-02 23:30:43] - Processing SUBSCRIBE /reducer/return id=sub-0 session=73abe6a1-b244-deaa-d26a-c046f66a2e99
+[2021-08-02 23:30:52] - /auth at position 1 of 12 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+[2021-08-02 23:30:52] - /auth at position 2 of 12 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+[2021-08-02 23:30:52] - /auth at position 3 of 12 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+[2021-08-02 23:30:52] - /auth at position 4 of 12 in additional filter chain; firing Filter: 'CorsFilter'
+[2021-08-02 23:30:52] - Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@772ee90d
+[2021-08-02 23:30:52] - SecurityContextHolder now cleared, as request processing completed
+[2021-08-02 23:30:52] - /auth at position 1 of 12 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+[2021-08-02 23:30:52] - /auth at position 2 of 12 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+[2021-08-02 23:30:52] - /auth at position 3 of 12 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+[2021-08-02 23:30:52] - /auth at position 4 of 12 in additional filter chain; firing Filter: 'CorsFilter'
+[2021-08-02 23:30:52] - /auth at position 5 of 12 in additional filter chain; firing Filter: 'LogoutFilter'
+[2021-08-02 23:30:52] - Trying to match using Ant [pattern='/logout', GET]
+[2021-08-02 23:30:52] - Request 'POST /auth' doesn't match 'GET /logout'
+[2021-08-02 23:30:52] - Trying to match using Ant [pattern='/logout', POST]
+[2021-08-02 23:30:52] - Checking match of request : '/auth'; against '/logout'
+[2021-08-02 23:30:52] - Trying to match using Ant [pattern='/logout', PUT]
+[2021-08-02 23:30:52] - Request 'POST /auth' doesn't match 'PUT /logout'
+[2021-08-02 23:30:52] - Trying to match using Ant [pattern='/logout', DELETE]
+[2021-08-02 23:30:52] - Request 'POST /auth' doesn't match 'DELETE /logout'
+[2021-08-02 23:30:52] - No matches found
+[2021-08-02 23:30:52] - /auth at position 6 of 12 in additional filter chain; firing Filter: 'AutenticacaoTokenFilter'
+[2021-08-02 23:30:52] - /auth at position 7 of 12 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+[2021-08-02 23:30:52] - /auth at position 8 of 12 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+[2021-08-02 23:30:52] - /auth at position 9 of 12 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+[2021-08-02 23:30:52] - Populated SecurityContextHolder with anonymous token: 'org.springframework.security.authentication.AnonymousAuthenticationToken@e569f4fa: Principal: anonymousUser; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ANONYMOUS'
+[2021-08-02 23:30:52] - /auth at position 10 of 12 in additional filter chain; firing Filter: 'SessionManagementFilter'
+[2021-08-02 23:30:52] - /auth at position 11 of 12 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+[2021-08-02 23:30:52] - /auth at position 12 of 12 in additional filter chain; firing Filter: 'FilterSecurityInterceptor'
+[2021-08-02 23:30:52] - Checking match of request : '/auth'; against '/auth'
+[2021-08-02 23:30:52] - Secure object: FilterInvocation: URL: /auth; Attributes: [permitAll]
+[2021-08-02 23:30:52] - Previously Authenticated: org.springframework.security.authentication.AnonymousAuthenticationToken@e569f4fa: Principal: anonymousUser; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ANONYMOUS
+[2021-08-02 23:30:52] - Voter: org.springframework.security.web.access.expression.WebExpressionVoter@57d27bce, returned: 1
+[2021-08-02 23:30:52] - Authorization successful
+[2021-08-02 23:30:52] - RunAsManager did not change Authentication object
+[2021-08-02 23:30:52] - /auth reached end of additional filter chain; proceeding with original chain
+[2021-08-02 23:30:52] - POST "/auth", parameters={}
+[2021-08-02 23:30:52] - Mapped to com.bluebudy.SCQ.controllers.AuthenticationController#authenticate(LoginForm)
+[2021-08-02 23:30:52] - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2021-08-02 23:30:52] - Read "application/json;charset=UTF-8" to [com.bluebudy.SCQ.forms.LoginForm@10157c9d]
+[2021-08-02 23:30:53] - Rendered criteria query -> select generatedAlias0 from User as generatedAlias0 where generatedAlias0.mail=:param0
+[2021-08-02 23:30:53] - parse() - HQL: select generatedAlias0 from com.bluebudy.SCQ.domain.User as generatedAlias0 where generatedAlias0.mail=:param0
+[2021-08-02 23:30:53] - throwQueryException() : no errors
+[2021-08-02 23:30:53] - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  +-[FROM] Node: 'from'
+    |  |  \-[RANGE] Node: 'RANGE'
+    |  |     +-[DOT] Node: '.'
+    |  |     |  +-[DOT] Node: '.'
+    |  |     |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  |  +-[IDENT] Node: 'com'
+    |  |     |  |  |  |  \-[IDENT] Node: 'bluebudy'
+    |  |     |  |  |  \-[IDENT] Node: 'SCQ'
+    |  |     |  |  \-[IDENT] Node: 'domain'
+    |  |     |  \-[IDENT] Node: 'User'
+    |  |     \-[ALIAS] Node: 'generatedAlias0'
+    |  \-[SELECT] Node: 'select'
+    |     \-[IDENT] Node: 'generatedAlias0'
+    \-[WHERE] Node: 'where'
+       \-[EQ] Node: '='
+          +-[DOT] Node: '.'
+          |  +-[IDENT] Node: 'generatedAlias0'
+          |  \-[IDENT] Node: 'mail'
+          \-[COLON] Node: ':'
+             \-[IDENT] Node: 'param0'
+
+[2021-08-02 23:30:53] - select << begin [level=1, statement=select]
+[2021-08-02 23:30:53] - FromClause{level=1} : com.bluebudy.SCQ.domain.User (generatedAlias0) -> user0_
+[2021-08-02 23:30:53] - Resolved : generatedAlias0 -> user0_.id
+[2021-08-02 23:30:53] - Resolved : generatedAlias0 -> user0_.id
+[2021-08-02 23:30:53] - getDataType() : mail -> org.hibernate.type.StringType@48c6cf1b
+[2021-08-02 23:30:53] - Resolved : generatedAlias0.mail -> user0_.mail
+[2021-08-02 23:30:53] - select : finishing up [level=1, statement=select]
+[2021-08-02 23:30:53] - processQuery() :  ( SELECT ( {select clause} user0_.id ) ( FromClause{level=1} user user0_ ) ( where ( = ( user0_.mail user0_.id mail ) ? ) ) )
+[2021-08-02 23:30:53] - Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity User): [user]
+    |  +-IdentNode
+    |  | persister: SingleTableEntityPersister(com.bluebudy.SCQ.domain.User)
+    |  | referencedTables: null
+    |  | originalText: generatedAlias0
+    |  \-SqlFragment
+    +-FromClause
+    |  \-FromElement
+    \-SqlNode
+       \-BinaryLogicOperatorNode
+          +-DotNode
+          | persister: SingleTableEntityPersister(com.bluebudy.SCQ.domain.User)
+          | referencedTables: [user]
+          | path: generatedAlias0.mail
+          | originalPropertyName: mail
+          |  +-IdentNode
+          |  | persister: SingleTableEntityPersister(com.bluebudy.SCQ.domain.User)
+          |  | referencedTables: null
+          |  | originalText: generatedAlias0
+          |  \-IdentNode
+          |    persister: null
+          |    referencedTables: null
+          |    originalText: mail
+          \-ParameterNode
+
+[2021-08-02 23:30:53] - Using FROM fragment [user user0_]
+[2021-08-02 23:30:53] - select >> end [level=1, statement=select]
+[2021-08-02 23:30:53] - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (user)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'user0_.id as id1_14_' {alias=generatedAlias0, className=com.bluebudy.SCQ.domain.User, tableAlias=user0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'user0_.admin as admin2_14_, user0_.enabled as enabled3_14_, user0_.mail as mail4_14_, user0_.name as name5_14_, user0_.password as password6_14_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[user0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'user user0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=user,tableAlias=user0_,origin=null,columns={,className=com.bluebudy.SCQ.domain.User}}
+    \-[WHERE] SqlNode: 'where'
+       \-[EQ] BinaryLogicOperatorNode: '='
+          +-[DOT] DotNode: 'user0_.mail' {propertyName=mail,dereferenceType=PRIMITIVE,getPropertyPath=mail,path=generatedAlias0.mail,tableAlias=user0_,className=com.bluebudy.SCQ.domain.User,classAlias=generatedAlias0}
+          |  +-[ALIAS_REF] IdentNode: 'user0_.id' {alias=generatedAlias0, className=com.bluebudy.SCQ.domain.User, tableAlias=user0_}
+          |  \-[IDENT] IdentNode: 'mail' {originalText=mail}
+          \-[NAMED_PARAM] ParameterNode: '?' {name=param0, expectedType=org.hibernate.type.StringType@48c6cf1b}
+
+[2021-08-02 23:30:53] - throwQueryException() : no errors
+[2021-08-02 23:30:53] - HQL: select generatedAlias0 from com.bluebudy.SCQ.domain.User as generatedAlias0 where generatedAlias0.mail=:param0
+[2021-08-02 23:30:53] - SQL: select user0_.id as id1_14_, user0_.admin as admin2_14_, user0_.enabled as enabled3_14_, user0_.mail as mail4_14_, user0_.name as name5_14_, user0_.password as password6_14_ from user user0_ where user0_.mail=?
+[2021-08-02 23:30:53] - throwQueryException() : no errors

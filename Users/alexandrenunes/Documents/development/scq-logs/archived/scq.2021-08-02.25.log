@@ -1,0 +1,128 @@
+[2021-08-02 23:30:53] - /parametros at position 5 of 12 in additional filter chain; firing Filter: 'LogoutFilter'
+[2021-08-02 23:30:53] - /processos at position 5 of 12 in additional filter chain; firing Filter: 'LogoutFilter'
+[2021-08-02 23:30:53] - Trying to match using Ant [pattern='/logout', GET]
+[2021-08-02 23:30:53] - Trying to match using Ant [pattern='/logout', GET]
+[2021-08-02 23:30:53] - Checking match of request : '/processos'; against '/logout'
+[2021-08-02 23:30:53] - Trying to match using Ant [pattern='/logout', POST]
+[2021-08-02 23:30:53] - Request 'GET /processos' doesn't match 'POST /logout'
+[2021-08-02 23:30:53] - Checking match of request : '/parametros'; against '/logout'
+[2021-08-02 23:30:53] - Trying to match using Ant [pattern='/logout', PUT]
+[2021-08-02 23:30:53] - Trying to match using Ant [pattern='/logout', POST]
+[2021-08-02 23:30:53] - Request 'GET /processos' doesn't match 'PUT /logout'
+[2021-08-02 23:30:53] - Trying to match using Ant [pattern='/logout', DELETE]
+[2021-08-02 23:30:53] - Request 'GET /parametros' doesn't match 'POST /logout'
+[2021-08-02 23:30:53] - Request 'GET /processos' doesn't match 'DELETE /logout'
+[2021-08-02 23:30:53] - No matches found
+[2021-08-02 23:30:53] - Trying to match using Ant [pattern='/logout', PUT]
+[2021-08-02 23:30:53] - Request 'GET /parametros' doesn't match 'PUT /logout'
+[2021-08-02 23:30:53] - Trying to match using Ant [pattern='/logout', DELETE]
+[2021-08-02 23:30:53] - Request 'GET /parametros' doesn't match 'DELETE /logout'
+[2021-08-02 23:30:53] - No matches found
+[2021-08-02 23:30:53] - /parametros at position 6 of 12 in additional filter chain; firing Filter: 'AutenticacaoTokenFilter'
+[2021-08-02 23:30:53] - /processos at position 6 of 12 in additional filter chain; firing Filter: 'AutenticacaoTokenFilter'
+[2021-08-02 23:30:53] - /etapas at position 1 of 12 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+[2021-08-02 23:30:53] - /etapas at position 2 of 12 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+[2021-08-02 23:30:53] - /etapas at position 3 of 12 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+[2021-08-02 23:30:53] - /etapas at position 4 of 12 in additional filter chain; firing Filter: 'CorsFilter'
+[2021-08-02 23:30:53] - /etapas at position 5 of 12 in additional filter chain; firing Filter: 'LogoutFilter'
+[2021-08-02 23:30:53] - Trying to match using Ant [pattern='/logout', GET]
+[2021-08-02 23:30:53] - Checking match of request : '/etapas'; against '/logout'
+[2021-08-02 23:30:53] - Trying to match using Ant [pattern='/logout', POST]
+[2021-08-02 23:30:53] - Request 'GET /etapas' doesn't match 'POST /logout'
+[2021-08-02 23:30:53] - Trying to match using Ant [pattern='/logout', PUT]
+[2021-08-02 23:30:53] - Request 'GET /etapas' doesn't match 'PUT /logout'
+[2021-08-02 23:30:53] - Trying to match using Ant [pattern='/logout', DELETE]
+[2021-08-02 23:30:53] - Request 'GET /etapas' doesn't match 'DELETE /logout'
+[2021-08-02 23:30:53] - No matches found
+[2021-08-02 23:30:53] - /etapas at position 6 of 12 in additional filter chain; firing Filter: 'AutenticacaoTokenFilter'
+[2021-08-02 23:30:53] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:30:53] - Rendered criteria query -> select generatedAlias0 from User as generatedAlias0 where generatedAlias0.mail=:param0
+[2021-08-02 23:30:53] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:30:53] - select user0_.id as id1_14_, user0_.admin as admin2_14_, user0_.enabled as enabled3_14_, user0_.mail as mail4_14_, user0_.name as name5_14_, user0_.password as password6_14_ from user user0_ where user0_.mail=?
+[2021-08-02 23:30:53] - Rendered criteria query -> select generatedAlias0 from User as generatedAlias0 where generatedAlias0.mail=:param0
+[2021-08-02 23:30:53] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:30:53] - select user0_.id as id1_14_, user0_.admin as admin2_14_, user0_.enabled as enabled3_14_, user0_.mail as mail4_14_, user0_.name as name5_14_, user0_.password as password6_14_ from user user0_ where user0_.mail=?
+[2021-08-02 23:30:53] - Rendered criteria query -> select generatedAlias0 from User as generatedAlias0 where generatedAlias0.mail=:param0
+[2021-08-02 23:30:53] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:30:53] - select user0_.id as id1_14_, user0_.admin as admin2_14_, user0_.enabled as enabled3_14_, user0_.mail as mail4_14_, user0_.name as name5_14_, user0_.password as password6_14_ from user user0_ where user0_.mail=?
+[2021-08-02 23:30:53] - Rendered criteria query -> select generatedAlias0 from User as generatedAlias0 where generatedAlias0.mail=:param0
+[2021-08-02 23:30:53] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:30:53] - select user0_.id as id1_14_, user0_.admin as admin2_14_, user0_.enabled as enabled3_14_, user0_.mail as mail4_14_, user0_.name as name5_14_, user0_.password as password6_14_ from user user0_ where user0_.mail=?
+[2021-08-02 23:30:53] - Rendered criteria query -> select generatedAlias0 from User as generatedAlias0 where generatedAlias0.mail=:param0
+[2021-08-02 23:30:53] - Result set row: 0
+[2021-08-02 23:30:53] - Result row: EntityKey[com.bluebudy.SCQ.domain.User#1]
+[2021-08-02 23:30:53] - select user0_.id as id1_14_, user0_.admin as admin2_14_, user0_.enabled as enabled3_14_, user0_.mail as mail4_14_, user0_.name as name5_14_, user0_.password as password6_14_ from user user0_ where user0_.mail=?
+[2021-08-02 23:30:53] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:30:53] - Resolving attributes for [com.bluebudy.SCQ.domain.User#1]
+[2021-08-02 23:30:53] - Processing attribute `admin` : value = true
+[2021-08-02 23:30:53] - Attribute (`admin`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:53] - Processing attribute `enabled` : value = true
+[2021-08-02 23:30:53] - Attribute (`enabled`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:53] - Processing attribute `mail` : value = Alexandre@cationbrasil.com.br
+[2021-08-02 23:30:53] - Attribute (`mail`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:53] - Processing attribute `name` : value = Alexandre
+[2021-08-02 23:30:53] - Attribute (`name`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:53] - Processing attribute `password` : value = $2a$10$jkkH12mWrSy9ijRj7Xg2XeRpZ2swGujWHa4f8PwXEYGen.K0dMaRO
+[2021-08-02 23:30:53] - Attribute (`password`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:53] - Result set row: 0
+[2021-08-02 23:30:53] - Result set row: 0
+[2021-08-02 23:30:53] - Result row: EntityKey[com.bluebudy.SCQ.domain.User#1]
+[2021-08-02 23:30:53] - Done materializing entity [com.bluebudy.SCQ.domain.User#1]
+[2021-08-02 23:30:53] - Rendered criteria query -> select generatedAlias0 from User as generatedAlias0 where generatedAlias0.mail=:param0
+[2021-08-02 23:30:53] - Result set row: 0
+[2021-08-02 23:30:53] - Result row: EntityKey[com.bluebudy.SCQ.domain.User#1]
+[2021-08-02 23:30:53] - Result row: EntityKey[com.bluebudy.SCQ.domain.User#1]
+[2021-08-02 23:30:53] - select user0_.id as id1_14_, user0_.admin as admin2_14_, user0_.enabled as enabled3_14_, user0_.mail as mail4_14_, user0_.name as name5_14_, user0_.password as password6_14_ from user user0_ where user0_.mail=?
+[2021-08-02 23:30:53] - /tarefas at position 7 of 12 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+[2021-08-02 23:30:53] - /tarefas at position 8 of 12 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+[2021-08-02 23:30:53] - /tarefas at position 9 of 12 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+[2021-08-02 23:30:53] - SecurityContextHolder not populated with anonymous token, as it already contained: 'org.springframework.security.authentication.UsernamePasswordAuthenticationToken@d45d8266: Principal: com.bluebudy.SCQ.domain.User@2f1cb670; Credentials: [PROTECTED]; Authenticated: true; Details: null; Granted Authorities: ROLE_USER, ROLE_ADMIN'
+[2021-08-02 23:30:53] - /tarefas at position 10 of 12 in additional filter chain; firing Filter: 'SessionManagementFilter'
+[2021-08-02 23:30:53] - Delegating to org.springframework.security.web.authentication.session.ChangeSessionIdAuthenticationStrategy@205eabac
+[2021-08-02 23:30:53] - Result set row: 0
+[2021-08-02 23:30:53] - Result set row: 0
+[2021-08-02 23:30:53] - Result row: EntityKey[com.bluebudy.SCQ.domain.User#1]
+[2021-08-02 23:30:53] - Result row: EntityKey[com.bluebudy.SCQ.domain.User#1]
+[2021-08-02 23:30:53] - Resolving attributes for [com.bluebudy.SCQ.domain.User#1]
+[2021-08-02 23:30:53] - Processing attribute `admin` : value = true
+[2021-08-02 23:30:53] - Attribute (`admin`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:53] - Processing attribute `enabled` : value = true
+[2021-08-02 23:30:53] - Attribute (`enabled`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:53] - Processing attribute `mail` : value = Alexandre@cationbrasil.com.br
+[2021-08-02 23:30:53] - Attribute (`mail`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:53] - Processing attribute `name` : value = Alexandre
+[2021-08-02 23:30:53] - Attribute (`name`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:53] - Processing attribute `password` : value = $2a$10$jkkH12mWrSy9ijRj7Xg2XeRpZ2swGujWHa4f8PwXEYGen.K0dMaRO
+[2021-08-02 23:30:53] - Attribute (`password`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:53] - Done materializing entity [com.bluebudy.SCQ.domain.User#1]
+[2021-08-02 23:30:53] - Resolving attributes for [com.bluebudy.SCQ.domain.User#1]
+[2021-08-02 23:30:53] - Processing attribute `admin` : value = true
+[2021-08-02 23:30:53] - Resolving attributes for [com.bluebudy.SCQ.domain.User#1]
+[2021-08-02 23:30:53] - Processing attribute `admin` : value = true
+[2021-08-02 23:30:53] - Attribute (`admin`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:53] - Attribute (`admin`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:53] - Processing attribute `enabled` : value = true
+[2021-08-02 23:30:53] - Processing attribute `enabled` : value = true
+[2021-08-02 23:30:53] - Attribute (`enabled`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:53] - Attribute (`enabled`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:53] - Processing attribute `mail` : value = Alexandre@cationbrasil.com.br
+[2021-08-02 23:30:53] - Processing attribute `mail` : value = Alexandre@cationbrasil.com.br
+[2021-08-02 23:30:53] - Attribute (`mail`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:53] - Attribute (`mail`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:53] - Processing attribute `name` : value = Alexandre
+[2021-08-02 23:30:53] - Processing attribute `name` : value = Alexandre
+[2021-08-02 23:30:53] - Attribute (`name`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:53] - Attribute (`name`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:53] - Processing attribute `password` : value = $2a$10$jkkH12mWrSy9ijRj7Xg2XeRpZ2swGujWHa4f8PwXEYGen.K0dMaRO
+[2021-08-02 23:30:53] - Processing attribute `password` : value = $2a$10$jkkH12mWrSy9ijRj7Xg2XeRpZ2swGujWHa4f8PwXEYGen.K0dMaRO
+[2021-08-02 23:30:53] - Attribute (`password`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:53] - Attribute (`password`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:53] - Done materializing entity [com.bluebudy.SCQ.domain.User#1]
+[2021-08-02 23:30:53] - Done materializing entity [com.bluebudy.SCQ.domain.User#1]
+[2021-08-02 23:30:53] - Resolving attributes for [com.bluebudy.SCQ.domain.User#1]
+[2021-08-02 23:30:53] - Processing attribute `admin` : value = true
+[2021-08-02 23:30:53] - Resolving attributes for [com.bluebudy.SCQ.domain.User#1]
+[2021-08-02 23:30:53] - Attribute (`admin`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:53] - Processing attribute `enabled` : value = true
+[2021-08-02 23:30:53] - /tarefas at position 11 of 12 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+[2021-08-02 23:30:53] - Processing attribute `admin` : value = true

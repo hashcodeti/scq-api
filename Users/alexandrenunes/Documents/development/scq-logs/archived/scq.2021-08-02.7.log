@@ -1,0 +1,128 @@
+[2021-08-02 23:28:02] - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[2021-08-02 23:28:02] - Import with entity name Controle
+[2021-08-02 23:28:02] - Bind entity com.bluebudy.SCQ.domain.Controle on table controle
+[2021-08-02 23:28:02] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(controle), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:02] - MetadataSourceProcessor property id with lazy=false
+[2021-08-02 23:28:02] - Attempting to locate auto-apply AttributeConverter for property [com.bluebudy.SCQ.domain.Controle:id]
+[2021-08-02 23:28:02] - building SimpleValue for id
+[2021-08-02 23:28:02] - Building property id
+[2021-08-02 23:28:02] - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.IncrementGenerator, increment, ...)
+[2021-08-02 23:28:02] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(controle), mappingColumn=data_planejada, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:02] - MetadataSourceProcessor property dataPlanejada with lazy=false
+[2021-08-02 23:28:02] - Attempting to locate auto-apply AttributeConverter for property [com.bluebudy.SCQ.domain.Controle:dataPlanejada]
+[2021-08-02 23:28:02] - building SimpleValue for dataPlanejada
+[2021-08-02 23:28:02] - Building property dataPlanejada
+[2021-08-02 23:28:02] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(controle), mappingColumn=data_realizada, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:02] - MetadataSourceProcessor property dataRealizada with lazy=false
+[2021-08-02 23:28:02] - Attempting to locate auto-apply AttributeConverter for property [com.bluebudy.SCQ.domain.Controle:dataRealizada]
+[2021-08-02 23:28:02] - building SimpleValue for dataRealizada
+[2021-08-02 23:28:02] - Building property dataRealizada
+[2021-08-02 23:28:02] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(controle), mappingColumn=notified, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:02] - MetadataSourceProcessor property notified with lazy=false
+[2021-08-02 23:28:02] - Attempting to locate auto-apply AttributeConverter for property [com.bluebudy.SCQ.domain.Controle:notified]
+[2021-08-02 23:28:02] - building SimpleValue for notified
+[2021-08-02 23:28:02] - Building property notified
+[2021-08-02 23:28:02] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(controle), mappingColumn=periodo, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:02] - MetadataSourceProcessor property periodo with lazy=false
+[2021-08-02 23:28:02] - Attempting to locate auto-apply AttributeConverter for property [com.bluebudy.SCQ.domain.Controle:periodo]
+[2021-08-02 23:28:02] - building SimpleValue for periodo
+[2021-08-02 23:28:02] - Building property periodo
+[2021-08-02 23:28:02] - Binding entity from annotated class: com.bluebudy.SCQ.domain.Etapa
+[2021-08-02 23:28:02] - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[2021-08-02 23:28:02] - Import with entity name Etapa
+[2021-08-02 23:28:02] - Bind entity com.bluebudy.SCQ.domain.Etapa on table etapa
+[2021-08-02 23:28:02] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(etapa), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:02] - MetadataSourceProcessor property id with lazy=false
+[2021-08-02 23:28:02] - Attempting to locate auto-apply AttributeConverter for property [com.bluebudy.SCQ.domain.Etapa:id]
+[2021-08-02 23:28:02] - building SimpleValue for id
+[2021-08-02 23:28:02] - Building property id
+[2021-08-02 23:28:02] - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.IncrementGenerator, increment, ...)
+[2021-08-02 23:28:02] - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='etapa'}
+[2021-08-02 23:28:02] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(etapa), mappingColumn=montagem, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:02] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(etapa), mappingColumn=null, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:02] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(etapa), mappingColumn=element, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:02] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(etapa), mappingColumn=montagem_key, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:02] - Binding column: Ejb3JoinColumn{logicalColumnName='montagem_KEY', referencedColumn='null', mappedBy='null'}
+[2021-08-02 23:28:02] - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='etapa'}
+[2021-08-02 23:28:02] - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='etapa'}
+[2021-08-02 23:28:02] - Collection role: com.bluebudy.SCQ.domain.Etapa.montagem
+[2021-08-02 23:28:02] - Building property montagem
+[2021-08-02 23:28:02] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(etapa), mappingColumn=nome, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:02] - MetadataSourceProcessor property nome with lazy=false
+[2021-08-02 23:28:02] - Attempting to locate auto-apply AttributeConverter for property [com.bluebudy.SCQ.domain.Etapa:nome]
+[2021-08-02 23:28:02] - building SimpleValue for nome
+[2021-08-02 23:28:02] - Building property nome
+[2021-08-02 23:28:02] - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='etapa'}
+[2021-08-02 23:28:02] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(etapa), mappingColumn=parametros, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:02] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(etapa), mappingColumn=null, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:02] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(etapa), mappingColumn=element, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:02] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(etapa), mappingColumn=parametros_key, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:02] - Binding column: Ejb3JoinColumn{logicalColumnName='parametros_KEY', referencedColumn='null', mappedBy='null'}
+[2021-08-02 23:28:02] - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='etapa'}
+[2021-08-02 23:28:02] - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='etapa'}
+[2021-08-02 23:28:02] - Collection role: com.bluebudy.SCQ.domain.Etapa.parametros
+[2021-08-02 23:28:02] - Building property parametros
+[2021-08-02 23:28:02] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(etapa), mappingColumn=posicao, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:02] - MetadataSourceProcessor property posicao with lazy=false
+[2021-08-02 23:28:02] - Attempting to locate auto-apply AttributeConverter for property [com.bluebudy.SCQ.domain.Etapa:posicao]
+[2021-08-02 23:28:02] - building SimpleValue for posicao
+[2021-08-02 23:28:02] - Building property posicao
+[2021-08-02 23:28:02] - Binding column: Ejb3JoinColumn{logicalColumnName='processoId', referencedColumn='', mappedBy=''}
+[2021-08-02 23:28:02] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(etapa), mappingColumn=processo, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:02] - Building property processo
+[2021-08-02 23:28:02] - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='etapa'}
+[2021-08-02 23:28:02] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(etapa), mappingColumn=trocas, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:02] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(etapa), mappingColumn=null, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:02] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(etapa), mappingColumn=element, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:02] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(etapa), mappingColumn=trocas_key, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:02] - Binding column: Ejb3JoinColumn{logicalColumnName='trocas_KEY', referencedColumn='null', mappedBy='null'}
+[2021-08-02 23:28:02] - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='etapa'}
+[2021-08-02 23:28:02] - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='etapa'}
+[2021-08-02 23:28:02] - Collection role: com.bluebudy.SCQ.domain.Etapa.trocas
+[2021-08-02 23:28:02] - Building property trocas
+[2021-08-02 23:28:02] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(etapa), mappingColumn=volume, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:02] - MetadataSourceProcessor property volume with lazy=false
+[2021-08-02 23:28:02] - Attempting to locate auto-apply AttributeConverter for property [com.bluebudy.SCQ.domain.Etapa:volume]
+[2021-08-02 23:28:02] - building SimpleValue for volume
+[2021-08-02 23:28:02] - Building property volume
+[2021-08-02 23:28:02] - Binding entity from annotated class: com.bluebudy.SCQ.domain.MateriaPrima
+[2021-08-02 23:28:02] - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[2021-08-02 23:28:02] - Import with entity name MateriaPrima
+[2021-08-02 23:28:02] - Bind entity com.bluebudy.SCQ.domain.MateriaPrima on table materia_prima
+[2021-08-02 23:28:02] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(materia_prima), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:02] - MetadataSourceProcessor property id with lazy=false
+[2021-08-02 23:28:02] - Attempting to locate auto-apply AttributeConverter for property [com.bluebudy.SCQ.domain.MateriaPrima:id]
+[2021-08-02 23:28:02] - building SimpleValue for id
+[2021-08-02 23:28:02] - Building property id
+[2021-08-02 23:28:02] - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.IncrementGenerator, increment, ...)
+[2021-08-02 23:28:02] - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='materiaPrima'}
+[2021-08-02 23:28:02] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(materia_prima), mappingColumn=adicao, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:02] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(materia_prima), mappingColumn=null, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:02] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(materia_prima), mappingColumn=element, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:02] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(materia_prima), mappingColumn=adicao_key, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:02] - Binding column: Ejb3JoinColumn{logicalColumnName='adicao_KEY', referencedColumn='null', mappedBy='null'}
+[2021-08-02 23:28:02] - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='materiaPrima'}
+[2021-08-02 23:28:02] - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='materiaPrima'}
+[2021-08-02 23:28:02] - Collection role: com.bluebudy.SCQ.domain.MateriaPrima.adicao
+[2021-08-02 23:28:02] - Building property adicao
+[2021-08-02 23:28:02] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(materia_prima), mappingColumn=fator_titulometrico, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:02] - MetadataSourceProcessor property fatorTitulometrico with lazy=false
+[2021-08-02 23:28:02] - Attempting to locate auto-apply AttributeConverter for property [com.bluebudy.SCQ.domain.MateriaPrima:fatorTitulometrico]
+[2021-08-02 23:28:02] - building SimpleValue for fatorTitulometrico
+[2021-08-02 23:28:02] - Building property fatorTitulometrico
+[2021-08-02 23:28:02] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(materia_prima), mappingColumn=fornecedor, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:02] - MetadataSourceProcessor property fornecedor with lazy=false
+[2021-08-02 23:28:02] - Attempting to locate auto-apply AttributeConverter for property [com.bluebudy.SCQ.domain.MateriaPrima:fornecedor]
+[2021-08-02 23:28:02] - building SimpleValue for fornecedor
+[2021-08-02 23:28:02] - Building property fornecedor
+[2021-08-02 23:28:02] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(materia_prima), mappingColumn=nome, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:02] - MetadataSourceProcessor property nome with lazy=false
+[2021-08-02 23:28:02] - Attempting to locate auto-apply AttributeConverter for property [com.bluebudy.SCQ.domain.MateriaPrima:nome]
+[2021-08-02 23:28:02] - building SimpleValue for nome
+[2021-08-02 23:28:02] - Building property nome
+[2021-08-02 23:28:02] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(materia_prima), mappingColumn=preco, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:02] - MetadataSourceProcessor property preco with lazy=false
+[2021-08-02 23:28:02] - Attempting to locate auto-apply AttributeConverter for property [com.bluebudy.SCQ.domain.MateriaPrima:preco]
+[2021-08-02 23:28:02] - building SimpleValue for preco
+[2021-08-02 23:28:02] - Building property preco
+[2021-08-02 23:28:02] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(materia_prima), mappingColumn=unidade, insertable=true, updatable=true, unique=false}

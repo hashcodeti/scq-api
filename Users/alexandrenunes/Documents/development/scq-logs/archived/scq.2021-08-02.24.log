@@ -1,0 +1,128 @@
+[2021-08-02 23:30:53] - select user0_.id as id1_14_, user0_.admin as admin2_14_, user0_.enabled as enabled3_14_, user0_.mail as mail4_14_, user0_.name as name5_14_, user0_.password as password6_14_ from user user0_ where user0_.mail=?
+[2021-08-02 23:30:53] - Result set row: 0
+[2021-08-02 23:30:53] - Result row: EntityKey[com.bluebudy.SCQ.domain.User#1]
+[2021-08-02 23:30:53] - Resolving attributes for [com.bluebudy.SCQ.domain.User#1]
+[2021-08-02 23:30:53] - Processing attribute `admin` : value = true
+[2021-08-02 23:30:53] - Attribute (`admin`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:53] - Processing attribute `enabled` : value = true
+[2021-08-02 23:30:53] - Attribute (`enabled`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:53] - Processing attribute `mail` : value = Alexandre@cationbrasil.com.br
+[2021-08-02 23:30:53] - Attribute (`mail`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:53] - Processing attribute `name` : value = Alexandre
+[2021-08-02 23:30:53] - Attribute (`name`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:53] - Processing attribute `password` : value = $2a$10$jkkH12mWrSy9ijRj7Xg2XeRpZ2swGujWHa4f8PwXEYGen.K0dMaRO
+[2021-08-02 23:30:53] - Attribute (`password`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:53] - Done materializing entity [com.bluebudy.SCQ.domain.User#1]
+[2021-08-02 23:30:53] - Authentication attempt using org.springframework.security.authentication.dao.DaoAuthenticationProvider
+[2021-08-02 23:30:53] - Rendered criteria query -> select generatedAlias0 from User as generatedAlias0 where generatedAlias0.mail=:param0
+[2021-08-02 23:30:53] - select user0_.id as id1_14_, user0_.admin as admin2_14_, user0_.enabled as enabled3_14_, user0_.mail as mail4_14_, user0_.name as name5_14_, user0_.password as password6_14_ from user user0_ where user0_.mail=?
+[2021-08-02 23:30:53] - Result set row: 0
+[2021-08-02 23:30:53] - Result row: EntityKey[com.bluebudy.SCQ.domain.User#1]
+[2021-08-02 23:30:53] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2021-08-02 23:30:53] - Writing [com.bluebudy.SCQ.dtos.AuthenticationDTO@2ac6c74d]
+[2021-08-02 23:30:53] - Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@772ee90d
+[2021-08-02 23:30:53] - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2021-08-02 23:30:53] - Completed 200 OK
+[2021-08-02 23:30:53] - Chain processed normally
+[2021-08-02 23:30:53] - SecurityContextHolder now cleared, as request processing completed
+[2021-08-02 23:30:53] - /processos at position 1 of 12 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+[2021-08-02 23:30:53] - /processos at position 2 of 12 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+[2021-08-02 23:30:53] - /processos at position 3 of 12 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+[2021-08-02 23:30:53] - /processos at position 4 of 12 in additional filter chain; firing Filter: 'CorsFilter'
+[2021-08-02 23:30:53] - /trocas at position 1 of 12 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+[2021-08-02 23:30:53] - /etapas at position 1 of 12 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+[2021-08-02 23:30:53] - /parametros at position 1 of 12 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+[2021-08-02 23:30:53] - /tarefas at position 1 of 12 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+[2021-08-02 23:30:53] - /materiaPrimas at position 1 of 12 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+[2021-08-02 23:30:53] - /materiaPrimas at position 2 of 12 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+[2021-08-02 23:30:53] - /trocas at position 2 of 12 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+[2021-08-02 23:30:53] - /trocas at position 3 of 12 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+[2021-08-02 23:30:53] - /trocas at position 4 of 12 in additional filter chain; firing Filter: 'CorsFilter'
+[2021-08-02 23:30:53] - /parametros at position 2 of 12 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+[2021-08-02 23:30:53] - /parametros at position 3 of 12 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+[2021-08-02 23:30:53] - /parametros at position 4 of 12 in additional filter chain; firing Filter: 'CorsFilter'
+[2021-08-02 23:30:53] - /materiaPrimas at position 3 of 12 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+[2021-08-02 23:30:53] - /etapas at position 2 of 12 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+[2021-08-02 23:30:53] - /etapas at position 3 of 12 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+[2021-08-02 23:30:53] - /etapas at position 4 of 12 in additional filter chain; firing Filter: 'CorsFilter'
+[2021-08-02 23:30:53] - /tarefas at position 2 of 12 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+[2021-08-02 23:30:53] - /tarefas at position 3 of 12 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+[2021-08-02 23:30:53] - /tarefas at position 4 of 12 in additional filter chain; firing Filter: 'CorsFilter'
+[2021-08-02 23:30:53] - /materiaPrimas at position 4 of 12 in additional filter chain; firing Filter: 'CorsFilter'
+[2021-08-02 23:30:53] - Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@772ee90d
+[2021-08-02 23:30:53] - Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@772ee90d
+[2021-08-02 23:30:53] - SecurityContextHolder now cleared, as request processing completed
+[2021-08-02 23:30:53] - Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@772ee90d
+[2021-08-02 23:30:53] - SecurityContextHolder now cleared, as request processing completed
+[2021-08-02 23:30:53] - SecurityContextHolder now cleared, as request processing completed
+[2021-08-02 23:30:53] - Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@772ee90d
+[2021-08-02 23:30:53] - SecurityContextHolder now cleared, as request processing completed
+[2021-08-02 23:30:53] - Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@772ee90d
+[2021-08-02 23:30:53] - SecurityContextHolder now cleared, as request processing completed
+[2021-08-02 23:30:53] - Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@772ee90d
+[2021-08-02 23:30:53] - SecurityContextHolder now cleared, as request processing completed
+[2021-08-02 23:30:53] - /notificacoes at position 1 of 12 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+[2021-08-02 23:30:53] - /notificacoes at position 2 of 12 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+[2021-08-02 23:30:53] - /notificacoes at position 3 of 12 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+[2021-08-02 23:30:53] - /notificacoes at position 4 of 12 in additional filter chain; firing Filter: 'CorsFilter'
+[2021-08-02 23:30:53] - /tarefas at position 1 of 12 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+[2021-08-02 23:30:53] - /trocas at position 1 of 12 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+[2021-08-02 23:30:53] - /tarefas at position 2 of 12 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+[2021-08-02 23:30:53] - /tarefas at position 3 of 12 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+[2021-08-02 23:30:53] - /tarefas at position 4 of 12 in additional filter chain; firing Filter: 'CorsFilter'
+[2021-08-02 23:30:53] - /trocas at position 2 of 12 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+[2021-08-02 23:30:53] - /trocas at position 3 of 12 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+[2021-08-02 23:30:53] - /trocas at position 4 of 12 in additional filter chain; firing Filter: 'CorsFilter'
+[2021-08-02 23:30:53] - Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@772ee90d
+[2021-08-02 23:30:53] - SecurityContextHolder now cleared, as request processing completed
+[2021-08-02 23:30:53] - /tarefas at position 5 of 12 in additional filter chain; firing Filter: 'LogoutFilter'
+[2021-08-02 23:30:53] - Trying to match using Ant [pattern='/logout', GET]
+[2021-08-02 23:30:53] - Checking match of request : '/tarefas'; against '/logout'
+[2021-08-02 23:30:53] - Trying to match using Ant [pattern='/logout', POST]
+[2021-08-02 23:30:53] - Request 'GET /tarefas' doesn't match 'POST /logout'
+[2021-08-02 23:30:53] - Trying to match using Ant [pattern='/logout', PUT]
+[2021-08-02 23:30:53] - Request 'GET /tarefas' doesn't match 'PUT /logout'
+[2021-08-02 23:30:53] - Trying to match using Ant [pattern='/logout', DELETE]
+[2021-08-02 23:30:53] - Request 'GET /tarefas' doesn't match 'DELETE /logout'
+[2021-08-02 23:30:53] - No matches found
+[2021-08-02 23:30:53] - /tarefas at position 6 of 12 in additional filter chain; firing Filter: 'AutenticacaoTokenFilter'
+[2021-08-02 23:30:53] - /trocas at position 5 of 12 in additional filter chain; firing Filter: 'LogoutFilter'
+[2021-08-02 23:30:53] - Trying to match using Ant [pattern='/logout', GET]
+[2021-08-02 23:30:53] - Checking match of request : '/trocas'; against '/logout'
+[2021-08-02 23:30:53] - Trying to match using Ant [pattern='/logout', POST]
+[2021-08-02 23:30:53] - Request 'GET /trocas' doesn't match 'POST /logout'
+[2021-08-02 23:30:53] - Trying to match using Ant [pattern='/logout', PUT]
+[2021-08-02 23:30:53] - Request 'GET /trocas' doesn't match 'PUT /logout'
+[2021-08-02 23:30:53] - Trying to match using Ant [pattern='/logout', DELETE]
+[2021-08-02 23:30:53] - Request 'GET /trocas' doesn't match 'DELETE /logout'
+[2021-08-02 23:30:53] - No matches found
+[2021-08-02 23:30:53] - /trocas at position 6 of 12 in additional filter chain; firing Filter: 'AutenticacaoTokenFilter'
+[2021-08-02 23:30:53] - /materiaPrimas at position 1 of 12 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+[2021-08-02 23:30:53] - /materiaPrimas at position 2 of 12 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+[2021-08-02 23:30:53] - /ocpsList at position 1 of 12 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+[2021-08-02 23:30:53] - /ocpsList at position 2 of 12 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+[2021-08-02 23:30:53] - /materiaPrimas at position 3 of 12 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+[2021-08-02 23:30:53] - /ocpsList at position 3 of 12 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+[2021-08-02 23:30:53] - /ocpsList at position 4 of 12 in additional filter chain; firing Filter: 'CorsFilter'
+[2021-08-02 23:30:53] - /materiaPrimas at position 4 of 12 in additional filter chain; firing Filter: 'CorsFilter'
+[2021-08-02 23:30:53] - Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@772ee90d
+[2021-08-02 23:30:53] - /parametros at position 1 of 12 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+[2021-08-02 23:30:53] - /parametros at position 2 of 12 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+[2021-08-02 23:30:53] - SecurityContextHolder now cleared, as request processing completed
+[2021-08-02 23:30:53] - /parametros at position 3 of 12 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+[2021-08-02 23:30:53] - /parametros at position 4 of 12 in additional filter chain; firing Filter: 'CorsFilter'
+[2021-08-02 23:30:53] - /processos at position 1 of 12 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+[2021-08-02 23:30:53] - /materiaPrimas at position 5 of 12 in additional filter chain; firing Filter: 'LogoutFilter'
+[2021-08-02 23:30:53] - /processos at position 2 of 12 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+[2021-08-02 23:30:53] - Trying to match using Ant [pattern='/logout', GET]
+[2021-08-02 23:30:53] - /processos at position 3 of 12 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+[2021-08-02 23:30:53] - Checking match of request : '/materiaPrimas'; against '/logout'
+[2021-08-02 23:30:53] - /processos at position 4 of 12 in additional filter chain; firing Filter: 'CorsFilter'
+[2021-08-02 23:30:53] - Trying to match using Ant [pattern='/logout', POST]
+[2021-08-02 23:30:53] - Request 'GET /materiaPrimas' doesn't match 'POST /logout'
+[2021-08-02 23:30:53] - Trying to match using Ant [pattern='/logout', PUT]
+[2021-08-02 23:30:53] - Request 'GET /materiaPrimas' doesn't match 'PUT /logout'
+[2021-08-02 23:30:53] - Trying to match using Ant [pattern='/logout', DELETE]
+[2021-08-02 23:30:53] - Request 'GET /materiaPrimas' doesn't match 'DELETE /logout'
+[2021-08-02 23:30:53] - No matches found
+[2021-08-02 23:30:53] - /materiaPrimas at position 6 of 12 in additional filter chain; firing Filter: 'AutenticacaoTokenFilter'

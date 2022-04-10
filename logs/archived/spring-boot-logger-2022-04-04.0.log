@@ -1,0 +1,6 @@
+2022-04-04 08:46:56,313 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ScqMobileApplication on MacBook-Pro-de-Alexandre.local with PID 66118 (/Users/alexandrenunes/Documents/development/SCQ/scq-api/target/classes started by alexandrenunes in /Users/alexandrenunes/Documents/development/SCQ/scq-api)
+2022-04-04 08:46:56,320 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-04-04 08:46:56,322 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-04-04 08:47:20,754 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ScqMobileApplication in 25.314 seconds (JVM running for 27.817)
+2022-04-04 08:50:58,769 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-5] Cannot delete or update a parent row: a foreign key constraint fails (`scq`.`acao`, CONSTRAINT `FKsetbfhucdtnjyfl2l993i3ahd` FOREIGN KEY (`ordem_id`) REFERENCES `ordem_de_correcao` (`id`))
+2022-04-04 08:53:13,955 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-4] Cannot delete or update a parent row: a foreign key constraint fails (`scq`.`acao`, CONSTRAINT `FKsetbfhucdtnjyfl2l993i3ahd` FOREIGN KEY (`ordem_id`) REFERENCES `ordem_de_correcao` (`id`))

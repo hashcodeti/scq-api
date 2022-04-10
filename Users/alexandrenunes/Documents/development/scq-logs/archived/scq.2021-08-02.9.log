@@ -1,0 +1,394 @@
+[2021-08-02 23:28:03] - Binding entity from annotated class: com.bluebudy.SCQ.domain.TarefasDeManutencao
+[2021-08-02 23:28:03] - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[2021-08-02 23:28:03] - Import with entity name TarefasDeManutencao
+[2021-08-02 23:28:03] - Bind entity com.bluebudy.SCQ.domain.TarefasDeManutencao on table tarefas_de_manutencao
+[2021-08-02 23:28:03] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tarefas_de_manutencao), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:03] - MetadataSourceProcessor property id with lazy=false
+[2021-08-02 23:28:03] - Attempting to locate auto-apply AttributeConverter for property [com.bluebudy.SCQ.domain.TarefasDeManutencao:id]
+[2021-08-02 23:28:03] - building SimpleValue for id
+[2021-08-02 23:28:03] - Building property id
+[2021-08-02 23:28:03] - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.IncrementGenerator, increment, ...)
+[2021-08-02 23:28:03] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tarefas_de_manutencao), mappingColumn=codigo_do_documento, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:03] - MetadataSourceProcessor property codigoDoDocumento with lazy=false
+[2021-08-02 23:28:03] - Attempting to locate auto-apply AttributeConverter for property [com.bluebudy.SCQ.domain.TarefasDeManutencao:codigoDoDocumento]
+[2021-08-02 23:28:03] - building SimpleValue for codigoDoDocumento
+[2021-08-02 23:28:03] - Building property codigoDoDocumento
+[2021-08-02 23:28:03] - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+[2021-08-02 23:28:03] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tarefas_de_manutencao), mappingColumn=controle, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:03] - Building property controle
+[2021-08-02 23:28:03] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tarefas_de_manutencao), mappingColumn=nome, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:03] - MetadataSourceProcessor property nome with lazy=false
+[2021-08-02 23:28:03] - Attempting to locate auto-apply AttributeConverter for property [com.bluebudy.SCQ.domain.TarefasDeManutencao:nome]
+[2021-08-02 23:28:03] - building SimpleValue for nome
+[2021-08-02 23:28:03] - Building property nome
+[2021-08-02 23:28:03] - Binding column: Ejb3JoinColumn{logicalColumnName='processo_id', referencedColumn='', mappedBy=''}
+[2021-08-02 23:28:03] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tarefas_de_manutencao), mappingColumn=processo, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:03] - Building property processo
+[2021-08-02 23:28:03] - Binding entity from annotated class: com.bluebudy.SCQ.domain.Troca
+[2021-08-02 23:28:03] - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[2021-08-02 23:28:03] - Import with entity name Troca
+[2021-08-02 23:28:03] - Bind entity com.bluebudy.SCQ.domain.Troca on table troca
+[2021-08-02 23:28:03] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(troca), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:03] - MetadataSourceProcessor property id with lazy=false
+[2021-08-02 23:28:03] - Attempting to locate auto-apply AttributeConverter for property [com.bluebudy.SCQ.domain.Troca:id]
+[2021-08-02 23:28:03] - building SimpleValue for id
+[2021-08-02 23:28:03] - Building property id
+[2021-08-02 23:28:03] - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.IncrementGenerator, increment, ...)
+[2021-08-02 23:28:03] - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+[2021-08-02 23:28:03] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(troca), mappingColumn=controle, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:03] - Building property controle
+[2021-08-02 23:28:03] - Binding column: Ejb3JoinColumn{logicalColumnName='etapa_id', referencedColumn='', mappedBy=''}
+[2021-08-02 23:28:03] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(troca), mappingColumn=etapa, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:03] - Building property etapa
+[2021-08-02 23:28:03] - Binding entity from annotated class: com.bluebudy.SCQ.domain.User
+[2021-08-02 23:28:03] - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[2021-08-02 23:28:03] - Import with entity name User
+[2021-08-02 23:28:03] - Bind entity com.bluebudy.SCQ.domain.User on table user
+[2021-08-02 23:28:03] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:03] - MetadataSourceProcessor property id with lazy=false
+[2021-08-02 23:28:03] - Attempting to locate auto-apply AttributeConverter for property [com.bluebudy.SCQ.domain.User:id]
+[2021-08-02 23:28:03] - building SimpleValue for id
+[2021-08-02 23:28:03] - Building property id
+[2021-08-02 23:28:03] - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.IncrementGenerator, increment, ...)
+[2021-08-02 23:28:03] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=admin, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:03] - MetadataSourceProcessor property admin with lazy=false
+[2021-08-02 23:28:03] - Attempting to locate auto-apply AttributeConverter for property [com.bluebudy.SCQ.domain.User:admin]
+[2021-08-02 23:28:03] - building SimpleValue for admin
+[2021-08-02 23:28:03] - Building property admin
+[2021-08-02 23:28:03] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=enabled, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:03] - MetadataSourceProcessor property enabled with lazy=false
+[2021-08-02 23:28:03] - Attempting to locate auto-apply AttributeConverter for property [com.bluebudy.SCQ.domain.User:enabled]
+[2021-08-02 23:28:03] - building SimpleValue for enabled
+[2021-08-02 23:28:03] - Building property enabled
+[2021-08-02 23:28:03] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=mail, insertable=true, updatable=true, unique=true}
+[2021-08-02 23:28:03] - MetadataSourceProcessor property mail with lazy=false
+[2021-08-02 23:28:03] - Attempting to locate auto-apply AttributeConverter for property [com.bluebudy.SCQ.domain.User:mail]
+[2021-08-02 23:28:03] - building SimpleValue for mail
+[2021-08-02 23:28:03] - Building property mail
+[2021-08-02 23:28:03] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=name, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:03] - MetadataSourceProcessor property name with lazy=false
+[2021-08-02 23:28:03] - Attempting to locate auto-apply AttributeConverter for property [com.bluebudy.SCQ.domain.User:name]
+[2021-08-02 23:28:03] - building SimpleValue for name
+[2021-08-02 23:28:03] - Building property name
+[2021-08-02 23:28:03] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=password, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:03] - MetadataSourceProcessor property password with lazy=false
+[2021-08-02 23:28:03] - Attempting to locate auto-apply AttributeConverter for property [com.bluebudy.SCQ.domain.User:password]
+[2021-08-02 23:28:03] - building SimpleValue for password
+[2021-08-02 23:28:03] - Building property password
+[2021-08-02 23:28:03] - Binding entity from annotated class: com.bluebudy.SCQ.domain.VerificationToken
+[2021-08-02 23:28:03] - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[2021-08-02 23:28:03] - Import with entity name VerificationToken
+[2021-08-02 23:28:03] - Bind entity com.bluebudy.SCQ.domain.VerificationToken on table verification_token
+[2021-08-02 23:28:03] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(verification_token), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:03] - MetadataSourceProcessor property id with lazy=false
+[2021-08-02 23:28:03] - Attempting to locate auto-apply AttributeConverter for property [com.bluebudy.SCQ.domain.VerificationToken:id]
+[2021-08-02 23:28:03] - building SimpleValue for id
+[2021-08-02 23:28:03] - Building property id
+[2021-08-02 23:28:03] - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.IncrementGenerator, increment, ...)
+[2021-08-02 23:28:03] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(verification_token), mappingColumn=expiry_date, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:03] - MetadataSourceProcessor property expiryDate with lazy=false
+[2021-08-02 23:28:03] - Attempting to locate auto-apply AttributeConverter for property [com.bluebudy.SCQ.domain.VerificationToken:expiryDate]
+[2021-08-02 23:28:03] - building SimpleValue for expiryDate
+[2021-08-02 23:28:03] - Building property expiryDate
+[2021-08-02 23:28:03] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(verification_token), mappingColumn=token, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:03] - MetadataSourceProcessor property token with lazy=false
+[2021-08-02 23:28:03] - Attempting to locate auto-apply AttributeConverter for property [com.bluebudy.SCQ.domain.VerificationToken:token]
+[2021-08-02 23:28:03] - building SimpleValue for token
+[2021-08-02 23:28:03] - Building property token
+[2021-08-02 23:28:03] - Binding column: Ejb3JoinColumn{logicalColumnName='user_id', referencedColumn='', mappedBy=''}
+[2021-08-02 23:28:03] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(verification_token), mappingColumn=user, insertable=true, updatable=true, unique=false}
+[2021-08-02 23:28:03] - Building property user
+[2021-08-02 23:28:03] - Starting fillSimpleValue for id
+[2021-08-02 23:28:03] - Starting fillSimpleValue for acao
+[2021-08-02 23:28:03] - Starting fillSimpleValue for data
+[2021-08-02 23:28:03] - Starting fillSimpleValue for notified
+[2021-08-02 23:28:03] - Starting fillSimpleValue for prazo
+[2021-08-02 23:28:03] - Starting fillSimpleValue for status
+[2021-08-02 23:28:03] - Starting fillSimpleValue for id
+[2021-08-02 23:28:03] - Starting fillSimpleValue for data
+[2021-08-02 23:28:03] - Starting fillSimpleValue for quantidade
+[2021-08-02 23:28:03] - Starting fillSimpleValue for status
+[2021-08-02 23:28:03] - Starting fillSimpleValue for unidade
+[2021-08-02 23:28:03] - Starting fillSimpleValue for id
+[2021-08-02 23:28:03] - Starting fillSimpleValue for analista
+[2021-08-02 23:28:03] - Starting fillSimpleValue for data
+[2021-08-02 23:28:03] - Starting fillSimpleValue for needCorrecao
+[2021-08-02 23:28:03] - Starting fillSimpleValue for resultado
+[2021-08-02 23:28:03] - Starting fillSimpleValue for id
+[2021-08-02 23:28:03] - Starting fillSimpleValue for dataPlanejada
+[2021-08-02 23:28:03] - Starting fillSimpleValue for dataRealizada
+[2021-08-02 23:28:03] - Starting fillSimpleValue for notified
+[2021-08-02 23:28:03] - Starting fillSimpleValue for periodo
+[2021-08-02 23:28:03] - Starting fillSimpleValue for id
+[2021-08-02 23:28:03] - Starting fillSimpleValue for nome
+[2021-08-02 23:28:03] - Starting fillSimpleValue for posicao
+[2021-08-02 23:28:03] - Starting fillSimpleValue for volume
+[2021-08-02 23:28:03] - Starting fillSimpleValue for id
+[2021-08-02 23:28:03] - Starting fillSimpleValue for fatorTitulometrico
+[2021-08-02 23:28:03] - Starting fillSimpleValue for fornecedor
+[2021-08-02 23:28:03] - Starting fillSimpleValue for nome
+[2021-08-02 23:28:03] - Starting fillSimpleValue for preco
+[2021-08-02 23:28:03] - Starting fillSimpleValue for unidade
+[2021-08-02 23:28:03] - Starting fillSimpleValue for id
+[2021-08-02 23:28:03] - Starting fillSimpleValue for quantidade
+[2021-08-02 23:28:03] - Starting fillSimpleValue for id
+[2021-08-02 23:28:03] - Starting fillSimpleValue for messagem
+[2021-08-02 23:28:03] - Starting fillSimpleValue for refId
+[2021-08-02 23:28:03] - Starting fillSimpleValue for status
+[2021-08-02 23:28:03] - Starting fillSimpleValue for tipoNotificacao
+[2021-08-02 23:28:03] - Starting fillSimpleValue for id
+[2021-08-02 23:28:03] - Starting fillSimpleValue for observacao
+[2021-08-02 23:28:03] - Starting fillSimpleValue for oldAnaliseValue
+[2021-08-02 23:28:03] - Starting fillSimpleValue for responsavel
+[2021-08-02 23:28:03] - Starting fillSimpleValue for statusOCP
+[2021-08-02 23:28:03] - Starting fillSimpleValue for tipo
+[2021-08-02 23:28:03] - Starting fillSimpleValue for id
+[2021-08-02 23:28:03] - Starting fillSimpleValue for emitidoEm
+[2021-08-02 23:28:03] - Starting fillSimpleValue for emitidoPor
+[2021-08-02 23:28:03] - Starting fillSimpleValue for notified
+[2021-08-02 23:28:03] - Starting fillSimpleValue for processoId
+[2021-08-02 23:28:03] - Starting fillSimpleValue for programadoPara
+[2021-08-02 23:28:03] - Starting fillSimpleValue for realizadoEm
+[2021-08-02 23:28:03] - Starting fillSimpleValue for tarefasManutencaoId
+[2021-08-02 23:28:03] - Starting fillSimpleValue for trocasId
+[2021-08-02 23:28:03] - Starting fillSimpleValue for id
+[2021-08-02 23:28:03] - Starting fillSimpleValue for formula
+[2021-08-02 23:28:03] - Starting fillSimpleValue for nome
+[2021-08-02 23:28:03] - Starting fillSimpleValue for pMax
+[2021-08-02 23:28:03] - Starting fillSimpleValue for pMaxT
+[2021-08-02 23:28:03] - Starting fillSimpleValue for pMin
+[2021-08-02 23:28:03] - Starting fillSimpleValue for pMinT
+[2021-08-02 23:28:03] - Starting fillSimpleValue for showChart
+[2021-08-02 23:28:03] - Starting fillSimpleValue for unidade
+[2021-08-02 23:28:03] - Starting fillSimpleValue for id
+[2021-08-02 23:28:03] - Starting fillSimpleValue for nome
+[2021-08-02 23:28:03] - Starting fillSimpleValue for id
+[2021-08-02 23:28:03] - Starting fillSimpleValue for codigoDoDocumento
+[2021-08-02 23:28:03] - Starting fillSimpleValue for nome
+[2021-08-02 23:28:03] - Starting fillSimpleValue for id
+[2021-08-02 23:28:03] - Starting fillSimpleValue for id
+[2021-08-02 23:28:03] - Starting fillSimpleValue for admin
+[2021-08-02 23:28:03] - Starting fillSimpleValue for enabled
+[2021-08-02 23:28:03] - Starting fillSimpleValue for mail
+[2021-08-02 23:28:03] - Starting fillSimpleValue for name
+[2021-08-02 23:28:03] - Starting fillSimpleValue for password
+[2021-08-02 23:28:03] - Starting fillSimpleValue for id
+[2021-08-02 23:28:03] - Starting fillSimpleValue for expiryDate
+[2021-08-02 23:28:03] - Starting fillSimpleValue for token
+[2021-08-02 23:28:03] - Forcing column [id] to be non-null as it is part of the primary key for table [acao]
+[2021-08-02 23:28:03] - Forcing column [id] to be non-null as it is part of the primary key for table [adicao]
+[2021-08-02 23:28:03] - Forcing column [id] to be non-null as it is part of the primary key for table [analise]
+[2021-08-02 23:28:03] - Forcing column [id] to be non-null as it is part of the primary key for table [controle]
+[2021-08-02 23:28:03] - Forcing column [id] to be non-null as it is part of the primary key for table [etapa]
+[2021-08-02 23:28:03] - Forcing column [id] to be non-null as it is part of the primary key for table [materia_prima]
+[2021-08-02 23:28:03] - Forcing column [id] to be non-null as it is part of the primary key for table [montagem_composition]
+[2021-08-02 23:28:03] - Forcing column [id] to be non-null as it is part of the primary key for table [notificacao]
+[2021-08-02 23:28:03] - Forcing column [id] to be non-null as it is part of the primary key for table [ordem_de_correcao]
+[2021-08-02 23:28:03] - Forcing column [id] to be non-null as it is part of the primary key for table [ordem_de_manutencao]
+[2021-08-02 23:28:03] - Forcing column [id] to be non-null as it is part of the primary key for table [parametro]
+[2021-08-02 23:28:03] - Forcing column [id] to be non-null as it is part of the primary key for table [processo]
+[2021-08-02 23:28:03] - Forcing column [id] to be non-null as it is part of the primary key for table [tarefas_de_manutencao]
+[2021-08-02 23:28:03] - Forcing column [id] to be non-null as it is part of the primary key for table [troca]
+[2021-08-02 23:28:03] - Forcing column [id] to be non-null as it is part of the primary key for table [user]
+[2021-08-02 23:28:03] - Forcing column [id] to be non-null as it is part of the primary key for table [verification_token]
+[2021-08-02 23:28:03] - Second pass for collection: com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao
+[2021-08-02 23:28:03] - Binding a OneToMany: com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao through a foreign key
+[2021-08-02 23:28:03] - Mapping collection: com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao -> ordem_de_correcao
+[2021-08-02 23:28:03] - Retrieving property com.bluebudy.SCQ.domain.OrdemDeCorrecao.analise
+[2021-08-02 23:28:03] - Mapped collection key: analise_id, one-to-many: com.bluebudy.SCQ.domain.OrdemDeCorrecao
+[2021-08-02 23:28:03] - Second pass for collection: com.bluebudy.SCQ.domain.Etapa.montagem
+[2021-08-02 23:28:03] - Binding a OneToMany: com.bluebudy.SCQ.domain.Etapa.montagem through a foreign key
+[2021-08-02 23:28:03] - Mapping collection: com.bluebudy.SCQ.domain.Etapa.montagem -> montagem_composition
+[2021-08-02 23:28:03] - Retrieving property com.bluebudy.SCQ.domain.MontagemComposition.etapa
+[2021-08-02 23:28:03] - Mapped collection key: etapa_id, one-to-many: com.bluebudy.SCQ.domain.MontagemComposition
+[2021-08-02 23:28:03] - Second pass for collection: com.bluebudy.SCQ.domain.Etapa.parametros
+[2021-08-02 23:28:03] - Binding a OneToMany: com.bluebudy.SCQ.domain.Etapa.parametros through a foreign key
+[2021-08-02 23:28:03] - Mapping collection: com.bluebudy.SCQ.domain.Etapa.parametros -> parametro
+[2021-08-02 23:28:03] - Retrieving property com.bluebudy.SCQ.domain.Parametro.etapa
+[2021-08-02 23:28:03] - Mapped collection key: etapa_id, one-to-many: com.bluebudy.SCQ.domain.Parametro
+[2021-08-02 23:28:03] - Second pass for collection: com.bluebudy.SCQ.domain.Etapa.trocas
+[2021-08-02 23:28:03] - Binding a OneToMany: com.bluebudy.SCQ.domain.Etapa.trocas through a foreign key
+[2021-08-02 23:28:03] - Mapping collection: com.bluebudy.SCQ.domain.Etapa.trocas -> troca
+[2021-08-02 23:28:03] - Retrieving property com.bluebudy.SCQ.domain.Troca.etapa
+[2021-08-02 23:28:03] - Mapped collection key: etapa_id, one-to-many: com.bluebudy.SCQ.domain.Troca
+[2021-08-02 23:28:03] - Second pass for collection: com.bluebudy.SCQ.domain.MateriaPrima.adicao
+[2021-08-02 23:28:03] - Binding a OneToMany: com.bluebudy.SCQ.domain.MateriaPrima.adicao through a foreign key
+[2021-08-02 23:28:03] - Mapping collection: com.bluebudy.SCQ.domain.MateriaPrima.adicao -> adicao
+[2021-08-02 23:28:03] - Retrieving property com.bluebudy.SCQ.domain.Adicao.materiaPrima
+[2021-08-02 23:28:03] - Mapped collection key: materia_prima_id, one-to-many: com.bluebudy.SCQ.domain.Adicao
+[2021-08-02 23:28:03] - Building property acao
+[2021-08-02 23:28:03] - Second pass for collection: com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes
+[2021-08-02 23:28:03] - Binding a OneToMany: com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes through a foreign key
+[2021-08-02 23:28:03] - Mapping collection: com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes -> adicao
+[2021-08-02 23:28:03] - Retrieving property com.bluebudy.SCQ.domain.Adicao.ordemDeCorrecao
+[2021-08-02 23:28:03] - Mapped collection key: ordem_id, one-to-many: com.bluebudy.SCQ.domain.Adicao
+[2021-08-02 23:28:03] - Second pass for collection: com.bluebudy.SCQ.domain.Parametro.analises
+[2021-08-02 23:28:03] - Binding a OneToMany: com.bluebudy.SCQ.domain.Parametro.analises through a foreign key
+[2021-08-02 23:28:03] - Mapping collection: com.bluebudy.SCQ.domain.Parametro.analises -> analise
+[2021-08-02 23:28:03] - Retrieving property com.bluebudy.SCQ.domain.Analise.parametro
+[2021-08-02 23:28:03] - Mapped collection key: parametro_id, one-to-many: com.bluebudy.SCQ.domain.Analise
+[2021-08-02 23:28:03] - Second pass for collection: com.bluebudy.SCQ.domain.Processo.etapas
+[2021-08-02 23:28:03] - Binding a OneToMany: com.bluebudy.SCQ.domain.Processo.etapas through a foreign key
+[2021-08-02 23:28:03] - Mapping collection: com.bluebudy.SCQ.domain.Processo.etapas -> etapa
+[2021-08-02 23:28:03] - Retrieving property com.bluebudy.SCQ.domain.Etapa.processo
+[2021-08-02 23:28:03] - Mapped collection key: processo_id, one-to-many: com.bluebudy.SCQ.domain.Etapa
+[2021-08-02 23:28:03] - Second pass for collection: com.bluebudy.SCQ.domain.Processo.tarefas
+[2021-08-02 23:28:03] - Binding a OneToMany: com.bluebudy.SCQ.domain.Processo.tarefas through a foreign key
+[2021-08-02 23:28:03] - Mapping collection: com.bluebudy.SCQ.domain.Processo.tarefas -> tarefas_de_manutencao
+[2021-08-02 23:28:03] - Retrieving property com.bluebudy.SCQ.domain.TarefasDeManutencao.processo
+[2021-08-02 23:28:03] - Mapped collection key: processo_id, one-to-many: com.bluebudy.SCQ.domain.TarefasDeManutencao
+[2021-08-02 23:28:03] - Processing association property references
+[2021-08-02 23:28:03] - Resolving reference to class: com.bluebudy.SCQ.domain.OrdemDeCorrecao
+[2021-08-02 23:28:03] - Resolving reference to class: com.bluebudy.SCQ.domain.MateriaPrima
+[2021-08-02 23:28:03] - Resolving reference to class: com.bluebudy.SCQ.domain.OrdemDeCorrecao
+[2021-08-02 23:28:03] - Resolving reference to class: com.bluebudy.SCQ.domain.Parametro
+[2021-08-02 23:28:03] - Resolving reference to class: com.bluebudy.SCQ.domain.Processo
+[2021-08-02 23:28:03] - Resolving reference to class: com.bluebudy.SCQ.domain.Etapa
+[2021-08-02 23:28:03] - Resolving reference to class: com.bluebudy.SCQ.domain.MateriaPrima
+[2021-08-02 23:28:03] - Resolving reference to class: com.bluebudy.SCQ.domain.Analise
+[2021-08-02 23:28:03] - Resolving reference to class: com.bluebudy.SCQ.domain.Controle
+[2021-08-02 23:28:03] - Resolving reference to class: com.bluebudy.SCQ.domain.Etapa
+[2021-08-02 23:28:03] - Resolving reference to class: com.bluebudy.SCQ.domain.Controle
+[2021-08-02 23:28:03] - Resolving reference to class: com.bluebudy.SCQ.domain.Processo
+[2021-08-02 23:28:03] - Resolving reference to class: com.bluebudy.SCQ.domain.Controle
+[2021-08-02 23:28:03] - Resolving reference to class: com.bluebudy.SCQ.domain.Etapa
+[2021-08-02 23:28:03] - Resolving reference to class: com.bluebudy.SCQ.domain.User
+[2021-08-02 23:28:03] - Processing association property references
+[2021-08-02 23:28:03] - Resolving reference to class: com.bluebudy.SCQ.domain.OrdemDeCorrecao
+[2021-08-02 23:28:03] - Resolving reference to class: com.bluebudy.SCQ.domain.MateriaPrima
+[2021-08-02 23:28:03] - Resolving reference to class: com.bluebudy.SCQ.domain.OrdemDeCorrecao
+[2021-08-02 23:28:03] - Resolving reference to class: com.bluebudy.SCQ.domain.Parametro
+[2021-08-02 23:28:03] - Resolving reference to class: com.bluebudy.SCQ.domain.Processo
+[2021-08-02 23:28:03] - Resolving reference to class: com.bluebudy.SCQ.domain.Etapa
+[2021-08-02 23:28:03] - Resolving reference to class: com.bluebudy.SCQ.domain.MateriaPrima
+[2021-08-02 23:28:03] - Resolving reference to class: com.bluebudy.SCQ.domain.Analise
+[2021-08-02 23:28:03] - Resolving reference to class: com.bluebudy.SCQ.domain.Controle
+[2021-08-02 23:28:03] - Resolving reference to class: com.bluebudy.SCQ.domain.Etapa
+[2021-08-02 23:28:03] - Resolving reference to class: com.bluebudy.SCQ.domain.Controle
+[2021-08-02 23:28:03] - Resolving reference to class: com.bluebudy.SCQ.domain.Processo
+[2021-08-02 23:28:03] - Resolving reference to class: com.bluebudy.SCQ.domain.Controle
+[2021-08-02 23:28:03] - Resolving reference to class: com.bluebudy.SCQ.domain.Etapa
+[2021-08-02 23:28:03] - Resolving reference to class: com.bluebudy.SCQ.domain.User
+[2021-08-02 23:28:03] - Using NAMED-based conversion for Enum com.bluebudy.SCQ.constantes.Unidade
+[2021-08-02 23:28:03] - Using ORDINAL-based conversion for Enum com.bluebudy.SCQ.constantes.TiposDeAcao
+[2021-08-02 23:28:03] - Using ORDINAL-based conversion for Enum com.bluebudy.SCQ.constantes.StatusNotificacao
+[2021-08-02 23:28:03] - Using NAMED-based conversion for Enum com.bluebudy.SCQ.constantes.Unidade
+[2021-08-02 23:28:03] - Using NAMED-based conversion for Enum com.bluebudy.SCQ.constantes.Unidade
+[2021-08-02 23:28:03] - Building session factory
+[2021-08-02 23:28:03] - SessionFactory name : null
+[2021-08-02 23:28:03] - Automatic flush during beforeCompletion(): enabled
+[2021-08-02 23:28:03] - Automatic session close at end of transaction: disabled
+[2021-08-02 23:28:03] - Statistics: disabled
+[2021-08-02 23:28:03] - Deleted entity synthetic identifier rollback: disabled
+[2021-08-02 23:28:03] - Default entity-mode: pojo
+[2021-08-02 23:28:03] - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+[2021-08-02 23:28:03] - Allow initialization of lazy state outside session : disabled
+[2021-08-02 23:28:03] - Using BatchFetchStyle : LEGACY
+[2021-08-02 23:28:03] - Default batch fetch size: -1
+[2021-08-02 23:28:03] - Maximum outer join fetch depth: 2
+[2021-08-02 23:28:03] - Default null ordering: NONE
+[2021-08-02 23:28:03] - Order SQL updates by primary key: disabled
+[2021-08-02 23:28:03] - Order SQL inserts for batching: disabled
+[2021-08-02 23:28:03] - multi-tenancy strategy : NONE
+[2021-08-02 23:28:03] - JTA Track by Thread: enabled
+[2021-08-02 23:28:03] - Query language substitutions: {}
+[2021-08-02 23:28:03] - Named query checking : enabled
+[2021-08-02 23:28:03] - Second-level cache: disabled
+[2021-08-02 23:28:03] - Second-level query cache: disabled
+[2021-08-02 23:28:03] - Second-level query cache factory: null
+[2021-08-02 23:28:03] - Second-level cache region prefix: null
+[2021-08-02 23:28:03] - Optimize second-level cache for minimal puts: disabled
+[2021-08-02 23:28:03] - Structured second-level cache entries: disabled
+[2021-08-02 23:28:03] - Second-level cache direct-reference entries: disabled
+[2021-08-02 23:28:03] - Automatic eviction of collection cache: disabled
+[2021-08-02 23:28:03] - JDBC batch size: 15
+[2021-08-02 23:28:03] - JDBC batch updates for versioned data: enabled
+[2021-08-02 23:28:03] - Scrollable result sets: enabled
+[2021-08-02 23:28:03] - Wrap result sets: disabled
+[2021-08-02 23:28:03] - JDBC3 getGeneratedKeys(): enabled
+[2021-08-02 23:28:03] - JDBC result set fetch size: null
+[2021-08-02 23:28:03] - Connection release mode: ON_CLOSE
+[2021-08-02 23:28:03] - Generate SQL with comments: disabled
+[2021-08-02 23:28:03] - JPA compliance - query : 
+[2021-08-02 23:28:03] - JPA compliance - closed-handling : 
+[2021-08-02 23:28:03] - JPA compliance - lists : 
+[2021-08-02 23:28:03] - JPA compliance - transactions : 
+[2021-08-02 23:28:03] - Using NAMED-based conversion for Enum com.bluebudy.SCQ.constantes.Unidade
+[2021-08-02 23:28:03] - Using ORDINAL-based conversion for Enum com.bluebudy.SCQ.constantes.TiposDeAcao
+[2021-08-02 23:28:03] - Using ORDINAL-based conversion for Enum com.bluebudy.SCQ.constantes.StatusNotificacao
+[2021-08-02 23:28:03] - Using NAMED-based conversion for Enum com.bluebudy.SCQ.constantes.Unidade
+[2021-08-02 23:28:03] - Using NAMED-based conversion for Enum com.bluebudy.SCQ.constantes.Unidade
+[2021-08-02 23:28:03] - Session factory constructed with filter configurations : {}
+[2021-08-02 23:28:03] - Instantiating session factory with properties: {gopherProxySet=false, awt.toolkit=sun.lwawt.macosx.LWCToolkit, hibernate.id.new_generator_mappings=true, java.specification.version=11, sun.cpu.isalist=, hibernate.resource.beans.container=org.springframework.orm.hibernate5.SpringBeanContainer@27facb1e, hibernate.connection.handling_mode=DELAYED_ACQUISITION_AND_HOLD, sun.jnu.encoding=UTF-8, hibernate.implicit_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy, java.class.path=/Users/alexandrenunes/Documents/development/scq-api/target/classes:/Users/alexandrenunes/.m2/repository/javax/mail/javax.mail-api/1.6.2/javax.mail-api-1.6.2.jar:/Users/alexandrenunes/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/alexandrenunes/.m2/repository/org/springframework/boot/spring-boot-starter-websocket/2.2.1.RELEASE/spring-boot-starter-websocket-2.2.1.RELEASE.jar:/Users/alexandrenunes/.m2/repository/org/springframework/spring-messaging/5.2.1.RELEASE/spring-messaging-5.2.1.RELEASE.jar:/Users/alexandrenunes/.m2/repository/org/springframework/spring-beans/5.2.1.RELEASE/spring-beans-5.2.1.RELEASE.jar:/Users/alexandrenunes/.m2/repository/org/springframework/spring-websocket/5.2.1.RELEASE/spring-websocket-5.2.1.RELEASE.jar:/Users/alexandrenunes/.m2/repository/org/springframework/spring-context/5.2.1.RELEASE/spring-context-5.2.1.RELEASE.jar:/Users/alexandrenunes/.m2/repository/org/webjars/webjars-locator-core/0.41/webjars-locator-core-0.41.jar:/Users/alexandrenunes/.m2/repository/org/slf4j/slf4j-api/1.7.29/slf4j-api-1.7.29.jar:/Users/alexandrenunes/.m2/repository/io/github/classgraph/classgraph/4.8.44/classgraph-4.8.44.jar:/Users/alexandrenunes/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.0/jackson-core-2.10.0.jar:/Users/alexandrenunes/.m2/repository/org/webjars/npm/angular__http/2.4.10/angular__http-2.4.10.jar:/Users/alexandrenunes/.m2/repository/org/webjars/sockjs-client/1.0.2/sockjs-client-1.0.2.jar:/Users/alexandrenunes/.m2/repository/org/webjars/stomp-websocket/2.3.3/stomp-websocket-2.3.3.jar:/Users/alexandrenunes/.m2/repository/org/webjars/bootstrap/3.3.7/bootstrap-3.3.7.jar:/Users/alexandrenunes/.m2/repository/org/webjars/jquery/3.1.1-1/jquery-3.1.1-1.jar:/Users/alexandrenunes/.m2/repository/com/sun/mail/javax.mail/1.6.2/javax.mail-1.6.2.jar:/Users/alexandrenunes/.m2/repository/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar:/Users/alexandrenunes/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.0/jackson-databind-2.10.0.jar:/Users/alexandrenunes/.m2/repository/org/docx4j/docx4j-JAXB-MOXy/11.1.8/docx4j-JAXB-MOXy-11.1.8.jar:/Users/alexandrenunes/.m2/repository/org/docx4j/docx4j-core/11.1.8/docx4j-core-11.1.8.jar:/Users/alexandrenunes/.m2/repository/org/docx4j/docx4j-openxml-objects/11.1.8/docx4j-openxml-objects-11.1.8.jar:/Users/alexandrenunes/.m2/repository/org/docx4j/docx4j-openxml-objects-pml/11.1.8/docx4j-openxml-objects-pml-11.1.8.jar:/Users/alexandrenunes/.m2/repository/org/docx4j/docx4j-openxml-objects-sml/11.1.8/docx4j-openxml-objects-sml-11.1.8.jar:/Users/alexandrenunes/.m2/repository/org/plutext/jaxb-svg11/1.0.2/jaxb-svg11-1.0.2.jar:/Users/alexandrenunes/.m2/repository/net/engio/mbassador/1.3.2/mbassador-1.3.2.jar:/Users/alexandrenunes/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.29/jcl-over-slf4j-1.7.29.jar:/Users/alexandrenunes/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/alexandrenunes/.m2/repository/org/apache/httpcomponents/httpclient/4.5.10/httpclient-4.5.10.jar:/Users/alexandrenunes/.m2/repository/org/apache/httpcomponents/httpcore/4.4.12/httpcore-4.4.12.jar:/Users/alexandrenunes/.m2/repository/org/apache/xmlgraphics/xmlgraphics-commons/2.3/xmlgraphics-commons-2.3.jar:/Users/alexandrenunes/.m2/repository/org/docx4j/org/apache/xalan-interpretive/11.0.0/xalan-interpretive-11.0.0.jar:/Users/alexandrenunes/.m2/repository/org/docx4j/org/apache/xalan-serializer/11.0.0/xalan-serializer-11.0.0.jar:/Users/alexandrenunes/.m2/repository/net/arnx/wmf2svg/0.9.8/wmf2svg-0.9.8.jar:/Users/alexandrenunes/.m2/repository/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar:/Users/alexandrenunes/.m2/repository/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar:/Users/alexandrenunes/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.moxy/2.7.4/org.eclipse.persistence.moxy-2.7.4.jar:/Users/alexandrenunes/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.core/2.7.4/org.eclipse.persistence.core-2.7.4.jar:/Users/alexandrenunes/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.asm/2.7.4/org.eclipse.persistence.asm-2.7.4.jar:/Users/alexandrenunes/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar:/Users/alexandrenunes/.m2/repository/org/springframework/boot/spring-boot-starter-actuator/2.2.1.RELEASE/spring-boot-starter-actuator-2.2.1.RELEASE.jar:/Users/alexandrenunes/.m2/repository/org/springframework/boot/spring-boot-starter/2.2.1.RELEASE/spring-boot-starter-2.2.1.RELEASE.jar:/Users/alexandrenunes/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.2.1.RELEASE/spring-boot-starter-logging-2.2.1.RELEASE.jar:/Users/alexandrenunes/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/alexandrenunes/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/alexandrenunes/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.12.1/log4j-to-slf4j-2.12.1.jar:/Users/alexandrenunes/.m2/repository/org/apache/logging/log4j/log4j-api/2.12.1/log4j-api-2.12.1.jar:/Users/alexandrenunes/.m2/repository/org/slf4j/jul-to-slf4j/1.7.29/jul-to-slf4j-1.7.29.jar:/Users/alexandrenunes/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar:/Users/alexandrenunes/.m2/repository/org/yaml/snakeyaml/1.25/snakeyaml-1.25.jar:/Users/alexandrenunes/.m2/repository/org/springframework/boot/spring-boot-actuator-autoconfigure/2.2.1.RELEASE/spring-boot-actuator-autoconfigure-2.2.1.RELEASE.jar:/Users/alexandrenunes/.m2/repository/org/springframework/boot/spring-boot-actuator/2.2.1.RELEASE/spring-boot-actuator-2.2.1.RELEASE.jar:/Users/alexandrenunes/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.0/jackson-datatype-jsr310-2.10.0.jar:/Users/alexandrenunes/.m2/repository/io/micrometer/micrometer-core/1.3.1/micrometer-core-1.3.1.jar:/Users/alexandrenunes/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.11/HdrHistogram-2.1.11.jar:/Users/alexandrenunes/.m2/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar:/Users/alexandrenunes/.m2/repository/org/springframework/boot/spring-boot-devtools/2.2.1.RELEASE/spring-boot-devtools-2.2.1.RELEASE.jar:/Users/alexandrenunes/.m2/repository/org/springframework/boot/spring-boot/2.2.1.RELEASE/spring-boot-2.2.1.RELEASE.jar:/Users/alexandrenunes/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.2.1.RELEASE/spring-boot-autoconfigure-2.2.1.RELEASE.jar:/Users/alexandrenunes/.m2/repository/org/mariuszgromada/math/MathParser.org-mXparser/4.4.2/MathParser.org-mXparser-4.4.2.jar:/Users/alexandrenunes/.m2/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar:/Users/alexandrenunes/.m2/repository/org/springframework/data/spring-data-rest-webmvc/3.2.1.RELEASE/spring-data-rest-webmvc-3.2.1.RELEASE.jar:/Users/alexandrenunes/.m2/repository/org/springframework/data/spring-data-rest-core/3.2.1.RELEASE/spring-data-rest-core-3.2.1.RELEASE.jar:/Users/alexandrenunes/.m2/repository/org/springframework/spring-tx/5.2.1.RELEASE/spring-tx-5.2.1.RELEASE.jar:/Users/alexandrenunes/.m2/repository/org/springframework/hateoas/spring-hateoas/1.0.1.RELEASE/spring-hateoas-1.0.1.RELEASE.jar:/Users/alexandrenunes/.m2/repository/org/springframework/data/spring-data-commons/2.2.1.RELEASE/spring-data-commons-2.2.1.RELEASE.jar:/Users/alexandrenunes/.m2/repository/org/springframework/plugin/spring-plugin-core/2.0.0.RELEASE/spring-plugin-core-2.0.0.RELEASE.jar:/Users/alexandrenunes/.m2/repository/org/atteo/evo-inflector/1.2.2/evo-inflector-1.2.2.jar:/Users/alexandrenunes/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.0/jackson-datatype-jdk8-2.10.0.jar:/Users/alexandrenunes/.m2/repository/org/springframework/spring-webmvc/5.2.1.RELEASE/spring-webmvc-5.2.1.RELEASE.jar:/Users/alexandrenunes/.m2/repository/org/springframework/spring-expression/5.2.1.RELEASE/spring-expression-5.2.1.RELEASE.jar:/Users/alexandrenunes/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.0/jackson-annotations-2.10.0.jar:/Users/alexandrenunes/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar:/Users/alexandrenunes/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/Users/alexandrenunes/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/2.2.1.RELEASE/spring-boot-starter-data-jpa-2.2.1.RELEASE.jar:/Users/alexandrenunes/.m2/repository/org/springframework/boot/spring-boot-starter-aop/2.2.1.RELEASE/spring-boot-starter-aop-2.2.1.RELEASE.jar:/Users/alexandrenunes/.m2/repository/org/aspectj/aspectjweaver/1.9.4/aspectjweaver-1.9.4.jar:/Users/alexandrenunes/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.2.1.RELEASE/spring-boot-starter-jdbc-2.2.1.RELEASE.jar:/Users/alexandrenunes/.m2/repository/com/zaxxer/HikariCP/3.4.1/HikariCP-3.4.1.jar:/Users/alexandrenunes/.m2/repository/org/springframework/spring-jdbc/5.2.1.RELEASE/spring-jdbc-5.2.1.RELEASE.jar:/Users/alexandrenunes/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar:/Users/alexandrenunes/.m2/repository/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar:/Users/alexandrenunes/.m2/repository/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.jar:/Users/alexandrenunes/.m2/repository/org/hibernate/hibernate-core/5.4.8.Final/hibernate-core-5.4.8.Final.jar:/Users/alexandrenunes/.m2/repository/org/jboss/logging/jboss-logging/3.4.1.Final/jboss-logging-3.4.1.Final.jar:/Users/alexandrenunes/.m2/repository/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA.jar:/Users/alexandrenunes/.m2/repository/net/bytebuddy/byte-buddy/1.10.2/byte-buddy-1.10.2.jar:/Users/alexandrenunes/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/Users/alexandrenunes/.m2/repository/org/jboss/jandex/2.0.5.Final/jandex-2.0.5.Final.jar:/Users/alexandrenunes/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar:/Users/alexandrenunes/.m2/repository/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.jar:/Users/alexandrenunes/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.1.0.Final/hibernate-commons-annotations-5.1.0.Final.jar:/Users/alexandrenunes/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar:/Users/alexandrenunes/.m2/repository/org/glassfish/jaxb/txw2/2.3.2/txw2-2.3.2.jar:/Users/alexandrenunes/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.8/istack-commons-runtime-3.0.8.jar:/Users/alexandrenunes/.m2/repository/org/jvnet/staxex/stax-ex/1.8.1/stax-ex-1.8.1.jar:/Users/alexandrenunes/.m2/repository/com/sun/xml/fastinfoset/FastInfoset/1.2.16/FastInfoset-1.2.16.jar:/Users/alexandrenunes/.m2/repository/org/springframework/data/spring-data-jpa/2.2.1.RELEASE/spring-data-jpa-2.2.1.RELEASE.jar:/Users/alexandrenunes/.m2/repository/org/springframework/spring-orm/5.2.1.RELEASE/spring-orm-5.2.1.RELEASE.jar:/Users/alexandrenunes/.m2/repository/org/springframework/spring-aspects/5.2.1.RELEASE/spring-aspects-5.2.1.RELEASE.jar:/Users/alexandrenunes/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.2.1.RELEASE/spring-boot-starter-web-2.2.1.RELEASE.jar:/Users/alexandrenunes/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.2.1.RELEASE/spring-boot-starter-json-2.2.1.RELEASE.jar:/Users/alexandrenunes/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.10.0/jackson-module-parameter-names-2.10.0.jar:/Users/alexandrenunes/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.2.1.RELEASE/spring-boot-starter-tomcat-2.2.1.RELEASE.jar:/Users/alexandrenunes/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.27/tomcat-embed-core-9.0.27.jar:/Users/alexandrenunes/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/9.0.27/tomcat-embed-el-9.0.27.jar:/Users/alexandrenunes/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.27/tomcat-embed-websocket-9.0.27.jar:/Users/alexandrenunes/.m2/repository/org/springframework/boot/spring-boot-starter-validation/2.2.1.RELEASE/spring-boot-starter-validation-2.2.1.RELEASE.jar:/Users/alexandrenunes/.m2/repository/jakarta/validation/jakarta.validation-api/2.0.1/jakarta.validation-api-2.0.1.jar:/Users/alexandrenunes/.m2/repository/org/hibernate/validator/hibernate-validator/6.0.18.Final/hibernate-validator-6.0.18.Final.jar:/Users/alexandrenunes/.m2/repository/org/springframework/spring-web/5.2.1.RELEASE/spring-web-5.2.1.RELEASE.jar:/Users/alexandrenunes/.m2/repository/mysql/mysql-connector-java/8.0.21/mysql-connector-java-8.0.21.jar:/Users/alexandrenunes/.m2/repository/org/springframework/boot/spring-boot-starter-security/2.2.1.RELEASE/spring-boot-starter-security-2.2.1.RELEASE.jar:/Users/alexandrenunes/.m2/repository/org/springframework/spring-aop/5.2.1.RELEASE/spring-aop-5.2.1.RELEASE.jar:/Users/alexandrenunes/.m2/repository/org/springframework/security/spring-security-config/5.2.1.RELEASE/spring-security-config-5.2.1.RELEASE.jar:/Users/alexandrenunes/.m2/repository/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE.jar:/Users/alexandrenunes/.m2/repository/org/springframework/security/spring-security-web/5.2.1.RELEASE/spring-security-web-5.2.1.RELEASE.jar:/Users/alexandrenunes/.m2/repository/com/google/guava/guava/28.2-jre/guava-28.2-jre.jar:/Users/alexandrenunes/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/alexandrenunes/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/alexandrenunes/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/alexandrenunes/.m2/repository/org/checkerframework/checker-qual/2.10.0/checker-qual-2.10.0.jar:/Users/alexandrenunes/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/alexandrenunes/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/alexandrenunes/.m2/repository/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar:/Users/alexandrenunes/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar:/Users/alexandrenunes/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/Users/alexandrenunes/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar:/Users/alexandrenunes/.m2/repository/org/springframework/spring-core/5.2.1.RELEASE/spring-core-5.2.1.RELEASE.jar:/Users/alexandrenunes/.m2/repository/org/springframework/spring-jcl/5.2.1.RELEASE/spring-jcl-5.2.1.RELEASE.jar:/Users/alexandrenunes/.m2/repository/org/apache/maven/plugins/maven-assembly-plugin/3.3.0/maven-assembly-plugin-3.3.0.jar:/Users/alexandrenunes/.m2/repository/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar:/Users/alexandrenunes/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar:/Users/alexandrenunes/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar:/Users/alexandrenunes/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar:/Users/alexandrenunes/.m2/repository/org/apache/maven/maven-core/3.0/maven-core-3.0.jar:/Users/alexandrenunes/.m2/repository/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar:/Users/alexandrenunes/.m2/repository/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar:/Users/alexandrenunes/.m2/repository/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar:/Users/alexandrenunes/.m2/repository/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar:/Users/alexandrenunes/.m2/repository/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.jar:/Users/alexandrenunes/.m2/repository/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar:/Users/alexandrenunes/.m2/repository/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar:/Users/alexandrenunes/.m2/repository/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar:/Users/alexandrenunes/.m2/repository/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar:/Users/alexandrenunes/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar:/Users/alexandrenunes/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/Users/alexandrenunes/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar:/Users/alexandrenunes/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/Users/alexandrenunes/.m2/repository/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar:/Users/alexandrenunes/.m2/repository/org/apache/maven/maven-model/3.0/maven-model-3.0.jar:/Users/alexandrenunes/.m2/repository/org/apache/maven/shared/maven-common-artifact-filters/3.1.0/maven-common-artifact-filters-3.1.0.jar:/Users/alexandrenunes/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.1.0/maven-shared-utils-3.1.0.jar:/Users/alexandrenunes/.m2/repository/org/apache/maven/shared/maven-artifact-transfer/0.11.0/maven-artifact-transfer-0.11.0.jar:/Users/alexandrenunes/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.25/plexus-interpolation-1.25.jar:/Users/alexandrenunes/.m2/repository/org/codehaus/plexus/plexus-archiver/4.2.1/plexus-archiver-4.2.1.jar:/Users/alexandrenunes/.m2/repository/org/iq80/snappy/snappy/0.4/snappy-0.4.jar:/Users/alexandrenunes/.m2/repository/org/tukaani/xz/1.8/xz-1.8.jar:/Users/alexandrenunes/.m2/repository/org/apache/maven/shared/file-management/3.0.0/file-management-3.0.0.jar:/Users/alexandrenunes/.m2/repository/org/apache/maven/shared/maven-shared-io/3.0.0/maven-shared-io-3.0.0.jar:/Users/alexandrenunes/.m2/repository/org/apache/maven/maven-compat/3.0/maven-compat-3.0.jar:/Users/alexandrenunes/.m2/repository/org/apache/maven/wagon/wagon-provider-api/2.10/wagon-provider-api-2.10.jar:/Users/alexandrenunes/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/Users/alexandrenunes/.m2/repository/org/apache/maven/shared/maven-filtering/3.1.1/maven-filtering-3.1.1.jar:/Users/alexandrenunes/.m2/repository/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.jar:/Users/alexandrenunes/.m2/repository/org/codehaus/plexus/plexus-io/3.2.0/plexus-io-3.2.0.jar:/Users/alexandrenunes/.m2/repository/org/apache/maven/maven-archiver/3.5.0/maven-archiver-3.5.0.jar:/Users/alexandrenunes/.m2/repository/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar:/Users/alexandrenunes/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar, java.vm.vendor=AdoptOpenJDK, sun.arch.data.model=64, java.vendor.url=https://adoptopenjdk.net/, catalina.useNaming=false, user.timezone=America/Sao_Paulo, os.name=Mac OS X, java.vm.specification.version=11, javax.persistence.validation.mode=AUTO, sun.java.launcher=SUN_STANDARD, user.country=BR, sun.boot.library.path=/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/lib, sun.java.command=com.bluebudy.SCQ.ScqMobileApplication, javax.persistence.nonJtaDataSource=HikariDataSource (HikariPool-1), hibernate.transaction.jta.platform=org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform@57c5128d, http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, javax.persistence.sharedCache.mode=UNSPECIFIED, jdk.debug=release, sun.cpu.endian=little, user.home=/Users/alexandrenunes, user.language=pt, java.specification.vendor=Oracle Corporation, java.version.date=2021-01-19, java.home=/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home, file.separator=/, java.vm.compressedOopsMode=Zero based, line.separator=
+, java.specification.name=Java Platform API Specification, java.vm.specification.vendor=Oracle Corporation, hibernate.transaction.coordinator_class=class org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, java.awt.headless=true, hibernate.hbm2ddl.auto=update, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, java.runtime.version=11.0.10+9, user.name=alexandrenunes, path.separator=:, os.version=10.16, java.runtime.name=OpenJDK Runtime Environment, file.encoding=UTF-8, hibernate.ejb.persistenceUnitName=default, spring.beaninfo.ignore=true, java.vm.name=OpenJDK 64-Bit Server VM, java.vendor.version=AdoptOpenJDK, java.vendor.url.bug=https://github.com/AdoptOpenJDK/openjdk-support/issues, java.io.tmpdir=/var/folders/23/k8376kd52cl3jj_d7dz9p5c40000gn/T/, catalina.home=/private/var/folders/23/k8376kd52cl3jj_d7dz9p5c40000gn/T/tomcat.10429485716490566379.8080, java.version=11.0.10, hibernate.physical_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy, user.dir=/Users/alexandrenunes/Documents/development/scq-api, os.arch=x86_64, java.vm.specification.name=Java Virtual Machine Specification, PID=32416, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, sun.os.patch.level=unknown, catalina.base=/private/var/folders/23/k8376kd52cl3jj_d7dz9p5c40000gn/T/tomcat.10429485716490566379.8080, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.registry.StandardServiceRegistryBuilder$1@20e91e51, java.library.path=/Users/alexandrenunes/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.vendor=AdoptOpenJDK, java.vm.info=mixed mode, java.vm.version=11.0.10+9, hibernate.bytecode.use_reflection_optimizer=false, sun.io.unicode.encoding=UnicodeBig, hibernate.archive.scanner=org.hibernate.boot.archive.scan.internal.DisabledScanner, hibernate.connection.datasource=HikariDataSource (HikariPool-1), socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16, java.class.version=55.0}
+[2021-08-02 23:28:03] - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+[2021-08-02 23:28:03] - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+[2021-08-02 23:28:03] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+[2021-08-02 23:28:03] - Trying to load META-INF/validation.xml via TCCL
+[2021-08-02 23:28:03] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+[2021-08-02 23:28:03] - No META-INF/validation.xml found. Using annotation based configuration only.
+[2021-08-02 23:28:03] - Loaded expression factory via original TCCL
+[2021-08-02 23:28:03] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+[2021-08-02 23:28:03] - HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+[2021-08-02 23:28:03] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+[2021-08-02 23:28:03] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+[2021-08-02 23:28:03] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+[2021-08-02 23:28:03] - Not known whether passed class name [com.bluebudy.SCQ.domain.Controle] is safe
+[2021-08-02 23:28:03] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.Controle
+[2021-08-02 23:28:03] - Not known whether passed class name [com.bluebudy.SCQ.domain.TarefasDeManutencao] is safe
+[2021-08-02 23:28:03] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.TarefasDeManutencao
+[2021-08-02 23:28:03] - Not known whether passed class name [com.bluebudy.SCQ.domain.Adicao] is safe
+[2021-08-02 23:28:03] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.Adicao
+[2021-08-02 23:28:03] - Not known whether passed class name [com.bluebudy.SCQ.domain.OrdemDeManutencao] is safe
+[2021-08-02 23:28:03] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.OrdemDeManutencao
+[2021-08-02 23:28:03] - Not known whether passed class name [com.bluebudy.SCQ.domain.User] is safe
+[2021-08-02 23:28:03] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.User
+[2021-08-02 23:28:03] - Not known whether passed class name [com.bluebudy.SCQ.domain.Etapa] is safe
+[2021-08-02 23:28:03] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.Etapa
+[2021-08-02 23:28:03] - Not known whether passed class name [com.bluebudy.SCQ.domain.VerificationToken] is safe
+[2021-08-02 23:28:03] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.VerificationToken
+[2021-08-02 23:28:03] - Not known whether passed class name [com.bluebudy.SCQ.domain.MontagemComposition] is safe
+[2021-08-02 23:28:03] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.MontagemComposition
+[2021-08-02 23:28:03] - Not known whether passed class name [com.bluebudy.SCQ.domain.Acao] is safe
+[2021-08-02 23:28:03] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.Acao
+[2021-08-02 23:28:03] - Not known whether passed class name [com.bluebudy.SCQ.domain.OrdemDeCorrecao] is safe
+[2021-08-02 23:28:03] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.OrdemDeCorrecao
+[2021-08-02 23:28:03] - Not known whether passed class name [com.bluebudy.SCQ.domain.Troca] is safe
+[2021-08-02 23:28:03] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.Troca
+[2021-08-02 23:28:03] - Not known whether passed class name [com.bluebudy.SCQ.domain.Notificacao] is safe
+[2021-08-02 23:28:03] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.Notificacao
+[2021-08-02 23:28:03] - Not known whether passed class name [com.bluebudy.SCQ.domain.Processo] is safe
+[2021-08-02 23:28:03] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.Processo
+[2021-08-02 23:28:03] - Not known whether passed class name [com.bluebudy.SCQ.domain.MateriaPrima] is safe
+[2021-08-02 23:28:03] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.MateriaPrima
+[2021-08-02 23:28:03] - Not known whether passed class name [com.bluebudy.SCQ.domain.Parametro] is safe
+[2021-08-02 23:28:03] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.Parametro
+[2021-08-02 23:28:03] - Not known whether passed class name [com.bluebudy.SCQ.domain.Analise] is safe
+[2021-08-02 23:28:03] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.Analise
+[2021-08-02 23:28:03] - Skipping JACC integration as it was not enabled
+[2021-08-02 23:28:03] - Instantiated session factory
+[2021-08-02 23:28:03] - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@4d12ab4c] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@18e59cc2]
+[2021-08-02 23:28:03] - Not known whether passed class name [com.bluebudy.SCQ.domain.Controle] is safe
+[2021-08-02 23:28:03] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.Controle
+[2021-08-02 23:28:03] - Not known whether passed class name [com.bluebudy.SCQ.domain.Controle] is safe
+[2021-08-02 23:28:03] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.Controle
+[2021-08-02 23:28:03] - Not known whether passed class name [com.bluebudy.SCQ.domain.TarefasDeManutencao] is safe
+[2021-08-02 23:28:03] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.TarefasDeManutencao
+[2021-08-02 23:28:03] - Not known whether passed class name [com.bluebudy.SCQ.domain.TarefasDeManutencao] is safe
+[2021-08-02 23:28:03] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.TarefasDeManutencao
+[2021-08-02 23:28:03] - Not known whether passed class name [com.bluebudy.SCQ.domain.Adicao] is safe
+[2021-08-02 23:28:03] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.Adicao
+[2021-08-02 23:28:03] - Using NAMED-based conversion for Enum com.bluebudy.SCQ.constantes.Unidade
+[2021-08-02 23:28:03] - Using NAMED-based conversion for Enum com.bluebudy.SCQ.constantes.Unidade
+[2021-08-02 23:28:03] - Not known whether passed class name [com.bluebudy.SCQ.domain.Adicao] is safe
+[2021-08-02 23:28:03] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.Adicao
+[2021-08-02 23:28:03] - Using NAMED-based conversion for Enum com.bluebudy.SCQ.constantes.Unidade
+[2021-08-02 23:28:03] - Using NAMED-based conversion for Enum com.bluebudy.SCQ.constantes.Unidade
+[2021-08-02 23:28:03] - Not known whether passed class name [com.bluebudy.SCQ.domain.OrdemDeManutencao] is safe
+[2021-08-02 23:28:03] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.OrdemDeManutencao
+[2021-08-02 23:28:03] - Not known whether passed class name [com.bluebudy.SCQ.domain.OrdemDeManutencao] is safe
+[2021-08-02 23:28:03] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.OrdemDeManutencao
+[2021-08-02 23:28:03] - Not known whether passed class name [com.bluebudy.SCQ.domain.User] is safe
+[2021-08-02 23:28:03] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.User
+[2021-08-02 23:28:03] - Not known whether passed class name [com.bluebudy.SCQ.domain.User] is safe
+[2021-08-02 23:28:03] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.User

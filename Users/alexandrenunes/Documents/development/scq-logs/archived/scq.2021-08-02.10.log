@@ -1,0 +1,127 @@
+[2021-08-02 23:28:03] - Not known whether passed class name [com.bluebudy.SCQ.domain.Etapa] is safe
+[2021-08-02 23:28:03] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.Etapa
+[2021-08-02 23:28:03] - Not known whether passed class name [com.bluebudy.SCQ.domain.Etapa] is safe
+[2021-08-02 23:28:03] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.Etapa
+[2021-08-02 23:28:03] - Not known whether passed class name [com.bluebudy.SCQ.domain.VerificationToken] is safe
+[2021-08-02 23:28:03] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.VerificationToken
+[2021-08-02 23:28:03] - Not known whether passed class name [com.bluebudy.SCQ.domain.VerificationToken] is safe
+[2021-08-02 23:28:03] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.VerificationToken
+[2021-08-02 23:28:03] - Not known whether passed class name [com.bluebudy.SCQ.domain.MontagemComposition] is safe
+[2021-08-02 23:28:03] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.MontagemComposition
+[2021-08-02 23:28:03] - Not known whether passed class name [com.bluebudy.SCQ.domain.MontagemComposition] is safe
+[2021-08-02 23:28:03] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.MontagemComposition
+[2021-08-02 23:28:03] - Not known whether passed class name [com.bluebudy.SCQ.domain.Acao] is safe
+[2021-08-02 23:28:03] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.Acao
+[2021-08-02 23:28:03] - Not known whether passed class name [com.bluebudy.SCQ.domain.Acao] is safe
+[2021-08-02 23:28:03] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.Acao
+[2021-08-02 23:28:03] - Not known whether passed class name [com.bluebudy.SCQ.domain.OrdemDeCorrecao] is safe
+[2021-08-02 23:28:03] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.OrdemDeCorrecao
+[2021-08-02 23:28:03] - Using ORDINAL-based conversion for Enum com.bluebudy.SCQ.constantes.TiposDeAcao
+[2021-08-02 23:28:03] - Using ORDINAL-based conversion for Enum com.bluebudy.SCQ.constantes.TiposDeAcao
+[2021-08-02 23:28:03] - Not known whether passed class name [com.bluebudy.SCQ.domain.OrdemDeCorrecao] is safe
+[2021-08-02 23:28:03] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.OrdemDeCorrecao
+[2021-08-02 23:28:03] - Using ORDINAL-based conversion for Enum com.bluebudy.SCQ.constantes.TiposDeAcao
+[2021-08-02 23:28:03] - Using ORDINAL-based conversion for Enum com.bluebudy.SCQ.constantes.TiposDeAcao
+[2021-08-02 23:28:03] - Not known whether passed class name [com.bluebudy.SCQ.domain.Troca] is safe
+[2021-08-02 23:28:03] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.Troca
+[2021-08-02 23:28:03] - Not known whether passed class name [com.bluebudy.SCQ.domain.Troca] is safe
+[2021-08-02 23:28:03] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.Troca
+[2021-08-02 23:28:03] - Not known whether passed class name [com.bluebudy.SCQ.domain.Notificacao] is safe
+[2021-08-02 23:28:03] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.Notificacao
+[2021-08-02 23:28:03] - Using ORDINAL-based conversion for Enum com.bluebudy.SCQ.constantes.StatusNotificacao
+[2021-08-02 23:28:03] - Using ORDINAL-based conversion for Enum com.bluebudy.SCQ.constantes.StatusNotificacao
+[2021-08-02 23:28:03] - Not known whether passed class name [com.bluebudy.SCQ.domain.Notificacao] is safe
+[2021-08-02 23:28:03] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.Notificacao
+[2021-08-02 23:28:04] - Using ORDINAL-based conversion for Enum com.bluebudy.SCQ.constantes.StatusNotificacao
+[2021-08-02 23:28:04] - Using ORDINAL-based conversion for Enum com.bluebudy.SCQ.constantes.StatusNotificacao
+[2021-08-02 23:28:04] - Not known whether passed class name [com.bluebudy.SCQ.domain.Processo] is safe
+[2021-08-02 23:28:04] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.Processo
+[2021-08-02 23:28:04] - Not known whether passed class name [com.bluebudy.SCQ.domain.Processo] is safe
+[2021-08-02 23:28:04] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.Processo
+[2021-08-02 23:28:04] - Not known whether passed class name [com.bluebudy.SCQ.domain.MateriaPrima] is safe
+[2021-08-02 23:28:04] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.MateriaPrima
+[2021-08-02 23:28:04] - Using NAMED-based conversion for Enum com.bluebudy.SCQ.constantes.Unidade
+[2021-08-02 23:28:04] - Using NAMED-based conversion for Enum com.bluebudy.SCQ.constantes.Unidade
+[2021-08-02 23:28:04] - Not known whether passed class name [com.bluebudy.SCQ.domain.MateriaPrima] is safe
+[2021-08-02 23:28:04] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.MateriaPrima
+[2021-08-02 23:28:04] - Using NAMED-based conversion for Enum com.bluebudy.SCQ.constantes.Unidade
+[2021-08-02 23:28:04] - Using NAMED-based conversion for Enum com.bluebudy.SCQ.constantes.Unidade
+[2021-08-02 23:28:04] - Not known whether passed class name [com.bluebudy.SCQ.domain.Parametro] is safe
+[2021-08-02 23:28:04] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.Parametro
+[2021-08-02 23:28:04] - Using NAMED-based conversion for Enum com.bluebudy.SCQ.constantes.Unidade
+[2021-08-02 23:28:04] - Using NAMED-based conversion for Enum com.bluebudy.SCQ.constantes.Unidade
+[2021-08-02 23:28:04] - Not known whether passed class name [com.bluebudy.SCQ.domain.Parametro] is safe
+[2021-08-02 23:28:04] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.Parametro
+[2021-08-02 23:28:04] - Using NAMED-based conversion for Enum com.bluebudy.SCQ.constantes.Unidade
+[2021-08-02 23:28:04] - Using NAMED-based conversion for Enum com.bluebudy.SCQ.constantes.Unidade
+[2021-08-02 23:28:04] - Not known whether passed class name [com.bluebudy.SCQ.domain.Analise] is safe
+[2021-08-02 23:28:04] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.Analise
+[2021-08-02 23:28:04] - Not known whether passed class name [com.bluebudy.SCQ.domain.Analise] is safe
+[2021-08-02 23:28:04] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bluebudy.SCQ.domain.Analise
+[2021-08-02 23:28:04] - Static SQL for collection: com.bluebudy.SCQ.domain.Etapa.parametros
+[2021-08-02 23:28:04] -  Row insert: update parametro set etapa_id=? where id=?
+[2021-08-02 23:28:04] -  Row update: update parametro set  where id=?
+[2021-08-02 23:28:04] -  Row delete: update parametro set etapa_id=null where etapa_id=? and id=?
+[2021-08-02 23:28:04] -  One-shot delete: update parametro set etapa_id=null where etapa_id=?
+[2021-08-02 23:28:04] - Static SQL for collection: com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao
+[2021-08-02 23:28:04] -  Row insert: update ordem_de_correcao set analise_id=? where id=?
+[2021-08-02 23:28:04] -  Row update: update ordem_de_correcao set  where id=?
+[2021-08-02 23:28:04] -  Row delete: update ordem_de_correcao set analise_id=null where analise_id=? and id=?
+[2021-08-02 23:28:04] -  One-shot delete: update ordem_de_correcao set analise_id=null where analise_id=?
+[2021-08-02 23:28:04] - Static SQL for collection: com.bluebudy.SCQ.domain.MateriaPrima.adicao
+[2021-08-02 23:28:04] -  Row insert: update adicao set materia_prima_id=? where id=?
+[2021-08-02 23:28:04] -  Row update: update adicao set  where id=?
+[2021-08-02 23:28:04] -  Row delete: update adicao set materia_prima_id=null where materia_prima_id=? and id=?
+[2021-08-02 23:28:04] -  One-shot delete: update adicao set materia_prima_id=null where materia_prima_id=?
+[2021-08-02 23:28:04] - Static SQL for collection: com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes
+[2021-08-02 23:28:04] -  Row insert: update adicao set ordem_id=? where id=?
+[2021-08-02 23:28:04] -  Row update: update adicao set  where id=?
+[2021-08-02 23:28:04] -  Row delete: update adicao set ordem_id=null where ordem_id=? and id=?
+[2021-08-02 23:28:04] -  One-shot delete: update adicao set ordem_id=null where ordem_id=?
+[2021-08-02 23:28:04] - Static SQL for collection: com.bluebudy.SCQ.domain.Processo.tarefas
+[2021-08-02 23:28:04] -  Row insert: update tarefas_de_manutencao set processo_id=? where id=?
+[2021-08-02 23:28:04] -  Row update: update tarefas_de_manutencao set  where id=?
+[2021-08-02 23:28:04] -  Row delete: update tarefas_de_manutencao set processo_id=null where processo_id=? and id=?
+[2021-08-02 23:28:04] -  One-shot delete: update tarefas_de_manutencao set processo_id=null where processo_id=?
+[2021-08-02 23:28:04] - Static SQL for collection: com.bluebudy.SCQ.domain.Processo.etapas
+[2021-08-02 23:28:04] -  Row insert: update etapa set processo_id=? where id=?
+[2021-08-02 23:28:04] -  Row update: update etapa set  where id=?
+[2021-08-02 23:28:04] -  Row delete: update etapa set processo_id=null where processo_id=? and id=?
+[2021-08-02 23:28:04] -  One-shot delete: update etapa set processo_id=null where processo_id=?
+[2021-08-02 23:28:04] - Static SQL for collection: com.bluebudy.SCQ.domain.Etapa.trocas
+[2021-08-02 23:28:04] -  Row insert: update troca set etapa_id=? where id=?
+[2021-08-02 23:28:04] -  Row update: update troca set  where id=?
+[2021-08-02 23:28:04] -  Row delete: update troca set etapa_id=null where etapa_id=? and id=?
+[2021-08-02 23:28:04] -  One-shot delete: update troca set etapa_id=null where etapa_id=?
+[2021-08-02 23:28:04] - Static SQL for collection: com.bluebudy.SCQ.domain.Parametro.analises
+[2021-08-02 23:28:04] -  Row insert: update analise set parametro_id=? where id=?
+[2021-08-02 23:28:04] -  Row update: update analise set  where id=?
+[2021-08-02 23:28:04] -  Row delete: update analise set parametro_id=null where parametro_id=? and id=?
+[2021-08-02 23:28:04] -  One-shot delete: update analise set parametro_id=null where parametro_id=?
+[2021-08-02 23:28:04] - Static SQL for collection: com.bluebudy.SCQ.domain.Etapa.montagem
+[2021-08-02 23:28:04] -  Row insert: update montagem_composition set etapa_id=? where id=?
+[2021-08-02 23:28:04] -  Row update: update montagem_composition set  where id=?
+[2021-08-02 23:28:04] -  Row delete: update montagem_composition set etapa_id=null where etapa_id=? and id=?
+[2021-08-02 23:28:04] -  One-shot delete: update montagem_composition set etapa_id=null where etapa_id=?
+[2021-08-02 23:28:04] - Static SQL for entity: com.bluebudy.SCQ.domain.Controle
+[2021-08-02 23:28:04] -  Version select: select id from controle where id =?
+[2021-08-02 23:28:04] -  Snapshot select: select controle_.id, controle_.data_planejada as data_pla2_3_, controle_.data_realizada as data_rea3_3_, controle_.notified as notified4_3_, controle_.periodo as periodo5_3_ from controle controle_ where controle_.id=?
+[2021-08-02 23:28:04] -  Insert 0: insert into controle (data_planejada, data_realizada, notified, periodo, id) values (?, ?, ?, ?, ?)
+[2021-08-02 23:28:04] -  Update 0: update controle set data_planejada=?, data_realizada=?, notified=?, periodo=? where id=?
+[2021-08-02 23:28:04] -  Delete 0: delete from controle where id=?
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@48ca2d1f]
+[2021-08-02 23:28:04] - Visiting attribute path : dataPlanejada
+[2021-08-02 23:28:04] - Visiting attribute path : dataRealizada
+[2021-08-02 23:28:04] - Visiting attribute path : notified
+[2021-08-02 23:28:04] - Visiting attribute path : periodo
+[2021-08-02 23:28:04] - Building LoadPlan...
+[2021-08-02 23:28:04] - processing queryspace <gen:0>
+[2021-08-02 23:28:04] - LoadPlan(entity=com.bluebudy.SCQ.domain.Controle)
+    - Returns
+       - EntityReturnImpl(entity=com.bluebudy.SCQ.domain.Controle, querySpaceUid=<gen:0>, path=com.bluebudy.SCQ.domain.Controle)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.bluebudy.SCQ.domain.Controle)
+          - SQL table alias mapping - controle0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_3_0_}
+

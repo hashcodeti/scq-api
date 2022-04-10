@@ -1,0 +1,4 @@
+2022-03-29 12:17:47,863 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ScqMobileApplication on MacBook-Pro-de-Alexandre.local with PID 37934 (/Users/alexandrenunes/Documents/development/SCQ/scq-api/target/classes started by alexandrenunes in /Users/alexandrenunes/Documents/development/SCQ/scq-api)
+2022-03-29 12:17:47,867 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-03-29 12:17:47,868 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-29 12:18:01,927 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ScqMobileApplication in 14.716 seconds (JVM running for 16.149)

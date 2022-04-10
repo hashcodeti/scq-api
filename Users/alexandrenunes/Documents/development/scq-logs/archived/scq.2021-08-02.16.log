@@ -1,0 +1,281 @@
+[2021-08-02 23:28:06] - parse() - HQL: SELECT o FROM com.bluebudy.SCQ.domain.OrdemDeCorrecao o WHERE o.analise.needCorrecao = true OR o.statusOCP = false
+[2021-08-02 23:28:06] - throwQueryException() : no errors
+[2021-08-02 23:28:06] - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  +-[FROM] Node: 'FROM'
+    |  |  \-[RANGE] Node: 'RANGE'
+    |  |     +-[DOT] Node: '.'
+    |  |     |  +-[DOT] Node: '.'
+    |  |     |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  |  +-[IDENT] Node: 'com'
+    |  |     |  |  |  |  \-[IDENT] Node: 'bluebudy'
+    |  |     |  |  |  \-[IDENT] Node: 'SCQ'
+    |  |     |  |  \-[IDENT] Node: 'domain'
+    |  |     |  \-[IDENT] Node: 'OrdemDeCorrecao'
+    |  |     \-[ALIAS] Node: 'o'
+    |  \-[SELECT] Node: 'SELECT'
+    |     \-[IDENT] Node: 'o'
+    \-[WHERE] Node: 'WHERE'
+       \-[OR] Node: 'OR'
+          +-[EQ] Node: '='
+          |  +-[DOT] Node: '.'
+          |  |  +-[DOT] Node: '.'
+          |  |  |  +-[IDENT] Node: 'o'
+          |  |  |  \-[IDENT] Node: 'analise'
+          |  |  \-[IDENT] Node: 'needCorrecao'
+          |  \-[TRUE] Node: 'true'
+          \-[EQ] Node: '='
+             +-[DOT] Node: '.'
+             |  +-[IDENT] Node: 'o'
+             |  \-[IDENT] Node: 'statusOCP'
+             \-[FALSE] Node: 'false'
+
+[2021-08-02 23:28:06] - select << begin [level=1, statement=select]
+[2021-08-02 23:28:06] - FromClause{level=1} : com.bluebudy.SCQ.domain.OrdemDeCorrecao (o) -> ordemdecor0_
+[2021-08-02 23:28:06] - Resolved : o -> ordemdecor0_.id
+[2021-08-02 23:28:06] - Resolved : o -> ordemdecor0_.id
+[2021-08-02 23:28:06] - getDataType() : analise -> org.hibernate.type.ManyToOneType(com.bluebudy.SCQ.domain.Analise)
+[2021-08-02 23:28:06] - dereferenceEntityJoin() : generating join for analise in com.bluebudy.SCQ.domain.OrdemDeCorrecao (<no alias>) parent = [  ( . ( . ordemdecor0_.id analise ) needCorrecao ) ]
+[2021-08-02 23:28:06] - FromClause{level=1} : com.bluebudy.SCQ.domain.Analise (<no alias>) -> analise1_
+[2021-08-02 23:28:06] - addJoinByPathMap() : o.analise -> ImpliedFromElement{implied,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=analise,tableAlias=analise1_,origin=ordem_de_correcao ordemdecor0_,columns={ordemdecor0_.analise_id,className=com.bluebudy.SCQ.domain.Analise}}
+[2021-08-02 23:28:06] - Resolved : o.analise -> ordemdecor0_.analise_id
+[2021-08-02 23:28:06] - getDataType() : needCorrecao -> org.hibernate.type.BooleanType@2d9f18ad
+[2021-08-02 23:28:06] - Resolved : o.analise.needCorrecao -> analise1_.need_correcao
+[2021-08-02 23:28:06] - Resolved : o -> ordemdecor0_.id
+[2021-08-02 23:28:06] - getDataType() : statusOCP -> org.hibernate.type.BooleanType@2d9f18ad
+[2021-08-02 23:28:06] - Resolved : o.statusOCP -> ordemdecor0_.statusocp
+[2021-08-02 23:28:06] - select : finishing up [level=1, statement=select]
+[2021-08-02 23:28:06] - processQuery() :  ( SELECT ( {select clause} ordemdecor0_.id ) ( FromClause{level=1} ordem_de_correcao ordemdecor0_ analise analise1_ ) ( WHERE ( OR ( = ( analise1_.need_correcao ( ordemdecor0_.analise_id ordemdecor0_.id analise ) needCorrecao ) true ) ( = ( ordemdecor0_.statusocp ordemdecor0_.id statusOCP ) false ) ) ) )
+[2021-08-02 23:28:06] - Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity OrdemDeCorrecao): [ordem_de_correcao]
+    |  +-IdentNode
+    |  | persister: SingleTableEntityPersister(com.bluebudy.SCQ.domain.OrdemDeCorrecao)
+    |  | referencedTables: null
+    |  | originalText: o
+    |  \-SqlFragment
+    +-FromClause
+    |  +-FromElement
+    |  \-ImpliedFromElement
+    \-SqlNode
+       \-SqlNode
+          +-BinaryLogicOperatorNode
+          |  +-DotNode
+          |  | persister: SingleTableEntityPersister(com.bluebudy.SCQ.domain.Analise)
+          |  | referencedTables: [analise]
+          |  | path: o.analise.needCorrecao
+          |  | originalPropertyName: needCorrecao
+          |  |  +-DotNode
+          |  |  | persister: SingleTableEntityPersister(com.bluebudy.SCQ.domain.Analise)
+          |  |  | referencedTables: [ordem_de_correcao]
+          |  |  | path: o.analise
+          |  |  | originalPropertyName: analise
+          |  |  |  +-IdentNode
+          |  |  |  | persister: SingleTableEntityPersister(com.bluebudy.SCQ.domain.OrdemDeCorrecao)
+          |  |  |  | referencedTables: null
+          |  |  |  | originalText: o
+          |  |  |  \-IdentNode
+          |  |  |    persister: null
+          |  |  |    referencedTables: null
+          |  |  |    originalText: analise
+          |  |  \-IdentNode
+          |  |    persister: null
+          |  |    referencedTables: null
+          |  |    originalText: needCorrecao
+          |  \-BooleanLiteralNode
+          \-BinaryLogicOperatorNode
+             +-DotNode
+             | persister: SingleTableEntityPersister(com.bluebudy.SCQ.domain.OrdemDeCorrecao)
+             | referencedTables: [ordem_de_correcao]
+             | path: o.statusOCP
+             | originalPropertyName: statusOCP
+             |  +-IdentNode
+             |  | persister: SingleTableEntityPersister(com.bluebudy.SCQ.domain.OrdemDeCorrecao)
+             |  | referencedTables: null
+             |  | originalText: o
+             |  \-IdentNode
+             |    persister: null
+             |    referencedTables: null
+             |    originalText: statusOCP
+             \-BooleanLiteralNode
+
+[2021-08-02 23:28:06] - Using FROM fragment [ordem_de_correcao ordemdecor0_]
+[2021-08-02 23:28:06] - Using unprocessed WHERE-fragment [ordemdecor0_.analise_id=analise1_.id]
+[2021-08-02 23:28:06] - Using processed WHERE-fragment [ordemdecor0_.analise_id=analise1_.id]
+[2021-08-02 23:28:06] - select >> end [level=1, statement=select]
+[2021-08-02 23:28:06] - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (ordem_de_correcao,analise)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'ordemdecor0_.id as id1_8_' {alias=o, className=com.bluebudy.SCQ.domain.OrdemDeCorrecao, tableAlias=ordemdecor0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'ordemdecor0_.analise_id as analise_7_8_, ordemdecor0_.observacao as observac2_8_, ordemdecor0_.old_analise_value as old_anal3_8_, ordemdecor0_.responsavel as responsa4_8_, ordemdecor0_.statusocp as statusoc5_8_, ordemdecor0_.tipo as tipo6_8_'
+    +-[FROM] FromClause: 'FROM' FromClause{level=1, fromElementCounter=2, fromElements=2, fromElementByClassAlias=[o], fromElementByTableAlias=[ordemdecor0_, analise1_], fromElementsByPath=[o.analise], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  +-[FROM_FRAGMENT] FromElement: 'ordem_de_correcao ordemdecor0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=o,role=null,tableName=ordem_de_correcao,tableAlias=ordemdecor0_,origin=null,columns={,className=com.bluebudy.SCQ.domain.OrdemDeCorrecao}}
+    |  \-[FROM_FRAGMENT] ImpliedFromElement: 'analise analise1_' ImpliedFromElement{implied,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=com.bluebudy.SCQ.domain.OrdemDeCorrecao.analise,tableName=analise,tableAlias=analise1_,origin=ordem_de_correcao ordemdecor0_,columns={ordemdecor0_.analise_id,className=com.bluebudy.SCQ.domain.Analise}}
+    \-[WHERE] SqlNode: 'WHERE'
+       +-[THETA_JOINS] SqlNode: '{theta joins}'
+       |  \-[SQL_TOKEN] SqlFragment: 'ordemdecor0_.analise_id=analise1_.id'
+       \-[OR] SqlNode: 'OR'
+          +-[EQ] BinaryLogicOperatorNode: '='
+          |  +-[DOT] DotNode: 'analise1_.need_correcao' {propertyName=needCorrecao,dereferenceType=PRIMITIVE,getPropertyPath=needCorrecao,path=o.analise.needCorrecao,tableAlias=analise1_,className=com.bluebudy.SCQ.domain.Analise,classAlias=null}
+          |  |  +-[DOT] DotNode: 'ordemdecor0_.analise_id' {propertyName=analise,dereferenceType=ENTITY,getPropertyPath=analise,path=o.analise,tableAlias=analise1_,className=com.bluebudy.SCQ.domain.Analise,classAlias=null}
+          |  |  |  +-[ALIAS_REF] IdentNode: 'ordemdecor0_.id' {alias=o, className=com.bluebudy.SCQ.domain.OrdemDeCorrecao, tableAlias=ordemdecor0_}
+          |  |  |  \-[IDENT] IdentNode: 'analise' {originalText=analise}
+          |  |  \-[IDENT] IdentNode: 'needCorrecao' {originalText=needCorrecao}
+          |  \-[TRUE] BooleanLiteralNode: 'true'
+          \-[EQ] BinaryLogicOperatorNode: '='
+             +-[DOT] DotNode: 'ordemdecor0_.statusocp' {propertyName=statusOCP,dereferenceType=PRIMITIVE,getPropertyPath=statusOCP,path=o.statusOCP,tableAlias=ordemdecor0_,className=com.bluebudy.SCQ.domain.OrdemDeCorrecao,classAlias=o}
+             |  +-[ALIAS_REF] IdentNode: 'ordemdecor0_.id' {alias=o, className=com.bluebudy.SCQ.domain.OrdemDeCorrecao, tableAlias=ordemdecor0_}
+             |  \-[IDENT] IdentNode: 'statusOCP' {originalText=statusOCP}
+             \-[FALSE] BooleanLiteralNode: 'false'
+
+[2021-08-02 23:28:06] - throwQueryException() : no errors
+[2021-08-02 23:28:06] - HQL: SELECT o FROM com.bluebudy.SCQ.domain.OrdemDeCorrecao o WHERE o.analise.needCorrecao = true OR o.statusOCP = false
+[2021-08-02 23:28:06] - SQL: select ordemdecor0_.id as id1_8_, ordemdecor0_.analise_id as analise_7_8_, ordemdecor0_.observacao as observac2_8_, ordemdecor0_.old_analise_value as old_anal3_8_, ordemdecor0_.responsavel as responsa4_8_, ordemdecor0_.statusocp as statusoc5_8_, ordemdecor0_.tipo as tipo6_8_ from ordem_de_correcao ordemdecor0_ cross join analise analise1_ where ordemdecor0_.analise_id=analise1_.id and (analise1_.need_correcao=1 or ordemdecor0_.statusocp=0)
+[2021-08-02 23:28:06] - throwQueryException() : no errors
+[2021-08-02 23:28:06] - Finished creation of repository instance for com.bluebudy.SCQ.repository.OrdemDeCorrecaoRepository.
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'materiaPrimaRepositoryImpl'
+[2021-08-02 23:28:06] - Not strongly caching class [com.bluebudy.SCQ.repository.MateriaPrimaRepositoryImpl] because it is not cache-safe
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'materiaPrimaRepository'
+[2021-08-02 23:28:06] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:06] - Initializing repository instance for com.bluebudy.SCQ.repository.MateriaPrimaRepository…
+[2021-08-02 23:28:06] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:06] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:06] - Finished creation of repository instance for com.bluebudy.SCQ.repository.MateriaPrimaRepository.
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'analiseController'
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'analiseRepositoryImpl'
+[2021-08-02 23:28:06] - Not strongly caching class [com.bluebudy.SCQ.repository.AnaliseRepositoryImpl] because it is not cache-safe
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'analiseRepository'
+[2021-08-02 23:28:06] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:06] - Initializing repository instance for com.bluebudy.SCQ.repository.AnaliseRepository…
+[2021-08-02 23:28:06] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:06] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:06] - Finished creation of repository instance for com.bluebudy.SCQ.repository.AnaliseRepository.
+[2021-08-02 23:28:06] - Autowiring by type from bean name 'analiseController' via constructor to bean named 'analiseRepository'
+[2021-08-02 23:28:06] - Not strongly caching class [com.bluebudy.SCQ.controllers.AnaliseController] because it is not cache-safe
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'parametroRepositoryImpl'
+[2021-08-02 23:28:06] - Not strongly caching class [com.bluebudy.SCQ.repository.ParametroRepositoryImpl] because it is not cache-safe
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'parametroRepository'
+[2021-08-02 23:28:06] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:06] - Initializing repository instance for com.bluebudy.SCQ.repository.ParametroRepository…
+[2021-08-02 23:28:06] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:06] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:06] - Looking up query for method findParametrosByEtapaId
+[2021-08-02 23:28:06] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:06] - parse() - HQL: SELECT p FROM com.bluebudy.SCQ.domain.Parametro p WHERE p.etapa.id = :etapaId
+[2021-08-02 23:28:06] - throwQueryException() : no errors
+[2021-08-02 23:28:06] - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  +-[FROM] Node: 'FROM'
+    |  |  \-[RANGE] Node: 'RANGE'
+    |  |     +-[DOT] Node: '.'
+    |  |     |  +-[DOT] Node: '.'
+    |  |     |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  |  +-[IDENT] Node: 'com'
+    |  |     |  |  |  |  \-[IDENT] Node: 'bluebudy'
+    |  |     |  |  |  \-[IDENT] Node: 'SCQ'
+    |  |     |  |  \-[IDENT] Node: 'domain'
+    |  |     |  \-[IDENT] Node: 'Parametro'
+    |  |     \-[ALIAS] Node: 'p'
+    |  \-[SELECT] Node: 'SELECT'
+    |     \-[IDENT] Node: 'p'
+    \-[WHERE] Node: 'WHERE'
+       \-[EQ] Node: '='
+          +-[DOT] Node: '.'
+          |  +-[DOT] Node: '.'
+          |  |  +-[IDENT] Node: 'p'
+          |  |  \-[IDENT] Node: 'etapa'
+          |  \-[IDENT] Node: 'id'
+          \-[COLON] Node: ':'
+             \-[IDENT] Node: 'etapaId'
+
+[2021-08-02 23:28:06] - select << begin [level=1, statement=select]
+[2021-08-02 23:28:06] - FromClause{level=1} : com.bluebudy.SCQ.domain.Parametro (p) -> parametro0_
+[2021-08-02 23:28:06] - Resolved : p -> parametro0_.id
+[2021-08-02 23:28:06] - Resolved : p -> parametro0_.id
+[2021-08-02 23:28:06] - getDataType() : etapa -> org.hibernate.type.ManyToOneType(com.bluebudy.SCQ.domain.Etapa)
+[2021-08-02 23:28:06] - dereferenceShortcut() : property id in com.bluebudy.SCQ.domain.Parametro does not require a join.
+[2021-08-02 23:28:06] - Unresolved property path is now 'etapa.id'
+[2021-08-02 23:28:06] - Resolved : p.etapa -> parametro0_.etapa_id
+[2021-08-02 23:28:06] - getDataType() : etapa.id -> org.hibernate.type.LongType@13f1e97b
+[2021-08-02 23:28:06] - Resolved : p.etapa.id -> parametro0_.etapa_id
+[2021-08-02 23:28:06] - select : finishing up [level=1, statement=select]
+[2021-08-02 23:28:06] - processQuery() :  ( SELECT ( {select clause} parametro0_.id ) ( FromClause{level=1} parametro parametro0_ ) ( WHERE ( = ( parametro0_.etapa_id ( parametro0_.etapa_id parametro0_.id etapa ) id ) ? ) ) )
+[2021-08-02 23:28:06] - Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity Parametro): [parametro]
+    |  +-IdentNode
+    |  | persister: SingleTableEntityPersister(com.bluebudy.SCQ.domain.Parametro)
+    |  | referencedTables: null
+    |  | originalText: p
+    |  \-SqlFragment
+    +-FromClause
+    |  \-FromElement
+    \-SqlNode
+       \-BinaryLogicOperatorNode
+          +-DotNode
+          | persister: SingleTableEntityPersister(com.bluebudy.SCQ.domain.Parametro)
+          | referencedTables: null
+          | path: p.etapa.id
+          | originalPropertyName: id
+          |  +-DotNode
+          |  | persister: SingleTableEntityPersister(com.bluebudy.SCQ.domain.Parametro)
+          |  | referencedTables: [parametro]
+          |  | path: p.etapa
+          |  | originalPropertyName: etapa
+          |  |  +-IdentNode
+          |  |  | persister: SingleTableEntityPersister(com.bluebudy.SCQ.domain.Parametro)
+          |  |  | referencedTables: null
+          |  |  | originalText: p
+          |  |  \-IdentNode
+          |  |    persister: null
+          |  |    referencedTables: null
+          |  |    originalText: etapa
+          |  \-IdentNode
+          |    persister: null
+          |    referencedTables: null
+          |    originalText: id
+          \-ParameterNode
+
+[2021-08-02 23:28:06] - Using FROM fragment [parametro parametro0_]
+[2021-08-02 23:28:06] - select >> end [level=1, statement=select]
+[2021-08-02 23:28:06] - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (parametro)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'parametro0_.id as id1_10_' {alias=p, className=com.bluebudy.SCQ.domain.Parametro, tableAlias=parametro0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'parametro0_.controle_id as control10_10_, parametro0_.etapa_id as etapa_i11_10_, parametro0_.formula as formula2_10_, parametro0_.nome as nome3_10_, parametro0_.p_max as p_max4_10_, parametro0_.p_maxt as p_maxt5_10_, parametro0_.p_min as p_min6_10_, parametro0_.p_mint as p_mint7_10_, parametro0_.show_chart as show_cha8_10_, parametro0_.unidade as unidade9_10_'
+    +-[FROM] FromClause: 'FROM' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[p], fromElementByTableAlias=[parametro0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'parametro parametro0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=p,role=null,tableName=parametro,tableAlias=parametro0_,origin=null,columns={,className=com.bluebudy.SCQ.domain.Parametro}}
+    \-[WHERE] SqlNode: 'WHERE'
+       \-[EQ] BinaryLogicOperatorNode: '='
+          +-[DOT] DotNode: 'parametro0_.etapa_id' {propertyName=id,dereferenceType=PRIMITIVE,getPropertyPath=etapa.id,path=p.etapa.id,tableAlias=parametro0_,className=com.bluebudy.SCQ.domain.Parametro,classAlias=p}
+          |  +-[DOT] DotNode: 'parametro0_.etapa_id' {propertyName=id,dereferenceType=UNKNOWN,getPropertyPath=etapa.id,path=p.etapa,tableAlias=parametro0_,className=com.bluebudy.SCQ.domain.Parametro,classAlias=p}
+          |  |  +-[ALIAS_REF] IdentNode: 'parametro0_.id' {alias=p, className=com.bluebudy.SCQ.domain.Parametro, tableAlias=parametro0_}
+          |  |  \-[IDENT] IdentNode: 'etapa' {originalText=etapa}
+          |  \-[IDENT] IdentNode: 'id' {originalText=id}
+          \-[NAMED_PARAM] ParameterNode: '?' {name=etapaId, expectedType=org.hibernate.type.LongType@13f1e97b}
+
+[2021-08-02 23:28:06] - throwQueryException() : no errors
+[2021-08-02 23:28:06] - HQL: SELECT p FROM com.bluebudy.SCQ.domain.Parametro p WHERE p.etapa.id = :etapaId
+[2021-08-02 23:28:06] - SQL: select parametro0_.id as id1_10_, parametro0_.controle_id as control10_10_, parametro0_.etapa_id as etapa_i11_10_, parametro0_.formula as formula2_10_, parametro0_.nome as nome3_10_, parametro0_.p_max as p_max4_10_, parametro0_.p_maxt as p_maxt5_10_, parametro0_.p_min as p_min6_10_, parametro0_.p_mint as p_mint7_10_, parametro0_.show_chart as show_cha8_10_, parametro0_.unidade as unidade9_10_ from parametro parametro0_ where parametro0_.etapa_id=?
+[2021-08-02 23:28:06] - throwQueryException() : no errors
+[2021-08-02 23:28:06] - Finished creation of repository instance for com.bluebudy.SCQ.repository.ParametroRepository.
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'etapaRepository'
+[2021-08-02 23:28:06] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:06] - Initializing repository instance for com.bluebudy.SCQ.repository.EtapaRepository…
+[2021-08-02 23:28:06] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:06] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:06] - Looking up query for method findEtapaByParametrosId
+[2021-08-02 23:28:06] - Looking up named query Etapa.findEtapaByParametrosId
+[2021-08-02 23:28:06] - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[2021-08-02 23:28:06] - Did not find named query Etapa.findEtapaByParametrosId
+[2021-08-02 23:28:06] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:06] - Looking up query for method findEtapaByProcesso
+[2021-08-02 23:28:06] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:06] - parse() - HQL: SELECT e FROM com.bluebudy.SCQ.domain.Etapa e WHERE e.processo.id = :processoId
+[2021-08-02 23:28:06] - throwQueryException() : no errors

@@ -1,0 +1,72 @@
+[2021-08-02 23:27:57] - Identified candidate component class: URL [jar:file:/Users/alexandrenunes/.m2/repository/org/springframework/data/spring-data-rest-webmvc/3.2.1.RELEASE/spring-data-rest-webmvc-3.2.1.RELEASE.jar!/org/springframework/data/rest/webmvc/ProfileController.class]
+[2021-08-02 23:27:58] - Found key 'spring.template.provider.cache' in PropertySource 'configurationProperties' with value of type String
+[2021-08-02 23:27:58] - Bootstrapping Spring Data repositories in DEFAULT mode.
+[2021-08-02 23:27:58] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+[2021-08-02 23:27:58] - @EnableAutoConfiguration was declared on a class in the package 'com.bluebudy.SCQ'. Automatic @Repository and @Entity scanning is enabled.
+[2021-08-02 23:27:58] - Scanning for repositories in packages com.bluebudy.SCQ.
+[2021-08-02 23:27:58] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/repository/AcaoRepository.class]
+[2021-08-02 23:27:58] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/repository/AdicaoRepository.class]
+[2021-08-02 23:27:58] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/repository/AnaliseRepository.class]
+[2021-08-02 23:27:58] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/repository/ControleRepository.class]
+[2021-08-02 23:27:58] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/repository/EtapaRepository.class]
+[2021-08-02 23:27:58] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/repository/MateriaPrimaRepository.class]
+[2021-08-02 23:27:58] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/repository/MontagemCompositionRepository.class]
+[2021-08-02 23:27:58] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/repository/NotificacaoRepository.class]
+[2021-08-02 23:27:58] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/repository/OmpRepository.class]
+[2021-08-02 23:27:58] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/repository/OrdemDeCorrecaoRepository.class]
+[2021-08-02 23:27:58] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/repository/ParametroRepository.class]
+[2021-08-02 23:27:58] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/repository/ProcessoRepository.class]
+[2021-08-02 23:27:58] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/repository/TarefasDeManutencaoRepository.class]
+[2021-08-02 23:27:58] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/repository/TrocaRepository.class]
+[2021-08-02 23:27:58] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/repository/UserRepository.class]
+[2021-08-02 23:27:58] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/repository/VerificationTokenRepository.class]
+[2021-08-02 23:27:58] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/repository/AcaoRepositoryImpl.class]
+[2021-08-02 23:27:58] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/repository/AnaliseRepositoryImpl.class]
+[2021-08-02 23:27:58] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/repository/ControleRepositoryImpl.class]
+[2021-08-02 23:27:58] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/repository/MateriaPrimaRepositoryImpl.class]
+[2021-08-02 23:27:58] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/repository/NotificacaoRepositoryImpl.class]
+[2021-08-02 23:27:58] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/repository/OmpRepositoryImpl.class]
+[2021-08-02 23:27:58] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/repository/ParametroRepositoryImpl.class]
+[2021-08-02 23:27:58] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/repository/TarefasDeManutencaoRepositoryImpl.class]
+[2021-08-02 23:27:58] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/repository/TrocaRepositoryImpl.class]
+[2021-08-02 23:27:58] - Registering custom repository implementation: controleRepositoryImpl com.bluebudy.SCQ.repository.ControleRepositoryImpl
+[2021-08-02 23:27:58] - Registering custom repository implementation: tarefasDeManutencaoRepositoryImpl com.bluebudy.SCQ.repository.TarefasDeManutencaoRepositoryImpl
+[2021-08-02 23:27:58] - Registering custom repository implementation: trocaRepositoryImpl com.bluebudy.SCQ.repository.TrocaRepositoryImpl
+[2021-08-02 23:27:58] - Registering custom repository implementation: acaoRepositoryImpl com.bluebudy.SCQ.repository.AcaoRepositoryImpl
+[2021-08-02 23:27:58] - Registering custom repository implementation: parametroRepositoryImpl com.bluebudy.SCQ.repository.ParametroRepositoryImpl
+[2021-08-02 23:27:58] - Registering custom repository implementation: materiaPrimaRepositoryImpl com.bluebudy.SCQ.repository.MateriaPrimaRepositoryImpl
+[2021-08-02 23:27:58] - Registering custom repository implementation: notificacaoRepositoryImpl com.bluebudy.SCQ.repository.NotificacaoRepositoryImpl
+[2021-08-02 23:27:58] - Registering custom repository implementation: analiseRepositoryImpl com.bluebudy.SCQ.repository.AnaliseRepositoryImpl
+[2021-08-02 23:27:58] - Registering custom repository implementation: ompRepositoryImpl com.bluebudy.SCQ.repository.OmpRepositoryImpl
+[2021-08-02 23:27:58] - Finished Spring Data repository scanning in 255ms. Found 16 repository interfaces.
+[2021-08-02 23:27:59] - Creating shared instance of singleton bean 'propertySourcesPlaceholderConfigurer'
+[2021-08-02 23:27:59] - Creating shared instance of singleton bean 'webSocketScopeConfigurer'
+[2021-08-02 23:27:59] - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBeanDefinitionValidator'
+[2021-08-02 23:27:59] - Creating shared instance of singleton bean 'emBeanDefinitionRegistrarPostProcessor'
+[2021-08-02 23:27:59] - Creating shared instance of singleton bean 'org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration$DatabaseShutdownExecutorEntityManagerFactoryDependsOnPostProcessor'
+[2021-08-02 23:27:59] - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-08-02 23:27:59] - Creating shared instance of singleton bean 'conversionServicePostProcessor'
+[2021-08-02 23:27:59] - Creating shared instance of singleton bean 'preserveErrorControllerTargetClassPostProcessor'
+[2021-08-02 23:27:59] - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-08-02 23:27:59] - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+[2021-08-02 23:27:59] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-08-02 23:27:59] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2021-08-02 23:27:59] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+[2021-08-02 23:27:59] - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+[2021-08-02 23:27:59] - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+[2021-08-02 23:27:59] - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinderFactory'
+[2021-08-02 23:27:59] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalScheduledAnnotationProcessor'
+[2021-08-02 23:27:59] - Creating shared instance of singleton bean 'org.springframework.scheduling.annotation.SchedulingConfiguration'
+[2021-08-02 23:27:59] - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+[2021-08-02 23:27:59] - Creating shared instance of singleton bean 'methodValidationPostProcessor'
+[2021-08-02 23:27:59] - Autowiring by type from bean name 'methodValidationPostProcessor' via factory method to bean named 'environment'
+[2021-08-02 23:27:59] - Creating shared instance of singleton bean 'dataSourceInitializerPostProcessor'
+[2021-08-02 23:27:59] - Creating shared instance of singleton bean 'persistenceExceptionTranslationPostProcessor'
+[2021-08-02 23:27:59] - Autowiring by type from bean name 'persistenceExceptionTranslationPostProcessor' via factory method to bean named 'environment'
+[2021-08-02 23:27:59] - Creating shared instance of singleton bean 'webServerFactoryCustomizerBeanPostProcessor'
+[2021-08-02 23:27:59] - Creating shared instance of singleton bean 'errorPageRegistrarBeanPostProcessor'
+[2021-08-02 23:27:59] - Creating shared instance of singleton bean 'dataSourceInitializedPublisher'
+[2021-08-02 23:27:59] - Creating shared instance of singleton bean 'meterRegistryPostProcessor'
+[2021-08-02 23:27:59] - Creating shared instance of singleton bean 'metaDataSourceAdvisor'
+[2021-08-02 23:27:59] - Creating shared instance of singleton bean 'methodSecurityMetadataSource'
+[2021-08-02 23:27:59] - Creating shared instance of singleton bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration'

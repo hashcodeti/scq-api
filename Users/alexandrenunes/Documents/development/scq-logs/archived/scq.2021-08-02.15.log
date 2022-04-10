@@ -1,0 +1,124 @@
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'jacksonObjectMapper'
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration'
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration'
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'standardJacksonObjectMapperBuilderCustomizer'
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration'
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties'
+[2021-08-02 23:28:05] - Autowiring by type from bean name 'standardJacksonObjectMapperBuilderCustomizer' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7521c676'
+[2021-08-02 23:28:05] - Autowiring by type from bean name 'standardJacksonObjectMapperBuilderCustomizer' via factory method to bean named 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties'
+[2021-08-02 23:28:05] - Autowiring by type from bean name 'jacksonObjectMapperBuilder' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7521c676'
+[2021-08-02 23:28:05] - Autowiring by type from bean name 'jacksonObjectMapperBuilder' via factory method to bean named 'standardJacksonObjectMapperBuilderCustomizer'
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'parameterNamesModule'
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration'
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'jsonComponentModule'
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration'
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'jacksonGeoModule'
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'org.springframework.data.web.config.SpringDataJacksonConfiguration'
+[2021-08-02 23:28:05] - Autowiring by type from bean name 'jacksonObjectMapper' via factory method to bean named 'jacksonObjectMapperBuilder'
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'org.springframework.data.rest.webmvc.config.RepositoryRestMvcConfiguration'
+[2021-08-02 23:28:05] - Cannot find '.class' file for class [class org.springframework.data.rest.webmvc.config.RepositoryRestMvcConfiguration$$EnhancerBySpringCGLIB$$a094489d] - unable to determine constructor/method parameter names
+[2021-08-02 23:28:05] - Autowiring by type from bean name 'org.springframework.data.rest.webmvc.config.RepositoryRestMvcConfiguration' via constructor to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7521c676'
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'springBootRepositoryRestConfigurer'
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.data.rest.RepositoryRestMvcAutoConfiguration'
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'spring.data.rest-org.springframework.boot.autoconfigure.data.rest.RepositoryRestProperties'
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration'
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'enableGlobalAuthenticationAutowiredConfigurer'
+[2021-08-02 23:28:05] - Autowiring by type from bean name 'enableGlobalAuthenticationAutowiredConfigurer' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7521c676'
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'initializeUserDetailsBeanManagerConfigurer'
+[2021-08-02 23:28:05] - Autowiring by type from bean name 'initializeUserDetailsBeanManagerConfigurer' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7521c676'
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'initializeAuthenticationProviderBeanManagerConfigurer'
+[2021-08-02 23:28:05] - Autowiring by type from bean name 'initializeAuthenticationProviderBeanManagerConfigurer' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7521c676'
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'customUserDetailService'
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'userRepository'
+[2021-08-02 23:28:05] - Not strongly caching class [com.sun.proxy.$Proxy135] because it is not cache-safe
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'jpaMappingContext'
+[2021-08-02 23:28:05] - Initializing JpaMetamodelMappingContext…
+[2021-08-02 23:28:05] - Finished initializing JpaMetamodelMappingContext!
+[2021-08-02 23:28:05] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:05] - Statistics initialized [enabled=false]
+[2021-08-02 23:28:05] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:05] - Not strongly caching class [com.bluebudy.SCQ.domain.User] because it is not cache-safe
+[2021-08-02 23:28:05] - Initializing repository instance for com.bluebudy.SCQ.repository.UserRepository…
+[2021-08-02 23:28:05] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:05] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:05] - Looking up query for method findByMail
+[2021-08-02 23:28:05] - Looking up named query User.findByMail
+[2021-08-02 23:28:05] - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[2021-08-02 23:28:05] - Did not find named query User.findByMail
+[2021-08-02 23:28:05] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:05] - Finished creation of repository instance for com.bluebudy.SCQ.repository.UserRepository.
+[2021-08-02 23:28:05] - Autowiring by type from bean name 'customUserDetailService' via constructor to bean named 'userRepository'
+[2021-08-02 23:28:05] - Not strongly caching class [com.bluebudy.SCQ.services.CustomUserDetailService] because it is not cache-safe
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'tokenService'
+[2021-08-02 23:28:05] - Not strongly caching class [com.bluebudy.SCQ.services.TokenService] because it is not cache-safe
+[2021-08-02 23:28:05] - Found key 'scq.jwt.expiration' in PropertySource 'configurationProperties' with value of type String
+[2021-08-02 23:28:05] - Found key 'scq.jwt.expiration' in PropertySource 'environmentProperties' with value of type String
+[2021-08-02 23:28:05] - Found key 'scq.jwt.secret' in PropertySource 'configurationProperties' with value of type String
+[2021-08-02 23:28:05] - Found key 'scq.jwt.secret' in PropertySource 'environmentProperties' with value of type String
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'acaoController'
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'acaoRepositoryImpl'
+[2021-08-02 23:28:05] - Not strongly caching class [com.bluebudy.SCQ.repository.AcaoRepositoryImpl] because it is not cache-safe
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'org.springframework.orm.jpa.SharedEntityManagerCreator#0'
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'acaoRepository'
+[2021-08-02 23:28:05] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:05] - Not strongly caching class [com.bluebudy.SCQ.domain.Acao] because it is not cache-safe
+[2021-08-02 23:28:05] - Not strongly caching class [com.bluebudy.SCQ.domain.OrdemDeCorrecao] because it is not cache-safe
+[2021-08-02 23:28:05] - Not strongly caching class [com.bluebudy.SCQ.domain.Analise] because it is not cache-safe
+[2021-08-02 23:28:05] - Not strongly caching class [com.bluebudy.SCQ.domain.Parametro] because it is not cache-safe
+[2021-08-02 23:28:05] - Not strongly caching class [com.bluebudy.SCQ.domain.Etapa] because it is not cache-safe
+[2021-08-02 23:28:05] - Not strongly caching class [com.bluebudy.SCQ.domain.Processo] because it is not cache-safe
+[2021-08-02 23:28:05] - Not strongly caching class [com.bluebudy.SCQ.domain.TarefasDeManutencao] because it is not cache-safe
+[2021-08-02 23:28:05] - Not strongly caching class [com.bluebudy.SCQ.domain.Controle] because it is not cache-safe
+[2021-08-02 23:28:05] - Not strongly caching class [com.bluebudy.SCQ.domain.Troca] because it is not cache-safe
+[2021-08-02 23:28:05] - Not strongly caching class [com.bluebudy.SCQ.domain.MontagemComposition] because it is not cache-safe
+[2021-08-02 23:28:05] - Not strongly caching class [com.bluebudy.SCQ.domain.MateriaPrima] because it is not cache-safe
+[2021-08-02 23:28:05] - Not strongly caching class [com.bluebudy.SCQ.domain.Adicao] because it is not cache-safe
+[2021-08-02 23:28:05] - Initializing repository instance for com.bluebudy.SCQ.repository.AcaoRepository…
+[2021-08-02 23:28:05] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:05] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:05] - Looking up query for method findByOrdemDeCorrecaoId
+[2021-08-02 23:28:05] - Looking up named query Acao.findByOrdemDeCorrecaoId
+[2021-08-02 23:28:05] - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[2021-08-02 23:28:05] - Did not find named query Acao.findByOrdemDeCorrecaoId
+[2021-08-02 23:28:05] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:05] - Finished creation of repository instance for com.bluebudy.SCQ.repository.AcaoRepository.
+[2021-08-02 23:28:05] - Autowiring by type from bean name 'acaoController' via constructor to bean named 'acaoRepository'
+[2021-08-02 23:28:05] - Not strongly caching class [com.bluebudy.SCQ.controllers.AcaoController] because it is not cache-safe
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'notificationService'
+[2021-08-02 23:28:06] - Not strongly caching class [com.bluebudy.SCQ.services.NotificationService] because it is not cache-safe
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'brokerMessagingTemplate'
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'org.springframework.web.socket.config.annotation.DelegatingWebSocketMessageBrokerConfiguration'
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'webSocketConfig'
+[2021-08-02 23:28:06] - Not strongly caching class [com.bluebudy.SCQ.controllers.WebSocketConfig$$EnhancerBySpringCGLIB$$75000568] because it is not cache-safe
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketMessagingAutoConfiguration$WebSocketMessageConverterConfiguration'
+[2021-08-02 23:28:06] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketMessagingAutoConfiguration$WebSocketMessageConverterConfiguration' via constructor to bean named 'jacksonObjectMapper'
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'brokerChannel'
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'clientInboundChannel'
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'clientInboundChannelExecutor'
+[2021-08-02 23:28:06] - Initializing ExecutorService 'clientInboundChannelExecutor'
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'clientOutboundChannel'
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'clientOutboundChannelExecutor'
+[2021-08-02 23:28:06] - Initializing ExecutorService 'clientOutboundChannelExecutor'
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'brokerMessageConverter'
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'adicaoController'
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'adicaoRepository'
+[2021-08-02 23:28:06] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:06] - Initializing repository instance for com.bluebudy.SCQ.repository.AdicaoRepository…
+[2021-08-02 23:28:06] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:06] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:06] - Looking up query for method findByOrdemDeCorrecaoId
+[2021-08-02 23:28:06] - Looking up named query Adicao.findByOrdemDeCorrecaoId
+[2021-08-02 23:28:06] - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[2021-08-02 23:28:06] - Did not find named query Adicao.findByOrdemDeCorrecaoId
+[2021-08-02 23:28:06] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:06] - Finished creation of repository instance for com.bluebudy.SCQ.repository.AdicaoRepository.
+[2021-08-02 23:28:06] - Autowiring by type from bean name 'adicaoController' via constructor to bean named 'adicaoRepository'
+[2021-08-02 23:28:06] - Not strongly caching class [com.bluebudy.SCQ.controllers.AdicaoController] because it is not cache-safe
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'ordemDeCorrecaoRepository'
+[2021-08-02 23:28:06] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:06] - Initializing repository instance for com.bluebudy.SCQ.repository.OrdemDeCorrecaoRepository…
+[2021-08-02 23:28:06] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:06] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:06] - Looking up query for method listOcps
+[2021-08-02 23:28:06] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:06] - QueryTranslatorFactory: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@54392e90

@@ -1,0 +1,1323 @@
+[2021-08-02 23:28:04] - Visiting attribute path : analise.data
+[2021-08-02 23:28:04] - Visiting attribute path : analise.needCorrecao
+[2021-08-02 23:28:04] - Visiting attribute path : analise.ordemDeCorrecao
+[2021-08-02 23:28:04] - Property path deemed to be circular : analise.ordemDeCorrecao
+[2021-08-02 23:28:04] - Visiting attribute path : analise.parametro
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2ada2d94]
+[2021-08-02 23:28:04] - Visiting attribute path : analise.parametro.analises
+[2021-08-02 23:28:04] - Property path deemed to be circular : analise.parametro.analises
+[2021-08-02 23:28:04] - Visiting attribute path : analise.parametro.controle
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:5> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@72d76200]
+[2021-08-02 23:28:04] - Visiting attribute path : analise.parametro.etapa
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:6> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@70adbc71]
+[2021-08-02 23:28:04] - Visiting attribute path : analise.parametro.formula
+[2021-08-02 23:28:04] - Visiting attribute path : analise.parametro.nome
+[2021-08-02 23:28:04] - Visiting attribute path : analise.parametro.pMax
+[2021-08-02 23:28:04] - Visiting attribute path : analise.parametro.pMaxT
+[2021-08-02 23:28:04] - Visiting attribute path : analise.parametro.pMin
+[2021-08-02 23:28:04] - Visiting attribute path : analise.parametro.pMinT
+[2021-08-02 23:28:04] - Visiting attribute path : analise.parametro.showChart
+[2021-08-02 23:28:04] - Visiting attribute path : analise.parametro.unidade
+[2021-08-02 23:28:04] - Visiting attribute path : analise.resultado
+[2021-08-02 23:28:04] - Visiting attribute path : observacao
+[2021-08-02 23:28:04] - Visiting attribute path : oldAnaliseValue
+[2021-08-02 23:28:04] - Visiting attribute path : responsavel
+[2021-08-02 23:28:04] - Visiting attribute path : statusOCP
+[2021-08-02 23:28:04] - Visiting attribute path : tipo
+[2021-08-02 23:28:04] - Visiting attribute path : acao
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:7> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@be0997d]
+[2021-08-02 23:28:04] - Visiting attribute path : acao.acao
+[2021-08-02 23:28:04] - Visiting attribute path : acao.data
+[2021-08-02 23:28:04] - Visiting attribute path : acao.notified
+[2021-08-02 23:28:04] - Visiting attribute path : acao.ordemDeCorrecao
+[2021-08-02 23:28:04] - Property path deemed to be circular : acao.ordemDeCorrecao
+[2021-08-02 23:28:04] - Visiting attribute path : acao.prazo
+[2021-08-02 23:28:04] - Visiting attribute path : acao.status
+[2021-08-02 23:28:04] - Building LoadPlan...
+[2021-08-02 23:28:04] - processing queryspace <gen:0>
+[2021-08-02 23:28:04] - LoadPlan(entity=com.bluebudy.SCQ.domain.OrdemDeCorrecao)
+    - Returns
+       - EntityReturnImpl(entity=com.bluebudy.SCQ.domain.OrdemDeCorrecao, querySpaceUid=<gen:0>, path=com.bluebudy.SCQ.domain.OrdemDeCorrecao)
+          - CollectionAttributeFetchImpl(collection=com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes, querySpaceUid=<gen:1>, path=com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.Adicao, querySpaceUid=<gen:2>, path=com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes.<elements>)
+          - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.Analise, querySpaceUid=<gen:3>, path=com.bluebudy.SCQ.domain.OrdemDeCorrecao.analise)
+             - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.Parametro, querySpaceUid=<gen:4>, path=com.bluebudy.SCQ.domain.OrdemDeCorrecao.analise.parametro)
+                - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.Controle, querySpaceUid=<gen:5>, path=com.bluebudy.SCQ.domain.OrdemDeCorrecao.analise.parametro.controle)
+                - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.Etapa, querySpaceUid=<gen:6>, path=com.bluebudy.SCQ.domain.OrdemDeCorrecao.analise.parametro.etapa)
+          - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.Acao, querySpaceUid=<gen:7>, path=com.bluebudy.SCQ.domain.OrdemDeCorrecao.acao)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.bluebudy.SCQ.domain.OrdemDeCorrecao)
+          - SQL table alias mapping - ordemdecor0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_8_0_}
+          - JOIN (JoinDefinedByMetadata(analise)) : <gen:0> -> <gen:3>
+             - EntityQuerySpaceImpl(uid=<gen:3>, entity=com.bluebudy.SCQ.domain.Analise)
+                - SQL table alias mapping - analise1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_2_1_}
+                - JOIN (JoinDefinedByMetadata(parametro)) : <gen:3> -> <gen:4>
+                   - EntityQuerySpaceImpl(uid=<gen:4>, entity=com.bluebudy.SCQ.domain.Parametro)
+                      - SQL table alias mapping - parametro2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_10_2_}
+          - JOIN (JoinDefinedByMetadata(acao)) : <gen:0> -> <gen:7>
+             - EntityQuerySpaceImpl(uid=<gen:7>, entity=com.bluebudy.SCQ.domain.Acao)
+                - SQL table alias mapping - acao3_
+                - alias suffix - 3_
+                - suffixed key columns - {id1_0_3_}
+
+[2021-08-02 23:28:04] - Static select for entity com.bluebudy.SCQ.domain.OrdemDeCorrecao [NONE]: select ordemdecor0_.id as id1_8_0_, ordemdecor0_.analise_id as analise_7_8_0_, ordemdecor0_.observacao as observac2_8_0_, ordemdecor0_.old_analise_value as old_anal3_8_0_, ordemdecor0_.responsavel as responsa4_8_0_, ordemdecor0_.statusocp as statusoc5_8_0_, ordemdecor0_.tipo as tipo6_8_0_, analise1_.id as id1_2_1_, analise1_.analista as analista2_2_1_, analise1_.data as data3_2_1_, analise1_.need_correcao as need_cor4_2_1_, analise1_.parametro_id as parametr6_2_1_, analise1_.resultado as resultad5_2_1_, parametro2_.id as id1_10_2_, parametro2_.controle_id as control10_10_2_, parametro2_.etapa_id as etapa_i11_10_2_, parametro2_.formula as formula2_10_2_, parametro2_.nome as nome3_10_2_, parametro2_.p_max as p_max4_10_2_, parametro2_.p_maxt as p_maxt5_10_2_, parametro2_.p_min as p_min6_10_2_, parametro2_.p_mint as p_mint7_10_2_, parametro2_.show_chart as show_cha8_10_2_, parametro2_.unidade as unidade9_10_2_, acao3_.id as id1_0_3_, acao3_.acao as acao2_0_3_, acao3_.data as data3_0_3_, acao3_.notified as notified4_0_3_, acao3_.ordem_id as ordem_id7_0_3_, acao3_.prazo as prazo5_0_3_, acao3_.status as status6_0_3_ from ordem_de_correcao ordemdecor0_ left outer join analise analise1_ on ordemdecor0_.analise_id=analise1_.id left outer join parametro parametro2_ on analise1_.parametro_id=parametro2_.id left outer join acao acao3_ on ordemdecor0_.id=acao3_.ordem_id where ordemdecor0_.id=?
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4d4f57e]
+[2021-08-02 23:28:04] - Visiting attribute path : adicoes
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@1623c68d]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@92b220f]
+[2021-08-02 23:28:04] - Visiting attribute path : analise
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2a775951]
+[2021-08-02 23:28:04] - Visiting attribute path : analise.analista
+[2021-08-02 23:28:04] - Visiting attribute path : analise.data
+[2021-08-02 23:28:04] - Visiting attribute path : analise.needCorrecao
+[2021-08-02 23:28:04] - Visiting attribute path : analise.ordemDeCorrecao
+[2021-08-02 23:28:04] - Property path deemed to be circular : analise.ordemDeCorrecao
+[2021-08-02 23:28:04] - Visiting attribute path : analise.parametro
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7b789ff]
+[2021-08-02 23:28:04] - Visiting attribute path : analise.parametro.analises
+[2021-08-02 23:28:04] - Property path deemed to be circular : analise.parametro.analises
+[2021-08-02 23:28:04] - Visiting attribute path : analise.parametro.controle
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:5> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@47f18e27]
+[2021-08-02 23:28:04] - Visiting attribute path : analise.parametro.etapa
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:6> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@99ece89]
+[2021-08-02 23:28:04] - Visiting attribute path : analise.parametro.formula
+[2021-08-02 23:28:04] - Visiting attribute path : analise.parametro.nome
+[2021-08-02 23:28:04] - Visiting attribute path : analise.parametro.pMax
+[2021-08-02 23:28:04] - Visiting attribute path : analise.parametro.pMaxT
+[2021-08-02 23:28:04] - Visiting attribute path : analise.parametro.pMin
+[2021-08-02 23:28:04] - Visiting attribute path : analise.parametro.pMinT
+[2021-08-02 23:28:04] - Visiting attribute path : analise.parametro.showChart
+[2021-08-02 23:28:04] - Visiting attribute path : analise.parametro.unidade
+[2021-08-02 23:28:04] - Visiting attribute path : analise.resultado
+[2021-08-02 23:28:04] - Visiting attribute path : observacao
+[2021-08-02 23:28:04] - Visiting attribute path : oldAnaliseValue
+[2021-08-02 23:28:04] - Visiting attribute path : responsavel
+[2021-08-02 23:28:04] - Visiting attribute path : statusOCP
+[2021-08-02 23:28:04] - Visiting attribute path : tipo
+[2021-08-02 23:28:04] - Visiting attribute path : acao
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:7> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@32dd5634]
+[2021-08-02 23:28:04] - Visiting attribute path : acao.acao
+[2021-08-02 23:28:04] - Visiting attribute path : acao.data
+[2021-08-02 23:28:04] - Visiting attribute path : acao.notified
+[2021-08-02 23:28:04] - Visiting attribute path : acao.ordemDeCorrecao
+[2021-08-02 23:28:04] - Property path deemed to be circular : acao.ordemDeCorrecao
+[2021-08-02 23:28:04] - Visiting attribute path : acao.prazo
+[2021-08-02 23:28:04] - Visiting attribute path : acao.status
+[2021-08-02 23:28:04] - Building LoadPlan...
+[2021-08-02 23:28:04] - processing queryspace <gen:0>
+[2021-08-02 23:28:04] - LoadPlan(entity=com.bluebudy.SCQ.domain.OrdemDeCorrecao)
+    - Returns
+       - EntityReturnImpl(entity=com.bluebudy.SCQ.domain.OrdemDeCorrecao, querySpaceUid=<gen:0>, path=com.bluebudy.SCQ.domain.OrdemDeCorrecao)
+          - CollectionAttributeFetchImpl(collection=com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes, querySpaceUid=<gen:1>, path=com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.Adicao, querySpaceUid=<gen:2>, path=com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes.<elements>)
+          - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.Analise, querySpaceUid=<gen:3>, path=com.bluebudy.SCQ.domain.OrdemDeCorrecao.analise)
+             - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.Parametro, querySpaceUid=<gen:4>, path=com.bluebudy.SCQ.domain.OrdemDeCorrecao.analise.parametro)
+                - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.Controle, querySpaceUid=<gen:5>, path=com.bluebudy.SCQ.domain.OrdemDeCorrecao.analise.parametro.controle)
+                - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.Etapa, querySpaceUid=<gen:6>, path=com.bluebudy.SCQ.domain.OrdemDeCorrecao.analise.parametro.etapa)
+          - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.Acao, querySpaceUid=<gen:7>, path=com.bluebudy.SCQ.domain.OrdemDeCorrecao.acao)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.bluebudy.SCQ.domain.OrdemDeCorrecao)
+          - SQL table alias mapping - ordemdecor0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_8_0_}
+          - JOIN (JoinDefinedByMetadata(analise)) : <gen:0> -> <gen:3>
+             - EntityQuerySpaceImpl(uid=<gen:3>, entity=com.bluebudy.SCQ.domain.Analise)
+                - SQL table alias mapping - analise1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_2_1_}
+                - JOIN (JoinDefinedByMetadata(parametro)) : <gen:3> -> <gen:4>
+                   - EntityQuerySpaceImpl(uid=<gen:4>, entity=com.bluebudy.SCQ.domain.Parametro)
+                      - SQL table alias mapping - parametro2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_10_2_}
+          - JOIN (JoinDefinedByMetadata(acao)) : <gen:0> -> <gen:7>
+             - EntityQuerySpaceImpl(uid=<gen:7>, entity=com.bluebudy.SCQ.domain.Acao)
+                - SQL table alias mapping - acao3_
+                - alias suffix - 3_
+                - suffixed key columns - {id1_0_3_}
+
+[2021-08-02 23:28:04] - Static select for entity com.bluebudy.SCQ.domain.OrdemDeCorrecao [READ]: select ordemdecor0_.id as id1_8_0_, ordemdecor0_.analise_id as analise_7_8_0_, ordemdecor0_.observacao as observac2_8_0_, ordemdecor0_.old_analise_value as old_anal3_8_0_, ordemdecor0_.responsavel as responsa4_8_0_, ordemdecor0_.statusocp as statusoc5_8_0_, ordemdecor0_.tipo as tipo6_8_0_, analise1_.id as id1_2_1_, analise1_.analista as analista2_2_1_, analise1_.data as data3_2_1_, analise1_.need_correcao as need_cor4_2_1_, analise1_.parametro_id as parametr6_2_1_, analise1_.resultado as resultad5_2_1_, parametro2_.id as id1_10_2_, parametro2_.controle_id as control10_10_2_, parametro2_.etapa_id as etapa_i11_10_2_, parametro2_.formula as formula2_10_2_, parametro2_.nome as nome3_10_2_, parametro2_.p_max as p_max4_10_2_, parametro2_.p_maxt as p_maxt5_10_2_, parametro2_.p_min as p_min6_10_2_, parametro2_.p_mint as p_mint7_10_2_, parametro2_.show_chart as show_cha8_10_2_, parametro2_.unidade as unidade9_10_2_, acao3_.id as id1_0_3_, acao3_.acao as acao2_0_3_, acao3_.data as data3_0_3_, acao3_.notified as notified4_0_3_, acao3_.ordem_id as ordem_id7_0_3_, acao3_.prazo as prazo5_0_3_, acao3_.status as status6_0_3_ from ordem_de_correcao ordemdecor0_ left outer join analise analise1_ on ordemdecor0_.analise_id=analise1_.id left outer join parametro parametro2_ on analise1_.parametro_id=parametro2_.id left outer join acao acao3_ on ordemdecor0_.id=acao3_.ordem_id where ordemdecor0_.id=?
+[2021-08-02 23:28:04] - Static select for action ACTION_MERGE on entity com.bluebudy.SCQ.domain.OrdemDeCorrecao: select ordemdecor0_.id as id1_8_0_, ordemdecor0_.analise_id as analise_7_8_0_, ordemdecor0_.observacao as observac2_8_0_, ordemdecor0_.old_analise_value as old_anal3_8_0_, ordemdecor0_.responsavel as responsa4_8_0_, ordemdecor0_.statusocp as statusoc5_8_0_, ordemdecor0_.tipo as tipo6_8_0_ from ordem_de_correcao ordemdecor0_ where ordemdecor0_.id=?
+[2021-08-02 23:28:04] - Static select for action ACTION_REFRESH on entity com.bluebudy.SCQ.domain.OrdemDeCorrecao: select ordemdecor0_.id as id1_8_0_, ordemdecor0_.analise_id as analise_7_8_0_, ordemdecor0_.observacao as observac2_8_0_, ordemdecor0_.old_analise_value as old_anal3_8_0_, ordemdecor0_.responsavel as responsa4_8_0_, ordemdecor0_.statusocp as statusoc5_8_0_, ordemdecor0_.tipo as tipo6_8_0_ from ordem_de_correcao ordemdecor0_ where ordemdecor0_.id=?
+[2021-08-02 23:28:04] - Static SQL for entity: com.bluebudy.SCQ.domain.Troca
+[2021-08-02 23:28:04] -  Version select: select id from troca where id =?
+[2021-08-02 23:28:04] -  Snapshot select: select troca_.id, troca_.controle_id as controle2_13_, troca_.etapa_id as etapa_id3_13_ from troca troca_ where troca_.id=?
+[2021-08-02 23:28:04] -  Insert 0: insert into troca (controle_id, etapa_id, id) values (?, ?, ?)
+[2021-08-02 23:28:04] -  Update 0: update troca set controle_id=?, etapa_id=? where id=?
+[2021-08-02 23:28:04] -  Delete 0: delete from troca where id=?
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4938e0f4]
+[2021-08-02 23:28:04] - Visiting attribute path : controle
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6e1919cb]
+[2021-08-02 23:28:04] - Visiting attribute path : controle.dataPlanejada
+[2021-08-02 23:28:04] - Visiting attribute path : controle.dataRealizada
+[2021-08-02 23:28:04] - Visiting attribute path : controle.notified
+[2021-08-02 23:28:04] - Visiting attribute path : controle.periodo
+[2021-08-02 23:28:04] - Visiting attribute path : etapa
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7cf6b9c1]
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.montagem
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@5e42b9]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4c94643f]
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.montagem.etapa
+[2021-08-02 23:28:04] - Property path deemed to be circular : etapa.montagem.etapa
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.montagem.materiaPrima
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:5> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2f2c6676]
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.montagem.quantidade
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.nome
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.parametros
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:6> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@40765a30]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:7> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6a9f1def]
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.posicao
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.processo
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:8> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1a9de65f]
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.processo.etapas
+[2021-08-02 23:28:04] - Property path deemed to be circular : etapa.processo.etapas
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.processo.nome
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.processo.tarefas
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:9> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@241b4b8f]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:10> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@36795a86]
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.trocas
+[2021-08-02 23:28:04] - Property path deemed to be circular : etapa.trocas
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.volume
+[2021-08-02 23:28:04] - Building LoadPlan...
+[2021-08-02 23:28:04] - processing queryspace <gen:0>
+[2021-08-02 23:28:04] - LoadPlan(entity=com.bluebudy.SCQ.domain.Troca)
+    - Returns
+       - EntityReturnImpl(entity=com.bluebudy.SCQ.domain.Troca, querySpaceUid=<gen:0>, path=com.bluebudy.SCQ.domain.Troca)
+          - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.Controle, querySpaceUid=<gen:1>, path=com.bluebudy.SCQ.domain.Troca.controle)
+          - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.Etapa, querySpaceUid=<gen:2>, path=com.bluebudy.SCQ.domain.Troca.etapa)
+             - CollectionAttributeFetchImpl(collection=com.bluebudy.SCQ.domain.Etapa.montagem, querySpaceUid=<gen:3>, path=com.bluebudy.SCQ.domain.Troca.etapa.montagem)
+                - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.MontagemComposition, querySpaceUid=<gen:4>, path=com.bluebudy.SCQ.domain.Troca.etapa.montagem.<elements>)
+                   - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.MateriaPrima, querySpaceUid=<gen:5>, path=com.bluebudy.SCQ.domain.Troca.etapa.montagem.<elements>.materiaPrima)
+             - CollectionAttributeFetchImpl(collection=com.bluebudy.SCQ.domain.Etapa.parametros, querySpaceUid=<gen:6>, path=com.bluebudy.SCQ.domain.Troca.etapa.parametros)
+                - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.Parametro, querySpaceUid=<gen:7>, path=com.bluebudy.SCQ.domain.Troca.etapa.parametros.<elements>)
+             - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.Processo, querySpaceUid=<gen:8>, path=com.bluebudy.SCQ.domain.Troca.etapa.processo)
+                - CollectionAttributeFetchImpl(collection=com.bluebudy.SCQ.domain.Processo.tarefas, querySpaceUid=<gen:9>, path=com.bluebudy.SCQ.domain.Troca.etapa.processo.tarefas)
+                   - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.TarefasDeManutencao, querySpaceUid=<gen:10>, path=com.bluebudy.SCQ.domain.Troca.etapa.processo.tarefas.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.bluebudy.SCQ.domain.Troca)
+          - SQL table alias mapping - troca0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_13_0_}
+          - JOIN (JoinDefinedByMetadata(controle)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.bluebudy.SCQ.domain.Controle)
+                - SQL table alias mapping - controle1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_3_1_}
+          - JOIN (JoinDefinedByMetadata(etapa)) : <gen:0> -> <gen:2>
+             - EntityQuerySpaceImpl(uid=<gen:2>, entity=com.bluebudy.SCQ.domain.Etapa)
+                - SQL table alias mapping - etapa2_
+                - alias suffix - 2_
+                - suffixed key columns - {id1_4_2_}
+                - JOIN (JoinDefinedByMetadata(montagem)) : <gen:2> -> <gen:3>
+                   - CollectionQuerySpaceImpl(uid=<gen:3>, collection=com.bluebudy.SCQ.domain.Etapa.montagem)
+                      - SQL table alias mapping - montagem3_
+                      - alias suffix - 3_
+                      - suffixed key columns - {etapa_id3_6_3_}
+                      - entity-element alias suffix - 4_
+                      - 4_entity-element suffixed key columns - id1_6_4_
+                      - JOIN (JoinDefinedByMetadata(elements)) : <gen:3> -> <gen:4>
+                         - EntityQuerySpaceImpl(uid=<gen:4>, entity=com.bluebudy.SCQ.domain.MontagemComposition)
+                            - SQL table alias mapping - montagem3_
+                            - alias suffix - 4_
+                            - suffixed key columns - {id1_6_4_}
+                - JOIN (JoinDefinedByMetadata(processo)) : <gen:2> -> <gen:8>
+                   - EntityQuerySpaceImpl(uid=<gen:8>, entity=com.bluebudy.SCQ.domain.Processo)
+                      - SQL table alias mapping - processo4_
+                      - alias suffix - 5_
+                      - suffixed key columns - {id1_11_5_}
+
+[2021-08-02 23:28:04] - Static select for entity com.bluebudy.SCQ.domain.Troca [NONE]: select troca0_.id as id1_13_0_, troca0_.controle_id as controle2_13_0_, troca0_.etapa_id as etapa_id3_13_0_, controle1_.id as id1_3_1_, controle1_.data_planejada as data_pla2_3_1_, controle1_.data_realizada as data_rea3_3_1_, controle1_.notified as notified4_3_1_, controle1_.periodo as periodo5_3_1_, etapa2_.id as id1_4_2_, etapa2_.nome as nome2_4_2_, etapa2_.posicao as posicao3_4_2_, etapa2_.processo_id as processo5_4_2_, etapa2_.volume as volume4_4_2_, montagem3_.etapa_id as etapa_id3_6_3_, montagem3_.id as id1_6_3_, montagem3_.id as id1_6_4_, montagem3_.etapa_id as etapa_id3_6_4_, montagem3_.materia_prima_id as materia_4_6_4_, montagem3_.quantidade as quantida2_6_4_, processo4_.id as id1_11_5_, processo4_.nome as nome2_11_5_ from troca troca0_ left outer join controle controle1_ on troca0_.controle_id=controle1_.id left outer join etapa etapa2_ on troca0_.etapa_id=etapa2_.id left outer join montagem_composition montagem3_ on etapa2_.id=montagem3_.etapa_id left outer join processo processo4_ on etapa2_.processo_id=processo4_.id where troca0_.id=?
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4323ed08]
+[2021-08-02 23:28:04] - Visiting attribute path : controle
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1a16eaa5]
+[2021-08-02 23:28:04] - Visiting attribute path : controle.dataPlanejada
+[2021-08-02 23:28:04] - Visiting attribute path : controle.dataRealizada
+[2021-08-02 23:28:04] - Visiting attribute path : controle.notified
+[2021-08-02 23:28:04] - Visiting attribute path : controle.periodo
+[2021-08-02 23:28:04] - Visiting attribute path : etapa
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3ad0d466]
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.montagem
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@f9d9f7b]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@50755fe5]
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.montagem.etapa
+[2021-08-02 23:28:04] - Property path deemed to be circular : etapa.montagem.etapa
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.montagem.materiaPrima
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:5> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@35a44f5e]
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.montagem.quantidade
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.nome
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.parametros
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:6> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@281e50ab]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:7> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3f573449]
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.posicao
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.processo
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:8> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@554a30bf]
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.processo.etapas
+[2021-08-02 23:28:04] - Property path deemed to be circular : etapa.processo.etapas
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.processo.nome
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.processo.tarefas
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:9> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@467688d4]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:10> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4085192f]
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.trocas
+[2021-08-02 23:28:04] - Property path deemed to be circular : etapa.trocas
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.volume
+[2021-08-02 23:28:04] - Building LoadPlan...
+[2021-08-02 23:28:04] - processing queryspace <gen:0>
+[2021-08-02 23:28:04] - LoadPlan(entity=com.bluebudy.SCQ.domain.Troca)
+    - Returns
+       - EntityReturnImpl(entity=com.bluebudy.SCQ.domain.Troca, querySpaceUid=<gen:0>, path=com.bluebudy.SCQ.domain.Troca)
+          - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.Controle, querySpaceUid=<gen:1>, path=com.bluebudy.SCQ.domain.Troca.controle)
+          - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.Etapa, querySpaceUid=<gen:2>, path=com.bluebudy.SCQ.domain.Troca.etapa)
+             - CollectionAttributeFetchImpl(collection=com.bluebudy.SCQ.domain.Etapa.montagem, querySpaceUid=<gen:3>, path=com.bluebudy.SCQ.domain.Troca.etapa.montagem)
+                - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.MontagemComposition, querySpaceUid=<gen:4>, path=com.bluebudy.SCQ.domain.Troca.etapa.montagem.<elements>)
+                   - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.MateriaPrima, querySpaceUid=<gen:5>, path=com.bluebudy.SCQ.domain.Troca.etapa.montagem.<elements>.materiaPrima)
+             - CollectionAttributeFetchImpl(collection=com.bluebudy.SCQ.domain.Etapa.parametros, querySpaceUid=<gen:6>, path=com.bluebudy.SCQ.domain.Troca.etapa.parametros)
+                - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.Parametro, querySpaceUid=<gen:7>, path=com.bluebudy.SCQ.domain.Troca.etapa.parametros.<elements>)
+             - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.Processo, querySpaceUid=<gen:8>, path=com.bluebudy.SCQ.domain.Troca.etapa.processo)
+                - CollectionAttributeFetchImpl(collection=com.bluebudy.SCQ.domain.Processo.tarefas, querySpaceUid=<gen:9>, path=com.bluebudy.SCQ.domain.Troca.etapa.processo.tarefas)
+                   - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.TarefasDeManutencao, querySpaceUid=<gen:10>, path=com.bluebudy.SCQ.domain.Troca.etapa.processo.tarefas.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.bluebudy.SCQ.domain.Troca)
+          - SQL table alias mapping - troca0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_13_0_}
+          - JOIN (JoinDefinedByMetadata(controle)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.bluebudy.SCQ.domain.Controle)
+                - SQL table alias mapping - controle1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_3_1_}
+          - JOIN (JoinDefinedByMetadata(etapa)) : <gen:0> -> <gen:2>
+             - EntityQuerySpaceImpl(uid=<gen:2>, entity=com.bluebudy.SCQ.domain.Etapa)
+                - SQL table alias mapping - etapa2_
+                - alias suffix - 2_
+                - suffixed key columns - {id1_4_2_}
+                - JOIN (JoinDefinedByMetadata(montagem)) : <gen:2> -> <gen:3>
+                   - CollectionQuerySpaceImpl(uid=<gen:3>, collection=com.bluebudy.SCQ.domain.Etapa.montagem)
+                      - SQL table alias mapping - montagem3_
+                      - alias suffix - 3_
+                      - suffixed key columns - {etapa_id3_6_3_}
+                      - entity-element alias suffix - 4_
+                      - 4_entity-element suffixed key columns - id1_6_4_
+                      - JOIN (JoinDefinedByMetadata(elements)) : <gen:3> -> <gen:4>
+                         - EntityQuerySpaceImpl(uid=<gen:4>, entity=com.bluebudy.SCQ.domain.MontagemComposition)
+                            - SQL table alias mapping - montagem3_
+                            - alias suffix - 4_
+                            - suffixed key columns - {id1_6_4_}
+                - JOIN (JoinDefinedByMetadata(processo)) : <gen:2> -> <gen:8>
+                   - EntityQuerySpaceImpl(uid=<gen:8>, entity=com.bluebudy.SCQ.domain.Processo)
+                      - SQL table alias mapping - processo4_
+                      - alias suffix - 5_
+                      - suffixed key columns - {id1_11_5_}
+
+[2021-08-02 23:28:04] - Static select for entity com.bluebudy.SCQ.domain.Troca [READ]: select troca0_.id as id1_13_0_, troca0_.controle_id as controle2_13_0_, troca0_.etapa_id as etapa_id3_13_0_, controle1_.id as id1_3_1_, controle1_.data_planejada as data_pla2_3_1_, controle1_.data_realizada as data_rea3_3_1_, controle1_.notified as notified4_3_1_, controle1_.periodo as periodo5_3_1_, etapa2_.id as id1_4_2_, etapa2_.nome as nome2_4_2_, etapa2_.posicao as posicao3_4_2_, etapa2_.processo_id as processo5_4_2_, etapa2_.volume as volume4_4_2_, montagem3_.etapa_id as etapa_id3_6_3_, montagem3_.id as id1_6_3_, montagem3_.id as id1_6_4_, montagem3_.etapa_id as etapa_id3_6_4_, montagem3_.materia_prima_id as materia_4_6_4_, montagem3_.quantidade as quantida2_6_4_, processo4_.id as id1_11_5_, processo4_.nome as nome2_11_5_ from troca troca0_ left outer join controle controle1_ on troca0_.controle_id=controle1_.id left outer join etapa etapa2_ on troca0_.etapa_id=etapa2_.id left outer join montagem_composition montagem3_ on etapa2_.id=montagem3_.etapa_id left outer join processo processo4_ on etapa2_.processo_id=processo4_.id where troca0_.id=?
+[2021-08-02 23:28:04] - Static select for action ACTION_MERGE on entity com.bluebudy.SCQ.domain.Troca: select troca0_.id as id1_13_1_, troca0_.controle_id as controle2_13_1_, troca0_.etapa_id as etapa_id3_13_1_, controle1_.id as id1_3_0_, controle1_.data_planejada as data_pla2_3_0_, controle1_.data_realizada as data_rea3_3_0_, controle1_.notified as notified4_3_0_, controle1_.periodo as periodo5_3_0_ from troca troca0_ left outer join controle controle1_ on troca0_.controle_id=controle1_.id where troca0_.id=?
+[2021-08-02 23:28:04] - Static select for action ACTION_REFRESH on entity com.bluebudy.SCQ.domain.Troca: select troca0_.id as id1_13_1_, troca0_.controle_id as controle2_13_1_, troca0_.etapa_id as etapa_id3_13_1_, controle1_.id as id1_3_0_, controle1_.data_planejada as data_pla2_3_0_, controle1_.data_realizada as data_rea3_3_0_, controle1_.notified as notified4_3_0_, controle1_.periodo as periodo5_3_0_ from troca troca0_ left outer join controle controle1_ on troca0_.controle_id=controle1_.id where troca0_.id=?
+[2021-08-02 23:28:04] - Static SQL for entity: com.bluebudy.SCQ.domain.Notificacao
+[2021-08-02 23:28:04] -  Version select: select id from notificacao where id =?
+[2021-08-02 23:28:04] -  Snapshot select: select notificaca_.id, notificaca_.messagem as messagem2_7_, notificaca_.ref_id as ref_id3_7_, notificaca_.status as status4_7_, notificaca_.tipo_notificacao as tipo_not5_7_ from notificacao notificaca_ where notificaca_.id=?
+[2021-08-02 23:28:04] -  Insert 0: insert into notificacao (messagem, ref_id, status, tipo_notificacao, id) values (?, ?, ?, ?, ?)
+[2021-08-02 23:28:04] -  Update 0: update notificacao set messagem=?, ref_id=?, status=?, tipo_notificacao=? where id=?
+[2021-08-02 23:28:04] -  Delete 0: delete from notificacao where id=?
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@44ce0648]
+[2021-08-02 23:28:04] - Visiting attribute path : messagem
+[2021-08-02 23:28:04] - Visiting attribute path : refId
+[2021-08-02 23:28:04] - Visiting attribute path : status
+[2021-08-02 23:28:04] - Visiting attribute path : tipoNotificacao
+[2021-08-02 23:28:04] - Building LoadPlan...
+[2021-08-02 23:28:04] - processing queryspace <gen:0>
+[2021-08-02 23:28:04] - LoadPlan(entity=com.bluebudy.SCQ.domain.Notificacao)
+    - Returns
+       - EntityReturnImpl(entity=com.bluebudy.SCQ.domain.Notificacao, querySpaceUid=<gen:0>, path=com.bluebudy.SCQ.domain.Notificacao)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.bluebudy.SCQ.domain.Notificacao)
+          - SQL table alias mapping - notificaca0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_7_0_}
+
+[2021-08-02 23:28:04] - Static select for entity com.bluebudy.SCQ.domain.Notificacao [NONE]: select notificaca0_.id as id1_7_0_, notificaca0_.messagem as messagem2_7_0_, notificaca0_.ref_id as ref_id3_7_0_, notificaca0_.status as status4_7_0_, notificaca0_.tipo_notificacao as tipo_not5_7_0_ from notificacao notificaca0_ where notificaca0_.id=?
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@12d86a5f]
+[2021-08-02 23:28:04] - Visiting attribute path : messagem
+[2021-08-02 23:28:04] - Visiting attribute path : refId
+[2021-08-02 23:28:04] - Visiting attribute path : status
+[2021-08-02 23:28:04] - Visiting attribute path : tipoNotificacao
+[2021-08-02 23:28:04] - Building LoadPlan...
+[2021-08-02 23:28:04] - processing queryspace <gen:0>
+[2021-08-02 23:28:04] - LoadPlan(entity=com.bluebudy.SCQ.domain.Notificacao)
+    - Returns
+       - EntityReturnImpl(entity=com.bluebudy.SCQ.domain.Notificacao, querySpaceUid=<gen:0>, path=com.bluebudy.SCQ.domain.Notificacao)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.bluebudy.SCQ.domain.Notificacao)
+          - SQL table alias mapping - notificaca0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_7_0_}
+
+[2021-08-02 23:28:04] - Static select for entity com.bluebudy.SCQ.domain.Notificacao [READ]: select notificaca0_.id as id1_7_0_, notificaca0_.messagem as messagem2_7_0_, notificaca0_.ref_id as ref_id3_7_0_, notificaca0_.status as status4_7_0_, notificaca0_.tipo_notificacao as tipo_not5_7_0_ from notificacao notificaca0_ where notificaca0_.id=?
+[2021-08-02 23:28:04] - Static select for action ACTION_MERGE on entity com.bluebudy.SCQ.domain.Notificacao: select notificaca0_.id as id1_7_0_, notificaca0_.messagem as messagem2_7_0_, notificaca0_.ref_id as ref_id3_7_0_, notificaca0_.status as status4_7_0_, notificaca0_.tipo_notificacao as tipo_not5_7_0_ from notificacao notificaca0_ where notificaca0_.id=?
+[2021-08-02 23:28:04] - Static select for action ACTION_REFRESH on entity com.bluebudy.SCQ.domain.Notificacao: select notificaca0_.id as id1_7_0_, notificaca0_.messagem as messagem2_7_0_, notificaca0_.ref_id as ref_id3_7_0_, notificaca0_.status as status4_7_0_, notificaca0_.tipo_notificacao as tipo_not5_7_0_ from notificacao notificaca0_ where notificaca0_.id=?
+[2021-08-02 23:28:04] - Static SQL for entity: com.bluebudy.SCQ.domain.Processo
+[2021-08-02 23:28:04] -  Version select: select id from processo where id =?
+[2021-08-02 23:28:04] -  Snapshot select: select processo_.id, processo_.nome as nome2_11_ from processo processo_ where processo_.id=?
+[2021-08-02 23:28:04] -  Insert 0: insert into processo (nome, id) values (?, ?)
+[2021-08-02 23:28:04] -  Update 0: update processo set nome=? where id=?
+[2021-08-02 23:28:04] -  Delete 0: delete from processo where id=?
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4eb4e00b]
+[2021-08-02 23:28:04] - Visiting attribute path : etapas
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@2cb3ffe3]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@34fd293a]
+[2021-08-02 23:28:04] - Visiting attribute path : nome
+[2021-08-02 23:28:04] - Visiting attribute path : tarefas
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@5da03316]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@67b6e4d1]
+[2021-08-02 23:28:04] - Building LoadPlan...
+[2021-08-02 23:28:04] - processing queryspace <gen:0>
+[2021-08-02 23:28:04] - LoadPlan(entity=com.bluebudy.SCQ.domain.Processo)
+    - Returns
+       - EntityReturnImpl(entity=com.bluebudy.SCQ.domain.Processo, querySpaceUid=<gen:0>, path=com.bluebudy.SCQ.domain.Processo)
+          - CollectionAttributeFetchImpl(collection=com.bluebudy.SCQ.domain.Processo.etapas, querySpaceUid=<gen:1>, path=com.bluebudy.SCQ.domain.Processo.etapas)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.Etapa, querySpaceUid=<gen:2>, path=com.bluebudy.SCQ.domain.Processo.etapas.<elements>)
+          - CollectionAttributeFetchImpl(collection=com.bluebudy.SCQ.domain.Processo.tarefas, querySpaceUid=<gen:3>, path=com.bluebudy.SCQ.domain.Processo.tarefas)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.TarefasDeManutencao, querySpaceUid=<gen:4>, path=com.bluebudy.SCQ.domain.Processo.tarefas.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.bluebudy.SCQ.domain.Processo)
+          - SQL table alias mapping - processo0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_11_0_}
+
+[2021-08-02 23:28:04] - Static select for entity com.bluebudy.SCQ.domain.Processo [NONE]: select processo0_.id as id1_11_0_, processo0_.nome as nome2_11_0_ from processo processo0_ where processo0_.id=?
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@54494323]
+[2021-08-02 23:28:04] - Visiting attribute path : etapas
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@55c4bec8]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@58458cd]
+[2021-08-02 23:28:04] - Visiting attribute path : nome
+[2021-08-02 23:28:04] - Visiting attribute path : tarefas
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@1b4a5305]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@12c01f59]
+[2021-08-02 23:28:04] - Building LoadPlan...
+[2021-08-02 23:28:04] - processing queryspace <gen:0>
+[2021-08-02 23:28:04] - LoadPlan(entity=com.bluebudy.SCQ.domain.Processo)
+    - Returns
+       - EntityReturnImpl(entity=com.bluebudy.SCQ.domain.Processo, querySpaceUid=<gen:0>, path=com.bluebudy.SCQ.domain.Processo)
+          - CollectionAttributeFetchImpl(collection=com.bluebudy.SCQ.domain.Processo.etapas, querySpaceUid=<gen:1>, path=com.bluebudy.SCQ.domain.Processo.etapas)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.Etapa, querySpaceUid=<gen:2>, path=com.bluebudy.SCQ.domain.Processo.etapas.<elements>)
+          - CollectionAttributeFetchImpl(collection=com.bluebudy.SCQ.domain.Processo.tarefas, querySpaceUid=<gen:3>, path=com.bluebudy.SCQ.domain.Processo.tarefas)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.TarefasDeManutencao, querySpaceUid=<gen:4>, path=com.bluebudy.SCQ.domain.Processo.tarefas.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.bluebudy.SCQ.domain.Processo)
+          - SQL table alias mapping - processo0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_11_0_}
+
+[2021-08-02 23:28:04] - Static select for entity com.bluebudy.SCQ.domain.Processo [READ]: select processo0_.id as id1_11_0_, processo0_.nome as nome2_11_0_ from processo processo0_ where processo0_.id=?
+[2021-08-02 23:28:04] - Static select for action ACTION_MERGE on entity com.bluebudy.SCQ.domain.Processo: select processo0_.id as id1_11_0_, processo0_.nome as nome2_11_0_ from processo processo0_ where processo0_.id=?
+[2021-08-02 23:28:04] - Static select for action ACTION_REFRESH on entity com.bluebudy.SCQ.domain.Processo: select processo0_.id as id1_11_0_, processo0_.nome as nome2_11_0_ from processo processo0_ where processo0_.id=?
+[2021-08-02 23:28:04] - Static SQL for entity: com.bluebudy.SCQ.domain.MateriaPrima
+[2021-08-02 23:28:04] -  Version select: select id from materia_prima where id =?
+[2021-08-02 23:28:04] -  Snapshot select: select materiapri_.id, materiapri_.fator_titulometrico as fator_ti2_5_, materiapri_.fornecedor as forneced3_5_, materiapri_.nome as nome4_5_, materiapri_.preco as preco5_5_, materiapri_.unidade as unidade6_5_ from materia_prima materiapri_ where materiapri_.id=?
+[2021-08-02 23:28:04] -  Insert 0: insert into materia_prima (fator_titulometrico, fornecedor, nome, preco, unidade, id) values (?, ?, ?, ?, ?, ?)
+[2021-08-02 23:28:04] -  Update 0: update materia_prima set fator_titulometrico=?, fornecedor=?, nome=?, preco=?, unidade=? where id=?
+[2021-08-02 23:28:04] -  Delete 0: delete from materia_prima where id=?
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6202d137]
+[2021-08-02 23:28:04] - Visiting attribute path : adicao
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@c7c0e58]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1e54e259]
+[2021-08-02 23:28:04] - Visiting attribute path : fatorTitulometrico
+[2021-08-02 23:28:04] - Visiting attribute path : fornecedor
+[2021-08-02 23:28:04] - Visiting attribute path : nome
+[2021-08-02 23:28:04] - Visiting attribute path : preco
+[2021-08-02 23:28:04] - Visiting attribute path : unidade
+[2021-08-02 23:28:04] - Building LoadPlan...
+[2021-08-02 23:28:04] - processing queryspace <gen:0>
+[2021-08-02 23:28:04] - LoadPlan(entity=com.bluebudy.SCQ.domain.MateriaPrima)
+    - Returns
+       - EntityReturnImpl(entity=com.bluebudy.SCQ.domain.MateriaPrima, querySpaceUid=<gen:0>, path=com.bluebudy.SCQ.domain.MateriaPrima)
+          - CollectionAttributeFetchImpl(collection=com.bluebudy.SCQ.domain.MateriaPrima.adicao, querySpaceUid=<gen:1>, path=com.bluebudy.SCQ.domain.MateriaPrima.adicao)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.Adicao, querySpaceUid=<gen:2>, path=com.bluebudy.SCQ.domain.MateriaPrima.adicao.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.bluebudy.SCQ.domain.MateriaPrima)
+          - SQL table alias mapping - materiapri0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_5_0_}
+
+[2021-08-02 23:28:04] - Static select for entity com.bluebudy.SCQ.domain.MateriaPrima [NONE]: select materiapri0_.id as id1_5_0_, materiapri0_.fator_titulometrico as fator_ti2_5_0_, materiapri0_.fornecedor as forneced3_5_0_, materiapri0_.nome as nome4_5_0_, materiapri0_.preco as preco5_5_0_, materiapri0_.unidade as unidade6_5_0_ from materia_prima materiapri0_ where materiapri0_.id=?
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6a2b03cd]
+[2021-08-02 23:28:04] - Visiting attribute path : adicao
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@7eaaa832]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4755db94]
+[2021-08-02 23:28:04] - Visiting attribute path : fatorTitulometrico
+[2021-08-02 23:28:04] - Visiting attribute path : fornecedor
+[2021-08-02 23:28:04] - Visiting attribute path : nome
+[2021-08-02 23:28:04] - Visiting attribute path : preco
+[2021-08-02 23:28:04] - Visiting attribute path : unidade
+[2021-08-02 23:28:04] - Building LoadPlan...
+[2021-08-02 23:28:04] - processing queryspace <gen:0>
+[2021-08-02 23:28:04] - LoadPlan(entity=com.bluebudy.SCQ.domain.MateriaPrima)
+    - Returns
+       - EntityReturnImpl(entity=com.bluebudy.SCQ.domain.MateriaPrima, querySpaceUid=<gen:0>, path=com.bluebudy.SCQ.domain.MateriaPrima)
+          - CollectionAttributeFetchImpl(collection=com.bluebudy.SCQ.domain.MateriaPrima.adicao, querySpaceUid=<gen:1>, path=com.bluebudy.SCQ.domain.MateriaPrima.adicao)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.Adicao, querySpaceUid=<gen:2>, path=com.bluebudy.SCQ.domain.MateriaPrima.adicao.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.bluebudy.SCQ.domain.MateriaPrima)
+          - SQL table alias mapping - materiapri0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_5_0_}
+
+[2021-08-02 23:28:04] - Static select for entity com.bluebudy.SCQ.domain.MateriaPrima [READ]: select materiapri0_.id as id1_5_0_, materiapri0_.fator_titulometrico as fator_ti2_5_0_, materiapri0_.fornecedor as forneced3_5_0_, materiapri0_.nome as nome4_5_0_, materiapri0_.preco as preco5_5_0_, materiapri0_.unidade as unidade6_5_0_ from materia_prima materiapri0_ where materiapri0_.id=?
+[2021-08-02 23:28:04] - Static select for action ACTION_MERGE on entity com.bluebudy.SCQ.domain.MateriaPrima: select materiapri0_.id as id1_5_0_, materiapri0_.fator_titulometrico as fator_ti2_5_0_, materiapri0_.fornecedor as forneced3_5_0_, materiapri0_.nome as nome4_5_0_, materiapri0_.preco as preco5_5_0_, materiapri0_.unidade as unidade6_5_0_ from materia_prima materiapri0_ where materiapri0_.id=?
+[2021-08-02 23:28:04] - Static select for action ACTION_REFRESH on entity com.bluebudy.SCQ.domain.MateriaPrima: select materiapri0_.id as id1_5_0_, materiapri0_.fator_titulometrico as fator_ti2_5_0_, materiapri0_.fornecedor as forneced3_5_0_, materiapri0_.nome as nome4_5_0_, materiapri0_.preco as preco5_5_0_, materiapri0_.unidade as unidade6_5_0_ from materia_prima materiapri0_ where materiapri0_.id=?
+[2021-08-02 23:28:04] - Static SQL for entity: com.bluebudy.SCQ.domain.Parametro
+[2021-08-02 23:28:04] -  Version select: select id from parametro where id =?
+[2021-08-02 23:28:04] -  Snapshot select: select parametro_.id, parametro_.controle_id as control10_10_, parametro_.etapa_id as etapa_i11_10_, parametro_.formula as formula2_10_, parametro_.nome as nome3_10_, parametro_.p_max as p_max4_10_, parametro_.p_maxt as p_maxt5_10_, parametro_.p_min as p_min6_10_, parametro_.p_mint as p_mint7_10_, parametro_.show_chart as show_cha8_10_, parametro_.unidade as unidade9_10_ from parametro parametro_ where parametro_.id=?
+[2021-08-02 23:28:04] -  Insert 0: insert into parametro (controle_id, etapa_id, formula, nome, p_max, p_maxt, p_min, p_mint, show_chart, unidade, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+[2021-08-02 23:28:04] -  Update 0: update parametro set controle_id=?, etapa_id=?, formula=?, nome=?, p_max=?, p_maxt=?, p_min=?, p_mint=?, show_chart=?, unidade=? where id=?
+[2021-08-02 23:28:04] -  Delete 0: delete from parametro where id=?
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@75d28dd8]
+[2021-08-02 23:28:04] - Visiting attribute path : analises
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@fdc4914]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@66bcba00]
+[2021-08-02 23:28:04] - Visiting attribute path : controle
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7615742]
+[2021-08-02 23:28:04] - Visiting attribute path : controle.dataPlanejada
+[2021-08-02 23:28:04] - Visiting attribute path : controle.dataRealizada
+[2021-08-02 23:28:04] - Visiting attribute path : controle.notified
+[2021-08-02 23:28:04] - Visiting attribute path : controle.periodo
+[2021-08-02 23:28:04] - Visiting attribute path : etapa
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2ab02cc1]
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.montagem
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:5> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@24896613]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:6> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@29839426]
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.montagem.etapa
+[2021-08-02 23:28:04] - Property path deemed to be circular : etapa.montagem.etapa
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.montagem.materiaPrima
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:7> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3b588f7a]
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.montagem.quantidade
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.nome
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.parametros
+[2021-08-02 23:28:04] - Property path deemed to be circular : etapa.parametros
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.posicao
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.processo
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:8> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@e4f1e93]
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.processo.etapas
+[2021-08-02 23:28:04] - Property path deemed to be circular : etapa.processo.etapas
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.processo.nome
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.processo.tarefas
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:9> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@5de366cd]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:10> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@22bf0154]
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.trocas
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:11> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@54f22816]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:12> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5380d25f]
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.volume
+[2021-08-02 23:28:04] - Visiting attribute path : formula
+[2021-08-02 23:28:04] - Visiting attribute path : nome
+[2021-08-02 23:28:04] - Visiting attribute path : pMax
+[2021-08-02 23:28:04] - Visiting attribute path : pMaxT
+[2021-08-02 23:28:04] - Visiting attribute path : pMin
+[2021-08-02 23:28:04] - Visiting attribute path : pMinT
+[2021-08-02 23:28:04] - Visiting attribute path : showChart
+[2021-08-02 23:28:04] - Visiting attribute path : unidade
+[2021-08-02 23:28:04] - Building LoadPlan...
+[2021-08-02 23:28:04] - processing queryspace <gen:0>
+[2021-08-02 23:28:04] - LoadPlan(entity=com.bluebudy.SCQ.domain.Parametro)
+    - Returns
+       - EntityReturnImpl(entity=com.bluebudy.SCQ.domain.Parametro, querySpaceUid=<gen:0>, path=com.bluebudy.SCQ.domain.Parametro)
+          - CollectionAttributeFetchImpl(collection=com.bluebudy.SCQ.domain.Parametro.analises, querySpaceUid=<gen:1>, path=com.bluebudy.SCQ.domain.Parametro.analises)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.Analise, querySpaceUid=<gen:2>, path=com.bluebudy.SCQ.domain.Parametro.analises.<elements>)
+          - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.Controle, querySpaceUid=<gen:3>, path=com.bluebudy.SCQ.domain.Parametro.controle)
+          - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.Etapa, querySpaceUid=<gen:4>, path=com.bluebudy.SCQ.domain.Parametro.etapa)
+             - CollectionAttributeFetchImpl(collection=com.bluebudy.SCQ.domain.Etapa.montagem, querySpaceUid=<gen:5>, path=com.bluebudy.SCQ.domain.Parametro.etapa.montagem)
+                - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.MontagemComposition, querySpaceUid=<gen:6>, path=com.bluebudy.SCQ.domain.Parametro.etapa.montagem.<elements>)
+                   - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.MateriaPrima, querySpaceUid=<gen:7>, path=com.bluebudy.SCQ.domain.Parametro.etapa.montagem.<elements>.materiaPrima)
+             - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.Processo, querySpaceUid=<gen:8>, path=com.bluebudy.SCQ.domain.Parametro.etapa.processo)
+                - CollectionAttributeFetchImpl(collection=com.bluebudy.SCQ.domain.Processo.tarefas, querySpaceUid=<gen:9>, path=com.bluebudy.SCQ.domain.Parametro.etapa.processo.tarefas)
+                   - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.TarefasDeManutencao, querySpaceUid=<gen:10>, path=com.bluebudy.SCQ.domain.Parametro.etapa.processo.tarefas.<elements>)
+             - CollectionAttributeFetchImpl(collection=com.bluebudy.SCQ.domain.Etapa.trocas, querySpaceUid=<gen:11>, path=com.bluebudy.SCQ.domain.Parametro.etapa.trocas)
+                - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.Troca, querySpaceUid=<gen:12>, path=com.bluebudy.SCQ.domain.Parametro.etapa.trocas.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.bluebudy.SCQ.domain.Parametro)
+          - SQL table alias mapping - parametro0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_10_0_}
+          - JOIN (JoinDefinedByMetadata(controle)) : <gen:0> -> <gen:3>
+             - EntityQuerySpaceImpl(uid=<gen:3>, entity=com.bluebudy.SCQ.domain.Controle)
+                - SQL table alias mapping - controle1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_3_1_}
+          - JOIN (JoinDefinedByMetadata(etapa)) : <gen:0> -> <gen:4>
+             - EntityQuerySpaceImpl(uid=<gen:4>, entity=com.bluebudy.SCQ.domain.Etapa)
+                - SQL table alias mapping - etapa2_
+                - alias suffix - 2_
+                - suffixed key columns - {id1_4_2_}
+                - JOIN (JoinDefinedByMetadata(montagem)) : <gen:4> -> <gen:5>
+                   - CollectionQuerySpaceImpl(uid=<gen:5>, collection=com.bluebudy.SCQ.domain.Etapa.montagem)
+                      - SQL table alias mapping - montagem3_
+                      - alias suffix - 3_
+                      - suffixed key columns - {etapa_id3_6_3_}
+                      - entity-element alias suffix - 4_
+                      - 4_entity-element suffixed key columns - id1_6_4_
+                      - JOIN (JoinDefinedByMetadata(elements)) : <gen:5> -> <gen:6>
+                         - EntityQuerySpaceImpl(uid=<gen:6>, entity=com.bluebudy.SCQ.domain.MontagemComposition)
+                            - SQL table alias mapping - montagem3_
+                            - alias suffix - 4_
+                            - suffixed key columns - {id1_6_4_}
+                - JOIN (JoinDefinedByMetadata(processo)) : <gen:4> -> <gen:8>
+                   - EntityQuerySpaceImpl(uid=<gen:8>, entity=com.bluebudy.SCQ.domain.Processo)
+                      - SQL table alias mapping - processo4_
+                      - alias suffix - 5_
+                      - suffixed key columns - {id1_11_5_}
+
+[2021-08-02 23:28:04] - Static select for entity com.bluebudy.SCQ.domain.Parametro [NONE]: select parametro0_.id as id1_10_0_, parametro0_.controle_id as control10_10_0_, parametro0_.etapa_id as etapa_i11_10_0_, parametro0_.formula as formula2_10_0_, parametro0_.nome as nome3_10_0_, parametro0_.p_max as p_max4_10_0_, parametro0_.p_maxt as p_maxt5_10_0_, parametro0_.p_min as p_min6_10_0_, parametro0_.p_mint as p_mint7_10_0_, parametro0_.show_chart as show_cha8_10_0_, parametro0_.unidade as unidade9_10_0_, controle1_.id as id1_3_1_, controle1_.data_planejada as data_pla2_3_1_, controle1_.data_realizada as data_rea3_3_1_, controle1_.notified as notified4_3_1_, controle1_.periodo as periodo5_3_1_, etapa2_.id as id1_4_2_, etapa2_.nome as nome2_4_2_, etapa2_.posicao as posicao3_4_2_, etapa2_.processo_id as processo5_4_2_, etapa2_.volume as volume4_4_2_, montagem3_.etapa_id as etapa_id3_6_3_, montagem3_.id as id1_6_3_, montagem3_.id as id1_6_4_, montagem3_.etapa_id as etapa_id3_6_4_, montagem3_.materia_prima_id as materia_4_6_4_, montagem3_.quantidade as quantida2_6_4_, processo4_.id as id1_11_5_, processo4_.nome as nome2_11_5_ from parametro parametro0_ left outer join controle controle1_ on parametro0_.controle_id=controle1_.id left outer join etapa etapa2_ on parametro0_.etapa_id=etapa2_.id left outer join montagem_composition montagem3_ on etapa2_.id=montagem3_.etapa_id left outer join processo processo4_ on etapa2_.processo_id=processo4_.id where parametro0_.id=?
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@159303ec]
+[2021-08-02 23:28:04] - Visiting attribute path : analises
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@a0b36ca]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5f4c0ffe]
+[2021-08-02 23:28:04] - Visiting attribute path : controle
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@52cdeb98]
+[2021-08-02 23:28:04] - Visiting attribute path : controle.dataPlanejada
+[2021-08-02 23:28:04] - Visiting attribute path : controle.dataRealizada
+[2021-08-02 23:28:04] - Visiting attribute path : controle.notified
+[2021-08-02 23:28:04] - Visiting attribute path : controle.periodo
+[2021-08-02 23:28:04] - Visiting attribute path : etapa
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2e5d392d]
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.montagem
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:5> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@2cfd487e]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:6> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4ec5c283]
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.montagem.etapa
+[2021-08-02 23:28:04] - Property path deemed to be circular : etapa.montagem.etapa
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.montagem.materiaPrima
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:7> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@51a61507]
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.montagem.quantidade
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.nome
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.parametros
+[2021-08-02 23:28:04] - Property path deemed to be circular : etapa.parametros
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.posicao
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.processo
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:8> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3197146a]
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.processo.etapas
+[2021-08-02 23:28:04] - Property path deemed to be circular : etapa.processo.etapas
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.processo.nome
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.processo.tarefas
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:9> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@6ff944bb]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:10> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@e966a6e]
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.trocas
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:11> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@7ab1b92]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:12> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@45bac3b5]
+[2021-08-02 23:28:04] - Visiting attribute path : etapa.volume
+[2021-08-02 23:28:04] - Visiting attribute path : formula
+[2021-08-02 23:28:04] - Visiting attribute path : nome
+[2021-08-02 23:28:04] - Visiting attribute path : pMax
+[2021-08-02 23:28:04] - Visiting attribute path : pMaxT
+[2021-08-02 23:28:04] - Visiting attribute path : pMin
+[2021-08-02 23:28:04] - Visiting attribute path : pMinT
+[2021-08-02 23:28:04] - Visiting attribute path : showChart
+[2021-08-02 23:28:04] - Visiting attribute path : unidade
+[2021-08-02 23:28:04] - Building LoadPlan...
+[2021-08-02 23:28:04] - processing queryspace <gen:0>
+[2021-08-02 23:28:04] - LoadPlan(entity=com.bluebudy.SCQ.domain.Parametro)
+    - Returns
+       - EntityReturnImpl(entity=com.bluebudy.SCQ.domain.Parametro, querySpaceUid=<gen:0>, path=com.bluebudy.SCQ.domain.Parametro)
+          - CollectionAttributeFetchImpl(collection=com.bluebudy.SCQ.domain.Parametro.analises, querySpaceUid=<gen:1>, path=com.bluebudy.SCQ.domain.Parametro.analises)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.Analise, querySpaceUid=<gen:2>, path=com.bluebudy.SCQ.domain.Parametro.analises.<elements>)
+          - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.Controle, querySpaceUid=<gen:3>, path=com.bluebudy.SCQ.domain.Parametro.controle)
+          - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.Etapa, querySpaceUid=<gen:4>, path=com.bluebudy.SCQ.domain.Parametro.etapa)
+             - CollectionAttributeFetchImpl(collection=com.bluebudy.SCQ.domain.Etapa.montagem, querySpaceUid=<gen:5>, path=com.bluebudy.SCQ.domain.Parametro.etapa.montagem)
+                - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.MontagemComposition, querySpaceUid=<gen:6>, path=com.bluebudy.SCQ.domain.Parametro.etapa.montagem.<elements>)
+                   - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.MateriaPrima, querySpaceUid=<gen:7>, path=com.bluebudy.SCQ.domain.Parametro.etapa.montagem.<elements>.materiaPrima)
+             - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.Processo, querySpaceUid=<gen:8>, path=com.bluebudy.SCQ.domain.Parametro.etapa.processo)
+                - CollectionAttributeFetchImpl(collection=com.bluebudy.SCQ.domain.Processo.tarefas, querySpaceUid=<gen:9>, path=com.bluebudy.SCQ.domain.Parametro.etapa.processo.tarefas)
+                   - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.TarefasDeManutencao, querySpaceUid=<gen:10>, path=com.bluebudy.SCQ.domain.Parametro.etapa.processo.tarefas.<elements>)
+             - CollectionAttributeFetchImpl(collection=com.bluebudy.SCQ.domain.Etapa.trocas, querySpaceUid=<gen:11>, path=com.bluebudy.SCQ.domain.Parametro.etapa.trocas)
+                - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.Troca, querySpaceUid=<gen:12>, path=com.bluebudy.SCQ.domain.Parametro.etapa.trocas.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.bluebudy.SCQ.domain.Parametro)
+          - SQL table alias mapping - parametro0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_10_0_}
+          - JOIN (JoinDefinedByMetadata(controle)) : <gen:0> -> <gen:3>
+             - EntityQuerySpaceImpl(uid=<gen:3>, entity=com.bluebudy.SCQ.domain.Controle)
+                - SQL table alias mapping - controle1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_3_1_}
+          - JOIN (JoinDefinedByMetadata(etapa)) : <gen:0> -> <gen:4>
+             - EntityQuerySpaceImpl(uid=<gen:4>, entity=com.bluebudy.SCQ.domain.Etapa)
+                - SQL table alias mapping - etapa2_
+                - alias suffix - 2_
+                - suffixed key columns - {id1_4_2_}
+                - JOIN (JoinDefinedByMetadata(montagem)) : <gen:4> -> <gen:5>
+                   - CollectionQuerySpaceImpl(uid=<gen:5>, collection=com.bluebudy.SCQ.domain.Etapa.montagem)
+                      - SQL table alias mapping - montagem3_
+                      - alias suffix - 3_
+                      - suffixed key columns - {etapa_id3_6_3_}
+                      - entity-element alias suffix - 4_
+                      - 4_entity-element suffixed key columns - id1_6_4_
+                      - JOIN (JoinDefinedByMetadata(elements)) : <gen:5> -> <gen:6>
+                         - EntityQuerySpaceImpl(uid=<gen:6>, entity=com.bluebudy.SCQ.domain.MontagemComposition)
+                            - SQL table alias mapping - montagem3_
+                            - alias suffix - 4_
+                            - suffixed key columns - {id1_6_4_}
+                - JOIN (JoinDefinedByMetadata(processo)) : <gen:4> -> <gen:8>
+                   - EntityQuerySpaceImpl(uid=<gen:8>, entity=com.bluebudy.SCQ.domain.Processo)
+                      - SQL table alias mapping - processo4_
+                      - alias suffix - 5_
+                      - suffixed key columns - {id1_11_5_}
+
+[2021-08-02 23:28:04] - Static select for entity com.bluebudy.SCQ.domain.Parametro [READ]: select parametro0_.id as id1_10_0_, parametro0_.controle_id as control10_10_0_, parametro0_.etapa_id as etapa_i11_10_0_, parametro0_.formula as formula2_10_0_, parametro0_.nome as nome3_10_0_, parametro0_.p_max as p_max4_10_0_, parametro0_.p_maxt as p_maxt5_10_0_, parametro0_.p_min as p_min6_10_0_, parametro0_.p_mint as p_mint7_10_0_, parametro0_.show_chart as show_cha8_10_0_, parametro0_.unidade as unidade9_10_0_, controle1_.id as id1_3_1_, controle1_.data_planejada as data_pla2_3_1_, controle1_.data_realizada as data_rea3_3_1_, controle1_.notified as notified4_3_1_, controle1_.periodo as periodo5_3_1_, etapa2_.id as id1_4_2_, etapa2_.nome as nome2_4_2_, etapa2_.posicao as posicao3_4_2_, etapa2_.processo_id as processo5_4_2_, etapa2_.volume as volume4_4_2_, montagem3_.etapa_id as etapa_id3_6_3_, montagem3_.id as id1_6_3_, montagem3_.id as id1_6_4_, montagem3_.etapa_id as etapa_id3_6_4_, montagem3_.materia_prima_id as materia_4_6_4_, montagem3_.quantidade as quantida2_6_4_, processo4_.id as id1_11_5_, processo4_.nome as nome2_11_5_ from parametro parametro0_ left outer join controle controle1_ on parametro0_.controle_id=controle1_.id left outer join etapa etapa2_ on parametro0_.etapa_id=etapa2_.id left outer join montagem_composition montagem3_ on etapa2_.id=montagem3_.etapa_id left outer join processo processo4_ on etapa2_.processo_id=processo4_.id where parametro0_.id=?
+[2021-08-02 23:28:04] - Static select for action ACTION_MERGE on entity com.bluebudy.SCQ.domain.Parametro: select parametro0_.id as id1_10_1_, parametro0_.controle_id as control10_10_1_, parametro0_.etapa_id as etapa_i11_10_1_, parametro0_.formula as formula2_10_1_, parametro0_.nome as nome3_10_1_, parametro0_.p_max as p_max4_10_1_, parametro0_.p_maxt as p_maxt5_10_1_, parametro0_.p_min as p_min6_10_1_, parametro0_.p_mint as p_mint7_10_1_, parametro0_.show_chart as show_cha8_10_1_, parametro0_.unidade as unidade9_10_1_, controle1_.id as id1_3_0_, controle1_.data_planejada as data_pla2_3_0_, controle1_.data_realizada as data_rea3_3_0_, controle1_.notified as notified4_3_0_, controle1_.periodo as periodo5_3_0_ from parametro parametro0_ left outer join controle controle1_ on parametro0_.controle_id=controle1_.id where parametro0_.id=?
+[2021-08-02 23:28:04] - Static select for action ACTION_REFRESH on entity com.bluebudy.SCQ.domain.Parametro: select parametro0_.id as id1_10_1_, parametro0_.controle_id as control10_10_1_, parametro0_.etapa_id as etapa_i11_10_1_, parametro0_.formula as formula2_10_1_, parametro0_.nome as nome3_10_1_, parametro0_.p_max as p_max4_10_1_, parametro0_.p_maxt as p_maxt5_10_1_, parametro0_.p_min as p_min6_10_1_, parametro0_.p_mint as p_mint7_10_1_, parametro0_.show_chart as show_cha8_10_1_, parametro0_.unidade as unidade9_10_1_, controle1_.id as id1_3_0_, controle1_.data_planejada as data_pla2_3_0_, controle1_.data_realizada as data_rea3_3_0_, controle1_.notified as notified4_3_0_, controle1_.periodo as periodo5_3_0_ from parametro parametro0_ left outer join controle controle1_ on parametro0_.controle_id=controle1_.id where parametro0_.id=?
+[2021-08-02 23:28:04] - Static SQL for entity: com.bluebudy.SCQ.domain.Analise
+[2021-08-02 23:28:04] -  Version select: select id from analise where id =?
+[2021-08-02 23:28:04] -  Snapshot select: select analise_.id, analise_.analista as analista2_2_, analise_.data as data3_2_, analise_.need_correcao as need_cor4_2_, analise_.parametro_id as parametr6_2_, analise_.resultado as resultad5_2_ from analise analise_ where analise_.id=?
+[2021-08-02 23:28:04] -  Insert 0: insert into analise (analista, data, need_correcao, parametro_id, resultado, id) values (?, ?, ?, ?, ?, ?)
+[2021-08-02 23:28:04] -  Update 0: update analise set analista=?, data=?, need_correcao=?, parametro_id=?, resultado=? where id=?
+[2021-08-02 23:28:04] -  Delete 0: delete from analise where id=?
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@60c38b25]
+[2021-08-02 23:28:04] - Visiting attribute path : analista
+[2021-08-02 23:28:04] - Visiting attribute path : data
+[2021-08-02 23:28:04] - Visiting attribute path : needCorrecao
+[2021-08-02 23:28:04] - Visiting attribute path : ordemDeCorrecao
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@293bfe7]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@11a7736b]
+[2021-08-02 23:28:04] - Visiting attribute path : parametro
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6dc158d9]
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.analises
+[2021-08-02 23:28:04] - Property path deemed to be circular : parametro.analises
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.controle
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@754c5a1f]
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.controle.dataPlanejada
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.controle.dataRealizada
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.controle.notified
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.controle.periodo
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.etapa
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:5> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@38bacf44]
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.etapa.montagem
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:6> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@38f8c1c4]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:7> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3530e0de]
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.etapa.nome
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.etapa.parametros
+[2021-08-02 23:28:04] - Property path deemed to be circular : parametro.etapa.parametros
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.etapa.posicao
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.etapa.processo
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:8> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5b9ed9d3]
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.etapa.trocas
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:9> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@6b89b765]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:10> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1501bd31]
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.etapa.volume
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.formula
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.nome
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.pMax
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.pMaxT
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.pMin
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.pMinT
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.showChart
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.unidade
+[2021-08-02 23:28:04] - Visiting attribute path : resultado
+[2021-08-02 23:28:04] - Building LoadPlan...
+[2021-08-02 23:28:04] - processing queryspace <gen:0>
+[2021-08-02 23:28:04] - LoadPlan(entity=com.bluebudy.SCQ.domain.Analise)
+    - Returns
+       - EntityReturnImpl(entity=com.bluebudy.SCQ.domain.Analise, querySpaceUid=<gen:0>, path=com.bluebudy.SCQ.domain.Analise)
+          - CollectionAttributeFetchImpl(collection=com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao, querySpaceUid=<gen:1>, path=com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.OrdemDeCorrecao, querySpaceUid=<gen:2>, path=com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao.<elements>)
+          - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.Parametro, querySpaceUid=<gen:3>, path=com.bluebudy.SCQ.domain.Analise.parametro)
+             - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.Controle, querySpaceUid=<gen:4>, path=com.bluebudy.SCQ.domain.Analise.parametro.controle)
+             - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.Etapa, querySpaceUid=<gen:5>, path=com.bluebudy.SCQ.domain.Analise.parametro.etapa)
+                - CollectionAttributeFetchImpl(collection=com.bluebudy.SCQ.domain.Etapa.montagem, querySpaceUid=<gen:6>, path=com.bluebudy.SCQ.domain.Analise.parametro.etapa.montagem)
+                   - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.MontagemComposition, querySpaceUid=<gen:7>, path=com.bluebudy.SCQ.domain.Analise.parametro.etapa.montagem.<elements>)
+                - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.Processo, querySpaceUid=<gen:8>, path=com.bluebudy.SCQ.domain.Analise.parametro.etapa.processo)
+                - CollectionAttributeFetchImpl(collection=com.bluebudy.SCQ.domain.Etapa.trocas, querySpaceUid=<gen:9>, path=com.bluebudy.SCQ.domain.Analise.parametro.etapa.trocas)
+                   - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.Troca, querySpaceUid=<gen:10>, path=com.bluebudy.SCQ.domain.Analise.parametro.etapa.trocas.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.bluebudy.SCQ.domain.Analise)
+          - SQL table alias mapping - analise0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+          - JOIN (JoinDefinedByMetadata(parametro)) : <gen:0> -> <gen:3>
+             - EntityQuerySpaceImpl(uid=<gen:3>, entity=com.bluebudy.SCQ.domain.Parametro)
+                - SQL table alias mapping - parametro1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_10_1_}
+                - JOIN (JoinDefinedByMetadata(controle)) : <gen:3> -> <gen:4>
+                   - EntityQuerySpaceImpl(uid=<gen:4>, entity=com.bluebudy.SCQ.domain.Controle)
+                      - SQL table alias mapping - controle2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_3_2_}
+                - JOIN (JoinDefinedByMetadata(etapa)) : <gen:3> -> <gen:5>
+                   - EntityQuerySpaceImpl(uid=<gen:5>, entity=com.bluebudy.SCQ.domain.Etapa)
+                      - SQL table alias mapping - etapa3_
+                      - alias suffix - 3_
+                      - suffixed key columns - {id1_4_3_}
+
+[2021-08-02 23:28:04] - Static select for entity com.bluebudy.SCQ.domain.Analise [NONE]: select analise0_.id as id1_2_0_, analise0_.analista as analista2_2_0_, analise0_.data as data3_2_0_, analise0_.need_correcao as need_cor4_2_0_, analise0_.parametro_id as parametr6_2_0_, analise0_.resultado as resultad5_2_0_, parametro1_.id as id1_10_1_, parametro1_.controle_id as control10_10_1_, parametro1_.etapa_id as etapa_i11_10_1_, parametro1_.formula as formula2_10_1_, parametro1_.nome as nome3_10_1_, parametro1_.p_max as p_max4_10_1_, parametro1_.p_maxt as p_maxt5_10_1_, parametro1_.p_min as p_min6_10_1_, parametro1_.p_mint as p_mint7_10_1_, parametro1_.show_chart as show_cha8_10_1_, parametro1_.unidade as unidade9_10_1_, controle2_.id as id1_3_2_, controle2_.data_planejada as data_pla2_3_2_, controle2_.data_realizada as data_rea3_3_2_, controle2_.notified as notified4_3_2_, controle2_.periodo as periodo5_3_2_, etapa3_.id as id1_4_3_, etapa3_.nome as nome2_4_3_, etapa3_.posicao as posicao3_4_3_, etapa3_.processo_id as processo5_4_3_, etapa3_.volume as volume4_4_3_ from analise analise0_ left outer join parametro parametro1_ on analise0_.parametro_id=parametro1_.id left outer join controle controle2_ on parametro1_.controle_id=controle2_.id left outer join etapa etapa3_ on parametro1_.etapa_id=etapa3_.id where analise0_.id=?
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2705895f]
+[2021-08-02 23:28:04] - Visiting attribute path : analista
+[2021-08-02 23:28:04] - Visiting attribute path : data
+[2021-08-02 23:28:04] - Visiting attribute path : needCorrecao
+[2021-08-02 23:28:04] - Visiting attribute path : ordemDeCorrecao
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@2cec3098]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@349ce801]
+[2021-08-02 23:28:04] - Visiting attribute path : parametro
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3f58c0bc]
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.analises
+[2021-08-02 23:28:04] - Property path deemed to be circular : parametro.analises
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.controle
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3c2aacd7]
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.controle.dataPlanejada
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.controle.dataRealizada
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.controle.notified
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.controle.periodo
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.etapa
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:5> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1601e7db]
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.etapa.montagem
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:6> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@77f7af56]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:7> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@34aca614]
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.etapa.nome
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.etapa.parametros
+[2021-08-02 23:28:04] - Property path deemed to be circular : parametro.etapa.parametros
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.etapa.posicao
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.etapa.processo
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:8> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2d0ab065]
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.etapa.trocas
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:9> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@24f3d917]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:10> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6e344fc0]
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.etapa.volume
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.formula
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.nome
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.pMax
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.pMaxT
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.pMin
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.pMinT
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.showChart
+[2021-08-02 23:28:04] - Visiting attribute path : parametro.unidade
+[2021-08-02 23:28:04] - Visiting attribute path : resultado
+[2021-08-02 23:28:04] - Building LoadPlan...
+[2021-08-02 23:28:04] - processing queryspace <gen:0>
+[2021-08-02 23:28:04] - LoadPlan(entity=com.bluebudy.SCQ.domain.Analise)
+    - Returns
+       - EntityReturnImpl(entity=com.bluebudy.SCQ.domain.Analise, querySpaceUid=<gen:0>, path=com.bluebudy.SCQ.domain.Analise)
+          - CollectionAttributeFetchImpl(collection=com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao, querySpaceUid=<gen:1>, path=com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.OrdemDeCorrecao, querySpaceUid=<gen:2>, path=com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao.<elements>)
+          - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.Parametro, querySpaceUid=<gen:3>, path=com.bluebudy.SCQ.domain.Analise.parametro)
+             - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.Controle, querySpaceUid=<gen:4>, path=com.bluebudy.SCQ.domain.Analise.parametro.controle)
+             - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.Etapa, querySpaceUid=<gen:5>, path=com.bluebudy.SCQ.domain.Analise.parametro.etapa)
+                - CollectionAttributeFetchImpl(collection=com.bluebudy.SCQ.domain.Etapa.montagem, querySpaceUid=<gen:6>, path=com.bluebudy.SCQ.domain.Analise.parametro.etapa.montagem)
+                   - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.MontagemComposition, querySpaceUid=<gen:7>, path=com.bluebudy.SCQ.domain.Analise.parametro.etapa.montagem.<elements>)
+                - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.Processo, querySpaceUid=<gen:8>, path=com.bluebudy.SCQ.domain.Analise.parametro.etapa.processo)
+                - CollectionAttributeFetchImpl(collection=com.bluebudy.SCQ.domain.Etapa.trocas, querySpaceUid=<gen:9>, path=com.bluebudy.SCQ.domain.Analise.parametro.etapa.trocas)
+                   - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.Troca, querySpaceUid=<gen:10>, path=com.bluebudy.SCQ.domain.Analise.parametro.etapa.trocas.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.bluebudy.SCQ.domain.Analise)
+          - SQL table alias mapping - analise0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+          - JOIN (JoinDefinedByMetadata(parametro)) : <gen:0> -> <gen:3>
+             - EntityQuerySpaceImpl(uid=<gen:3>, entity=com.bluebudy.SCQ.domain.Parametro)
+                - SQL table alias mapping - parametro1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_10_1_}
+                - JOIN (JoinDefinedByMetadata(controle)) : <gen:3> -> <gen:4>
+                   - EntityQuerySpaceImpl(uid=<gen:4>, entity=com.bluebudy.SCQ.domain.Controle)
+                      - SQL table alias mapping - controle2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_3_2_}
+                - JOIN (JoinDefinedByMetadata(etapa)) : <gen:3> -> <gen:5>
+                   - EntityQuerySpaceImpl(uid=<gen:5>, entity=com.bluebudy.SCQ.domain.Etapa)
+                      - SQL table alias mapping - etapa3_
+                      - alias suffix - 3_
+                      - suffixed key columns - {id1_4_3_}
+
+[2021-08-02 23:28:04] - Static select for entity com.bluebudy.SCQ.domain.Analise [READ]: select analise0_.id as id1_2_0_, analise0_.analista as analista2_2_0_, analise0_.data as data3_2_0_, analise0_.need_correcao as need_cor4_2_0_, analise0_.parametro_id as parametr6_2_0_, analise0_.resultado as resultad5_2_0_, parametro1_.id as id1_10_1_, parametro1_.controle_id as control10_10_1_, parametro1_.etapa_id as etapa_i11_10_1_, parametro1_.formula as formula2_10_1_, parametro1_.nome as nome3_10_1_, parametro1_.p_max as p_max4_10_1_, parametro1_.p_maxt as p_maxt5_10_1_, parametro1_.p_min as p_min6_10_1_, parametro1_.p_mint as p_mint7_10_1_, parametro1_.show_chart as show_cha8_10_1_, parametro1_.unidade as unidade9_10_1_, controle2_.id as id1_3_2_, controle2_.data_planejada as data_pla2_3_2_, controle2_.data_realizada as data_rea3_3_2_, controle2_.notified as notified4_3_2_, controle2_.periodo as periodo5_3_2_, etapa3_.id as id1_4_3_, etapa3_.nome as nome2_4_3_, etapa3_.posicao as posicao3_4_3_, etapa3_.processo_id as processo5_4_3_, etapa3_.volume as volume4_4_3_ from analise analise0_ left outer join parametro parametro1_ on analise0_.parametro_id=parametro1_.id left outer join controle controle2_ on parametro1_.controle_id=controle2_.id left outer join etapa etapa3_ on parametro1_.etapa_id=etapa3_.id where analise0_.id=?
+[2021-08-02 23:28:04] - Static select for action ACTION_MERGE on entity com.bluebudy.SCQ.domain.Analise: select analise0_.id as id1_2_0_, analise0_.analista as analista2_2_0_, analise0_.data as data3_2_0_, analise0_.need_correcao as need_cor4_2_0_, analise0_.parametro_id as parametr6_2_0_, analise0_.resultado as resultad5_2_0_ from analise analise0_ where analise0_.id=?
+[2021-08-02 23:28:04] - Static select for action ACTION_REFRESH on entity com.bluebudy.SCQ.domain.Analise: select analise0_.id as id1_2_0_, analise0_.analista as analista2_2_0_, analise0_.data as data3_2_0_, analise0_.need_correcao as need_cor4_2_0_, analise0_.parametro_id as parametr6_2_0_, analise0_.resultado as resultad5_2_0_ from analise analise0_ where analise0_.id=?
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@1ead1ef2]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6d616367]
+[2021-08-02 23:28:04] - Visiting attribute path : analises
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@7cfd685c]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1ae146ff]
+[2021-08-02 23:28:04] - Visiting attribute path : controle
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7fe8defa]
+[2021-08-02 23:28:04] - Visiting attribute path : controle.dataPlanejada
+[2021-08-02 23:28:04] - Visiting attribute path : controle.dataRealizada
+[2021-08-02 23:28:04] - Visiting attribute path : controle.notified
+[2021-08-02 23:28:04] - Visiting attribute path : controle.periodo
+[2021-08-02 23:28:04] - Visiting attribute path : etapa
+[2021-08-02 23:28:04] - Property path deemed to be circular : etapa
+[2021-08-02 23:28:04] - Visiting attribute path : formula
+[2021-08-02 23:28:04] - Visiting attribute path : nome
+[2021-08-02 23:28:04] - Visiting attribute path : pMax
+[2021-08-02 23:28:04] - Visiting attribute path : pMaxT
+[2021-08-02 23:28:04] - Visiting attribute path : pMin
+[2021-08-02 23:28:04] - Visiting attribute path : pMinT
+[2021-08-02 23:28:04] - Visiting attribute path : showChart
+[2021-08-02 23:28:04] - Visiting attribute path : unidade
+[2021-08-02 23:28:04] - Building LoadPlan...
+[2021-08-02 23:28:04] - processing queryspace <gen:0>
+[2021-08-02 23:28:04] - LoadPlan(collection=com.bluebudy.SCQ.domain.Etapa.parametros)
+    - Returns
+       - CollectionReturnImpl(collection=com.bluebudy.SCQ.domain.Etapa.parametros, querySpaceUid=<gen:0>, path=[com.bluebudy.SCQ.domain.Etapa.parametros])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.Parametro, querySpaceUid=<gen:1>, path=[com.bluebudy.SCQ.domain.Etapa.parametros].<elements>)
+             - CollectionAttributeFetchImpl(collection=com.bluebudy.SCQ.domain.Parametro.analises, querySpaceUid=<gen:2>, path=[com.bluebudy.SCQ.domain.Etapa.parametros].<elements>.analises)
+                - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.Analise, querySpaceUid=<gen:3>, path=[com.bluebudy.SCQ.domain.Etapa.parametros].<elements>.analises.<elements>)
+             - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.Controle, querySpaceUid=<gen:4>, path=[com.bluebudy.SCQ.domain.Etapa.parametros].<elements>.controle)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=com.bluebudy.SCQ.domain.Etapa.parametros)
+          - SQL table alias mapping - parametros0_
+          - alias suffix - 0_
+          - suffixed key columns - {etapa_i11_10_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - id1_10_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.bluebudy.SCQ.domain.Parametro)
+                - SQL table alias mapping - parametros0_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_10_1_}
+                - JOIN (JoinDefinedByMetadata(controle)) : <gen:1> -> <gen:4>
+                   - EntityQuerySpaceImpl(uid=<gen:4>, entity=com.bluebudy.SCQ.domain.Controle)
+                      - SQL table alias mapping - controle1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_3_2_}
+
+[2021-08-02 23:28:04] - Static select for collection com.bluebudy.SCQ.domain.Etapa.parametros: select parametros0_.etapa_id as etapa_i11_10_0_, parametros0_.id as id1_10_0_, parametros0_.id as id1_10_1_, parametros0_.controle_id as control10_10_1_, parametros0_.etapa_id as etapa_i11_10_1_, parametros0_.formula as formula2_10_1_, parametros0_.nome as nome3_10_1_, parametros0_.p_max as p_max4_10_1_, parametros0_.p_maxt as p_maxt5_10_1_, parametros0_.p_min as p_min6_10_1_, parametros0_.p_mint as p_mint7_10_1_, parametros0_.show_chart as show_cha8_10_1_, parametros0_.unidade as unidade9_10_1_, controle1_.id as id1_3_2_, controle1_.data_planejada as data_pla2_3_2_, controle1_.data_realizada as data_rea3_3_2_, controle1_.notified as notified4_3_2_, controle1_.periodo as periodo5_3_2_ from parametro parametros0_ left outer join controle controle1_ on parametros0_.controle_id=controle1_.id where parametros0_.etapa_id=?
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@ea335cc]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7551c3d2]
+[2021-08-02 23:28:04] - Visiting attribute path : adicoes
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@25f47a13]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5ec0622c]
+[2021-08-02 23:28:04] - Visiting attribute path : analise
+[2021-08-02 23:28:04] - Property path deemed to be circular : analise
+[2021-08-02 23:28:04] - Visiting attribute path : observacao
+[2021-08-02 23:28:04] - Visiting attribute path : oldAnaliseValue
+[2021-08-02 23:28:04] - Visiting attribute path : responsavel
+[2021-08-02 23:28:04] - Visiting attribute path : statusOCP
+[2021-08-02 23:28:04] - Visiting attribute path : tipo
+[2021-08-02 23:28:04] - Visiting attribute path : acao
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@50b8fff1]
+[2021-08-02 23:28:04] - Visiting attribute path : acao.acao
+[2021-08-02 23:28:04] - Visiting attribute path : acao.data
+[2021-08-02 23:28:04] - Visiting attribute path : acao.notified
+[2021-08-02 23:28:04] - Visiting attribute path : acao.ordemDeCorrecao
+[2021-08-02 23:28:04] - Property path deemed to be circular : acao.ordemDeCorrecao
+[2021-08-02 23:28:04] - Visiting attribute path : acao.prazo
+[2021-08-02 23:28:04] - Visiting attribute path : acao.status
+[2021-08-02 23:28:04] - Building LoadPlan...
+[2021-08-02 23:28:04] - processing queryspace <gen:0>
+[2021-08-02 23:28:04] - LoadPlan(collection=com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao)
+    - Returns
+       - CollectionReturnImpl(collection=com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao, querySpaceUid=<gen:0>, path=[com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.OrdemDeCorrecao, querySpaceUid=<gen:1>, path=[com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao].<elements>)
+             - CollectionAttributeFetchImpl(collection=com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes, querySpaceUid=<gen:2>, path=[com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao].<elements>.adicoes)
+                - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.Adicao, querySpaceUid=<gen:3>, path=[com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao].<elements>.adicoes.<elements>)
+             - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.Acao, querySpaceUid=<gen:4>, path=[com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao].<elements>.acao)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao)
+          - SQL table alias mapping - ordemdecor0_
+          - alias suffix - 0_
+          - suffixed key columns - {analise_7_8_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - id1_8_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.bluebudy.SCQ.domain.OrdemDeCorrecao)
+                - SQL table alias mapping - ordemdecor0_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_8_1_}
+                - JOIN (JoinDefinedByMetadata(acao)) : <gen:1> -> <gen:4>
+                   - EntityQuerySpaceImpl(uid=<gen:4>, entity=com.bluebudy.SCQ.domain.Acao)
+                      - SQL table alias mapping - acao1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_0_2_}
+
+[2021-08-02 23:28:04] - Static select for collection com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao: select ordemdecor0_.analise_id as analise_7_8_0_, ordemdecor0_.id as id1_8_0_, ordemdecor0_.id as id1_8_1_, ordemdecor0_.analise_id as analise_7_8_1_, ordemdecor0_.observacao as observac2_8_1_, ordemdecor0_.old_analise_value as old_anal3_8_1_, ordemdecor0_.responsavel as responsa4_8_1_, ordemdecor0_.statusocp as statusoc5_8_1_, ordemdecor0_.tipo as tipo6_8_1_, acao1_.id as id1_0_2_, acao1_.acao as acao2_0_2_, acao1_.data as data3_0_2_, acao1_.notified as notified4_0_2_, acao1_.ordem_id as ordem_id7_0_2_, acao1_.prazo as prazo5_0_2_, acao1_.status as status6_0_2_ from ordem_de_correcao ordemdecor0_ left outer join acao acao1_ on ordemdecor0_.id=acao1_.ordem_id where ordemdecor0_.analise_id=?
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@1591653a]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@481da4a6]
+[2021-08-02 23:28:04] - Visiting attribute path : data
+[2021-08-02 23:28:04] - Visiting attribute path : materiaPrima
+[2021-08-02 23:28:04] - Property path deemed to be circular : materiaPrima
+[2021-08-02 23:28:04] - Visiting attribute path : ordemDeCorrecao
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4fdb661e]
+[2021-08-02 23:28:04] - Visiting attribute path : ordemDeCorrecao.adicoes
+[2021-08-02 23:28:04] - Property path deemed to be circular : ordemDeCorrecao.adicoes
+[2021-08-02 23:28:04] - Visiting attribute path : ordemDeCorrecao.analise
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5951ff39]
+[2021-08-02 23:28:04] - Visiting attribute path : ordemDeCorrecao.analise.analista
+[2021-08-02 23:28:04] - Visiting attribute path : ordemDeCorrecao.analise.data
+[2021-08-02 23:28:04] - Visiting attribute path : ordemDeCorrecao.analise.needCorrecao
+[2021-08-02 23:28:04] - Visiting attribute path : ordemDeCorrecao.analise.ordemDeCorrecao
+[2021-08-02 23:28:04] - Property path deemed to be circular : ordemDeCorrecao.analise.ordemDeCorrecao
+[2021-08-02 23:28:04] - Visiting attribute path : ordemDeCorrecao.analise.parametro
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7764f4d7]
+[2021-08-02 23:28:04] - Visiting attribute path : ordemDeCorrecao.analise.resultado
+[2021-08-02 23:28:04] - Visiting attribute path : ordemDeCorrecao.observacao
+[2021-08-02 23:28:04] - Visiting attribute path : ordemDeCorrecao.oldAnaliseValue
+[2021-08-02 23:28:04] - Visiting attribute path : ordemDeCorrecao.responsavel
+[2021-08-02 23:28:04] - Visiting attribute path : ordemDeCorrecao.statusOCP
+[2021-08-02 23:28:04] - Visiting attribute path : ordemDeCorrecao.tipo
+[2021-08-02 23:28:04] - Visiting attribute path : ordemDeCorrecao.acao
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:5> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2be0d987]
+[2021-08-02 23:28:04] - Visiting attribute path : ordemDeCorrecao.acao.acao
+[2021-08-02 23:28:04] - Visiting attribute path : ordemDeCorrecao.acao.data
+[2021-08-02 23:28:04] - Visiting attribute path : ordemDeCorrecao.acao.notified
+[2021-08-02 23:28:04] - Visiting attribute path : ordemDeCorrecao.acao.ordemDeCorrecao
+[2021-08-02 23:28:04] - Property path deemed to be circular : ordemDeCorrecao.acao.ordemDeCorrecao
+[2021-08-02 23:28:04] - Visiting attribute path : ordemDeCorrecao.acao.prazo
+[2021-08-02 23:28:04] - Visiting attribute path : ordemDeCorrecao.acao.status
+[2021-08-02 23:28:04] - Visiting attribute path : quantidade
+[2021-08-02 23:28:04] - Visiting attribute path : status
+[2021-08-02 23:28:04] - Visiting attribute path : unidade
+[2021-08-02 23:28:04] - Building LoadPlan...
+[2021-08-02 23:28:04] - processing queryspace <gen:0>
+[2021-08-02 23:28:04] - LoadPlan(collection=com.bluebudy.SCQ.domain.MateriaPrima.adicao)
+    - Returns
+       - CollectionReturnImpl(collection=com.bluebudy.SCQ.domain.MateriaPrima.adicao, querySpaceUid=<gen:0>, path=[com.bluebudy.SCQ.domain.MateriaPrima.adicao])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.Adicao, querySpaceUid=<gen:1>, path=[com.bluebudy.SCQ.domain.MateriaPrima.adicao].<elements>)
+             - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.OrdemDeCorrecao, querySpaceUid=<gen:2>, path=[com.bluebudy.SCQ.domain.MateriaPrima.adicao].<elements>.ordemDeCorrecao)
+                - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.Analise, querySpaceUid=<gen:3>, path=[com.bluebudy.SCQ.domain.MateriaPrima.adicao].<elements>.ordemDeCorrecao.analise)
+                   - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.Parametro, querySpaceUid=<gen:4>, path=[com.bluebudy.SCQ.domain.MateriaPrima.adicao].<elements>.ordemDeCorrecao.analise.parametro)
+                - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.Acao, querySpaceUid=<gen:5>, path=[com.bluebudy.SCQ.domain.MateriaPrima.adicao].<elements>.ordemDeCorrecao.acao)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=com.bluebudy.SCQ.domain.MateriaPrima.adicao)
+          - SQL table alias mapping - adicao0_
+          - alias suffix - 0_
+          - suffixed key columns - {materia_6_1_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - id1_1_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.bluebudy.SCQ.domain.Adicao)
+                - SQL table alias mapping - adicao0_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_1_1_}
+                - JOIN (JoinDefinedByMetadata(ordemDeCorrecao)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=com.bluebudy.SCQ.domain.OrdemDeCorrecao)
+                      - SQL table alias mapping - ordemdecor1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_8_2_}
+                      - JOIN (JoinDefinedByMetadata(analise)) : <gen:2> -> <gen:3>
+                         - EntityQuerySpaceImpl(uid=<gen:3>, entity=com.bluebudy.SCQ.domain.Analise)
+                            - SQL table alias mapping - analise2_
+                            - alias suffix - 3_
+                            - suffixed key columns - {id1_2_3_}
+                      - JOIN (JoinDefinedByMetadata(acao)) : <gen:2> -> <gen:5>
+                         - EntityQuerySpaceImpl(uid=<gen:5>, entity=com.bluebudy.SCQ.domain.Acao)
+                            - SQL table alias mapping - acao3_
+                            - alias suffix - 4_
+                            - suffixed key columns - {id1_0_4_}
+
+[2021-08-02 23:28:04] - Static select for collection com.bluebudy.SCQ.domain.MateriaPrima.adicao: select adicao0_.materia_prima_id as materia_6_1_0_, adicao0_.id as id1_1_0_, adicao0_.id as id1_1_1_, adicao0_.data as data2_1_1_, adicao0_.materia_prima_id as materia_6_1_1_, adicao0_.ordem_id as ordem_id7_1_1_, adicao0_.quantidade as quantida3_1_1_, adicao0_.status as status4_1_1_, adicao0_.unidade as unidade5_1_1_, ordemdecor1_.id as id1_8_2_, ordemdecor1_.analise_id as analise_7_8_2_, ordemdecor1_.observacao as observac2_8_2_, ordemdecor1_.old_analise_value as old_anal3_8_2_, ordemdecor1_.responsavel as responsa4_8_2_, ordemdecor1_.statusocp as statusoc5_8_2_, ordemdecor1_.tipo as tipo6_8_2_, analise2_.id as id1_2_3_, analise2_.analista as analista2_2_3_, analise2_.data as data3_2_3_, analise2_.need_correcao as need_cor4_2_3_, analise2_.parametro_id as parametr6_2_3_, analise2_.resultado as resultad5_2_3_, acao3_.id as id1_0_4_, acao3_.acao as acao2_0_4_, acao3_.data as data3_0_4_, acao3_.notified as notified4_0_4_, acao3_.ordem_id as ordem_id7_0_4_, acao3_.prazo as prazo5_0_4_, acao3_.status as status6_0_4_ from adicao adicao0_ left outer join ordem_de_correcao ordemdecor1_ on adicao0_.ordem_id=ordemdecor1_.id left outer join analise analise2_ on ordemdecor1_.analise_id=analise2_.id left outer join acao acao3_ on ordemdecor1_.id=acao3_.ordem_id where adicao0_.materia_prima_id=?
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@42138b8f]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@12010d56]
+[2021-08-02 23:28:04] - Visiting attribute path : data
+[2021-08-02 23:28:04] - Visiting attribute path : materiaPrima
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6e1f95e3]
+[2021-08-02 23:28:04] - Visiting attribute path : materiaPrima.adicao
+[2021-08-02 23:28:04] - Property path deemed to be circular : materiaPrima.adicao
+[2021-08-02 23:28:04] - Visiting attribute path : materiaPrima.fatorTitulometrico
+[2021-08-02 23:28:04] - Visiting attribute path : materiaPrima.fornecedor
+[2021-08-02 23:28:04] - Visiting attribute path : materiaPrima.nome
+[2021-08-02 23:28:04] - Visiting attribute path : materiaPrima.preco
+[2021-08-02 23:28:04] - Visiting attribute path : materiaPrima.unidade
+[2021-08-02 23:28:04] - Visiting attribute path : ordemDeCorrecao
+[2021-08-02 23:28:04] - Property path deemed to be circular : ordemDeCorrecao
+[2021-08-02 23:28:04] - Visiting attribute path : quantidade
+[2021-08-02 23:28:04] - Visiting attribute path : status
+[2021-08-02 23:28:04] - Visiting attribute path : unidade
+[2021-08-02 23:28:04] - Building LoadPlan...
+[2021-08-02 23:28:04] - processing queryspace <gen:0>
+[2021-08-02 23:28:04] - LoadPlan(collection=com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes)
+    - Returns
+       - CollectionReturnImpl(collection=com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes, querySpaceUid=<gen:0>, path=[com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.Adicao, querySpaceUid=<gen:1>, path=[com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes].<elements>)
+             - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.MateriaPrima, querySpaceUid=<gen:2>, path=[com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes].<elements>.materiaPrima)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes)
+          - SQL table alias mapping - adicoes0_
+          - alias suffix - 0_
+          - suffixed key columns - {ordem_id7_1_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - id1_1_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.bluebudy.SCQ.domain.Adicao)
+                - SQL table alias mapping - adicoes0_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_1_1_}
+                - JOIN (JoinDefinedByMetadata(materiaPrima)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=com.bluebudy.SCQ.domain.MateriaPrima)
+                      - SQL table alias mapping - materiapri1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_5_2_}
+
+[2021-08-02 23:28:04] - Static select for collection com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes: select adicoes0_.ordem_id as ordem_id7_1_0_, adicoes0_.id as id1_1_0_, adicoes0_.id as id1_1_1_, adicoes0_.data as data2_1_1_, adicoes0_.materia_prima_id as materia_6_1_1_, adicoes0_.ordem_id as ordem_id7_1_1_, adicoes0_.quantidade as quantida3_1_1_, adicoes0_.status as status4_1_1_, adicoes0_.unidade as unidade5_1_1_, materiapri1_.id as id1_5_2_, materiapri1_.fator_titulometrico as fator_ti2_5_2_, materiapri1_.fornecedor as forneced3_5_2_, materiapri1_.nome as nome4_5_2_, materiapri1_.preco as preco5_5_2_, materiapri1_.unidade as unidade6_5_2_ from adicao adicoes0_ left outer join materia_prima materiapri1_ on adicoes0_.materia_prima_id=materiapri1_.id where adicoes0_.ordem_id=?
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@4dc49174]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@c77251d]
+[2021-08-02 23:28:04] - Visiting attribute path : codigoDoDocumento
+[2021-08-02 23:28:04] - Visiting attribute path : controle
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@716d69b6]
+[2021-08-02 23:28:04] - Visiting attribute path : controle.dataPlanejada
+[2021-08-02 23:28:04] - Visiting attribute path : controle.dataRealizada
+[2021-08-02 23:28:04] - Visiting attribute path : controle.notified
+[2021-08-02 23:28:04] - Visiting attribute path : controle.periodo
+[2021-08-02 23:28:04] - Visiting attribute path : nome
+[2021-08-02 23:28:04] - Visiting attribute path : processo
+[2021-08-02 23:28:04] - Property path deemed to be circular : processo
+[2021-08-02 23:28:04] - Building LoadPlan...
+[2021-08-02 23:28:04] - processing queryspace <gen:0>
+[2021-08-02 23:28:04] - LoadPlan(collection=com.bluebudy.SCQ.domain.Processo.tarefas)
+    - Returns
+       - CollectionReturnImpl(collection=com.bluebudy.SCQ.domain.Processo.tarefas, querySpaceUid=<gen:0>, path=[com.bluebudy.SCQ.domain.Processo.tarefas])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.TarefasDeManutencao, querySpaceUid=<gen:1>, path=[com.bluebudy.SCQ.domain.Processo.tarefas].<elements>)
+             - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.Controle, querySpaceUid=<gen:2>, path=[com.bluebudy.SCQ.domain.Processo.tarefas].<elements>.controle)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=com.bluebudy.SCQ.domain.Processo.tarefas)
+          - SQL table alias mapping - tarefas0_
+          - alias suffix - 0_
+          - suffixed key columns - {processo5_12_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - id1_12_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.bluebudy.SCQ.domain.TarefasDeManutencao)
+                - SQL table alias mapping - tarefas0_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_12_1_}
+                - JOIN (JoinDefinedByMetadata(controle)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=com.bluebudy.SCQ.domain.Controle)
+                      - SQL table alias mapping - controle1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_3_2_}
+
+[2021-08-02 23:28:04] - Static select for collection com.bluebudy.SCQ.domain.Processo.tarefas: select tarefas0_.processo_id as processo5_12_0_, tarefas0_.id as id1_12_0_, tarefas0_.id as id1_12_1_, tarefas0_.codigo_do_documento as codigo_d2_12_1_, tarefas0_.controle_id as controle4_12_1_, tarefas0_.nome as nome3_12_1_, tarefas0_.processo_id as processo5_12_1_, controle1_.id as id1_3_2_, controle1_.data_planejada as data_pla2_3_2_, controle1_.data_realizada as data_rea3_3_2_, controle1_.notified as notified4_3_2_, controle1_.periodo as periodo5_3_2_ from tarefas_de_manutencao tarefas0_ left outer join controle controle1_ on tarefas0_.controle_id=controle1_.id where tarefas0_.processo_id=?
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@72ab86d7]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3287303c]
+[2021-08-02 23:28:04] - Visiting attribute path : montagem
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@7dd87376]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7655ba21]
+[2021-08-02 23:28:04] - Visiting attribute path : nome
+[2021-08-02 23:28:04] - Visiting attribute path : parametros
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@3056362f]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:5> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3de7568d]
+[2021-08-02 23:28:04] - Visiting attribute path : posicao
+[2021-08-02 23:28:04] - Visiting attribute path : processo
+[2021-08-02 23:28:04] - Property path deemed to be circular : processo
+[2021-08-02 23:28:04] - Visiting attribute path : trocas
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:6> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@39ac184]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:7> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@58c5e764]
+[2021-08-02 23:28:04] - Visiting attribute path : volume
+[2021-08-02 23:28:04] - Building LoadPlan...
+[2021-08-02 23:28:04] - processing queryspace <gen:0>
+[2021-08-02 23:28:04] - LoadPlan(collection=com.bluebudy.SCQ.domain.Processo.etapas)
+    - Returns
+       - CollectionReturnImpl(collection=com.bluebudy.SCQ.domain.Processo.etapas, querySpaceUid=<gen:0>, path=[com.bluebudy.SCQ.domain.Processo.etapas])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.Etapa, querySpaceUid=<gen:1>, path=[com.bluebudy.SCQ.domain.Processo.etapas].<elements>)
+             - CollectionAttributeFetchImpl(collection=com.bluebudy.SCQ.domain.Etapa.montagem, querySpaceUid=<gen:2>, path=[com.bluebudy.SCQ.domain.Processo.etapas].<elements>.montagem)
+                - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.MontagemComposition, querySpaceUid=<gen:3>, path=[com.bluebudy.SCQ.domain.Processo.etapas].<elements>.montagem.<elements>)
+             - CollectionAttributeFetchImpl(collection=com.bluebudy.SCQ.domain.Etapa.parametros, querySpaceUid=<gen:4>, path=[com.bluebudy.SCQ.domain.Processo.etapas].<elements>.parametros)
+                - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.Parametro, querySpaceUid=<gen:5>, path=[com.bluebudy.SCQ.domain.Processo.etapas].<elements>.parametros.<elements>)
+             - CollectionAttributeFetchImpl(collection=com.bluebudy.SCQ.domain.Etapa.trocas, querySpaceUid=<gen:6>, path=[com.bluebudy.SCQ.domain.Processo.etapas].<elements>.trocas)
+                - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.Troca, querySpaceUid=<gen:7>, path=[com.bluebudy.SCQ.domain.Processo.etapas].<elements>.trocas.<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=com.bluebudy.SCQ.domain.Processo.etapas)
+          - SQL table alias mapping - etapas0_
+          - alias suffix - 0_
+          - suffixed key columns - {processo5_4_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - id1_4_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.bluebudy.SCQ.domain.Etapa)
+                - SQL table alias mapping - etapas0_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_4_1_}
+
+[2021-08-02 23:28:04] - Static select for collection com.bluebudy.SCQ.domain.Processo.etapas: select etapas0_.processo_id as processo5_4_0_, etapas0_.id as id1_4_0_, etapas0_.id as id1_4_1_, etapas0_.nome as nome2_4_1_, etapas0_.posicao as posicao3_4_1_, etapas0_.processo_id as processo5_4_1_, etapas0_.volume as volume4_4_1_ from etapa etapas0_ where etapas0_.processo_id=?
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@59a3451d]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5e77339a]
+[2021-08-02 23:28:04] - Visiting attribute path : controle
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3f755ed3]
+[2021-08-02 23:28:04] - Visiting attribute path : controle.dataPlanejada
+[2021-08-02 23:28:04] - Visiting attribute path : controle.dataRealizada
+[2021-08-02 23:28:04] - Visiting attribute path : controle.notified
+[2021-08-02 23:28:04] - Visiting attribute path : controle.periodo
+[2021-08-02 23:28:04] - Visiting attribute path : etapa
+[2021-08-02 23:28:04] - Property path deemed to be circular : etapa
+[2021-08-02 23:28:04] - Building LoadPlan...
+[2021-08-02 23:28:04] - processing queryspace <gen:0>
+[2021-08-02 23:28:04] - LoadPlan(collection=com.bluebudy.SCQ.domain.Etapa.trocas)
+    - Returns
+       - CollectionReturnImpl(collection=com.bluebudy.SCQ.domain.Etapa.trocas, querySpaceUid=<gen:0>, path=[com.bluebudy.SCQ.domain.Etapa.trocas])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.Troca, querySpaceUid=<gen:1>, path=[com.bluebudy.SCQ.domain.Etapa.trocas].<elements>)
+             - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.Controle, querySpaceUid=<gen:2>, path=[com.bluebudy.SCQ.domain.Etapa.trocas].<elements>.controle)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=com.bluebudy.SCQ.domain.Etapa.trocas)
+          - SQL table alias mapping - trocas0_
+          - alias suffix - 0_
+          - suffixed key columns - {etapa_id3_13_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - id1_13_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.bluebudy.SCQ.domain.Troca)
+                - SQL table alias mapping - trocas0_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_13_1_}
+                - JOIN (JoinDefinedByMetadata(controle)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=com.bluebudy.SCQ.domain.Controle)
+                      - SQL table alias mapping - controle1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_3_2_}
+
+[2021-08-02 23:28:04] - Static select for collection com.bluebudy.SCQ.domain.Etapa.trocas: select trocas0_.etapa_id as etapa_id3_13_0_, trocas0_.id as id1_13_0_, trocas0_.id as id1_13_1_, trocas0_.controle_id as controle2_13_1_, trocas0_.etapa_id as etapa_id3_13_1_, controle1_.id as id1_3_2_, controle1_.data_planejada as data_pla2_3_2_, controle1_.data_realizada as data_rea3_3_2_, controle1_.notified as notified4_3_2_, controle1_.periodo as periodo5_3_2_ from troca trocas0_ left outer join controle controle1_ on trocas0_.controle_id=controle1_.id where trocas0_.etapa_id=?
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@711d40bd]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@66088b2d]
+[2021-08-02 23:28:04] - Visiting attribute path : analista
+[2021-08-02 23:28:04] - Visiting attribute path : data
+[2021-08-02 23:28:04] - Visiting attribute path : needCorrecao
+[2021-08-02 23:28:04] - Visiting attribute path : ordemDeCorrecao
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@7a7c7295]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@580fdf14]
+[2021-08-02 23:28:04] - Visiting attribute path : parametro
+[2021-08-02 23:28:04] - Property path deemed to be circular : parametro
+[2021-08-02 23:28:04] - Visiting attribute path : resultado
+[2021-08-02 23:28:04] - Building LoadPlan...
+[2021-08-02 23:28:04] - processing queryspace <gen:0>
+[2021-08-02 23:28:04] - LoadPlan(collection=com.bluebudy.SCQ.domain.Parametro.analises)
+    - Returns
+       - CollectionReturnImpl(collection=com.bluebudy.SCQ.domain.Parametro.analises, querySpaceUid=<gen:0>, path=[com.bluebudy.SCQ.domain.Parametro.analises])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.Analise, querySpaceUid=<gen:1>, path=[com.bluebudy.SCQ.domain.Parametro.analises].<elements>)
+             - CollectionAttributeFetchImpl(collection=com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao, querySpaceUid=<gen:2>, path=[com.bluebudy.SCQ.domain.Parametro.analises].<elements>.ordemDeCorrecao)
+                - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.OrdemDeCorrecao, querySpaceUid=<gen:3>, path=[com.bluebudy.SCQ.domain.Parametro.analises].<elements>.ordemDeCorrecao.<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=com.bluebudy.SCQ.domain.Parametro.analises)
+          - SQL table alias mapping - analises0_
+          - alias suffix - 0_
+          - suffixed key columns - {parametr6_2_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - id1_2_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.bluebudy.SCQ.domain.Analise)
+                - SQL table alias mapping - analises0_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_2_1_}
+
+[2021-08-02 23:28:04] - Static select for collection com.bluebudy.SCQ.domain.Parametro.analises: select analises0_.parametro_id as parametr6_2_0_, analises0_.id as id1_2_0_, analises0_.id as id1_2_1_, analises0_.analista as analista2_2_1_, analises0_.data as data3_2_1_, analises0_.need_correcao as need_cor4_2_1_, analises0_.parametro_id as parametr6_2_1_, analises0_.resultado as resultad5_2_1_ from analise analises0_ where analises0_.parametro_id=?
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@5d0347e6]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4296604f]
+[2021-08-02 23:28:04] - Visiting attribute path : etapa
+[2021-08-02 23:28:04] - Property path deemed to be circular : etapa
+[2021-08-02 23:28:04] - Visiting attribute path : materiaPrima
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3a4d8d62]
+[2021-08-02 23:28:04] - Visiting attribute path : materiaPrima.adicao
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@2afc6081]
+[2021-08-02 23:28:04] - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@614be8fa]
+[2021-08-02 23:28:04] - Visiting attribute path : materiaPrima.fatorTitulometrico
+[2021-08-02 23:28:04] - Visiting attribute path : materiaPrima.fornecedor
+[2021-08-02 23:28:04] - Visiting attribute path : materiaPrima.nome
+[2021-08-02 23:28:04] - Visiting attribute path : materiaPrima.preco
+[2021-08-02 23:28:04] - Visiting attribute path : materiaPrima.unidade
+[2021-08-02 23:28:04] - Visiting attribute path : quantidade
+[2021-08-02 23:28:04] - Building LoadPlan...
+[2021-08-02 23:28:04] - processing queryspace <gen:0>
+[2021-08-02 23:28:04] - LoadPlan(collection=com.bluebudy.SCQ.domain.Etapa.montagem)
+    - Returns
+       - CollectionReturnImpl(collection=com.bluebudy.SCQ.domain.Etapa.montagem, querySpaceUid=<gen:0>, path=[com.bluebudy.SCQ.domain.Etapa.montagem])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.MontagemComposition, querySpaceUid=<gen:1>, path=[com.bluebudy.SCQ.domain.Etapa.montagem].<elements>)
+             - EntityAttributeFetchImpl(entity=com.bluebudy.SCQ.domain.MateriaPrima, querySpaceUid=<gen:2>, path=[com.bluebudy.SCQ.domain.Etapa.montagem].<elements>.materiaPrima)
+                - CollectionAttributeFetchImpl(collection=com.bluebudy.SCQ.domain.MateriaPrima.adicao, querySpaceUid=<gen:3>, path=[com.bluebudy.SCQ.domain.Etapa.montagem].<elements>.materiaPrima.adicao)
+                   - (collection element) CollectionFetchableElementEntityGraph(entity=com.bluebudy.SCQ.domain.Adicao, querySpaceUid=<gen:4>, path=[com.bluebudy.SCQ.domain.Etapa.montagem].<elements>.materiaPrima.adicao.<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=com.bluebudy.SCQ.domain.Etapa.montagem)
+          - SQL table alias mapping - montagem0_
+          - alias suffix - 0_
+          - suffixed key columns - {etapa_id3_6_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - id1_6_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.bluebudy.SCQ.domain.MontagemComposition)
+                - SQL table alias mapping - montagem0_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_6_1_}
+                - JOIN (JoinDefinedByMetadata(materiaPrima)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=com.bluebudy.SCQ.domain.MateriaPrima)
+                      - SQL table alias mapping - materiapri1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_5_2_}
+
+[2021-08-02 23:28:04] - Static select for collection com.bluebudy.SCQ.domain.Etapa.montagem: select montagem0_.etapa_id as etapa_id3_6_0_, montagem0_.id as id1_6_0_, montagem0_.id as id1_6_1_, montagem0_.etapa_id as etapa_id3_6_1_, montagem0_.materia_prima_id as materia_4_6_1_, montagem0_.quantidade as quantida2_6_1_, materiapri1_.id as id1_5_2_, materiapri1_.fator_titulometrico as fator_ti2_5_2_, materiapri1_.fornecedor as forneced3_5_2_, materiapri1_.nome as nome4_5_2_, materiapri1_.preco as preco5_5_2_, materiapri1_.unidade as unidade6_5_2_ from montagem_composition montagem0_ left outer join materia_prima materiapri1_ on montagem0_.materia_prima_id=materiapri1_.id where montagem0_.etapa_id=?
+[2021-08-02 23:28:04] - Using NAMED-based conversion for Enum com.bluebudy.SCQ.constantes.Unidade
+[2021-08-02 23:28:04] - Using NAMED-based conversion for Enum com.bluebudy.SCQ.constantes.Unidade
+[2021-08-02 23:28:04] - Using ORDINAL-based conversion for Enum com.bluebudy.SCQ.constantes.TiposDeAcao
+[2021-08-02 23:28:04] - Using ORDINAL-based conversion for Enum com.bluebudy.SCQ.constantes.TiposDeAcao
+[2021-08-02 23:28:04] - Using ORDINAL-based conversion for Enum com.bluebudy.SCQ.constantes.StatusNotificacao
+[2021-08-02 23:28:04] - Using ORDINAL-based conversion for Enum com.bluebudy.SCQ.constantes.StatusNotificacao
+[2021-08-02 23:28:04] - Using NAMED-based conversion for Enum com.bluebudy.SCQ.constantes.Unidade
+[2021-08-02 23:28:04] - Using NAMED-based conversion for Enum com.bluebudy.SCQ.constantes.Unidade
+[2021-08-02 23:28:04] - Using NAMED-based conversion for Enum com.bluebudy.SCQ.constantes.Unidade
+[2021-08-02 23:28:04] - Using NAMED-based conversion for Enum com.bluebudy.SCQ.constantes.Unidade
+[2021-08-02 23:28:04] - No alter strings for table : acao
+[2021-08-02 23:28:04] - No alter strings for table : adicao
+[2021-08-02 23:28:04] - No alter strings for table : analise
+[2021-08-02 23:28:04] - No alter strings for table : controle
+[2021-08-02 23:28:04] - No alter strings for table : etapa
+[2021-08-02 23:28:04] - No alter strings for table : materia_prima
+[2021-08-02 23:28:04] - No alter strings for table : montagem_composition
+[2021-08-02 23:28:04] - No alter strings for table : notificacao
+[2021-08-02 23:28:04] - No alter strings for table : ordem_de_correcao
+[2021-08-02 23:28:04] - No alter strings for table : ordem_de_manutencao
+[2021-08-02 23:28:04] - No alter strings for table : parametro
+[2021-08-02 23:28:04] - No alter strings for table : processo
+[2021-08-02 23:28:04] - No alter strings for table : tarefas_de_manutencao
+[2021-08-02 23:28:04] - No alter strings for table : troca
+[2021-08-02 23:28:04] - No alter strings for table : user
+[2021-08-02 23:28:04] - No alter strings for table : verification_token
+[2021-08-02 23:28:04] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-08-02 23:28:04] - Checking 0 named HQL queries
+[2021-08-02 23:28:04] - Checking 0 named SQL queries
+[2021-08-02 23:28:04] - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@2c96772d
+[2021-08-02 23:28:04] - Registering SessionFactory: 4895c45d-c08e-470e-b435-dc4c877ccccf (<unnamed>)
+[2021-08-02 23:28:04] - Not binding SessionFactory to JNDI, no JNDI name configured
+[2021-08-02 23:28:04] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-08-02 23:28:04] - Creating shared instance of singleton bean 'delegatingApplicationListener'
+[2021-08-02 23:28:04] - Creating shared instance of singleton bean 'liveReloadServerEventListener'
+[2021-08-02 23:28:04] - Creating shared instance of singleton bean 'org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$LiveReloadConfiguration'
+[2021-08-02 23:28:04] - Creating shared instance of singleton bean 'optionalLiveReloadServer'
+[2021-08-02 23:28:04] - Creating shared instance of singleton bean 'spring.devtools-org.springframework.boot.devtools.autoconfigure.DevToolsProperties'
+[2021-08-02 23:28:04] - Autowiring by type from bean name 'liveReloadServer' via factory method to bean named 'spring.devtools-org.springframework.boot.devtools.autoconfigure.DevToolsProperties'
+[2021-08-02 23:28:04] - Autowiring by type from bean name 'optionalLiveReloadServer' via factory method to bean named 'liveReloadServer'
+[2021-08-02 23:28:04] - Starting live reload server on port 35729
+[2021-08-02 23:28:04] - LiveReload server is running on port 35729
+[2021-08-02 23:28:04] - Autowiring by type from bean name 'liveReloadServerEventListener' via factory method to bean named 'optionalLiveReloadServer'
+[2021-08-02 23:28:04] - Creating shared instance of singleton bean 'scqMobileApplication'
+[2021-08-02 23:28:04] - Not strongly caching class [com.bluebudy.SCQ.ScqMobileApplication$$EnhancerBySpringCGLIB$$9957005b] because it is not cache-safe
+[2021-08-02 23:28:04] - Creating shared instance of singleton bean 'schedulingConfiguration'
+[2021-08-02 23:28:04] - Not strongly caching class [com.bluebudy.SCQ.SchedulingConfiguration$$EnhancerBySpringCGLIB$$61c8fab8] because it is not cache-safe
+[2021-08-02 23:28:04] - Creating shared instance of singleton bean 'securityConfig'
+[2021-08-02 23:28:04] - Not strongly caching class [com.bluebudy.SCQ.SecurityConfig$$EnhancerBySpringCGLIB$$31608870] because it is not cache-safe
+[2021-08-02 23:28:04] - Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+[2021-08-02 23:28:04] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+[2021-08-02 23:28:04] - Creating shared instance of singleton bean 'spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties'
+[2021-08-02 23:28:05] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties'
+[2021-08-02 23:28:05] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@7d44e63e'
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration'
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter'
+[2021-08-02 23:28:05] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties'
+[2021-08-02 23:28:05] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+[2021-08-02 23:28:05] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@7d44e63e'
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'resourceHandlerRegistrationCustomizer'
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$ResourceChainCustomizerConfiguration'
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'openEntityManagerInViewInterceptorConfigurer'
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration'
+[2021-08-02 23:28:05] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration' via constructor to bean named 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'openEntityManagerInViewInterceptor'
+[2021-08-02 23:28:05] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-08-02 23:28:05] - Autowiring by type from bean name 'openEntityManagerInViewInterceptorConfigurer' via factory method to bean named 'openEntityManagerInViewInterceptor'
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'metricsWebMvcConfigurer'
+[2021-08-02 23:28:05] - Autowiring by type from bean name 'metricsWebMvcConfigurer' via factory method to bean named 'simpleMeterRegistry'
+[2021-08-02 23:28:05] - Autowiring by type from bean name 'metricsWebMvcConfigurer' via factory method to bean named 'webMvcTagsProvider'
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'hypermediaWebMvcConfigurer'
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'org.springframework.hateoas.config.WebMvcHateoasConfiguration'
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'org.springframework.hateoas.mediatype.hal.HalMediaTypeConfiguration'
+[2021-08-02 23:28:05] - Cannot find '.class' file for class [class org.springframework.hateoas.mediatype.hal.HalMediaTypeConfiguration$$EnhancerBySpringCGLIB$$59060604] - unable to determine constructor/method parameter names
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean '_relProvider'
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'org.springframework.hateoas.config.HateoasConfiguration'
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'relProviderPluginRegistry'
+[2021-08-02 23:28:05] - Autowiring by type from bean name '_relProvider' via factory method to bean named 'relProviderPluginRegistry'
+[2021-08-02 23:28:05] - Creating shared instance of singleton bean 'messageResolver'
+[2021-08-02 23:28:05] - Autowiring by type from bean name 'org.springframework.hateoas.mediatype.hal.HalMediaTypeConfiguration' via constructor to bean named '_relProvider'
+[2021-08-02 23:28:05] - Autowiring by type from bean name 'org.springframework.hateoas.mediatype.hal.HalMediaTypeConfiguration' via constructor to bean named 'messageResolver'
+[2021-08-02 23:28:05] - Autowiring by type from bean name 'hypermediaWebMvcConfigurer' via factory method to bean named 'org.springframework.hateoas.mediatype.hal.HalMediaTypeConfiguration'

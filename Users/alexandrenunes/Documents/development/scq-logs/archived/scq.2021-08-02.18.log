@@ -1,0 +1,128 @@
+[2021-08-02 23:28:06] - Not strongly caching class [com.bluebudy.SCQ.services.ControleService] because it is not cache-safe
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'greetingController'
+[2021-08-02 23:28:06] - Not strongly caching class [com.bluebudy.SCQ.controllers.GreetingController] because it is not cache-safe
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'materiaPrimaController'
+[2021-08-02 23:28:06] - Autowiring by type from bean name 'materiaPrimaController' via constructor to bean named 'materiaPrimaRepository'
+[2021-08-02 23:28:06] - Not strongly caching class [com.bluebudy.SCQ.controllers.MateriaPrimaController] because it is not cache-safe
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'montagemCompositionController'
+[2021-08-02 23:28:06] - Not strongly caching class [com.bluebudy.SCQ.controllers.MontagemCompositionController] because it is not cache-safe
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'montagemCompositionRepository'
+[2021-08-02 23:28:06] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:06] - Initializing repository instance for com.bluebudy.SCQ.repository.MontagemCompositionRepository…
+[2021-08-02 23:28:06] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:06] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:06] - Looking up query for method findByEtapaId
+[2021-08-02 23:28:06] - Looking up named query MontagemComposition.findByEtapaId
+[2021-08-02 23:28:06] - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[2021-08-02 23:28:06] - Did not find named query MontagemComposition.findByEtapaId
+[2021-08-02 23:28:06] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:06] - Finished creation of repository instance for com.bluebudy.SCQ.repository.MontagemCompositionRepository.
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'notificacaoController'
+[2021-08-02 23:28:06] - Not strongly caching class [com.bluebudy.SCQ.controllers.NotificacaoController] because it is not cache-safe
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'trocaRepositoryImpl'
+[2021-08-02 23:28:06] - Not strongly caching class [com.bluebudy.SCQ.repository.TrocaRepositoryImpl] because it is not cache-safe
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'trocaRepository'
+[2021-08-02 23:28:06] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:06] - Initializing repository instance for com.bluebudy.SCQ.repository.TrocaRepository…
+[2021-08-02 23:28:06] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:06] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:06] - Finished creation of repository instance for com.bluebudy.SCQ.repository.TrocaRepository.
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'tarefasDeManutencaoRepositoryImpl'
+[2021-08-02 23:28:06] - Not strongly caching class [com.bluebudy.SCQ.repository.TarefasDeManutencaoRepositoryImpl] because it is not cache-safe
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'tarefasDeManutencaoRepository'
+[2021-08-02 23:28:06] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:06] - Initializing repository instance for com.bluebudy.SCQ.repository.TarefasDeManutencaoRepository…
+[2021-08-02 23:28:06] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:06] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:06] - Looking up query for method findByProcessoId
+[2021-08-02 23:28:06] - Looking up named query TarefasDeManutencao.findByProcessoId
+[2021-08-02 23:28:06] - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[2021-08-02 23:28:06] - Did not find named query TarefasDeManutencao.findByProcessoId
+[2021-08-02 23:28:06] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:06] - Finished creation of repository instance for com.bluebudy.SCQ.repository.TarefasDeManutencaoRepository.
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'ompController'
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'ompRepositoryImpl'
+[2021-08-02 23:28:06] - Not strongly caching class [com.bluebudy.SCQ.repository.OmpRepositoryImpl] because it is not cache-safe
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'ompRepository'
+[2021-08-02 23:28:06] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:06] - Not strongly caching class [com.bluebudy.SCQ.domain.OrdemDeManutencao] because it is not cache-safe
+[2021-08-02 23:28:06] - Initializing repository instance for com.bluebudy.SCQ.repository.OmpRepository…
+[2021-08-02 23:28:06] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:06] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:06] - Looking up query for method findByRealizadoEm
+[2021-08-02 23:28:06] - Looking up named query OrdemDeManutencao.findByRealizadoEm
+[2021-08-02 23:28:06] - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[2021-08-02 23:28:06] - Did not find named query OrdemDeManutencao.findByRealizadoEm
+[2021-08-02 23:28:06] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:06] - Finished creation of repository instance for com.bluebudy.SCQ.repository.OmpRepository.
+[2021-08-02 23:28:06] - Autowiring by type from bean name 'ompController' via constructor to bean named 'ompRepository'
+[2021-08-02 23:28:06] - Not strongly caching class [com.bluebudy.SCQ.controllers.OmpController] because it is not cache-safe
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'ordemDeCorrecaoController'
+[2021-08-02 23:28:06] - Autowiring by type from bean name 'ordemDeCorrecaoController' via constructor to bean named 'ordemDeCorrecaoRepository'
+[2021-08-02 23:28:06] - Not strongly caching class [com.bluebudy.SCQ.controllers.OrdemDeCorrecaoController] because it is not cache-safe
+[2021-08-02 23:28:06] - Caching method [CacheKey[com.bluebudy.SCQ.controllers.OrdemDeCorrecaoController; com.bluebudy.SCQ.dtos.OrdemDeCorrecaoDTO com.bluebudy.SCQ.controllers.OrdemDeCorrecaoController.aproveOCP(java.lang.Long)]] with attributes [ROLE_ADMIN]
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'parametroController'
+[2021-08-02 23:28:06] - Autowiring by type from bean name 'parametroController' via constructor to bean named 'parametroRepository'
+[2021-08-02 23:28:06] - Not strongly caching class [com.bluebudy.SCQ.controllers.ParametroController] because it is not cache-safe
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'processoController'
+[2021-08-02 23:28:06] - Autowiring by type from bean name 'processoController' via constructor to bean named 'processoRepository'
+[2021-08-02 23:28:06] - Not strongly caching class [com.bluebudy.SCQ.controllers.ProcessoController] because it is not cache-safe
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'registrationController'
+[2021-08-02 23:28:06] - Not strongly caching class [com.bluebudy.SCQ.controllers.RegistrationController] because it is not cache-safe
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'userService'
+[2021-08-02 23:28:06] - Not strongly caching class [com.bluebudy.SCQ.services.UserService] because it is not cache-safe
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'verificationTokenRepository'
+[2021-08-02 23:28:06] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:06] - Not strongly caching class [com.bluebudy.SCQ.domain.VerificationToken] because it is not cache-safe
+[2021-08-02 23:28:06] - Initializing repository instance for com.bluebudy.SCQ.repository.VerificationTokenRepository…
+[2021-08-02 23:28:06] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:06] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:06] - Looking up query for method findByToken
+[2021-08-02 23:28:06] - Looking up named query VerificationToken.findByToken
+[2021-08-02 23:28:06] - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[2021-08-02 23:28:06] - Did not find named query VerificationToken.findByToken
+[2021-08-02 23:28:06] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:28:06] - Finished creation of repository instance for com.bluebudy.SCQ.repository.VerificationTokenRepository.
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'passwordEncoder'
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'tarefasDeManutencaoController'
+[2021-08-02 23:28:06] - Not strongly caching class [com.bluebudy.SCQ.controllers.TarefasDeManutencaoController] because it is not cache-safe
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'trocaController'
+[2021-08-02 23:28:06] - Autowiring by type from bean name 'trocaController' via constructor to bean named 'trocaRepository'
+[2021-08-02 23:28:06] - Not strongly caching class [com.bluebudy.SCQ.controllers.TrocaController] because it is not cache-safe
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'registrationListener'
+[2021-08-02 23:28:06] - Not strongly caching class [com.bluebudy.SCQ.events.RegistrationListener] because it is not cache-safe
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'javaMailSender'
+[2021-08-02 23:28:06] - Not strongly caching class [com.bluebudy.SCQ.services.ScqMailSupportService] because it is not cache-safe
+[2021-08-02 23:28:06] - Found key 'scq.dominio.http' in PropertySource 'configurationProperties' with value of type String
+[2021-08-02 23:28:06] - Found key 'scq.dominio.http' in PropertySource 'environmentProperties' with value of type String
+[2021-08-02 23:28:06] - Creating shared instance of singleton bean 'userEnableListner'
+[2021-08-02 23:28:07] - Not strongly caching class [com.bluebudy.SCQ.events.UserEnableListner] because it is not cache-safe
+[2021-08-02 23:28:07] - Found key 'scq.dominio.http' in PropertySource 'configurationProperties' with value of type String
+[2021-08-02 23:28:07] - Found key 'scq.dominio.http' in PropertySource 'environmentProperties' with value of type String
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'ompService'
+[2021-08-02 23:28:07] - Not strongly caching class [com.bluebudy.SCQ.services.OmpService] because it is not cache-safe
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'validationError'
+[2021-08-02 23:28:07] - Not strongly caching class [com.bluebudy.SCQ.validation.ValidationError] because it is not cache-safe
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'repositorySearchController'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'pagedResourcesAssembler'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'pageableResolver'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'sortResolver'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'repositoryRestConfiguration'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'repositories'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'metadataConfiguration'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'enumTranslator'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'entityLinks'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'resourceMappings'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'persistentEntities'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'backendIdConverterRegistry'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'httpHeadersPreparer'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'auditableBeanWrapperFactory'
+[2021-08-02 23:28:07] - Autowiring by type from bean name 'repositorySearchController' via constructor to bean named 'pagedResourcesAssembler'
+[2021-08-02 23:28:07] - Autowiring by type from bean name 'repositorySearchController' via constructor to bean named 'entityLinks'
+[2021-08-02 23:28:07] - Autowiring by type from bean name 'repositorySearchController' via constructor to bean named 'resourceMappings'
+[2021-08-02 23:28:07] - Autowiring by type from bean name 'repositorySearchController' via constructor to bean named 'httpHeadersPreparer'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'repositoryEntityController'
+[2021-08-02 23:28:07] - Autowiring by type from bean name 'repositoryEntityController' via constructor to bean named 'repositories'
+[2021-08-02 23:28:07] - Autowiring by type from bean name 'repositoryEntityController' via constructor to bean named 'repositoryRestConfiguration'
+[2021-08-02 23:28:07] - Autowiring by type from bean name 'repositoryEntityController' via constructor to bean named 'entityLinks'
+[2021-08-02 23:28:07] - Autowiring by type from bean name 'repositoryEntityController' via constructor to bean named 'pagedResourcesAssembler'

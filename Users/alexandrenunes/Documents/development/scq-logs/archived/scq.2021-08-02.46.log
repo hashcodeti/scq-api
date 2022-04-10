@@ -1,0 +1,377 @@
+[2021-08-02 23:31:32] - /calculadora?formula=%5BV%5D*3.269&viragem=14 at position 1 of 12 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+[2021-08-02 23:31:32] - /calculadora?formula=%5BV%5D*3.269&viragem=14 at position 2 of 12 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+[2021-08-02 23:31:32] - /calculadora?formula=%5BV%5D*3.269&viragem=14 at position 3 of 12 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+[2021-08-02 23:31:32] - /calculadora?formula=%5BV%5D*3.269&viragem=14 at position 4 of 12 in additional filter chain; firing Filter: 'CorsFilter'
+[2021-08-02 23:31:32] - Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@772ee90d
+[2021-08-02 23:31:32] - SecurityContextHolder now cleared, as request processing completed
+[2021-08-02 23:31:32] - /calculadora?formula=%5BV%5D*3.269&viragem=14 at position 1 of 12 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+[2021-08-02 23:31:32] - /calculadora?formula=%5BV%5D*3.269&viragem=14 at position 2 of 12 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+[2021-08-02 23:31:32] - /calculadora?formula=%5BV%5D*3.269&viragem=14 at position 3 of 12 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+[2021-08-02 23:31:32] - /calculadora?formula=%5BV%5D*3.269&viragem=14 at position 4 of 12 in additional filter chain; firing Filter: 'CorsFilter'
+[2021-08-02 23:31:32] - /calculadora?formula=%5BV%5D*3.269&viragem=14 at position 5 of 12 in additional filter chain; firing Filter: 'LogoutFilter'
+[2021-08-02 23:31:32] - Trying to match using Ant [pattern='/logout', GET]
+[2021-08-02 23:31:32] - Checking match of request : '/calculadora'; against '/logout'
+[2021-08-02 23:31:32] - Trying to match using Ant [pattern='/logout', POST]
+[2021-08-02 23:31:32] - Request 'GET /calculadora' doesn't match 'POST /logout'
+[2021-08-02 23:31:32] - Trying to match using Ant [pattern='/logout', PUT]
+[2021-08-02 23:31:32] - Request 'GET /calculadora' doesn't match 'PUT /logout'
+[2021-08-02 23:31:32] - Trying to match using Ant [pattern='/logout', DELETE]
+[2021-08-02 23:31:32] - Request 'GET /calculadora' doesn't match 'DELETE /logout'
+[2021-08-02 23:31:32] - No matches found
+[2021-08-02 23:31:32] - /calculadora?formula=%5BV%5D*3.269&viragem=14 at position 6 of 12 in additional filter chain; firing Filter: 'AutenticacaoTokenFilter'
+[2021-08-02 23:31:32] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:31:32] - Rendered criteria query -> select generatedAlias0 from User as generatedAlias0 where generatedAlias0.mail=:param0
+[2021-08-02 23:31:32] - select user0_.id as id1_14_, user0_.admin as admin2_14_, user0_.enabled as enabled3_14_, user0_.mail as mail4_14_, user0_.name as name5_14_, user0_.password as password6_14_ from user user0_ where user0_.mail=?
+[2021-08-02 23:31:32] - Result set row: 0
+[2021-08-02 23:31:32] - Result row: EntityKey[com.bluebudy.SCQ.domain.User#1]
+[2021-08-02 23:31:32] - Resolving attributes for [com.bluebudy.SCQ.domain.User#1]
+[2021-08-02 23:31:32] - Processing attribute `admin` : value = true
+[2021-08-02 23:31:32] - Attribute (`admin`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:32] - Processing attribute `enabled` : value = true
+[2021-08-02 23:31:32] - Attribute (`enabled`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:32] - Processing attribute `mail` : value = Alexandre@cationbrasil.com.br
+[2021-08-02 23:31:32] - Attribute (`mail`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:32] - Processing attribute `name` : value = Alexandre
+[2021-08-02 23:31:32] - Attribute (`name`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:32] - Processing attribute `password` : value = $2a$10$jkkH12mWrSy9ijRj7Xg2XeRpZ2swGujWHa4f8PwXEYGen.K0dMaRO
+[2021-08-02 23:31:32] - Attribute (`password`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:32] - Done materializing entity [com.bluebudy.SCQ.domain.User#1]
+[2021-08-02 23:31:32] - /calculadora?formula=%5BV%5D*3.269&viragem=14 at position 7 of 12 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+[2021-08-02 23:31:32] - /calculadora?formula=%5BV%5D*3.269&viragem=14 at position 8 of 12 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+[2021-08-02 23:31:32] - /calculadora?formula=%5BV%5D*3.269&viragem=14 at position 9 of 12 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+[2021-08-02 23:31:32] - SecurityContextHolder not populated with anonymous token, as it already contained: 'org.springframework.security.authentication.UsernamePasswordAuthenticationToken@f51be321: Principal: com.bluebudy.SCQ.domain.User@e5ad737; Credentials: [PROTECTED]; Authenticated: true; Details: null; Granted Authorities: ROLE_USER, ROLE_ADMIN'
+[2021-08-02 23:31:32] - /calculadora?formula=%5BV%5D*3.269&viragem=14 at position 10 of 12 in additional filter chain; firing Filter: 'SessionManagementFilter'
+[2021-08-02 23:31:32] - Delegating to org.springframework.security.web.authentication.session.ChangeSessionIdAuthenticationStrategy@205eabac
+[2021-08-02 23:31:32] - /calculadora?formula=%5BV%5D*3.269&viragem=14 at position 11 of 12 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+[2021-08-02 23:31:32] - /calculadora?formula=%5BV%5D*3.269&viragem=14 at position 12 of 12 in additional filter chain; firing Filter: 'FilterSecurityInterceptor'
+[2021-08-02 23:31:32] - Request 'GET /calculadora' doesn't match 'POST /auth'
+[2021-08-02 23:31:32] - Request 'GET /calculadora' doesn't match 'POST /user/registration'
+[2021-08-02 23:31:32] - Checking match of request : '/calculadora'; against '/regitrationConfirm/*'
+[2021-08-02 23:31:32] - Checking match of request : '/calculadora'; against '/user/adminRoleGrant/*'
+[2021-08-02 23:31:32] - Request 'GET /calculadora' doesn't match 'POST /gs-guide-websocket/**'
+[2021-08-02 23:31:32] - Checking match of request : '/calculadora'; against '/gs-guide-websocket/**'
+[2021-08-02 23:31:32] - Checking match of request : '/calculadora'; against '/hCheck'
+[2021-08-02 23:31:32] - Secure object: FilterInvocation: URL: /calculadora?formula=%5BV%5D*3.269&viragem=14; Attributes: [authenticated]
+[2021-08-02 23:31:32] - Previously Authenticated: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@f51be321: Principal: com.bluebudy.SCQ.domain.User@e5ad737; Credentials: [PROTECTED]; Authenticated: true; Details: null; Granted Authorities: ROLE_USER, ROLE_ADMIN
+[2021-08-02 23:31:32] - Voter: org.springframework.security.web.access.expression.WebExpressionVoter@57d27bce, returned: 1
+[2021-08-02 23:31:32] - Authorization successful
+[2021-08-02 23:31:32] - RunAsManager did not change Authentication object
+[2021-08-02 23:31:32] - /calculadora?formula=%5BV%5D*3.269&viragem=14 reached end of additional filter chain; proceeding with original chain
+[2021-08-02 23:31:32] - GET "/calculadora?formula=%5BV%5D*3.269&viragem=14", parameters={masked}
+[2021-08-02 23:31:32] - Mapped to com.bluebudy.SCQ.controllers.Calculator#newEtapa(String, Double)
+[2021-08-02 23:31:32] - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2021-08-02 23:31:32] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-08-02 23:31:32] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2021-08-02 23:31:32] - Writing [45.766]
+[2021-08-02 23:31:32] - Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@772ee90d
+[2021-08-02 23:31:32] - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2021-08-02 23:31:32] - Completed 200 OK
+[2021-08-02 23:31:32] - Chain processed normally
+[2021-08-02 23:31:32] - SecurityContextHolder now cleared, as request processing completed
+[2021-08-02 23:31:35] - /analise at position 1 of 12 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+[2021-08-02 23:31:35] - /analise at position 2 of 12 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+[2021-08-02 23:31:35] - /analise at position 3 of 12 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+[2021-08-02 23:31:35] - /analise at position 4 of 12 in additional filter chain; firing Filter: 'CorsFilter'
+[2021-08-02 23:31:35] - Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@772ee90d
+[2021-08-02 23:31:35] - SecurityContextHolder now cleared, as request processing completed
+[2021-08-02 23:31:35] - /analise at position 1 of 12 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+[2021-08-02 23:31:35] - /analise at position 2 of 12 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+[2021-08-02 23:31:35] - /analise at position 3 of 12 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+[2021-08-02 23:31:35] - /analise at position 4 of 12 in additional filter chain; firing Filter: 'CorsFilter'
+[2021-08-02 23:31:35] - /analise at position 5 of 12 in additional filter chain; firing Filter: 'LogoutFilter'
+[2021-08-02 23:31:35] - Trying to match using Ant [pattern='/logout', GET]
+[2021-08-02 23:31:35] - Request 'POST /analise' doesn't match 'GET /logout'
+[2021-08-02 23:31:35] - Trying to match using Ant [pattern='/logout', POST]
+[2021-08-02 23:31:35] - Checking match of request : '/analise'; against '/logout'
+[2021-08-02 23:31:35] - Trying to match using Ant [pattern='/logout', PUT]
+[2021-08-02 23:31:35] - Request 'POST /analise' doesn't match 'PUT /logout'
+[2021-08-02 23:31:35] - Trying to match using Ant [pattern='/logout', DELETE]
+[2021-08-02 23:31:35] - Request 'POST /analise' doesn't match 'DELETE /logout'
+[2021-08-02 23:31:35] - No matches found
+[2021-08-02 23:31:35] - /analise at position 6 of 12 in additional filter chain; firing Filter: 'AutenticacaoTokenFilter'
+[2021-08-02 23:31:35] - Creating new EntityManager for shared EntityManager invocation
+[2021-08-02 23:31:35] - Rendered criteria query -> select generatedAlias0 from User as generatedAlias0 where generatedAlias0.mail=:param0
+[2021-08-02 23:31:35] - select user0_.id as id1_14_, user0_.admin as admin2_14_, user0_.enabled as enabled3_14_, user0_.mail as mail4_14_, user0_.name as name5_14_, user0_.password as password6_14_ from user user0_ where user0_.mail=?
+[2021-08-02 23:31:35] - Result set row: 0
+[2021-08-02 23:31:35] - Result row: EntityKey[com.bluebudy.SCQ.domain.User#1]
+[2021-08-02 23:31:35] - Resolving attributes for [com.bluebudy.SCQ.domain.User#1]
+[2021-08-02 23:31:35] - Processing attribute `admin` : value = true
+[2021-08-02 23:31:35] - Attribute (`admin`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:35] - Processing attribute `enabled` : value = true
+[2021-08-02 23:31:35] - Attribute (`enabled`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:35] - Processing attribute `mail` : value = Alexandre@cationbrasil.com.br
+[2021-08-02 23:31:35] - Attribute (`mail`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:35] - Processing attribute `name` : value = Alexandre
+[2021-08-02 23:31:35] - Attribute (`name`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:35] - Processing attribute `password` : value = $2a$10$jkkH12mWrSy9ijRj7Xg2XeRpZ2swGujWHa4f8PwXEYGen.K0dMaRO
+[2021-08-02 23:31:35] - Attribute (`password`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:35] - Done materializing entity [com.bluebudy.SCQ.domain.User#1]
+[2021-08-02 23:31:35] - /analise at position 7 of 12 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+[2021-08-02 23:31:35] - /analise at position 8 of 12 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+[2021-08-02 23:31:35] - /analise at position 9 of 12 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+[2021-08-02 23:31:35] - SecurityContextHolder not populated with anonymous token, as it already contained: 'org.springframework.security.authentication.UsernamePasswordAuthenticationToken@ab620672: Principal: com.bluebudy.SCQ.domain.User@50233264; Credentials: [PROTECTED]; Authenticated: true; Details: null; Granted Authorities: ROLE_USER, ROLE_ADMIN'
+[2021-08-02 23:31:35] - /analise at position 10 of 12 in additional filter chain; firing Filter: 'SessionManagementFilter'
+[2021-08-02 23:31:35] - Delegating to org.springframework.security.web.authentication.session.ChangeSessionIdAuthenticationStrategy@205eabac
+[2021-08-02 23:31:35] - /analise at position 11 of 12 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+[2021-08-02 23:31:35] - /analise at position 12 of 12 in additional filter chain; firing Filter: 'FilterSecurityInterceptor'
+[2021-08-02 23:31:35] - Checking match of request : '/analise'; against '/auth'
+[2021-08-02 23:31:35] - Checking match of request : '/analise'; against '/user/registration'
+[2021-08-02 23:31:35] - Request 'POST /analise' doesn't match 'GET /regitrationConfirm/*'
+[2021-08-02 23:31:35] - Request 'POST /analise' doesn't match 'GET /user/adminRoleGrant/*'
+[2021-08-02 23:31:35] - Checking match of request : '/analise'; against '/gs-guide-websocket/**'
+[2021-08-02 23:31:35] - Request 'POST /analise' doesn't match 'GET /gs-guide-websocket/**'
+[2021-08-02 23:31:35] - Request 'POST /analise' doesn't match 'GET /hCheck'
+[2021-08-02 23:31:35] - Secure object: FilterInvocation: URL: /analise; Attributes: [authenticated]
+[2021-08-02 23:31:35] - Previously Authenticated: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@ab620672: Principal: com.bluebudy.SCQ.domain.User@50233264; Credentials: [PROTECTED]; Authenticated: true; Details: null; Granted Authorities: ROLE_USER, ROLE_ADMIN
+[2021-08-02 23:31:35] - Voter: org.springframework.security.web.access.expression.WebExpressionVoter@57d27bce, returned: 1
+[2021-08-02 23:31:35] - Authorization successful
+[2021-08-02 23:31:35] - RunAsManager did not change Authentication object
+[2021-08-02 23:31:35] - /analise reached end of additional filter chain; proceeding with original chain
+[2021-08-02 23:31:35] - POST "/analise", parameters={}
+[2021-08-02 23:31:35] - Mapped to com.bluebudy.SCQ.controllers.AnaliseController#newAnalise(AnaliseForm, UriComponentsBuilder)
+[2021-08-02 23:31:35] - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2021-08-02 23:31:35] - Read "application/json;charset=UTF-8" to [com.bluebudy.SCQ.forms.AnaliseForm@7d3a083b]
+[2021-08-02 23:31:35] - Adding transactional method 'saveAndFlush' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2021-08-02 23:31:35] - Found thread-bound EntityManager [SessionImpl(1682416792<open>)] for JPA transaction
+[2021-08-02 23:31:35] - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.saveAndFlush]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2021-08-02 23:31:35] - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[2021-08-02 23:31:35] - begin
+[2021-08-02 23:31:35] - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@3c03159]
+[2021-08-02 23:31:35] - Not strongly caching class [com.bluebudy.SCQ.domain.Analise] because it is not cache-safe
+[2021-08-02 23:31:35] - Fetching initial value: select max(id) from analise
+[2021-08-02 23:31:35] - select max(id) from analise
+[2021-08-02 23:31:35] - First free id: 2007
+[2021-08-02 23:31:35] - HHH000387: ResultSet's statement was not registered
+[2021-08-02 23:31:35] - Generated identifier: 2007, using strategy: org.hibernate.id.IncrementGenerator
+[2021-08-02 23:31:35] - Processing flush-time cascades
+[2021-08-02 23:31:35] - Dirty checking collections
+[2021-08-02 23:31:35] - Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
+[2021-08-02 23:31:35] - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+[2021-08-02 23:31:35] - Listing entities:
+[2021-08-02 23:31:35] - com.bluebudy.SCQ.domain.Analise{data=Mon Aug 02 23:31:35 BRT 2021, resultado=45.766, analista=Alexandre, parametro=com.bluebudy.SCQ.domain.Parametro#7, id=2007, needCorrecao=true, ordemDeCorrecao=null}
+[2021-08-02 23:31:35] - insert into analise (analista, data, need_correcao, parametro_id, resultado, id) values (?, ?, ?, ?, ?, ?)
+[2021-08-02 23:31:35] - Initiating transaction commit
+[2021-08-02 23:31:35] - Committing JPA transaction on EntityManager [SessionImpl(1682416792<open>)]
+[2021-08-02 23:31:35] - committing
+[2021-08-02 23:31:35] - Processing flush-time cascades
+[2021-08-02 23:31:35] - Dirty checking collections
+[2021-08-02 23:31:35] - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+[2021-08-02 23:31:35] - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+[2021-08-02 23:31:35] - Listing entities:
+[2021-08-02 23:31:35] - com.bluebudy.SCQ.domain.Analise{data=Mon Aug 02 23:31:35 BRT 2021, resultado=45.766, analista=Alexandre, parametro=com.bluebudy.SCQ.domain.Parametro#7, id=2007, needCorrecao=true, ordemDeCorrecao=null}
+[2021-08-02 23:31:35] - Not closing pre-bound JPA EntityManager after transaction
+[2021-08-02 23:31:35] - Rendered criteria query -> select generatedAlias0 from Etapa as generatedAlias0 left join generatedAlias0.parametros as generatedAlias1 where generatedAlias1.id=:param0
+[2021-08-02 23:31:35] - parse() - HQL: select generatedAlias0 from com.bluebudy.SCQ.domain.Etapa as generatedAlias0 left join generatedAlias0.parametros as generatedAlias1 where generatedAlias1.id=:param0
+[2021-08-02 23:31:35] - throwQueryException() : no errors
+[2021-08-02 23:31:35] - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  +-[FROM] Node: 'from'
+    |  |  +-[RANGE] Node: 'RANGE'
+    |  |  |  +-[DOT] Node: '.'
+    |  |  |  |  +-[DOT] Node: '.'
+    |  |  |  |  |  +-[DOT] Node: '.'
+    |  |  |  |  |  |  +-[DOT] Node: '.'
+    |  |  |  |  |  |  |  +-[IDENT] Node: 'com'
+    |  |  |  |  |  |  |  \-[IDENT] Node: 'bluebudy'
+    |  |  |  |  |  |  \-[IDENT] Node: 'SCQ'
+    |  |  |  |  |  \-[IDENT] Node: 'domain'
+    |  |  |  |  \-[IDENT] Node: 'Etapa'
+    |  |  |  \-[ALIAS] Node: 'generatedAlias0'
+    |  |  \-[JOIN] Node: 'join'
+    |  |     +-[LEFT] Node: 'left'
+    |  |     +-[DOT] Node: '.'
+    |  |     |  +-[IDENT] Node: 'generatedAlias0'
+    |  |     |  \-[IDENT] Node: 'parametros'
+    |  |     \-[ALIAS] Node: 'generatedAlias1'
+    |  \-[SELECT] Node: 'select'
+    |     \-[IDENT] Node: 'generatedAlias0'
+    \-[WHERE] Node: 'where'
+       \-[EQ] Node: '='
+          +-[DOT] Node: '.'
+          |  +-[IDENT] Node: 'generatedAlias1'
+          |  \-[IDENT] Node: 'id'
+          \-[COLON] Node: ':'
+             \-[IDENT] Node: 'param0'
+
+[2021-08-02 23:31:35] - select << begin [level=1, statement=select]
+[2021-08-02 23:31:35] - FromClause{level=1} : com.bluebudy.SCQ.domain.Etapa (generatedAlias0) -> etapa0_
+[2021-08-02 23:31:35] - Resolved : generatedAlias0 -> etapa0_.id
+[2021-08-02 23:31:35] - getDataType() : parametros -> org.hibernate.type.BagType(com.bluebudy.SCQ.domain.Etapa.parametros)
+[2021-08-02 23:31:35] - createEntityAssociation() : One to many - path = generatedAlias0.parametros role = com.bluebudy.SCQ.domain.Etapa.parametros associatedEntityName = com.bluebudy.SCQ.domain.Parametro
+[2021-08-02 23:31:35] - FromClause{level=1} : com.bluebudy.SCQ.domain.Parametro (generatedAlias1) -> parametros1_
+[2021-08-02 23:31:35] - addJoinByPathMap() : generatedAlias0.parametros -> FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias1,role=null,tableName=parametro,tableAlias=parametros1_,origin=etapa etapa0_,columns={etapa0_.id,className=com.bluebudy.SCQ.domain.Parametro}}
+[2021-08-02 23:31:35] - dereferenceCollection() : Created new FROM element for generatedAlias0.parametros : parametro parametros1_
+[2021-08-02 23:31:35] - Resolved : generatedAlias0.parametros -> .
+[2021-08-02 23:31:35] - createFromJoinElement() : -- join tree --
+ \-[JOIN_FRAGMENT] FromElement: 'parametro parametros1_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias1,role=com.bluebudy.SCQ.domain.Etapa.parametros,tableName=parametro,tableAlias=parametros1_,origin=etapa etapa0_,columns={etapa0_.id,className=com.bluebudy.SCQ.domain.Parametro}}
+
+[2021-08-02 23:31:35] - Resolved : generatedAlias0 -> etapa0_.id
+[2021-08-02 23:31:35] - Resolved : generatedAlias1 -> parametros1_.id
+[2021-08-02 23:31:35] - getDataType() : id -> org.hibernate.type.LongType@13f1e97b
+[2021-08-02 23:31:35] - Resolved : generatedAlias1.id -> parametros1_.id
+[2021-08-02 23:31:35] - select : finishing up [level=1, statement=select]
+[2021-08-02 23:31:35] - processQuery() :  ( SELECT ( {select clause} etapa0_.id ) ( FromClause{level=1} ( etapa etapa0_ parametro parametros1_ ) ) ( where ( = ( parametros1_.id parametros1_.id id ) ? ) ) )
+[2021-08-02 23:31:35] - Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity Etapa): [etapa]
+    |  +-IdentNode
+    |  | persister: SingleTableEntityPersister(com.bluebudy.SCQ.domain.Etapa)
+    |  | referencedTables: null
+    |  | originalText: generatedAlias0
+    |  \-SqlFragment
+    +-FromClause
+    |  \-FromElement
+    |     \-FromElement
+    \-SqlNode
+       \-BinaryLogicOperatorNode
+          +-DotNode
+          | persister: SingleTableEntityPersister(com.bluebudy.SCQ.domain.Parametro)
+          | referencedTables: null
+          | path: generatedAlias1.id
+          | originalPropertyName: id
+          |  +-IdentNode
+          |  | persister: SingleTableEntityPersister(com.bluebudy.SCQ.domain.Parametro)
+          |  | referencedTables: null
+          |  | originalText: generatedAlias1
+          |  \-IdentNode
+          |    persister: null
+          |    referencedTables: null
+          |    originalText: id
+          \-ParameterNode
+
+[2021-08-02 23:31:35] - Using FROM fragment [etapa etapa0_]
+[2021-08-02 23:31:35] - Using FROM fragment [left outer join parametro parametros1_ on etapa0_.id=parametros1_.etapa_id]
+[2021-08-02 23:31:35] - select >> end [level=1, statement=select]
+[2021-08-02 23:31:35] - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (etapa,parametro)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'etapa0_.id as id1_4_' {alias=generatedAlias0, className=com.bluebudy.SCQ.domain.Etapa, tableAlias=etapa0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'etapa0_.nome as nome2_4_, etapa0_.posicao as posicao3_4_, etapa0_.processo_id as processo5_4_, etapa0_.volume as volume4_4_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=2, fromElements=2, fromElementByClassAlias=[generatedAlias0, generatedAlias1], fromElementByTableAlias=[etapa0_, parametros1_], fromElementsByPath=[generatedAlias0.parametros], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'etapa etapa0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=etapa,tableAlias=etapa0_,origin=null,columns={,className=com.bluebudy.SCQ.domain.Etapa}}
+    |     \-[JOIN_FRAGMENT] FromElement: 'left outer join parametro parametros1_ on etapa0_.id=parametros1_.etapa_id' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias1,role=com.bluebudy.SCQ.domain.Etapa.parametros,tableName=parametro,tableAlias=parametros1_,origin=etapa etapa0_,columns={etapa0_.id,className=com.bluebudy.SCQ.domain.Parametro}}
+    \-[WHERE] SqlNode: 'where'
+       \-[EQ] BinaryLogicOperatorNode: '='
+          +-[DOT] DotNode: 'parametros1_.id' {propertyName=id,dereferenceType=PRIMITIVE,getPropertyPath=id,path=generatedAlias1.id,tableAlias=parametros1_,className=com.bluebudy.SCQ.domain.Parametro,classAlias=generatedAlias1}
+          |  +-[ALIAS_REF] IdentNode: 'parametros1_.id' {alias=generatedAlias1, className=com.bluebudy.SCQ.domain.Parametro, tableAlias=parametros1_}
+          |  \-[IDENT] IdentNode: 'id' {originalText=id}
+          \-[NAMED_PARAM] ParameterNode: '?' {name=param0, expectedType=org.hibernate.type.LongType@13f1e97b}
+
+[2021-08-02 23:31:35] - throwQueryException() : no errors
+[2021-08-02 23:31:35] - HQL: select generatedAlias0 from com.bluebudy.SCQ.domain.Etapa as generatedAlias0 left join generatedAlias0.parametros as generatedAlias1 where generatedAlias1.id=:param0
+[2021-08-02 23:31:35] - SQL: select etapa0_.id as id1_4_, etapa0_.nome as nome2_4_, etapa0_.posicao as posicao3_4_, etapa0_.processo_id as processo5_4_, etapa0_.volume as volume4_4_ from etapa etapa0_ left outer join parametro parametros1_ on etapa0_.id=parametros1_.etapa_id where parametros1_.id=?
+[2021-08-02 23:31:35] - throwQueryException() : no errors
+[2021-08-02 23:31:35] - select etapa0_.id as id1_4_, etapa0_.nome as nome2_4_, etapa0_.posicao as posicao3_4_, etapa0_.processo_id as processo5_4_, etapa0_.volume as volume4_4_ from etapa etapa0_ left outer join parametro parametros1_ on etapa0_.id=parametros1_.etapa_id where parametros1_.id=?
+[2021-08-02 23:31:35] - Result set row: 0
+[2021-08-02 23:31:35] - Result row: EntityKey[com.bluebudy.SCQ.domain.Etapa#8]
+[2021-08-02 23:31:35] - Resolving attributes for [com.bluebudy.SCQ.domain.Etapa#8]
+[2021-08-02 23:31:35] - Processing attribute `montagem` : value = NOT NULL COLLECTION
+[2021-08-02 23:31:35] - Attribute (`montagem`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:35] - Processing attribute `nome` : value = Zinco Ácido
+[2021-08-02 23:31:35] - Attribute (`nome`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:35] - Processing attribute `parametros` : value = NOT NULL COLLECTION
+[2021-08-02 23:31:35] - Attribute (`parametros`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:35] - Processing attribute `posicao` : value = 27
+[2021-08-02 23:31:35] - Attribute (`posicao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:35] - Processing attribute `processo` : value = 1
+[2021-08-02 23:31:35] - Attribute (`processo`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:35] - select processo0_.id as id1_11_0_, processo0_.nome as nome2_11_0_ from processo processo0_ where processo0_.id=?
+[2021-08-02 23:31:35] - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+[2021-08-02 23:31:35] - Resolving attributes for [com.bluebudy.SCQ.domain.Processo#1]
+[2021-08-02 23:31:35] - Processing attribute `etapas` : value = NOT NULL COLLECTION
+[2021-08-02 23:31:35] - Attribute (`etapas`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:35] - Processing attribute `nome` : value = L3 - Zinco Ácido
+[2021-08-02 23:31:35] - Attribute (`nome`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:35] - Processing attribute `tarefas` : value = NOT NULL COLLECTION
+[2021-08-02 23:31:35] - Attribute (`tarefas`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:35] - Done materializing entity [com.bluebudy.SCQ.domain.Processo#1]
+[2021-08-02 23:31:35] - Done entity load : com.bluebudy.SCQ.domain.Processo#1
+[2021-08-02 23:31:35] - Processing attribute `trocas` : value = NOT NULL COLLECTION
+[2021-08-02 23:31:35] - Attribute (`trocas`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:35] - Processing attribute `volume` : value = 23150.0
+[2021-08-02 23:31:35] - Attribute (`volume`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:35] - Done materializing entity [com.bluebudy.SCQ.domain.Etapa#8]
+[2021-08-02 23:31:35] - Loading collection: [com.bluebudy.SCQ.domain.Etapa.montagem#8]
+[2021-08-02 23:31:35] - select montagem0_.etapa_id as etapa_id3_6_0_, montagem0_.id as id1_6_0_, montagem0_.id as id1_6_1_, montagem0_.etapa_id as etapa_id3_6_1_, montagem0_.materia_prima_id as materia_4_6_1_, montagem0_.quantidade as quantida2_6_1_, materiapri1_.id as id1_5_2_, materiapri1_.fator_titulometrico as fator_ti2_5_2_, materiapri1_.fornecedor as forneced3_5_2_, materiapri1_.nome as nome4_5_2_, materiapri1_.preco as preco5_5_2_, materiapri1_.unidade as unidade6_5_2_ from montagem_composition montagem0_ left outer join materia_prima materiapri1_ on montagem0_.materia_prima_id=materiapri1_.id where montagem0_.etapa_id=?
+[2021-08-02 23:31:35] - Preparing collection initializer : [com.bluebudy.SCQ.domain.Etapa.montagem#8]
+[2021-08-02 23:31:35] - Found row of collection: [com.bluebudy.SCQ.domain.Etapa.montagem#8]
+[2021-08-02 23:31:35] - Found row of collection: [com.bluebudy.SCQ.domain.Etapa.montagem#8]
+[2021-08-02 23:31:35] - Resolving attributes for [com.bluebudy.SCQ.domain.MontagemComposition#13]
+[2021-08-02 23:31:35] - Processing attribute `etapa` : value = 8
+[2021-08-02 23:31:35] - Attribute (`etapa`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:35] - Processing attribute `materiaPrima` : value = 11
+[2021-08-02 23:31:35] - Attribute (`materiaPrima`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:35] - Processing attribute `quantidade` : value = 6500.0
+[2021-08-02 23:31:35] - Attribute (`quantidade`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:35] - Done materializing entity [com.bluebudy.SCQ.domain.MontagemComposition#13]
+[2021-08-02 23:31:35] - Resolving attributes for [com.bluebudy.SCQ.domain.MateriaPrima#11]
+[2021-08-02 23:31:35] - Processing attribute `adicao` : value = NOT NULL COLLECTION
+[2021-08-02 23:31:35] - Attribute (`adicao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:35] - Processing attribute `fatorTitulometrico` : value = 3.546
+[2021-08-02 23:31:35] - Attribute (`fatorTitulometrico`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:35] - Processing attribute `fornecedor` : value = Aksell
+[2021-08-02 23:31:35] - Attribute (`fornecedor`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:35] - Processing attribute `nome` : value = Cloreto de Potassio
+[2021-08-02 23:31:35] - Attribute (`nome`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:35] - Processing attribute `preco` : value = 6.6
+[2021-08-02 23:31:35] - Attribute (`preco`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:35] - Processing attribute `unidade` : value = Kg
+[2021-08-02 23:31:35] - Attribute (`unidade`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:35] - Done materializing entity [com.bluebudy.SCQ.domain.MateriaPrima#11]
+[2021-08-02 23:31:35] - Resolving attributes for [com.bluebudy.SCQ.domain.MontagemComposition#14]
+[2021-08-02 23:31:35] - Processing attribute `etapa` : value = 8
+[2021-08-02 23:31:35] - Attribute (`etapa`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:35] - Processing attribute `materiaPrima` : value = 12
+[2021-08-02 23:31:35] - Attribute (`materiaPrima`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:35] - Processing attribute `quantidade` : value = 700.0
+[2021-08-02 23:31:35] - Attribute (`quantidade`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:35] - Done materializing entity [com.bluebudy.SCQ.domain.MontagemComposition#14]
+[2021-08-02 23:31:35] - Resolving attributes for [com.bluebudy.SCQ.domain.MateriaPrima#12]
+[2021-08-02 23:31:35] - Processing attribute `adicao` : value = NOT NULL COLLECTION
+[2021-08-02 23:31:35] - Attribute (`adicao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:35] - Processing attribute `fatorTitulometrico` : value = 3.092
+[2021-08-02 23:31:35] - Attribute (`fatorTitulometrico`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:35] - Processing attribute `fornecedor` : value = Surtec
+[2021-08-02 23:31:35] - Attribute (`fornecedor`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:35] - Processing attribute `nome` : value = Ácido Bórico
+[2021-08-02 23:31:35] - Attribute (`nome`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:35] - Processing attribute `preco` : value = 14.29
+[2021-08-02 23:31:35] - Attribute (`preco`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:35] - Processing attribute `unidade` : value = Kg
+[2021-08-02 23:31:35] - Attribute (`unidade`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:35] - Done materializing entity [com.bluebudy.SCQ.domain.MateriaPrima#12]
+[2021-08-02 23:31:35] - 1 collections were found in result set for role: com.bluebudy.SCQ.domain.Etapa.montagem
+[2021-08-02 23:31:35] - Collection fully initialized: [com.bluebudy.SCQ.domain.Etapa.montagem#8]
+[2021-08-02 23:31:35] - 1 collections initialized for role: com.bluebudy.SCQ.domain.Etapa.montagem
+[2021-08-02 23:31:35] - Done loading collection
+[2021-08-02 23:31:35] - select parametro0_.id as id1_10_, parametro0_.controle_id as control10_10_, parametro0_.etapa_id as etapa_i11_10_, parametro0_.formula as formula2_10_, parametro0_.nome as nome3_10_, parametro0_.p_max as p_max4_10_, parametro0_.p_maxt as p_maxt5_10_, parametro0_.p_min as p_min6_10_, parametro0_.p_mint as p_mint7_10_, parametro0_.show_chart as show_cha8_10_, parametro0_.unidade as unidade9_10_ from parametro parametro0_ where parametro0_.etapa_id=?
+[2021-08-02 23:31:35] - Result set row: 0
+[2021-08-02 23:31:35] - Result row: EntityKey[com.bluebudy.SCQ.domain.Parametro#7]
+[2021-08-02 23:31:35] - Result set row: 1
+[2021-08-02 23:31:35] - Result row: EntityKey[com.bluebudy.SCQ.domain.Parametro#8]
+[2021-08-02 23:31:35] - Result set row: 2
+[2021-08-02 23:31:35] - Result row: EntityKey[com.bluebudy.SCQ.domain.Parametro#9]
+[2021-08-02 23:31:35] - Result set row: 3
+[2021-08-02 23:31:35] - Result row: EntityKey[com.bluebudy.SCQ.domain.Parametro#10]
+[2021-08-02 23:31:35] - Result set row: 4
+[2021-08-02 23:31:35] - Result row: EntityKey[com.bluebudy.SCQ.domain.Parametro#11]
+[2021-08-02 23:31:35] - Result set row: 5
+[2021-08-02 23:31:35] - Result row: EntityKey[com.bluebudy.SCQ.domain.Parametro#12]
+[2021-08-02 23:31:35] - Result set row: 6
+[2021-08-02 23:31:35] - Result row: EntityKey[com.bluebudy.SCQ.domain.Parametro#19]
+[2021-08-02 23:31:35] - Result set row: 7
+[2021-08-02 23:31:35] - Result row: EntityKey[com.bluebudy.SCQ.domain.Parametro#23]
+[2021-08-02 23:31:35] - Resolving attributes for [com.bluebudy.SCQ.domain.Parametro#7]
+[2021-08-02 23:31:35] - Processing attribute `analises` : value = NOT NULL COLLECTION
+[2021-08-02 23:31:35] - Attribute (`analises`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:35] - Processing attribute `controle` : value = 7
+[2021-08-02 23:31:35] - Attribute (`controle`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:35] - select controle0_.id as id1_3_0_, controle0_.data_planejada as data_pla2_3_0_, controle0_.data_realizada as data_rea3_3_0_, controle0_.notified as notified4_3_0_, controle0_.periodo as periodo5_3_0_ from controle controle0_ where controle0_.id=?
+[2021-08-02 23:31:35] - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+[2021-08-02 23:31:35] - Resolving attributes for [com.bluebudy.SCQ.domain.Controle#7]
+[2021-08-02 23:31:35] - Processing attribute `dataPlanejada` : value = 2021-06-19 07:58:43.404
+[2021-08-02 23:31:35] - Attribute (`dataPlanejada`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:35] - Processing attribute `dataRealizada` : value = 2021-06-12 07:58:43.404
+[2021-08-02 23:31:35] - Attribute (`dataRealizada`)  - enhanced for lazy-loading? - false

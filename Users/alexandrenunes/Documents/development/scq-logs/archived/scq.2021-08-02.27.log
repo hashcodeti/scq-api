@@ -1,0 +1,466 @@
+[2021-08-02 23:30:53] - Voter: org.springframework.security.web.access.expression.WebExpressionVoter@57d27bce, returned: 1
+[2021-08-02 23:30:53] - Voter: org.springframework.security.web.access.expression.WebExpressionVoter@57d27bce, returned: 1
+[2021-08-02 23:30:53] - Voter: org.springframework.security.web.access.expression.WebExpressionVoter@57d27bce, returned: 1
+[2021-08-02 23:30:53] - Authorization successful
+[2021-08-02 23:30:53] - RunAsManager did not change Authentication object
+[2021-08-02 23:30:53] - /parametros reached end of additional filter chain; proceeding with original chain
+[2021-08-02 23:30:53] - GET "/parametros", parameters={}
+[2021-08-02 23:30:53] - Authorization successful
+[2021-08-02 23:30:53] - RunAsManager did not change Authentication object
+[2021-08-02 23:30:53] - /tarefas reached end of additional filter chain; proceeding with original chain
+[2021-08-02 23:30:53] - GET "/tarefas", parameters={}
+[2021-08-02 23:30:53] - Authorization successful
+[2021-08-02 23:30:53] - RunAsManager did not change Authentication object
+[2021-08-02 23:30:53] - /materiaPrimas reached end of additional filter chain; proceeding with original chain
+[2021-08-02 23:30:53] - GET "/materiaPrimas", parameters={}
+[2021-08-02 23:30:53] - Mapped to com.bluebudy.SCQ.controllers.ProcessoController#all()
+[2021-08-02 23:30:53] - Mapped to com.bluebudy.SCQ.controllers.TrocaController#findAll()
+[2021-08-02 23:30:53] - Mapped to com.bluebudy.SCQ.controllers.MateriaPrimaController#all()
+[2021-08-02 23:30:53] - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2021-08-02 23:30:53] - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2021-08-02 23:30:53] - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2021-08-02 23:30:53] - Mapped to com.bluebudy.SCQ.controllers.TarefasDeManutencaoController#getTarefas()
+[2021-08-02 23:30:53] - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2021-08-02 23:30:53] - Mapped to com.bluebudy.SCQ.controllers.EtapaController#all()
+[2021-08-02 23:30:53] - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2021-08-02 23:30:53] - Mapped to com.bluebudy.SCQ.controllers.ParametroController#all()
+[2021-08-02 23:30:53] - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2021-08-02 23:30:53] - Adding transactional method 'findAll' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+[2021-08-02 23:30:53] - Adding transactional method 'findAll' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+[2021-08-02 23:30:53] - Adding transactional method 'findAll' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+[2021-08-02 23:30:53] - Adding transactional method 'findAll' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+[2021-08-02 23:30:53] - Adding transactional method 'findAll' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+[2021-08-02 23:30:53] - Adding transactional method 'findAll' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+[2021-08-02 23:30:53] - Found thread-bound EntityManager [SessionImpl(1807275922<open>)] for JPA transaction
+[2021-08-02 23:30:53] - Found thread-bound EntityManager [SessionImpl(1115730486<open>)] for JPA transaction
+[2021-08-02 23:30:53] - Found thread-bound EntityManager [SessionImpl(1249037992<open>)] for JPA transaction
+[2021-08-02 23:30:53] - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+[2021-08-02 23:30:53] - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+[2021-08-02 23:30:53] - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+[2021-08-02 23:30:53] - Found thread-bound EntityManager [SessionImpl(1843428907<open>)] for JPA transaction
+[2021-08-02 23:30:53] - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+[2021-08-02 23:30:53] - Found thread-bound EntityManager [SessionImpl(247161015<open>)] for JPA transaction
+[2021-08-02 23:30:53] - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+[2021-08-02 23:30:53] - Found thread-bound EntityManager [SessionImpl(1107182512<open>)] for JPA transaction
+[2021-08-02 23:30:53] - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+[2021-08-02 23:30:53] - Setting JDBC Connection [HikariProxyConnection@56117195 wrapping com.mysql.cj.jdbc.ConnectionImpl@312bbf8] read-only
+[2021-08-02 23:30:53] - Setting JDBC Connection [HikariProxyConnection@1233193712 wrapping com.mysql.cj.jdbc.ConnectionImpl@5e71e9c6] read-only
+[2021-08-02 23:30:53] - Setting JDBC Connection [HikariProxyConnection@1372854599 wrapping com.mysql.cj.jdbc.ConnectionImpl@5444b57d] read-only
+[2021-08-02 23:30:53] - Setting JDBC Connection [HikariProxyConnection@1314811990 wrapping com.mysql.cj.jdbc.ConnectionImpl@1579bf46] read-only
+[2021-08-02 23:30:53] - Setting JDBC Connection [HikariProxyConnection@1867982131 wrapping com.mysql.cj.jdbc.ConnectionImpl@267eb267] read-only
+[2021-08-02 23:30:53] - Setting JDBC Connection [HikariProxyConnection@947878533 wrapping com.mysql.cj.jdbc.ConnectionImpl@52e3c9cc] read-only
+[2021-08-02 23:30:53] - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[2021-08-02 23:30:53] - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[2021-08-02 23:30:53] - begin
+[2021-08-02 23:30:53] - begin
+[2021-08-02 23:30:53] - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[2021-08-02 23:30:53] - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[2021-08-02 23:30:53] - begin
+[2021-08-02 23:30:53] - begin
+[2021-08-02 23:30:53] - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[2021-08-02 23:30:53] - begin
+[2021-08-02 23:30:53] - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[2021-08-02 23:30:53] - begin
+[2021-08-02 23:30:53] - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@66d8dbc]
+[2021-08-02 23:30:53] - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@18439e09]
+[2021-08-02 23:30:53] - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@6748a7e3]
+[2021-08-02 23:30:53] - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@47571c95]
+[2021-08-02 23:30:53] - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@6076ea03]
+[2021-08-02 23:30:53] - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@2127698d]
+[2021-08-02 23:30:53] - Rendered criteria query -> select generatedAlias0 from Etapa as generatedAlias0
+[2021-08-02 23:30:53] - Rendered criteria query -> select generatedAlias0 from Processo as generatedAlias0
+[2021-08-02 23:30:53] - Rendered criteria query -> select generatedAlias0 from TarefasDeManutencao as generatedAlias0
+[2021-08-02 23:30:53] - Rendered criteria query -> select generatedAlias0 from Troca as generatedAlias0
+[2021-08-02 23:30:53] - Rendered criteria query -> select generatedAlias0 from Parametro as generatedAlias0
+[2021-08-02 23:30:53] - Rendered criteria query -> select generatedAlias0 from MateriaPrima as generatedAlias0
+[2021-08-02 23:30:53] - parse() - HQL: select generatedAlias0 from com.bluebudy.SCQ.domain.Troca as generatedAlias0
+[2021-08-02 23:30:53] - parse() - HQL: select generatedAlias0 from com.bluebudy.SCQ.domain.Parametro as generatedAlias0
+[2021-08-02 23:30:53] - parse() - HQL: select generatedAlias0 from com.bluebudy.SCQ.domain.Etapa as generatedAlias0
+[2021-08-02 23:30:53] - parse() - HQL: select generatedAlias0 from com.bluebudy.SCQ.domain.MateriaPrima as generatedAlias0
+[2021-08-02 23:30:53] - parse() - HQL: select generatedAlias0 from com.bluebudy.SCQ.domain.Processo as generatedAlias0
+[2021-08-02 23:30:53] - parse() - HQL: select generatedAlias0 from com.bluebudy.SCQ.domain.TarefasDeManutencao as generatedAlias0
+[2021-08-02 23:30:53] - throwQueryException() : no errors
+[2021-08-02 23:30:53] - throwQueryException() : no errors
+[2021-08-02 23:30:53] - throwQueryException() : no errors
+[2021-08-02 23:30:53] - throwQueryException() : no errors
+[2021-08-02 23:30:53] - throwQueryException() : no errors
+[2021-08-02 23:30:53] - throwQueryException() : no errors
+[2021-08-02 23:30:53] - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       +-[FROM] Node: 'from'
+       |  \-[RANGE] Node: 'RANGE'
+       |     +-[DOT] Node: '.'
+       |     |  +-[DOT] Node: '.'
+       |     |  |  +-[DOT] Node: '.'
+       |     |  |  |  +-[DOT] Node: '.'
+       |     |  |  |  |  +-[IDENT] Node: 'com'
+       |     |  |  |  |  \-[IDENT] Node: 'bluebudy'
+       |     |  |  |  \-[IDENT] Node: 'SCQ'
+       |     |  |  \-[IDENT] Node: 'domain'
+       |     |  \-[IDENT] Node: 'Processo'
+       |     \-[ALIAS] Node: 'generatedAlias0'
+       \-[SELECT] Node: 'select'
+          \-[IDENT] Node: 'generatedAlias0'
+
+[2021-08-02 23:30:53] - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       +-[FROM] Node: 'from'
+       |  \-[RANGE] Node: 'RANGE'
+       |     +-[DOT] Node: '.'
+       |     |  +-[DOT] Node: '.'
+       |     |  |  +-[DOT] Node: '.'
+       |     |  |  |  +-[DOT] Node: '.'
+       |     |  |  |  |  +-[IDENT] Node: 'com'
+       |     |  |  |  |  \-[IDENT] Node: 'bluebudy'
+       |     |  |  |  \-[IDENT] Node: 'SCQ'
+       |     |  |  \-[IDENT] Node: 'domain'
+       |     |  \-[IDENT] Node: 'MateriaPrima'
+       |     \-[ALIAS] Node: 'generatedAlias0'
+       \-[SELECT] Node: 'select'
+          \-[IDENT] Node: 'generatedAlias0'
+
+[2021-08-02 23:30:53] - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       +-[FROM] Node: 'from'
+       |  \-[RANGE] Node: 'RANGE'
+       |     +-[DOT] Node: '.'
+       |     |  +-[DOT] Node: '.'
+       |     |  |  +-[DOT] Node: '.'
+       |     |  |  |  +-[DOT] Node: '.'
+       |     |  |  |  |  +-[IDENT] Node: 'com'
+       |     |  |  |  |  \-[IDENT] Node: 'bluebudy'
+       |     |  |  |  \-[IDENT] Node: 'SCQ'
+       |     |  |  \-[IDENT] Node: 'domain'
+       |     |  \-[IDENT] Node: 'Troca'
+       |     \-[ALIAS] Node: 'generatedAlias0'
+       \-[SELECT] Node: 'select'
+          \-[IDENT] Node: 'generatedAlias0'
+
+[2021-08-02 23:30:53] - select << begin [level=1, statement=select]
+[2021-08-02 23:30:53] - select << begin [level=1, statement=select]
+[2021-08-02 23:30:53] - select << begin [level=1, statement=select]
+[2021-08-02 23:30:53] - FromClause{level=1} : com.bluebudy.SCQ.domain.Troca (generatedAlias0) -> troca0_
+[2021-08-02 23:30:53] - FromClause{level=1} : com.bluebudy.SCQ.domain.Processo (generatedAlias0) -> processo0_
+[2021-08-02 23:30:53] - FromClause{level=1} : com.bluebudy.SCQ.domain.MateriaPrima (generatedAlias0) -> materiapri0_
+[2021-08-02 23:30:53] - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       +-[FROM] Node: 'from'
+       |  \-[RANGE] Node: 'RANGE'
+       |     +-[DOT] Node: '.'
+       |     |  +-[DOT] Node: '.'
+       |     |  |  +-[DOT] Node: '.'
+       |     |  |  |  +-[DOT] Node: '.'
+       |     |  |  |  |  +-[IDENT] Node: 'com'
+       |     |  |  |  |  \-[IDENT] Node: 'bluebudy'
+       |     |  |  |  \-[IDENT] Node: 'SCQ'
+       |     |  |  \-[IDENT] Node: 'domain'
+       |     |  \-[IDENT] Node: 'Etapa'
+       |     \-[ALIAS] Node: 'generatedAlias0'
+       \-[SELECT] Node: 'select'
+          \-[IDENT] Node: 'generatedAlias0'
+
+[2021-08-02 23:30:53] - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       +-[FROM] Node: 'from'
+       |  \-[RANGE] Node: 'RANGE'
+       |     +-[DOT] Node: '.'
+       |     |  +-[DOT] Node: '.'
+       |     |  |  +-[DOT] Node: '.'
+       |     |  |  |  +-[DOT] Node: '.'
+       |     |  |  |  |  +-[IDENT] Node: 'com'
+       |     |  |  |  |  \-[IDENT] Node: 'bluebudy'
+       |     |  |  |  \-[IDENT] Node: 'SCQ'
+       |     |  |  \-[IDENT] Node: 'domain'
+       |     |  \-[IDENT] Node: 'Parametro'
+       |     \-[ALIAS] Node: 'generatedAlias0'
+       \-[SELECT] Node: 'select'
+          \-[IDENT] Node: 'generatedAlias0'
+
+[2021-08-02 23:30:53] - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       +-[FROM] Node: 'from'
+       |  \-[RANGE] Node: 'RANGE'
+       |     +-[DOT] Node: '.'
+       |     |  +-[DOT] Node: '.'
+       |     |  |  +-[DOT] Node: '.'
+       |     |  |  |  +-[DOT] Node: '.'
+       |     |  |  |  |  +-[IDENT] Node: 'com'
+       |     |  |  |  |  \-[IDENT] Node: 'bluebudy'
+       |     |  |  |  \-[IDENT] Node: 'SCQ'
+       |     |  |  \-[IDENT] Node: 'domain'
+       |     |  \-[IDENT] Node: 'TarefasDeManutencao'
+       |     \-[ALIAS] Node: 'generatedAlias0'
+       \-[SELECT] Node: 'select'
+          \-[IDENT] Node: 'generatedAlias0'
+
+[2021-08-02 23:30:53] - select << begin [level=1, statement=select]
+[2021-08-02 23:30:53] - Resolved : generatedAlias0 -> processo0_.id
+[2021-08-02 23:30:53] - select << begin [level=1, statement=select]
+[2021-08-02 23:30:53] - select : finishing up [level=1, statement=select]
+[2021-08-02 23:30:53] - FromClause{level=1} : com.bluebudy.SCQ.domain.TarefasDeManutencao (generatedAlias0) -> tarefasdem0_
+[2021-08-02 23:30:53] - processQuery() :  ( SELECT ( {select clause} processo0_.id ) ( FromClause{level=1} processo processo0_ ) )
+[2021-08-02 23:30:53] - select << begin [level=1, statement=select]
+[2021-08-02 23:30:53] - Resolved : generatedAlias0 -> materiapri0_.id
+[2021-08-02 23:30:53] - Resolved : generatedAlias0 -> troca0_.id
+[2021-08-02 23:30:53] - Resolved : generatedAlias0 -> tarefasdem0_.id
+[2021-08-02 23:30:53] - select : finishing up [level=1, statement=select]
+[2021-08-02 23:30:53] - processQuery() :  ( SELECT ( {select clause} troca0_.id ) ( FromClause{level=1} troca troca0_ ) )
+[2021-08-02 23:30:53] - select : finishing up [level=1, statement=select]
+[2021-08-02 23:30:53] - processQuery() :  ( SELECT ( {select clause} tarefasdem0_.id ) ( FromClause{level=1} tarefas_de_manutencao tarefasdem0_ ) )
+[2021-08-02 23:30:53] - FromClause{level=1} : com.bluebudy.SCQ.domain.Etapa (generatedAlias0) -> etapa0_
+[2021-08-02 23:30:53] - select : finishing up [level=1, statement=select]
+[2021-08-02 23:30:53] - processQuery() :  ( SELECT ( {select clause} materiapri0_.id ) ( FromClause{level=1} materia_prima materiapri0_ ) )
+[2021-08-02 23:30:53] - Resolved : generatedAlias0 -> etapa0_.id
+[2021-08-02 23:30:54] - FromClause{level=1} : com.bluebudy.SCQ.domain.Parametro (generatedAlias0) -> parametro0_
+[2021-08-02 23:30:54] - Resolved : generatedAlias0 -> parametro0_.id
+[2021-08-02 23:30:54] - select : finishing up [level=1, statement=select]
+[2021-08-02 23:30:54] - processQuery() :  ( SELECT ( {select clause} parametro0_.id ) ( FromClause{level=1} parametro parametro0_ ) )
+[2021-08-02 23:30:54] - select : finishing up [level=1, statement=select]
+[2021-08-02 23:30:54] - processQuery() :  ( SELECT ( {select clause} etapa0_.id ) ( FromClause{level=1} etapa etapa0_ ) )
+[2021-08-02 23:30:54] - Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity Processo): [processo]
+    |  +-IdentNode
+    |  | persister: SingleTableEntityPersister(com.bluebudy.SCQ.domain.Processo)
+    |  | referencedTables: null
+    |  | originalText: generatedAlias0
+    |  \-SqlFragment
+    \-FromClause
+       \-FromElement
+
+[2021-08-02 23:30:54] - Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity Parametro): [parametro]
+    |  +-IdentNode
+    |  | persister: SingleTableEntityPersister(com.bluebudy.SCQ.domain.Parametro)
+    |  | referencedTables: null
+    |  | originalText: generatedAlias0
+    |  \-SqlFragment
+    \-FromClause
+       \-FromElement
+
+[2021-08-02 23:30:54] - Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity TarefasDeManutencao): [tarefas_de_manutencao]
+    |  +-IdentNode
+    |  | persister: SingleTableEntityPersister(com.bluebudy.SCQ.domain.TarefasDeManutencao)
+    |  | referencedTables: null
+    |  | originalText: generatedAlias0
+    |  \-SqlFragment
+    \-FromClause
+       \-FromElement
+
+[2021-08-02 23:30:54] - Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity Etapa): [etapa]
+    |  +-IdentNode
+    |  | persister: SingleTableEntityPersister(com.bluebudy.SCQ.domain.Etapa)
+    |  | referencedTables: null
+    |  | originalText: generatedAlias0
+    |  \-SqlFragment
+    \-FromClause
+       \-FromElement
+
+[2021-08-02 23:30:54] - Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity MateriaPrima): [materia_prima]
+    |  +-IdentNode
+    |  | persister: SingleTableEntityPersister(com.bluebudy.SCQ.domain.MateriaPrima)
+    |  | referencedTables: null
+    |  | originalText: generatedAlias0
+    |  \-SqlFragment
+    \-FromClause
+       \-FromElement
+
+[2021-08-02 23:30:54] - Using FROM fragment [tarefas_de_manutencao tarefasdem0_]
+[2021-08-02 23:30:54] - Using FROM fragment [materia_prima materiapri0_]
+[2021-08-02 23:30:54] - Using FROM fragment [parametro parametro0_]
+[2021-08-02 23:30:54] - select >> end [level=1, statement=select]
+[2021-08-02 23:30:54] - select >> end [level=1, statement=select]
+[2021-08-02 23:30:54] - Using FROM fragment [etapa etapa0_]
+[2021-08-02 23:30:54] - select >> end [level=1, statement=select]
+[2021-08-02 23:30:54] - select >> end [level=1, statement=select]
+[2021-08-02 23:30:54] - Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity Troca): [troca]
+    |  +-IdentNode
+    |  | persister: SingleTableEntityPersister(com.bluebudy.SCQ.domain.Troca)
+    |  | referencedTables: null
+    |  | originalText: generatedAlias0
+    |  \-SqlFragment
+    \-FromClause
+       \-FromElement
+
+[2021-08-02 23:30:54] - Using FROM fragment [troca troca0_]
+[2021-08-02 23:30:54] - select >> end [level=1, statement=select]
+[2021-08-02 23:30:54] - Using FROM fragment [processo processo0_]
+[2021-08-02 23:30:54] - select >> end [level=1, statement=select]
+[2021-08-02 23:30:54] - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (tarefas_de_manutencao)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'tarefasdem0_.id as id1_12_' {alias=generatedAlias0, className=com.bluebudy.SCQ.domain.TarefasDeManutencao, tableAlias=tarefasdem0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'tarefasdem0_.codigo_do_documento as codigo_d2_12_, tarefasdem0_.controle_id as controle4_12_, tarefasdem0_.nome as nome3_12_, tarefasdem0_.processo_id as processo5_12_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[tarefasdem0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'tarefas_de_manutencao tarefasdem0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=tarefas_de_manutencao,tableAlias=tarefasdem0_,origin=null,columns={,className=com.bluebudy.SCQ.domain.TarefasDeManutencao}}
+
+[2021-08-02 23:30:54] - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (materia_prima)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'materiapri0_.id as id1_5_' {alias=generatedAlias0, className=com.bluebudy.SCQ.domain.MateriaPrima, tableAlias=materiapri0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'materiapri0_.fator_titulometrico as fator_ti2_5_, materiapri0_.fornecedor as forneced3_5_, materiapri0_.nome as nome4_5_, materiapri0_.preco as preco5_5_, materiapri0_.unidade as unidade6_5_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[materiapri0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'materia_prima materiapri0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=materia_prima,tableAlias=materiapri0_,origin=null,columns={,className=com.bluebudy.SCQ.domain.MateriaPrima}}
+
+[2021-08-02 23:30:54] - throwQueryException() : no errors
+[2021-08-02 23:30:54] - throwQueryException() : no errors
+[2021-08-02 23:30:54] - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (troca)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'troca0_.id as id1_13_' {alias=generatedAlias0, className=com.bluebudy.SCQ.domain.Troca, tableAlias=troca0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'troca0_.controle_id as controle2_13_, troca0_.etapa_id as etapa_id3_13_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[troca0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'troca troca0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=troca,tableAlias=troca0_,origin=null,columns={,className=com.bluebudy.SCQ.domain.Troca}}
+
+[2021-08-02 23:30:54] - HQL: select generatedAlias0 from com.bluebudy.SCQ.domain.MateriaPrima as generatedAlias0
+[2021-08-02 23:30:54] - HQL: select generatedAlias0 from com.bluebudy.SCQ.domain.TarefasDeManutencao as generatedAlias0
+[2021-08-02 23:30:54] - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (etapa)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'etapa0_.id as id1_4_' {alias=generatedAlias0, className=com.bluebudy.SCQ.domain.Etapa, tableAlias=etapa0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'etapa0_.nome as nome2_4_, etapa0_.posicao as posicao3_4_, etapa0_.processo_id as processo5_4_, etapa0_.volume as volume4_4_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[etapa0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'etapa etapa0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=etapa,tableAlias=etapa0_,origin=null,columns={,className=com.bluebudy.SCQ.domain.Etapa}}
+
+[2021-08-02 23:30:54] - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (processo)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'processo0_.id as id1_11_' {alias=generatedAlias0, className=com.bluebudy.SCQ.domain.Processo, tableAlias=processo0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'processo0_.nome as nome2_11_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[processo0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'processo processo0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=processo,tableAlias=processo0_,origin=null,columns={,className=com.bluebudy.SCQ.domain.Processo}}
+
+[2021-08-02 23:30:54] - throwQueryException() : no errors
+[2021-08-02 23:30:54] - HQL: select generatedAlias0 from com.bluebudy.SCQ.domain.Troca as generatedAlias0
+[2021-08-02 23:30:54] - SQL: select troca0_.id as id1_13_, troca0_.controle_id as controle2_13_, troca0_.etapa_id as etapa_id3_13_ from troca troca0_
+[2021-08-02 23:30:54] - throwQueryException() : no errors
+[2021-08-02 23:30:54] - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (parametro)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'parametro0_.id as id1_10_' {alias=generatedAlias0, className=com.bluebudy.SCQ.domain.Parametro, tableAlias=parametro0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'parametro0_.controle_id as control10_10_, parametro0_.etapa_id as etapa_i11_10_, parametro0_.formula as formula2_10_, parametro0_.nome as nome3_10_, parametro0_.p_max as p_max4_10_, parametro0_.p_maxt as p_maxt5_10_, parametro0_.p_min as p_min6_10_, parametro0_.p_mint as p_mint7_10_, parametro0_.show_chart as show_cha8_10_, parametro0_.unidade as unidade9_10_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[parametro0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'parametro parametro0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=parametro,tableAlias=parametro0_,origin=null,columns={,className=com.bluebudy.SCQ.domain.Parametro}}
+
+[2021-08-02 23:30:54] - throwQueryException() : no errors
+[2021-08-02 23:30:54] - SQL: select materiapri0_.id as id1_5_, materiapri0_.fator_titulometrico as fator_ti2_5_, materiapri0_.fornecedor as forneced3_5_, materiapri0_.nome as nome4_5_, materiapri0_.preco as preco5_5_, materiapri0_.unidade as unidade6_5_ from materia_prima materiapri0_
+[2021-08-02 23:30:54] - throwQueryException() : no errors
+[2021-08-02 23:30:54] - HQL: select generatedAlias0 from com.bluebudy.SCQ.domain.Parametro as generatedAlias0
+[2021-08-02 23:30:54] - SQL: select tarefasdem0_.id as id1_12_, tarefasdem0_.codigo_do_documento as codigo_d2_12_, tarefasdem0_.controle_id as controle4_12_, tarefasdem0_.nome as nome3_12_, tarefasdem0_.processo_id as processo5_12_ from tarefas_de_manutencao tarefasdem0_
+[2021-08-02 23:30:54] - throwQueryException() : no errors
+[2021-08-02 23:30:54] - SQL: select parametro0_.id as id1_10_, parametro0_.controle_id as control10_10_, parametro0_.etapa_id as etapa_i11_10_, parametro0_.formula as formula2_10_, parametro0_.nome as nome3_10_, parametro0_.p_max as p_max4_10_, parametro0_.p_maxt as p_maxt5_10_, parametro0_.p_min as p_min6_10_, parametro0_.p_mint as p_mint7_10_, parametro0_.show_chart as show_cha8_10_, parametro0_.unidade as unidade9_10_ from parametro parametro0_
+[2021-08-02 23:30:54] - throwQueryException() : no errors
+[2021-08-02 23:30:54] - throwQueryException() : no errors
+[2021-08-02 23:30:54] - throwQueryException() : no errors
+[2021-08-02 23:30:54] - HQL: select generatedAlias0 from com.bluebudy.SCQ.domain.Processo as generatedAlias0
+[2021-08-02 23:30:54] - SQL: select processo0_.id as id1_11_, processo0_.nome as nome2_11_ from processo processo0_
+[2021-08-02 23:30:54] - throwQueryException() : no errors
+[2021-08-02 23:30:54] - HQL: select generatedAlias0 from com.bluebudy.SCQ.domain.Etapa as generatedAlias0
+[2021-08-02 23:30:54] - SQL: select etapa0_.id as id1_4_, etapa0_.nome as nome2_4_, etapa0_.posicao as posicao3_4_, etapa0_.processo_id as processo5_4_, etapa0_.volume as volume4_4_ from etapa etapa0_
+[2021-08-02 23:30:54] - throwQueryException() : no errors
+[2021-08-02 23:30:54] - select troca0_.id as id1_13_, troca0_.controle_id as controle2_13_, troca0_.etapa_id as etapa_id3_13_ from troca troca0_
+[2021-08-02 23:30:54] - select parametro0_.id as id1_10_, parametro0_.controle_id as control10_10_, parametro0_.etapa_id as etapa_i11_10_, parametro0_.formula as formula2_10_, parametro0_.nome as nome3_10_, parametro0_.p_max as p_max4_10_, parametro0_.p_maxt as p_maxt5_10_, parametro0_.p_min as p_min6_10_, parametro0_.p_mint as p_mint7_10_, parametro0_.show_chart as show_cha8_10_, parametro0_.unidade as unidade9_10_ from parametro parametro0_
+[2021-08-02 23:30:54] - select materiapri0_.id as id1_5_, materiapri0_.fator_titulometrico as fator_ti2_5_, materiapri0_.fornecedor as forneced3_5_, materiapri0_.nome as nome4_5_, materiapri0_.preco as preco5_5_, materiapri0_.unidade as unidade6_5_ from materia_prima materiapri0_
+[2021-08-02 23:30:54] - select tarefasdem0_.id as id1_12_, tarefasdem0_.codigo_do_documento as codigo_d2_12_, tarefasdem0_.controle_id as controle4_12_, tarefasdem0_.nome as nome3_12_, tarefasdem0_.processo_id as processo5_12_ from tarefas_de_manutencao tarefasdem0_
+[2021-08-02 23:30:54] - select etapa0_.id as id1_4_, etapa0_.nome as nome2_4_, etapa0_.posicao as posicao3_4_, etapa0_.processo_id as processo5_4_, etapa0_.volume as volume4_4_ from etapa etapa0_
+[2021-08-02 23:30:54] - select processo0_.id as id1_11_, processo0_.nome as nome2_11_ from processo processo0_
+[2021-08-02 23:30:54] - Result set row: 0
+[2021-08-02 23:30:54] - Result set row: 0
+[2021-08-02 23:30:54] - Result set row: 0
+[2021-08-02 23:30:54] - Result row: EntityKey[com.bluebudy.SCQ.domain.Processo#1]
+[2021-08-02 23:30:54] - Result row: EntityKey[com.bluebudy.SCQ.domain.Troca#1]
+[2021-08-02 23:30:54] - Result row: EntityKey[com.bluebudy.SCQ.domain.TarefasDeManutencao#1]
+[2021-08-02 23:30:54] - Result set row: 1
+[2021-08-02 23:30:54] - Result set row: 1
+[2021-08-02 23:30:54] - Result row: EntityKey[com.bluebudy.SCQ.domain.Troca#2]
+[2021-08-02 23:30:54] - Result set row: 2
+[2021-08-02 23:30:54] - Result row: EntityKey[com.bluebudy.SCQ.domain.Troca#5]
+[2021-08-02 23:30:54] - Result set row: 3
+[2021-08-02 23:30:54] - Result row: EntityKey[com.bluebudy.SCQ.domain.Troca#6]
+[2021-08-02 23:30:54] - Result set row: 4
+[2021-08-02 23:30:54] - Result row: EntityKey[com.bluebudy.SCQ.domain.Processo#2]
+[2021-08-02 23:30:54] - Result row: EntityKey[com.bluebudy.SCQ.domain.Troca#8]
+[2021-08-02 23:30:54] - Result set row: 5
+[2021-08-02 23:30:54] - Result row: EntityKey[com.bluebudy.SCQ.domain.Troca#9]
+[2021-08-02 23:30:54] - Result set row: 6
+[2021-08-02 23:30:54] - Result row: EntityKey[com.bluebudy.SCQ.domain.Troca#10]
+[2021-08-02 23:30:54] - Result set row: 7
+[2021-08-02 23:30:54] - Result row: EntityKey[com.bluebudy.SCQ.domain.Troca#11]
+[2021-08-02 23:30:54] - Result set row: 2
+[2021-08-02 23:30:54] - Result row: EntityKey[com.bluebudy.SCQ.domain.Processo#3]
+[2021-08-02 23:30:54] - Result set row: 8
+[2021-08-02 23:30:54] - Result row: EntityKey[com.bluebudy.SCQ.domain.Troca#12]
+[2021-08-02 23:30:54] - Resolving attributes for [com.bluebudy.SCQ.domain.Troca#1]
+[2021-08-02 23:30:54] - Processing attribute `controle` : value = 16
+[2021-08-02 23:30:54] - Attribute (`controle`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:54] - Result set row: 0
+[2021-08-02 23:30:54] - Result set row: 1
+[2021-08-02 23:30:54] - Result row: EntityKey[com.bluebudy.SCQ.domain.TarefasDeManutencao#2]
+[2021-08-02 23:30:54] - Result set row: 0
+[2021-08-02 23:30:54] - Result set row: 3
+[2021-08-02 23:30:54] - Result row: EntityKey[com.bluebudy.SCQ.domain.Processo#4]
+[2021-08-02 23:30:54] - Result row: EntityKey[com.bluebudy.SCQ.domain.Parametro#1]
+[2021-08-02 23:30:54] - Result row: EntityKey[com.bluebudy.SCQ.domain.MateriaPrima#1]
+[2021-08-02 23:30:54] - Result set row: 2
+[2021-08-02 23:30:54] - Result set row: 4
+[2021-08-02 23:30:54] - Result row: EntityKey[com.bluebudy.SCQ.domain.Processo#5]
+[2021-08-02 23:30:54] - Result row: EntityKey[com.bluebudy.SCQ.domain.TarefasDeManutencao#3]
+[2021-08-02 23:30:54] - Result set row: 3
+[2021-08-02 23:30:54] - Result row: EntityKey[com.bluebudy.SCQ.domain.TarefasDeManutencao#4]
+[2021-08-02 23:30:54] - select controle0_.id as id1_3_0_, controle0_.data_planejada as data_pla2_3_0_, controle0_.data_realizada as data_rea3_3_0_, controle0_.notified as notified4_3_0_, controle0_.periodo as periodo5_3_0_ from controle controle0_ where controle0_.id=?
+[2021-08-02 23:30:54] - Resolving attributes for [com.bluebudy.SCQ.domain.Processo#1]
+[2021-08-02 23:30:54] - Processing attribute `etapas` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:54] - Attribute (`etapas`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:54] - Result set row: 4
+[2021-08-02 23:30:54] - Result set row: 0
+[2021-08-02 23:30:54] - Result row: EntityKey[com.bluebudy.SCQ.domain.TarefasDeManutencao#5]
+[2021-08-02 23:30:54] - Result row: EntityKey[com.bluebudy.SCQ.domain.Etapa#1]
+[2021-08-02 23:30:54] - Result set row: 5
+[2021-08-02 23:30:54] - Result row: EntityKey[com.bluebudy.SCQ.domain.TarefasDeManutencao#6]
+[2021-08-02 23:30:54] - Result set row: 6
+[2021-08-02 23:30:54] - Result row: EntityKey[com.bluebudy.SCQ.domain.TarefasDeManutencao#7]
+[2021-08-02 23:30:54] - Result set row: 7
+[2021-08-02 23:30:54] - Result row: EntityKey[com.bluebudy.SCQ.domain.TarefasDeManutencao#8]
+[2021-08-02 23:30:54] - Result set row: 8
+[2021-08-02 23:30:54] - Result row: EntityKey[com.bluebudy.SCQ.domain.TarefasDeManutencao#9]
+[2021-08-02 23:30:54] - Result set row: 9
+[2021-08-02 23:30:54] - Result row: EntityKey[com.bluebudy.SCQ.domain.TarefasDeManutencao#10]
+[2021-08-02 23:30:54] - Result set row: 10
+[2021-08-02 23:30:54] - Result row: EntityKey[com.bluebudy.SCQ.domain.TarefasDeManutencao#11]
+[2021-08-02 23:30:54] - Result set row: 11
+[2021-08-02 23:30:54] - Result row: EntityKey[com.bluebudy.SCQ.domain.TarefasDeManutencao#12]
+[2021-08-02 23:30:54] - Result set row: 12
+[2021-08-02 23:30:54] - Result row: EntityKey[com.bluebudy.SCQ.domain.TarefasDeManutencao#13]
+[2021-08-02 23:30:54] - Result set row: 13
+[2021-08-02 23:30:54] - Result set row: 1
+[2021-08-02 23:30:54] - Result row: EntityKey[com.bluebudy.SCQ.domain.Etapa#2]
+[2021-08-02 23:30:54] - Result row: EntityKey[com.bluebudy.SCQ.domain.TarefasDeManutencao#14]
+[2021-08-02 23:30:54] - Result set row: 14
+[2021-08-02 23:30:54] - Result row: EntityKey[com.bluebudy.SCQ.domain.TarefasDeManutencao#15]
+[2021-08-02 23:30:54] - Result set row: 2
+[2021-08-02 23:30:54] - Result row: EntityKey[com.bluebudy.SCQ.domain.Etapa#3]
+[2021-08-02 23:30:54] - Result set row: 1
+[2021-08-02 23:30:54] - Result set row: 3
+[2021-08-02 23:30:54] - Result row: EntityKey[com.bluebudy.SCQ.domain.MateriaPrima#2]
+[2021-08-02 23:30:54] - Result set row: 2

@@ -1,0 +1,55 @@
+[2021-08-02 23:27:56] - Application started with classpath: [file:/Users/alexandrenunes/Documents/development/scq-api/target/classes/]
+[2021-08-02 23:27:56] - Starting ScqMobileApplication on MacBook-Pro-de-Alexandre.local with PID 32416 (/Users/alexandrenunes/Documents/development/scq-api/target/classes started by alexandrenunes in /Users/alexandrenunes/Documents/development/scq-api)
+[2021-08-02 23:27:56] - Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+[2021-08-02 23:27:56] - No active profile set, falling back to default profiles: default
+[2021-08-02 23:27:56] - Loading source class com.bluebudy.SCQ.ScqMobileApplication
+[2021-08-02 23:27:56] - Loaded config file 'file:/Users/alexandrenunes/Documents/development/scq-api/target/classes/application.properties' (classpath:/application.properties)
+[2021-08-02 23:27:56] - The Class-Path manifest attribute in /Users/alexandrenunes/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/Users/alexandrenunes/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/Users/alexandrenunes/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/Users/alexandrenunes/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/Users/alexandrenunes/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/Users/alexandrenunes/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/Users/alexandrenunes/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+[2021-08-02 23:27:56] - Matching URLs for reloading : [file:/Users/alexandrenunes/Documents/development/scq-api/target/classes/]
+[2021-08-02 23:27:56] - Included patterns for restart : []
+[2021-08-02 23:27:56] - Excluded patterns for restart : [/spring-boot-starter-[\w-]+/, /spring-boot/target/classes/, /spring-boot-starter/target/classes/, /spring-boot-devtools/target/classes/, /spring-boot-actuator/target/classes/, /spring-boot-autoconfigure/target/classes/]
+[2021-08-02 23:27:56] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2021-08-02 23:27:56] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2021-08-02 23:27:56] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7521c676
+[2021-08-02 23:27:56] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-08-02 23:27:56] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+[2021-08-02 23:27:56] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/SchedulingConfiguration.class]
+[2021-08-02 23:27:56] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/SecurityConfig.class]
+[2021-08-02 23:27:56] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/controllers/AcaoController.class]
+[2021-08-02 23:27:56] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/controllers/AdicaoController.class]
+[2021-08-02 23:27:56] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/controllers/AnaliseController.class]
+[2021-08-02 23:27:56] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/controllers/AuthenticationController.class]
+[2021-08-02 23:27:56] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/controllers/Calculator.class]
+[2021-08-02 23:27:56] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/controllers/ConstantsControllers.class]
+[2021-08-02 23:27:56] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/controllers/EtapaController.class]
+[2021-08-02 23:27:56] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/controllers/GreetingController.class]
+[2021-08-02 23:27:56] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/controllers/MateriaPrimaController.class]
+[2021-08-02 23:27:56] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/controllers/MontagemCompositionController.class]
+[2021-08-02 23:27:56] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/controllers/NotificacaoController.class]
+[2021-08-02 23:27:56] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/controllers/OmpController.class]
+[2021-08-02 23:27:56] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/controllers/OrdemDeCorrecaoController.class]
+[2021-08-02 23:27:56] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/controllers/ParametroController.class]
+[2021-08-02 23:27:56] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/controllers/ProcessoController.class]
+[2021-08-02 23:27:56] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/controllers/RegistrationController.class]
+[2021-08-02 23:27:56] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/controllers/TarefasDeManutencaoController.class]
+[2021-08-02 23:27:56] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/controllers/TrocaController.class]
+[2021-08-02 23:27:56] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/controllers/WebSocketConfig.class]
+[2021-08-02 23:27:56] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/domain/Calculadora.class]
+[2021-08-02 23:27:56] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/events/RegistrationListener.class]
+[2021-08-02 23:27:56] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/events/UserEnableListner.class]
+[2021-08-02 23:27:56] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/services/ControleService.class]
+[2021-08-02 23:27:56] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/services/CustomUserDetailService.class]
+[2021-08-02 23:27:56] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/services/DependenceAnaliseGenerator.class]
+[2021-08-02 23:27:56] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/services/NotificationService.class]
+[2021-08-02 23:27:56] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/services/OmpService.class]
+[2021-08-02 23:27:56] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/services/TokenService.class]
+[2021-08-02 23:27:56] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/services/UserService.class]
+[2021-08-02 23:27:56] - Identified candidate component class: file [/Users/alexandrenunes/Documents/development/scq-api/target/classes/com/bluebudy/SCQ/validation/ValidationError.class]
+[2021-08-02 23:27:57] - Found key 'spring.template.provider.cache' in PropertySource 'configurationProperties' with value of type String
+[2021-08-02 23:27:57] - Identified candidate component class: URL [jar:file:/Users/alexandrenunes/.m2/repository/org/springframework/data/spring-data-rest-webmvc/3.2.1.RELEASE/spring-data-rest-webmvc-3.2.1.RELEASE.jar!/org/springframework/data/rest/webmvc/RepositorySearchController.class]
+[2021-08-02 23:27:57] - Identified candidate component class: URL [jar:file:/Users/alexandrenunes/.m2/repository/org/springframework/data/spring-data-rest-webmvc/3.2.1.RELEASE/spring-data-rest-webmvc-3.2.1.RELEASE.jar!/org/springframework/data/rest/webmvc/RepositoryEntityController.class]
+[2021-08-02 23:27:57] - Ignored because not a concrete top-level class: URL [jar:file:/Users/alexandrenunes/.m2/repository/org/springframework/data/spring-data-rest-webmvc/3.2.1.RELEASE/spring-data-rest-webmvc-3.2.1.RELEASE.jar!/org/springframework/data/rest/webmvc/RepositoryRestController.class]
+[2021-08-02 23:27:57] - Identified candidate component class: URL [jar:file:/Users/alexandrenunes/.m2/repository/org/springframework/data/spring-data-rest-webmvc/3.2.1.RELEASE/spring-data-rest-webmvc-3.2.1.RELEASE.jar!/org/springframework/data/rest/webmvc/RepositoryPropertyReferenceController.class]
+[2021-08-02 23:27:57] - Identified candidate component class: URL [jar:file:/Users/alexandrenunes/.m2/repository/org/springframework/data/spring-data-rest-webmvc/3.2.1.RELEASE/spring-data-rest-webmvc-3.2.1.RELEASE.jar!/org/springframework/data/rest/webmvc/alps/AlpsController.class]
+[2021-08-02 23:27:57] - Identified candidate component class: URL [jar:file:/Users/alexandrenunes/.m2/repository/org/springframework/data/spring-data-rest-webmvc/3.2.1.RELEASE/spring-data-rest-webmvc-3.2.1.RELEASE.jar!/org/springframework/data/rest/webmvc/RepositorySchemaController.class]
+[2021-08-02 23:27:57] - Identified candidate component class: URL [jar:file:/Users/alexandrenunes/.m2/repository/org/springframework/data/spring-data-rest-webmvc/3.2.1.RELEASE/spring-data-rest-webmvc-3.2.1.RELEASE.jar!/org/springframework/data/rest/webmvc/RepositoryController.class]

@@ -1,0 +1,514 @@
+[2021-08-02 23:31:48] - Searching methods to handle SEND /app/dispatcher session=73abe6a1-b244-deaa-d26a-c046f66a2e99, lookupDestination='/dispatcher'
+[2021-08-02 23:31:48] - Attribute (`name`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Searching methods to handle SEND /app/dispatcher session=73abe6a1-b244-deaa-d26a-c046f66a2e99, lookupDestination='/dispatcher'
+[2021-08-02 23:31:48] - Processing attribute `password` : value = $2a$10$jkkH12mWrSy9ijRj7Xg2XeRpZ2swGujWHa4f8PwXEYGen.K0dMaRO
+[2021-08-02 23:31:48] - Attribute (`password`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Invoking GreetingController#greeting[1 args]
+[2021-08-02 23:31:48] - Done materializing entity [com.bluebudy.SCQ.domain.User#1]
+[2021-08-02 23:31:48] - Invoking GreetingController#greeting[1 args]
+[2021-08-02 23:31:48] - /notificacoes at position 7 of 12 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+[2021-08-02 23:31:48] - /notificacoes at position 8 of 12 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+[2021-08-02 23:31:48] - /notificacoes at position 9 of 12 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+[2021-08-02 23:31:48] - SecurityContextHolder not populated with anonymous token, as it already contained: 'org.springframework.security.authentication.UsernamePasswordAuthenticationToken@9448c45b: Principal: com.bluebudy.SCQ.domain.User@6f09f04d; Credentials: [PROTECTED]; Authenticated: true; Details: null; Granted Authorities: ROLE_USER, ROLE_ADMIN'
+[2021-08-02 23:31:48] - /notificacoes at position 10 of 12 in additional filter chain; firing Filter: 'SessionManagementFilter'
+[2021-08-02 23:31:48] - Delegating to org.springframework.security.web.authentication.session.ChangeSessionIdAuthenticationStrategy@205eabac
+[2021-08-02 23:31:48] - /notificacoes at position 11 of 12 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+[2021-08-02 23:31:48] - /notificacoes at position 12 of 12 in additional filter chain; firing Filter: 'FilterSecurityInterceptor'
+[2021-08-02 23:31:48] - Request 'GET /notificacoes' doesn't match 'POST /auth'
+[2021-08-02 23:31:48] - Request 'GET /notificacoes' doesn't match 'POST /user/registration'
+[2021-08-02 23:31:48] - Checking match of request : '/notificacoes'; against '/regitrationConfirm/*'
+[2021-08-02 23:31:48] - Checking match of request : '/notificacoes'; against '/user/adminRoleGrant/*'
+[2021-08-02 23:31:48] - Request 'GET /notificacoes' doesn't match 'POST /gs-guide-websocket/**'
+[2021-08-02 23:31:48] - Checking match of request : '/notificacoes'; against '/gs-guide-websocket/**'
+[2021-08-02 23:31:48] - Checking match of request : '/notificacoes'; against '/hCheck'
+[2021-08-02 23:31:48] - Secure object: FilterInvocation: URL: /notificacoes; Attributes: [authenticated]
+[2021-08-02 23:31:48] - Previously Authenticated: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@9448c45b: Principal: com.bluebudy.SCQ.domain.User@6f09f04d; Credentials: [PROTECTED]; Authenticated: true; Details: null; Granted Authorities: ROLE_USER, ROLE_ADMIN
+[2021-08-02 23:31:48] - Voter: org.springframework.security.web.access.expression.WebExpressionVoter@57d27bce, returned: 1
+[2021-08-02 23:31:48] - Authorization successful
+[2021-08-02 23:31:48] - RunAsManager did not change Authentication object
+[2021-08-02 23:31:48] - /notificacoes reached end of additional filter chain; proceeding with original chain
+[2021-08-02 23:31:48] - GET "/notificacoes", parameters={}
+[2021-08-02 23:31:48] - Processing MESSAGE destination=/reducer/return session=73abe6a1-b244-deaa-d26a-c046f66a2e99 payload={"type":"function","function":"loadOcps"}
+[2021-08-02 23:31:48] - Processing MESSAGE destination=/reducer/return session=73abe6a1-b244-deaa-d26a-c046f66a2e99 payload={"type":"function","function":"loadParametros"}
+[2021-08-02 23:31:48] - Broadcasting to 1 sessions.
+[2021-08-02 23:31:48] - Mapped to com.bluebudy.SCQ.controllers.NotificacaoController#getNotificacoes()
+[2021-08-02 23:31:48] - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2021-08-02 23:31:48] - Broadcasting to 1 sessions.
+[2021-08-02 23:31:48] - Rendered criteria query -> select generatedAlias0 from Notificacao as generatedAlias0 where generatedAlias0.status=:param0
+[2021-08-02 23:31:48] - select notificaca0_.id as id1_7_, notificaca0_.messagem as messagem2_7_, notificaca0_.ref_id as ref_id3_7_, notificaca0_.status as status4_7_, notificaca0_.tipo_notificacao as tipo_not5_7_ from notificacao notificaca0_ where notificaca0_.status=?
+[2021-08-02 23:31:48] - Result set row: 0
+[2021-08-02 23:31:48] - Result row: EntityKey[com.bluebudy.SCQ.domain.Notificacao#55]
+[2021-08-02 23:31:48] - Result set row: 1
+[2021-08-02 23:31:48] - Result row: EntityKey[com.bluebudy.SCQ.domain.Notificacao#60]
+[2021-08-02 23:31:48] - Result set row: 2
+[2021-08-02 23:31:48] - Result row: EntityKey[com.bluebudy.SCQ.domain.Notificacao#64]
+[2021-08-02 23:31:48] - Result set row: 3
+[2021-08-02 23:31:48] - Result row: EntityKey[com.bluebudy.SCQ.domain.Notificacao#71]
+[2021-08-02 23:31:48] - Result set row: 4
+[2021-08-02 23:31:48] - Result row: EntityKey[com.bluebudy.SCQ.domain.Notificacao#75]
+[2021-08-02 23:31:48] - Result set row: 5
+[2021-08-02 23:31:48] - Result row: EntityKey[com.bluebudy.SCQ.domain.Notificacao#76]
+[2021-08-02 23:31:48] - Result set row: 6
+[2021-08-02 23:31:48] - Result row: EntityKey[com.bluebudy.SCQ.domain.Notificacao#77]
+[2021-08-02 23:31:48] - Result set row: 7
+[2021-08-02 23:31:48] - Result row: EntityKey[com.bluebudy.SCQ.domain.Notificacao#78]
+[2021-08-02 23:31:48] - Result set row: 8
+[2021-08-02 23:31:48] - Result row: EntityKey[com.bluebudy.SCQ.domain.Notificacao#79]
+[2021-08-02 23:31:48] - Result set row: 9
+[2021-08-02 23:31:48] - Result row: EntityKey[com.bluebudy.SCQ.domain.Notificacao#83]
+[2021-08-02 23:31:48] - Result set row: 10
+[2021-08-02 23:31:48] - Result row: EntityKey[com.bluebudy.SCQ.domain.Notificacao#84]
+[2021-08-02 23:31:48] - Result set row: 11
+[2021-08-02 23:31:48] - Result row: EntityKey[com.bluebudy.SCQ.domain.Notificacao#86]
+[2021-08-02 23:31:48] - Result set row: 12
+[2021-08-02 23:31:48] - Result row: EntityKey[com.bluebudy.SCQ.domain.Notificacao#87]
+[2021-08-02 23:31:48] - Result set row: 13
+[2021-08-02 23:31:48] - Result row: EntityKey[com.bluebudy.SCQ.domain.Notificacao#88]
+[2021-08-02 23:31:48] - Result set row: 14
+[2021-08-02 23:31:48] - Result row: EntityKey[com.bluebudy.SCQ.domain.Notificacao#89]
+[2021-08-02 23:31:48] - Result set row: 15
+[2021-08-02 23:31:48] - Result row: EntityKey[com.bluebudy.SCQ.domain.Notificacao#90]
+[2021-08-02 23:31:48] - Result set row: 16
+[2021-08-02 23:31:48] - Result row: EntityKey[com.bluebudy.SCQ.domain.Notificacao#92]
+[2021-08-02 23:31:48] - Result set row: 17
+[2021-08-02 23:31:48] - Result row: EntityKey[com.bluebudy.SCQ.domain.Notificacao#93]
+[2021-08-02 23:31:48] - Result set row: 18
+[2021-08-02 23:31:48] - Result row: EntityKey[com.bluebudy.SCQ.domain.Notificacao#94]
+[2021-08-02 23:31:48] - Result set row: 19
+[2021-08-02 23:31:48] - Result row: EntityKey[com.bluebudy.SCQ.domain.Notificacao#95]
+[2021-08-02 23:31:48] - Result set row: 20
+[2021-08-02 23:31:48] - Result row: EntityKey[com.bluebudy.SCQ.domain.Notificacao#96]
+[2021-08-02 23:31:48] - Result set row: 21
+[2021-08-02 23:31:48] - Result row: EntityKey[com.bluebudy.SCQ.domain.Notificacao#97]
+[2021-08-02 23:31:48] - Result set row: 22
+[2021-08-02 23:31:48] - Result row: EntityKey[com.bluebudy.SCQ.domain.Notificacao#98]
+[2021-08-02 23:31:48] - Result set row: 23
+[2021-08-02 23:31:48] - Result row: EntityKey[com.bluebudy.SCQ.domain.Notificacao#99]
+[2021-08-02 23:31:48] - Result set row: 24
+[2021-08-02 23:31:48] - Result row: EntityKey[com.bluebudy.SCQ.domain.Notificacao#100]
+[2021-08-02 23:31:48] - Result set row: 25
+[2021-08-02 23:31:48] - Result row: EntityKey[com.bluebudy.SCQ.domain.Notificacao#101]
+[2021-08-02 23:31:48] - Result set row: 26
+[2021-08-02 23:31:48] - Result row: EntityKey[com.bluebudy.SCQ.domain.Notificacao#102]
+[2021-08-02 23:31:48] - Result set row: 27
+[2021-08-02 23:31:48] - Result row: EntityKey[com.bluebudy.SCQ.domain.Notificacao#103]
+[2021-08-02 23:31:48] - Result set row: 28
+[2021-08-02 23:31:48] - Result row: EntityKey[com.bluebudy.SCQ.domain.Notificacao#104]
+[2021-08-02 23:31:48] - Result set row: 29
+[2021-08-02 23:31:48] - Result row: EntityKey[com.bluebudy.SCQ.domain.Notificacao#105]
+[2021-08-02 23:31:48] - Result set row: 30
+[2021-08-02 23:31:48] - Result row: EntityKey[com.bluebudy.SCQ.domain.Notificacao#108]
+[2021-08-02 23:31:48] - Result set row: 31
+[2021-08-02 23:31:48] - Result row: EntityKey[com.bluebudy.SCQ.domain.Notificacao#109]
+[2021-08-02 23:31:48] - Result set row: 32
+[2021-08-02 23:31:48] - Result row: EntityKey[com.bluebudy.SCQ.domain.Notificacao#110]
+[2021-08-02 23:31:48] - Result set row: 33
+[2021-08-02 23:31:48] - Result row: EntityKey[com.bluebudy.SCQ.domain.Notificacao#111]
+[2021-08-02 23:31:48] - Result set row: 34
+[2021-08-02 23:31:48] - Result row: EntityKey[com.bluebudy.SCQ.domain.Notificacao#113]
+[2021-08-02 23:31:48] - Result set row: 35
+[2021-08-02 23:31:48] - Result row: EntityKey[com.bluebudy.SCQ.domain.Notificacao#114]
+[2021-08-02 23:31:48] - Result set row: 36
+[2021-08-02 23:31:48] - Result row: EntityKey[com.bluebudy.SCQ.domain.Notificacao#115]
+[2021-08-02 23:31:48] - Resolving attributes for [com.bluebudy.SCQ.domain.Notificacao#55]
+[2021-08-02 23:31:48] - Processing attribute `messagem` : value = Analise: pH etapa Selante processo Zinco Ácido - L3 tanque 5 esta atrasado 
+[2021-08-02 23:31:48] - Attribute (`messagem`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `refId` : value = 44
+[2021-08-02 23:31:48] - Attribute (`refId`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `status` : value = AGUARDANDO
+[2021-08-02 23:31:48] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `tipoNotificacao` : value = Analise
+[2021-08-02 23:31:48] - Attribute (`tipoNotificacao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Done materializing entity [com.bluebudy.SCQ.domain.Notificacao#55]
+[2021-08-02 23:31:48] - Resolving attributes for [com.bluebudy.SCQ.domain.Notificacao#60]
+[2021-08-02 23:31:48] - Processing attribute `messagem` : value = Analise: Ácido Bórico etapa Zinco Ácido processo Zinco Ácido - L3 tanque 27 esta atrasado 
+[2021-08-02 23:31:48] - Attribute (`messagem`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `refId` : value = 9
+[2021-08-02 23:31:48] - Attribute (`refId`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `status` : value = AGUARDANDO
+[2021-08-02 23:31:48] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `tipoNotificacao` : value = Analise
+[2021-08-02 23:31:48] - Attribute (`tipoNotificacao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Done materializing entity [com.bluebudy.SCQ.domain.Notificacao#60]
+[2021-08-02 23:31:48] - Resolving attributes for [com.bluebudy.SCQ.domain.Notificacao#64]
+[2021-08-02 23:31:48] - Processing attribute `messagem` : value = Troca: da etapa Decapante Tanque 18 processo Zinco Ácido - L3 Motado com:  - Ácido Clorídrico 1000.0 - Alumon AC-70 25.0 - Aditivo 7030 25.0
+[2021-08-02 23:31:48] - Attribute (`messagem`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `refId` : value = 5
+[2021-08-02 23:31:48] - Attribute (`refId`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `status` : value = AGUARDANDO
+[2021-08-02 23:31:48] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `tipoNotificacao` : value = Troca
+[2021-08-02 23:31:48] - Attribute (`tipoNotificacao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Done materializing entity [com.bluebudy.SCQ.domain.Notificacao#64]
+[2021-08-02 23:31:48] - Resolving attributes for [com.bluebudy.SCQ.domain.Notificacao#71]
+[2021-08-02 23:31:48] - Processing attribute `messagem` : value = Tarefa: do processo Zinco Ácido - L3 codigo da instruçao de trabalho MIMP
+[2021-08-02 23:31:48] - Attribute (`messagem`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `refId` : value = 5
+[2021-08-02 23:31:48] - Attribute (`refId`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `status` : value = AGUARDANDO
+[2021-08-02 23:31:48] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `tipoNotificacao` : value = Tarefa
+[2021-08-02 23:31:48] - Attribute (`tipoNotificacao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Done materializing entity [com.bluebudy.SCQ.domain.Notificacao#71]
+[2021-08-02 23:31:48] - Resolving attributes for [com.bluebudy.SCQ.domain.Notificacao#75]
+[2021-08-02 23:31:48] - Processing attribute `messagem` : value = Tarefa: do processo Zinco Ácido - L3 codigo da instruçao de trabalho MIMP
+[2021-08-02 23:31:48] - Attribute (`messagem`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `refId` : value = 9
+[2021-08-02 23:31:48] - Attribute (`refId`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `status` : value = AGUARDANDO
+[2021-08-02 23:31:48] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `tipoNotificacao` : value = Tarefa
+[2021-08-02 23:31:48] - Attribute (`tipoNotificacao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Done materializing entity [com.bluebudy.SCQ.domain.Notificacao#75]
+[2021-08-02 23:31:48] - Resolving attributes for [com.bluebudy.SCQ.domain.Notificacao#76]
+[2021-08-02 23:31:48] - Processing attribute `messagem` : value = Tarefa: do processo Zinco Ácido - L3 codigo da instruçao de trabalho MIMP
+[2021-08-02 23:31:48] - Attribute (`messagem`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `refId` : value = 10
+[2021-08-02 23:31:48] - Attribute (`refId`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `status` : value = AGUARDANDO
+[2021-08-02 23:31:48] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `tipoNotificacao` : value = Tarefa
+[2021-08-02 23:31:48] - Attribute (`tipoNotificacao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Done materializing entity [com.bluebudy.SCQ.domain.Notificacao#76]
+[2021-08-02 23:31:48] - Resolving attributes for [com.bluebudy.SCQ.domain.Notificacao#77]
+[2021-08-02 23:31:48] - Processing attribute `messagem` : value = Tarefa: do processo Zinco Ácido - L3 codigo da instruçao de trabalho MIMP
+[2021-08-02 23:31:48] - Attribute (`messagem`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `refId` : value = 12
+[2021-08-02 23:31:48] - Attribute (`refId`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `status` : value = AGUARDANDO
+[2021-08-02 23:31:48] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `tipoNotificacao` : value = Tarefa
+[2021-08-02 23:31:48] - Attribute (`tipoNotificacao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Done materializing entity [com.bluebudy.SCQ.domain.Notificacao#77]
+[2021-08-02 23:31:48] - Resolving attributes for [com.bluebudy.SCQ.domain.Notificacao#78]
+[2021-08-02 23:31:48] - Processing attribute `messagem` : value = Tarefa: do processo Zinco Ácido - L3 codigo da instruçao de trabalho MIMP
+[2021-08-02 23:31:48] - Attribute (`messagem`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `refId` : value = 13
+[2021-08-02 23:31:48] - Attribute (`refId`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `status` : value = AGUARDANDO
+[2021-08-02 23:31:48] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `tipoNotificacao` : value = Tarefa
+[2021-08-02 23:31:48] - Attribute (`tipoNotificacao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Done materializing entity [com.bluebudy.SCQ.domain.Notificacao#78]
+[2021-08-02 23:31:48] - Resolving attributes for [com.bluebudy.SCQ.domain.Notificacao#79]
+[2021-08-02 23:31:48] - Processing attribute `messagem` : value = Tarefa: do processo Zinco Ácido - L3 codigo da instruçao de trabalho MIMP
+[2021-08-02 23:31:48] - Attribute (`messagem`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `refId` : value = 16
+[2021-08-02 23:31:48] - Attribute (`refId`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `status` : value = AGUARDANDO
+[2021-08-02 23:31:48] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `tipoNotificacao` : value = Tarefa
+[2021-08-02 23:31:48] - Attribute (`tipoNotificacao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Done materializing entity [com.bluebudy.SCQ.domain.Notificacao#79]
+[2021-08-02 23:31:48] - Resolving attributes for [com.bluebudy.SCQ.domain.Notificacao#83]
+[2021-08-02 23:31:48] - Processing attribute `messagem` : value = Analise: Cloreto de Potassio etapa Zinco Ácido processo Zinco Ácido - L3 tanque 27 esta atrasado 
+[2021-08-02 23:31:48] - Attribute (`messagem`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `refId` : value = 50
+[2021-08-02 23:31:48] - Attribute (`refId`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `status` : value = AGUARDANDO
+[2021-08-02 23:31:48] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `tipoNotificacao` : value = Analise
+[2021-08-02 23:31:48] - Attribute (`tipoNotificacao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Done materializing entity [com.bluebudy.SCQ.domain.Notificacao#83]
+[2021-08-02 23:31:48] - Resolving attributes for [com.bluebudy.SCQ.domain.Notificacao#84]
+[2021-08-02 23:31:48] - Processing attribute `messagem` : value = Tarefa: do processo Zinco Ácido - L3 codigo da instruçao de trabalho MIMP
+[2021-08-02 23:31:48] - Attribute (`messagem`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `refId` : value = 17
+[2021-08-02 23:31:48] - Attribute (`refId`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `status` : value = AGUARDANDO
+[2021-08-02 23:31:48] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `tipoNotificacao` : value = Tarefa
+[2021-08-02 23:31:48] - Attribute (`tipoNotificacao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Done materializing entity [com.bluebudy.SCQ.domain.Notificacao#84]
+[2021-08-02 23:31:48] - Resolving attributes for [com.bluebudy.SCQ.domain.Notificacao#86]
+[2021-08-02 23:31:48] - Processing attribute `messagem` : value = Analise: Cloreto Total etapa Zinco Ácido processo Zinco Ácido - L3 tanque 27 esta atrasado 
+[2021-08-02 23:31:48] - Attribute (`messagem`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `refId` : value = 8
+[2021-08-02 23:31:48] - Attribute (`refId`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `status` : value = AGUARDANDO
+[2021-08-02 23:31:48] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `tipoNotificacao` : value = Analise
+[2021-08-02 23:31:48] - Attribute (`tipoNotificacao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Done materializing entity [com.bluebudy.SCQ.domain.Notificacao#86]
+[2021-08-02 23:31:48] - Resolving attributes for [com.bluebudy.SCQ.domain.Notificacao#87]
+[2021-08-02 23:31:48] - Processing attribute `messagem` : value = Troca: da etapa Selante Tanque 5 processo Zinco Ácido - L3 Motado com:  - Sealer 300W 2.0 250.0
+[2021-08-02 23:31:48] - Attribute (`messagem`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `refId` : value = 10
+[2021-08-02 23:31:48] - Attribute (`refId`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `status` : value = AGUARDANDO
+[2021-08-02 23:31:48] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `tipoNotificacao` : value = Troca
+[2021-08-02 23:31:48] - Attribute (`tipoNotificacao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Done materializing entity [com.bluebudy.SCQ.domain.Notificacao#87]
+[2021-08-02 23:31:48] - Resolving attributes for [com.bluebudy.SCQ.domain.Notificacao#88]
+[2021-08-02 23:31:48] - Processing attribute `messagem` : value = Tarefa: do processo Zinco Ácido - L3 codigo da instruçao de trabalho MIMP
+[2021-08-02 23:31:48] - Attribute (`messagem`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `refId` : value = 14
+[2021-08-02 23:31:48] - Attribute (`refId`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `status` : value = AGUARDANDO
+[2021-08-02 23:31:48] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `tipoNotificacao` : value = Tarefa
+[2021-08-02 23:31:48] - Attribute (`tipoNotificacao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Done materializing entity [com.bluebudy.SCQ.domain.Notificacao#88]
+[2021-08-02 23:31:48] - Resolving attributes for [com.bluebudy.SCQ.domain.Notificacao#89]
+[2021-08-02 23:31:48] - Processing attribute `messagem` : value = Tarefa: do processo Zinco Ácido - L3 codigo da instruçao de trabalho MIMP
+[2021-08-02 23:31:48] - Attribute (`messagem`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `refId` : value = 15
+[2021-08-02 23:31:48] - Attribute (`refId`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `status` : value = AGUARDANDO
+[2021-08-02 23:31:48] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `tipoNotificacao` : value = Tarefa
+[2021-08-02 23:31:48] - Attribute (`tipoNotificacao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Done materializing entity [com.bluebudy.SCQ.domain.Notificacao#89]
+[2021-08-02 23:31:48] - Resolving attributes for [com.bluebudy.SCQ.domain.Notificacao#90]
+[2021-08-02 23:31:48] - Processing attribute `messagem` : value = Analise: Concentracao etapa Desengraxante Eletrolítico processo Zinco Ácido - L3 tanque 21 esta atrasado 
+[2021-08-02 23:31:48] - Attribute (`messagem`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `refId` : value = 1
+[2021-08-02 23:31:48] - Attribute (`refId`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `status` : value = AGUARDANDO
+[2021-08-02 23:31:48] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `tipoNotificacao` : value = Analise
+[2021-08-02 23:31:48] - Attribute (`tipoNotificacao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Done materializing entity [com.bluebudy.SCQ.domain.Notificacao#90]
+[2021-08-02 23:31:48] - Resolving attributes for [com.bluebudy.SCQ.domain.Notificacao#92]
+[2021-08-02 23:31:48] - Processing attribute `messagem` : value = Analise: Tensão etapa Desengraxante Eletrolítico processo Zinco Ácido - L3 tanque 21 esta atrasado 
+[2021-08-02 23:31:48] - Attribute (`messagem`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `refId` : value = 4
+[2021-08-02 23:31:48] - Attribute (`refId`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `status` : value = AGUARDANDO
+[2021-08-02 23:31:48] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `tipoNotificacao` : value = Analise
+[2021-08-02 23:31:48] - Attribute (`tipoNotificacao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Done materializing entity [com.bluebudy.SCQ.domain.Notificacao#92]
+[2021-08-02 23:31:48] - Resolving attributes for [com.bluebudy.SCQ.domain.Notificacao#93]
+[2021-08-02 23:31:48] - Processing attribute `messagem` : value = Analise: Concentracao etapa Ativação Clorídrica processo Zinco Ácido - L3 tanque 26 esta atrasado 
+[2021-08-02 23:31:48] - Attribute (`messagem`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `refId` : value = 48
+[2021-08-02 23:31:48] - Attribute (`refId`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `status` : value = AGUARDANDO
+[2021-08-02 23:31:48] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `tipoNotificacao` : value = Analise
+[2021-08-02 23:31:48] - Attribute (`tipoNotificacao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Done materializing entity [com.bluebudy.SCQ.domain.Notificacao#93]
+[2021-08-02 23:31:48] - Resolving attributes for [com.bluebudy.SCQ.domain.Notificacao#94]
+[2021-08-02 23:31:48] - Processing attribute `messagem` : value = Analise: Temperatura etapa Desengraxante Químico processo Zinco Ácido - L3 tanque 15 esta atrasado 
+[2021-08-02 23:31:48] - Attribute (`messagem`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `refId` : value = 53
+[2021-08-02 23:31:48] - Attribute (`refId`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `status` : value = AGUARDANDO
+[2021-08-02 23:31:48] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `tipoNotificacao` : value = Analise
+[2021-08-02 23:31:48] - Attribute (`tipoNotificacao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Done materializing entity [com.bluebudy.SCQ.domain.Notificacao#94]
+[2021-08-02 23:31:48] - Resolving attributes for [com.bluebudy.SCQ.domain.Notificacao#95]
+[2021-08-02 23:31:48] - Processing attribute `messagem` : value = Analise: Concentracao etapa Desengraxante Químico processo Zinco Ácido - L3 tanque 15 esta atrasado 
+[2021-08-02 23:31:48] - Attribute (`messagem`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `refId` : value = 56
+[2021-08-02 23:31:48] - Attribute (`refId`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `status` : value = AGUARDANDO
+[2021-08-02 23:31:48] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `tipoNotificacao` : value = Analise
+[2021-08-02 23:31:48] - Attribute (`tipoNotificacao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Done materializing entity [com.bluebudy.SCQ.domain.Notificacao#95]
+[2021-08-02 23:31:48] - Resolving attributes for [com.bluebudy.SCQ.domain.Notificacao#96]
+[2021-08-02 23:31:48] - Processing attribute `messagem` : value = Analise: tretaparam etapa Desengraxante Químico processo Zinco Ácido - L3 tanque 15 esta atrasado 
+[2021-08-02 23:31:48] - Attribute (`messagem`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `refId` : value = 57
+[2021-08-02 23:31:48] - Attribute (`refId`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `status` : value = AGUARDANDO
+[2021-08-02 23:31:48] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `tipoNotificacao` : value = Analise
+[2021-08-02 23:31:48] - Attribute (`tipoNotificacao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Done materializing entity [com.bluebudy.SCQ.domain.Notificacao#96]
+[2021-08-02 23:31:48] - Resolving attributes for [com.bluebudy.SCQ.domain.Notificacao#97]
+[2021-08-02 23:31:48] - Processing attribute `messagem` : value = Troca: da etapa Estufa Tanque 3 processo Zinco Ácido - L3 Motado com: 
+[2021-08-02 23:31:48] - Attribute (`messagem`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `refId` : value = 11
+[2021-08-02 23:31:48] - Attribute (`refId`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `status` : value = AGUARDANDO
+[2021-08-02 23:31:48] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `tipoNotificacao` : value = Troca
+[2021-08-02 23:31:48] - Attribute (`tipoNotificacao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Done materializing entity [com.bluebudy.SCQ.domain.Notificacao#97]
+[2021-08-02 23:31:48] - Resolving attributes for [com.bluebudy.SCQ.domain.Notificacao#98]
+[2021-08-02 23:31:48] - Processing attribute `messagem` : value = Troca: da etapa Joao Master seila Tanque 12 processo Treta Process Motado com:  - Endox A 75.0
+[2021-08-02 23:31:48] - Attribute (`messagem`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `refId` : value = 12
+[2021-08-02 23:31:48] - Attribute (`refId`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `status` : value = AGUARDANDO
+[2021-08-02 23:31:48] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `tipoNotificacao` : value = Troca
+[2021-08-02 23:31:48] - Attribute (`tipoNotificacao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Done materializing entity [com.bluebudy.SCQ.domain.Notificacao#98]
+[2021-08-02 23:31:48] - Resolving attributes for [com.bluebudy.SCQ.domain.Notificacao#99]
+[2021-08-02 23:31:48] - Processing attribute `messagem` : value = Analise: Concentracao etapa Desengraxante Químico processo Zinco Ácido - L3 tanque 15 esta atrasado 
+[2021-08-02 23:31:48] - Attribute (`messagem`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `refId` : value = 55
+[2021-08-02 23:31:48] - Attribute (`refId`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `status` : value = AGUARDANDO
+[2021-08-02 23:31:48] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `tipoNotificacao` : value = Analise
+[2021-08-02 23:31:48] - Attribute (`tipoNotificacao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Done materializing entity [com.bluebudy.SCQ.domain.Notificacao#99]
+[2021-08-02 23:31:48] - Resolving attributes for [com.bluebudy.SCQ.domain.Notificacao#100]
+[2021-08-02 23:31:48] - Processing attribute `messagem` : value = Analise: Concentracao dura etapa Desengraxante Super Químico processo L3 - Zinco Ácido tanque 15 esta atrasado 
+[2021-08-02 23:31:48] - Attribute (`messagem`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `refId` : value = 51
+[2021-08-02 23:31:48] - Attribute (`refId`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `status` : value = AGUARDANDO
+[2021-08-02 23:31:48] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `tipoNotificacao` : value = Analise
+[2021-08-02 23:31:48] - Attribute (`tipoNotificacao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Done materializing entity [com.bluebudy.SCQ.domain.Notificacao#100]
+[2021-08-02 23:31:48] - Resolving attributes for [com.bluebudy.SCQ.domain.Notificacao#101]
+[2021-08-02 23:31:48] - Processing attribute `messagem` : value = Acao: Etapa Desengraxante Super Químico problema de parametro Temperatura processo L3 - Zinco Ácido esta atrasado 
+[2021-08-02 23:31:48] - Attribute (`messagem`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `refId` : value = 4
+[2021-08-02 23:31:48] - Attribute (`refId`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `status` : value = AGUARDANDO
+[2021-08-02 23:31:48] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `tipoNotificacao` : value = acao
+[2021-08-02 23:31:48] - Attribute (`tipoNotificacao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Done materializing entity [com.bluebudy.SCQ.domain.Notificacao#101]
+[2021-08-02 23:31:48] - Resolving attributes for [com.bluebudy.SCQ.domain.Notificacao#102]
+[2021-08-02 23:31:48] - Processing attribute `messagem` : value = Acao: Etapa Desengraxante Super Químico problema de parametro Temperatura processo L3 - Zinco Ácido esta atrasado 
+[2021-08-02 23:31:48] - Attribute (`messagem`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `refId` : value = 5
+[2021-08-02 23:31:48] - Attribute (`refId`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `status` : value = AGUARDANDO
+[2021-08-02 23:31:48] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `tipoNotificacao` : value = acao
+[2021-08-02 23:31:48] - Attribute (`tipoNotificacao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Done materializing entity [com.bluebudy.SCQ.domain.Notificacao#102]
+[2021-08-02 23:31:48] - Resolving attributes for [com.bluebudy.SCQ.domain.Notificacao#103]
+[2021-08-02 23:31:48] - Processing attribute `messagem` : value = Analise: Teor de Sólido etapa Selante processo L3 - Zinco Ácido tanque 5 esta atrasado 
+[2021-08-02 23:31:48] - Attribute (`messagem`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `refId` : value = 43
+[2021-08-02 23:31:48] - Attribute (`refId`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `status` : value = AGUARDANDO
+[2021-08-02 23:31:48] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `tipoNotificacao` : value = Analise
+[2021-08-02 23:31:48] - Attribute (`tipoNotificacao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Done materializing entity [com.bluebudy.SCQ.domain.Notificacao#103]
+[2021-08-02 23:31:48] - Resolving attributes for [com.bluebudy.SCQ.domain.Notificacao#104]
+[2021-08-02 23:31:48] - Processing attribute `messagem` : value = Analise: Concentracao etapa Decapante processo L3 - Zinco Ácido tanque 18 esta atrasado 
+[2021-08-02 23:31:48] - Attribute (`messagem`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `refId` : value = 45
+[2021-08-02 23:31:48] - Attribute (`refId`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `status` : value = AGUARDANDO
+[2021-08-02 23:31:48] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `tipoNotificacao` : value = Analise
+[2021-08-02 23:31:48] - Attribute (`tipoNotificacao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Done materializing entity [com.bluebudy.SCQ.domain.Notificacao#104]
+[2021-08-02 23:31:48] - Resolving attributes for [com.bluebudy.SCQ.domain.Notificacao#105]
+[2021-08-02 23:31:48] - Processing attribute `messagem` : value = Acao: Etapa Desengraxante Super Químico problema de parametro Temperatura processo L3 - Zinco Ácido esta atrasado 
+[2021-08-02 23:31:48] - Attribute (`messagem`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `refId` : value = 3
+[2021-08-02 23:31:48] - Attribute (`refId`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `status` : value = AGUARDANDO
+[2021-08-02 23:31:48] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `tipoNotificacao` : value = acao
+[2021-08-02 23:31:48] - Attribute (`tipoNotificacao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Done materializing entity [com.bluebudy.SCQ.domain.Notificacao#105]
+[2021-08-02 23:31:48] - Resolving attributes for [com.bluebudy.SCQ.domain.Notificacao#108]
+[2021-08-02 23:31:48] - Processing attribute `messagem` : value = Analise: Temperatura etapa Desengraxante Super Químico processo L3 - Zinco Ácido tanque 15 esta atrasado 
+[2021-08-02 23:31:48] - Attribute (`messagem`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `refId` : value = 3
+[2021-08-02 23:31:48] - Attribute (`refId`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `status` : value = AGUARDANDO
+[2021-08-02 23:31:48] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `tipoNotificacao` : value = Analise
+[2021-08-02 23:31:48] - Attribute (`tipoNotificacao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Done materializing entity [com.bluebudy.SCQ.domain.Notificacao#108]
+[2021-08-02 23:31:48] - Resolving attributes for [com.bluebudy.SCQ.domain.Notificacao#109]
+[2021-08-02 23:31:48] - Processing attribute `messagem` : value = Acao: Etapa Desengraxante Super Químico problema de parametro Temperatura processo L3 - Zinco Ácido esta atrasado 
+[2021-08-02 23:31:48] - Attribute (`messagem`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `refId` : value = 2
+[2021-08-02 23:31:48] - Attribute (`refId`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `status` : value = AGUARDANDO
+[2021-08-02 23:31:48] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `tipoNotificacao` : value = acao
+[2021-08-02 23:31:48] - Attribute (`tipoNotificacao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Done materializing entity [com.bluebudy.SCQ.domain.Notificacao#109]
+[2021-08-02 23:31:48] - Resolving attributes for [com.bluebudy.SCQ.domain.Notificacao#110]
+[2021-08-02 23:31:48] - Processing attribute `messagem` : value = Analise: Tensão etapa balacupabaco processo Treta Process tanque 31 esta atrasado 
+[2021-08-02 23:31:48] - Attribute (`messagem`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `refId` : value = 52
+[2021-08-02 23:31:48] - Attribute (`refId`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `status` : value = AGUARDANDO
+[2021-08-02 23:31:48] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `tipoNotificacao` : value = Analise
+[2021-08-02 23:31:48] - Attribute (`tipoNotificacao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Done materializing entity [com.bluebudy.SCQ.domain.Notificacao#110]
+[2021-08-02 23:31:48] - Resolving attributes for [com.bluebudy.SCQ.domain.Notificacao#111]
+[2021-08-02 23:31:48] - Processing attribute `messagem` : value = Analise: Concentracao etapa Decapante processo Cromo Duro III tanque 30 esta atrasado 
+[2021-08-02 23:31:48] - Attribute (`messagem`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `refId` : value = 61
+[2021-08-02 23:31:48] - Attribute (`refId`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `status` : value = AGUARDANDO
+[2021-08-02 23:31:48] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `tipoNotificacao` : value = Analise
+[2021-08-02 23:31:48] - Attribute (`tipoNotificacao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Done materializing entity [com.bluebudy.SCQ.domain.Notificacao#111]
+[2021-08-02 23:31:48] - Resolving attributes for [com.bluebudy.SCQ.domain.Notificacao#113]
+[2021-08-02 23:31:48] - Processing attribute `messagem` : value = Acao: Etapa Selante problema de parametro Temperatura processo L3 - Zinco Ácido esta atrasado 
+[2021-08-02 23:31:48] - Attribute (`messagem`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `refId` : value = 8
+[2021-08-02 23:31:48] - Attribute (`refId`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `status` : value = AGUARDANDO
+[2021-08-02 23:31:48] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `tipoNotificacao` : value = acao
+[2021-08-02 23:31:48] - Attribute (`tipoNotificacao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Done materializing entity [com.bluebudy.SCQ.domain.Notificacao#113]
+[2021-08-02 23:31:48] - Resolving attributes for [com.bluebudy.SCQ.domain.Notificacao#114]
+[2021-08-02 23:31:48] - Processing attribute `messagem` : value = Acao: Etapa Selante problema de parametro Temperatura processo L3 - Zinco Ácido esta atrasado 
+[2021-08-02 23:31:48] - Attribute (`messagem`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `refId` : value = 9
+[2021-08-02 23:31:48] - Attribute (`refId`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `status` : value = AGUARDANDO
+[2021-08-02 23:31:48] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `tipoNotificacao` : value = acao
+[2021-08-02 23:31:48] - Attribute (`tipoNotificacao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Done materializing entity [com.bluebudy.SCQ.domain.Notificacao#114]
+[2021-08-02 23:31:48] - Resolving attributes for [com.bluebudy.SCQ.domain.Notificacao#115]
+[2021-08-02 23:31:48] - Processing attribute `messagem` : value = Analise: Temperatura etapa Selante processo L3 - Zinco Ácido tanque 5 esta atrasado 
+[2021-08-02 23:31:48] - Attribute (`messagem`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `refId` : value = 6
+[2021-08-02 23:31:48] - Attribute (`refId`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `status` : value = AGUARDANDO
+[2021-08-02 23:31:48] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Processing attribute `tipoNotificacao` : value = Analise
+[2021-08-02 23:31:48] - Attribute (`tipoNotificacao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:48] - Done materializing entity [com.bluebudy.SCQ.domain.Notificacao#115]
+[2021-08-02 23:31:48] - /ocpsList at position 1 of 12 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+[2021-08-02 23:31:48] - /ocpsList at position 2 of 12 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+[2021-08-02 23:31:48] - /ocpsList at position 3 of 12 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+[2021-08-02 23:31:48] - /parametros at position 1 of 12 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+[2021-08-02 23:31:48] - /parametros at position 2 of 12 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+[2021-08-02 23:31:48] - /parametros at position 3 of 12 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+[2021-08-02 23:31:48] - /ocpsList at position 4 of 12 in additional filter chain; firing Filter: 'CorsFilter'
+[2021-08-02 23:31:48] - /parametros at position 4 of 12 in additional filter chain; firing Filter: 'CorsFilter'
+[2021-08-02 23:31:48] - Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@772ee90d
+[2021-08-02 23:31:48] - Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@772ee90d
+[2021-08-02 23:31:48] - SecurityContextHolder now cleared, as request processing completed
+[2021-08-02 23:31:48] - SecurityContextHolder now cleared, as request processing completed
+[2021-08-02 23:31:48] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2021-08-02 23:31:48] - Writing [[com.bluebudy.SCQ.domain.Notificacao@44a3d787, com.bluebudy.SCQ.domain.Notificacao@5c65e9b3, com.blu (truncated)...]
+[2021-08-02 23:31:48] - Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@772ee90d
+[2021-08-02 23:31:48] - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2021-08-02 23:31:48] - Completed 200 OK
+[2021-08-02 23:31:48] - Chain processed normally
+[2021-08-02 23:31:48] - SecurityContextHolder now cleared, as request processing completed
+[2021-08-02 23:31:48] - /parametros at position 1 of 12 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+[2021-08-02 23:31:48] - /ocpsList at position 1 of 12 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+[2021-08-02 23:31:48] - /parametros at position 2 of 12 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+[2021-08-02 23:31:48] - /ocpsList at position 2 of 12 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+[2021-08-02 23:31:48] - /ocpsList at position 3 of 12 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+[2021-08-02 23:31:48] - /ocpsList at position 4 of 12 in additional filter chain; firing Filter: 'CorsFilter'
+[2021-08-02 23:31:48] - /parametros at position 3 of 12 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+[2021-08-02 23:31:48] - /parametros at position 4 of 12 in additional filter chain; firing Filter: 'CorsFilter'
+[2021-08-02 23:31:48] - /parametros at position 5 of 12 in additional filter chain; firing Filter: 'LogoutFilter'
+[2021-08-02 23:31:48] - Trying to match using Ant [pattern='/logout', GET]
+[2021-08-02 23:31:48] - Checking match of request : '/parametros'; against '/logout'
+[2021-08-02 23:31:48] - Trying to match using Ant [pattern='/logout', POST]
+[2021-08-02 23:31:48] - Request 'GET /parametros' doesn't match 'POST /logout'

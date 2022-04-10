@@ -1,0 +1,126 @@
+[2021-08-02 23:28:01] - Creating shared instance of singleton bean 'org.springframework.boot.actuate.autoconfigure.info.InfoEndpointAutoConfiguration'
+[2021-08-02 23:28:01] - Creating shared instance of singleton bean 'envInfoContributor'
+[2021-08-02 23:28:01] - Creating shared instance of singleton bean 'org.springframework.boot.actuate.autoconfigure.info.InfoContributorAutoConfiguration'
+[2021-08-02 23:28:01] - Autowiring by type from bean name 'envInfoContributor' via factory method to bean named 'environment'
+[2021-08-02 23:28:01] - Creating shared instance of singleton bean 'healthEndpointWebExtension'
+[2021-08-02 23:28:01] - Creating shared instance of singleton bean 'org.springframework.boot.actuate.autoconfigure.health.HealthEndpointWebExtensionConfiguration'
+[2021-08-02 23:28:01] - Autowiring by type from bean name 'healthEndpointWebExtension' via factory method to bean named 'healthContributorRegistry'
+[2021-08-02 23:28:01] - Autowiring by type from bean name 'healthEndpointWebExtension' via factory method to bean named 'healthEndpointGroups'
+[2021-08-02 23:28:01] - Creating shared instance of singleton bean 'requestContextFilter'
+[2021-08-02 23:28:01] - Creating shared instance of singleton bean 'formContentFilter'
+[2021-08-02 23:28:01] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration'
+[2021-08-02 23:28:01] - Creating shared instance of singleton bean 'characterEncodingFilter'
+[2021-08-02 23:28:01] - Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, springSecurityFilterChain urls=[/*] order=-100, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+[2021-08-02 23:28:01] - Mapping servlets: dispatcherServlet urls=[/]
+[2021-08-02 23:28:01] - Filter 'webMvcMetricsFilter' configured for use
+[2021-08-02 23:28:01] - Filter 'requestContextFilter' configured for use
+[2021-08-02 23:28:01] - Filter 'characterEncodingFilter' configured for use
+[2021-08-02 23:28:01] - Filter 'springSecurityFilterChain' configured for use
+[2021-08-02 23:28:01] - Filter 'formContentFilter' configured for use
+[2021-08-02 23:28:01] - Creating shared instance of singleton bean 'inMemoryDatabaseShutdownExecutor'
+[2021-08-02 23:28:01] - Creating shared instance of singleton bean 'org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration'
+[2021-08-02 23:28:01] - Autowiring by type from bean name 'inMemoryDatabaseShutdownExecutor' via factory method to bean named 'dataSource'
+[2021-08-02 23:28:01] - Autowiring by type from bean name 'inMemoryDatabaseShutdownExecutor' via factory method to bean named 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+[2021-08-02 23:28:01] - Creating shared instance of singleton bean 'entityManagerFactory'
+[2021-08-02 23:28:01] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration'
+[2021-08-02 23:28:01] - Creating shared instance of singleton bean 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
+[2021-08-02 23:28:01] - Creating shared instance of singleton bean 'spring.jpa.hibernate-org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties'
+[2021-08-02 23:28:01] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'dataSource'
+[2021-08-02 23:28:01] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
+[2021-08-02 23:28:01] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@7d44e63e'
+[2021-08-02 23:28:01] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'spring.jpa.hibernate-org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties'
+[2021-08-02 23:28:01] - Creating shared instance of singleton bean 'entityManagerFactoryBuilder'
+[2021-08-02 23:28:01] - Creating shared instance of singleton bean 'jpaVendorAdapter'
+[2021-08-02 23:28:01] - Autowiring by type from bean name 'entityManagerFactoryBuilder' via factory method to bean named 'jpaVendorAdapter'
+[2021-08-02 23:28:01] - Autowiring by type from bean name 'entityManagerFactory' via factory method to bean named 'entityManagerFactoryBuilder'
+[2021-08-02 23:28:01] - Building JPA container EntityManagerFactory for persistence unit 'default'
+[2021-08-02 23:28:01] - PersistenceUnitInfo [
+	name: default
+	persistence provider classname: null
+	classloader: org.springframework.boot.devtools.restart.classloader.RestartClassLoader@52e87b7f
+	excludeUnlistedClasses: true
+	JTA datasource: null
+	Non JTA datasource: HikariDataSource (null)
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/Users/alexandrenunes/Documents/development/scq-api/target/classes/
+	Shared Cache Mode: UNSPECIFIED
+	Validation Mode: AUTO
+	Jar files URLs []
+	Managed classes names [
+		com.bluebudy.SCQ.domain.Acao
+		com.bluebudy.SCQ.domain.Adicao
+		com.bluebudy.SCQ.domain.Analise
+		com.bluebudy.SCQ.domain.Controle
+		com.bluebudy.SCQ.domain.Etapa
+		com.bluebudy.SCQ.domain.MateriaPrima
+		com.bluebudy.SCQ.domain.MontagemComposition
+		com.bluebudy.SCQ.domain.Notificacao
+		com.bluebudy.SCQ.domain.OrdemDeCorrecao
+		com.bluebudy.SCQ.domain.OrdemDeManutencao
+		com.bluebudy.SCQ.domain.Parametro
+		com.bluebudy.SCQ.domain.Processo
+		com.bluebudy.SCQ.domain.TarefasDeManutencao
+		com.bluebudy.SCQ.domain.Troca
+		com.bluebudy.SCQ.domain.User
+		com.bluebudy.SCQ.domain.VerificationToken]
+	Mapping files names []
+	Properties []
+[2021-08-02 23:28:01] - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+[2021-08-02 23:28:01] - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+[2021-08-02 23:28:01] - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+[2021-08-02 23:28:02] - HHH000412: Hibernate Core {5.4.8.Final}
+[2021-08-02 23:28:02] - HHH000206: hibernate.properties not found
+[2021-08-02 23:28:02] - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+[2021-08-02 23:28:02] - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+[2021-08-02 23:28:02] - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+[2021-08-02 23:28:02] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2021-08-02 23:28:02] - Adding type registration boolean -> org.hibernate.type.BooleanType@2d9f18ad
+[2021-08-02 23:28:02] - Adding type registration boolean -> org.hibernate.type.BooleanType@2d9f18ad
+[2021-08-02 23:28:02] - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@2d9f18ad
+[2021-08-02 23:28:02] - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@1cb4674a
+[2021-08-02 23:28:02] - Adding type registration true_false -> org.hibernate.type.TrueFalseType@13bbd986
+[2021-08-02 23:28:02] - Adding type registration yes_no -> org.hibernate.type.YesNoType@6079169
+[2021-08-02 23:28:02] - Adding type registration byte -> org.hibernate.type.ByteType@5f82e343
+[2021-08-02 23:28:02] - Adding type registration byte -> org.hibernate.type.ByteType@5f82e343
+[2021-08-02 23:28:02] - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@5f82e343
+[2021-08-02 23:28:02] - Adding type registration character -> org.hibernate.type.CharacterType@3fa088ba
+[2021-08-02 23:28:02] - Adding type registration char -> org.hibernate.type.CharacterType@3fa088ba
+[2021-08-02 23:28:02] - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@3fa088ba
+[2021-08-02 23:28:02] - Adding type registration short -> org.hibernate.type.ShortType@46066386
+[2021-08-02 23:28:02] - Adding type registration short -> org.hibernate.type.ShortType@46066386
+[2021-08-02 23:28:02] - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@46066386
+[2021-08-02 23:28:02] - Adding type registration integer -> org.hibernate.type.IntegerType@1f98fe2e
+[2021-08-02 23:28:02] - Adding type registration int -> org.hibernate.type.IntegerType@1f98fe2e
+[2021-08-02 23:28:02] - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@1f98fe2e
+[2021-08-02 23:28:02] - Adding type registration long -> org.hibernate.type.LongType@13f1e97b
+[2021-08-02 23:28:02] - Adding type registration long -> org.hibernate.type.LongType@13f1e97b
+[2021-08-02 23:28:02] - Adding type registration java.lang.Long -> org.hibernate.type.LongType@13f1e97b
+[2021-08-02 23:28:02] - Adding type registration float -> org.hibernate.type.FloatType@1b8e0c11
+[2021-08-02 23:28:02] - Adding type registration float -> org.hibernate.type.FloatType@1b8e0c11
+[2021-08-02 23:28:02] - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@1b8e0c11
+[2021-08-02 23:28:02] - Adding type registration double -> org.hibernate.type.DoubleType@21552593
+[2021-08-02 23:28:02] - Adding type registration double -> org.hibernate.type.DoubleType@21552593
+[2021-08-02 23:28:02] - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@21552593
+[2021-08-02 23:28:02] - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@3185a8c1
+[2021-08-02 23:28:02] - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@3185a8c1
+[2021-08-02 23:28:02] - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@1b0ff98
+[2021-08-02 23:28:02] - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@1b0ff98
+[2021-08-02 23:28:02] - Adding type registration string -> org.hibernate.type.StringType@48c6cf1b
+[2021-08-02 23:28:02] - Adding type registration java.lang.String -> org.hibernate.type.StringType@48c6cf1b
+[2021-08-02 23:28:02] - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@6c6dee4
+[2021-08-02 23:28:02] - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@61ac429c
+[2021-08-02 23:28:02] - Adding type registration url -> org.hibernate.type.UrlType@50702b5e
+[2021-08-02 23:28:02] - Adding type registration java.net.URL -> org.hibernate.type.UrlType@50702b5e
+[2021-08-02 23:28:02] - Adding type registration Duration -> org.hibernate.type.DurationType@38e1148d
+[2021-08-02 23:28:02] - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@38e1148d
+[2021-08-02 23:28:02] - Adding type registration Instant -> org.hibernate.type.InstantType@2fb1f801
+[2021-08-02 23:28:02] - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@2fb1f801
+[2021-08-02 23:28:02] - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@3b0ebda5
+[2021-08-02 23:28:02] - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@3b0ebda5
+[2021-08-02 23:28:02] - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@175215a5
+[2021-08-02 23:28:02] - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@175215a5
+[2021-08-02 23:28:02] - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@7e22f9cc
+[2021-08-02 23:28:02] - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@7e22f9cc
+[2021-08-02 23:28:02] - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@51cb63b8
+[2021-08-02 23:28:02] - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@51cb63b8
+[2021-08-02 23:28:02] - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@2cd76500

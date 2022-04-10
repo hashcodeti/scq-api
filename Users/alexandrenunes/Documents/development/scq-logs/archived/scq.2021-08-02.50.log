@@ -1,0 +1,88 @@
+[2021-08-02 23:31:47] - Rendered criteria query -> select generatedAlias0 from Analise as generatedAlias0 where generatedAlias0.parametro.id=:param0 order by generatedAlias0.data desc
+[2021-08-02 23:31:47] - select analise0_.id as id1_2_, analise0_.analista as analista2_2_, analise0_.data as data3_2_, analise0_.need_correcao as need_cor4_2_, analise0_.parametro_id as parametr6_2_, analise0_.resultado as resultad5_2_ from analise analise0_ where analise0_.parametro_id=? order by analise0_.data desc limit ?
+[2021-08-02 23:31:47] - Result set row: 0
+[2021-08-02 23:31:47] - Result row: EntityKey[com.bluebudy.SCQ.domain.Analise#1978]
+[2021-08-02 23:31:47] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1978]
+[2021-08-02 23:31:47] - Processing attribute `analista` : value = Alexandre
+[2021-08-02 23:31:47] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:47] - Processing attribute `data` : value = 2021-06-12 07:11:30.192
+[2021-08-02 23:31:47] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:47] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:31:47] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:47] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:31:47] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:47] - Processing attribute `parametro` : value = 8
+[2021-08-02 23:31:47] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:47] - Processing attribute `resultado` : value = 173.754
+[2021-08-02 23:31:47] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:31:47] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1978]
+[2021-08-02 23:31:47] - Rendered criteria query -> select generatedAlias0 from Analise as generatedAlias0 where generatedAlias0.parametro.id=:param0 order by generatedAlias0.data desc
+[2021-08-02 23:31:47] - select analise0_.id as id1_2_, analise0_.analista as analista2_2_, analise0_.data as data3_2_, analise0_.need_correcao as need_cor4_2_, analise0_.parametro_id as parametr6_2_, analise0_.resultado as resultad5_2_ from analise analise0_ where analise0_.parametro_id=? order by analise0_.data desc limit ?
+[2021-08-02 23:31:47] - Result set row: 0
+[2021-08-02 23:31:47] - Result row: EntityKey[com.bluebudy.SCQ.domain.Analise#2007]
+[2021-08-02 23:31:47] - Adding transactional method 'save' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2021-08-02 23:31:47] - Found thread-bound EntityManager [SessionImpl(1682416792<open>)] for JPA transaction
+[2021-08-02 23:31:47] - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2021-08-02 23:31:47] - begin
+[2021-08-02 23:31:47] - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@12e0c6a1]
+[2021-08-02 23:31:47] - Generated identifier: 2008, using strategy: org.hibernate.id.IncrementGenerator
+[2021-08-02 23:31:47] - Initiating transaction commit
+[2021-08-02 23:31:47] - Committing JPA transaction on EntityManager [SessionImpl(1682416792<open>)]
+[2021-08-02 23:31:47] - committing
+[2021-08-02 23:31:47] - Processing flush-time cascades
+[2021-08-02 23:31:47] - Dirty checking collections
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Etapa.montagem#8], was: [com.bluebudy.SCQ.domain.Etapa.montagem#8] (initialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Etapa.parametros#8], was: [com.bluebudy.SCQ.domain.Etapa.parametros#8] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Etapa.trocas#8], was: [com.bluebudy.SCQ.domain.Etapa.trocas#8] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Processo.etapas#1], was: [com.bluebudy.SCQ.domain.Processo.etapas#1] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Processo.tarefas#1], was: [com.bluebudy.SCQ.domain.Processo.tarefas#1] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.MateriaPrima.adicao#11], was: [com.bluebudy.SCQ.domain.MateriaPrima.adicao#11] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.MateriaPrima.adicao#12], was: [com.bluebudy.SCQ.domain.MateriaPrima.adicao#12] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Parametro.analises#7], was: [com.bluebudy.SCQ.domain.Parametro.analises#7] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Parametro.analises#8], was: [com.bluebudy.SCQ.domain.Parametro.analises#8] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Parametro.analises#9], was: [com.bluebudy.SCQ.domain.Parametro.analises#9] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Parametro.analises#10], was: [com.bluebudy.SCQ.domain.Parametro.analises#10] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Parametro.analises#11], was: [com.bluebudy.SCQ.domain.Parametro.analises#11] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Parametro.analises#12], was: [com.bluebudy.SCQ.domain.Parametro.analises#12] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Parametro.analises#19], was: [com.bluebudy.SCQ.domain.Parametro.analises#19] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Parametro.analises#23], was: [com.bluebudy.SCQ.domain.Parametro.analises#23] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#1964], was: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#1964] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#1962], was: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#1962] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#1959], was: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#1959] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#1957], was: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#1957] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#1073], was: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#1073] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#1046], was: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#1046] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#1044], was: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#1044] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#830], was: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#830] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#828], was: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#828] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#826], was: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#826] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#824], was: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#824] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#822], was: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#822] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#820], was: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#820] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#818], was: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#818] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#816], was: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#816] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#814], was: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#814] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#766], was: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#766] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#764], was: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#764] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#762], was: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#762] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#760], was: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#760] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#758], was: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#758] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#756], was: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#756] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#754], was: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#754] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#746], was: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#746] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#744], was: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#744] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#664], was: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#664] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#662], was: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#662] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#660], was: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#660] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#658], was: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#658] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#656], was: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#656] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#654], was: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#654] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#652], was: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#652] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#650], was: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#650] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#648], was: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#648] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#646], was: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#646] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#644], was: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#644] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#642], was: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#642] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#90], was: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#90] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#88], was: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#88] (uninitialized)
+[2021-08-02 23:31:47] - Collection found: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#1978], was: [com.bluebudy.SCQ.domain.Analise.ordemDeCorrecao#1978] (uninitialized)

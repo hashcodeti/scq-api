@@ -1,0 +1,166 @@
+[2021-08-02 23:28:07] - Autowiring by type from bean name 'repositoryEntityController' via constructor to bean named 'httpHeadersPreparer'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'repositoryPropertyReferenceController'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'repositoryInvokerFactory'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'defaultConversionService'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'repositoryInvokerFactory'
+[2021-08-02 23:28:07] - Autowiring by type from bean name 'repositoryInvokerFactory' via factory method to bean named 'defaultConversionService'
+[2021-08-02 23:28:07] - Autowiring by type from bean name 'repositoryPropertyReferenceController' via constructor to bean named 'repositories'
+[2021-08-02 23:28:07] - Autowiring by type from bean name 'repositoryPropertyReferenceController' via constructor to bean named 'repositoryInvokerFactory'
+[2021-08-02 23:28:07] - Autowiring by type from bean name 'repositoryPropertyReferenceController' via constructor to bean named 'pagedResourcesAssembler'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'alpsController'
+[2021-08-02 23:28:07] - Autowiring by type from bean name 'alpsController' via constructor to bean named 'repositoryRestConfiguration'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'repositorySchemaController'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'jsonSchemaConverter'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'associationLinks'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'excerptProjector'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'linkCollector'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'selfLinkProvider'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'representationModelProcessorInvoker'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'profileResourceProcessor'
+[2021-08-02 23:28:07] - Autowiring by type from bean name 'profileResourceProcessor' via factory method to bean named 'repositoryRestConfiguration'
+[2021-08-02 23:28:07] - Autowiring by type from bean name 'representationModelProcessorInvoker' via factory method to bean named 'profileResourceProcessor'
+[2021-08-02 23:28:07] - Autowiring by type from bean name 'repositorySchemaController' via constructor to bean named 'jsonSchemaConverter'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'repositoryController'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'delegatingEntityLinks'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'org.springframework.hateoas.config.WebMvcEntityLinksConfiguration'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'entityLinksPluginRegistry'
+[2021-08-02 23:28:07] - Autowiring by type from bean name 'delegatingEntityLinks' via factory method to bean named 'entityLinksPluginRegistry'
+[2021-08-02 23:28:07] - Autowiring by type from bean name 'repositoryController' via constructor to bean named 'pagedResourcesAssembler'
+[2021-08-02 23:28:07] - Autowiring by type from bean name 'repositoryController' via constructor to bean named 'repositories'
+[2021-08-02 23:28:07] - Autowiring by type from bean name 'repositoryController' via constructor to bean named 'delegatingEntityLinks'
+[2021-08-02 23:28:07] - Autowiring by type from bean name 'repositoryController' via constructor to bean named 'resourceMappings'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'profileController'
+[2021-08-02 23:28:07] - Autowiring by type from bean name 'profileController' via constructor to bean named 'repositoryRestConfiguration'
+[2021-08-02 23:28:07] - Autowiring by type from bean name 'profileController' via constructor to bean named 'resourceMappings'
+[2021-08-02 23:28:07] - Autowiring by type from bean name 'profileController' via constructor to bean named 'repositories'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'authenticationManagerBuilder'
+[2021-08-02 23:28:07] - Autowiring by type from bean name 'authenticationManagerBuilder' via factory method to bean named 'objectPostProcessor'
+[2021-08-02 23:28:07] - Autowiring by type from bean name 'authenticationManagerBuilder' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7521c676'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'authenticationEventPublisher'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration'
+[2021-08-02 23:28:07] - Autowiring by type from bean name 'authenticationEventPublisher' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7521c676'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'autowiredWebSecurityConfigurersIgnoreParents'
+[2021-08-02 23:28:07] - Autowiring by type from bean name 'autowiredWebSecurityConfigurersIgnoreParents' via factory method to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@7d44e63e'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'springSecurityFilterChain'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'corsConfigurationSource'
+[2021-08-02 23:28:07] - Adding web access control expression 'permitAll', for Ant [pattern='/auth', POST]
+[2021-08-02 23:28:07] - Adding web access control expression 'permitAll', for Ant [pattern='/user/registration', POST]
+[2021-08-02 23:28:07] - Adding web access control expression 'permitAll', for Ant [pattern='/regitrationConfirm/*', GET]
+[2021-08-02 23:28:07] - Adding web access control expression 'permitAll', for Ant [pattern='/user/adminRoleGrant/*', GET]
+[2021-08-02 23:28:07] - Adding web access control expression 'permitAll', for Ant [pattern='/gs-guide-websocket/**', POST]
+[2021-08-02 23:28:07] - Adding web access control expression 'permitAll', for Ant [pattern='/gs-guide-websocket/**', GET]
+[2021-08-02 23:28:07] - Adding web access control expression 'permitAll', for Ant [pattern='/hCheck', GET]
+[2021-08-02 23:28:07] - Adding web access control expression 'authenticated', for any request
+[2021-08-02 23:28:07] - Validated configuration attributes
+[2021-08-02 23:28:07] - Validated configuration attributes
+[2021-08-02 23:28:07] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2b7927c3, org.springframework.security.web.context.SecurityContextPersistenceFilter@78f947ad, org.springframework.security.web.header.HeaderWriterFilter@1d4760a1, org.springframework.web.filter.CorsFilter@115564c0, org.springframework.security.web.authentication.logout.LogoutFilter@45d5106d, com.bluebudy.SCQ.filters.AutenticacaoTokenFilter@461cbf00, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7e736480, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1ba4d85d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5f20543d, org.springframework.security.web.session.SessionManagementFilter@430d4f79, org.springframework.security.web.access.ExceptionTranslationFilter@196b91a1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@429d866c]
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'webSecurityExpressionHandler'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'privilegeEvaluator'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'requestDataValueProcessor'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'preInvocationAuthorizationAdvice'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'stompWebSocketHandlerMapping'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'subProtocolWebSocketHandler'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'messageBrokerTaskScheduler'
+[2021-08-02 23:28:07] - Initializing ExecutorService 'messageBrokerTaskScheduler'
+[2021-08-02 23:28:07] - Patterns [/gs-guide-websocket] in 'stompWebSocketHandlerMapping'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'webSocketMessageBrokerStats'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'stompBrokerRelayMessageHandler'
+[2021-08-02 23:28:07] - @Bean method AbstractMessageBrokerConfiguration.stompBrokerRelayMessageHandler called as bean reference for type [org.springframework.messaging.simp.broker.AbstractBrokerMessageHandler] returned null bean; resolving to null value.
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'brokerChannelExecutor'
+[2021-08-02 23:28:07] - Initializing ExecutorService 'brokerChannelExecutor'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'simpAnnotationMethodMessageHandler'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'mvcValidator'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'defaultValidator'
+[2021-08-02 23:28:07] - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+[2021-08-02 23:28:07] - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+[2021-08-02 23:28:07] - Loaded expression factory via original TCCL
+[2021-08-02 23:28:07] - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+[2021-08-02 23:28:07] - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+[2021-08-02 23:28:07] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+[2021-08-02 23:28:07] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+[2021-08-02 23:28:07] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+[2021-08-02 23:28:07] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+[2021-08-02 23:28:07] - Trying to load META-INF/validation.xml via user class loader
+[2021-08-02 23:28:07] - Trying to load META-INF/validation.xml via TCCL
+[2021-08-02 23:28:07] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+[2021-08-02 23:28:07] - No META-INF/validation.xml found. Using annotation based configuration only.
+[2021-08-02 23:28:07] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+[2021-08-02 23:28:07] - HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+[2021-08-02 23:28:07] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+[2021-08-02 23:28:07] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+[2021-08-02 23:28:07] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'repositoryRestExceptionHandler'
+[2021-08-02 23:28:07] - 
+	c.b.S.c.AcaoController:
+	
+[2021-08-02 23:28:07] - 
+	c.b.S.c.AdicaoController:
+	
+[2021-08-02 23:28:07] - 
+	c.b.S.c.AnaliseController:
+	
+[2021-08-02 23:28:07] - 
+	c.b.S.c.AuthenticationController:
+	
+[2021-08-02 23:28:07] - 
+	c.b.S.c.Calculator:
+	
+[2021-08-02 23:28:07] - 
+	c.b.S.c.ConstantsControllers:
+	
+[2021-08-02 23:28:07] - 
+	c.b.S.c.EtapaController:
+	
+[2021-08-02 23:28:07] - 
+	c.b.S.c.GreetingController:
+	{[MESSAGE],[/dispatcher]}: greeting(String)
+[2021-08-02 23:28:07] - 
+	c.b.S.c.MateriaPrimaController:
+	
+[2021-08-02 23:28:07] - 
+	c.b.S.c.MontagemCompositionController:
+	
+[2021-08-02 23:28:07] - 
+	c.b.S.c.NotificacaoController:
+	
+[2021-08-02 23:28:07] - 
+	c.b.S.c.OmpController:
+	
+[2021-08-02 23:28:07] - 
+	c.b.S.c.OrdemDeCorrecaoController:
+	
+[2021-08-02 23:28:07] - 
+	c.b.S.c.ParametroController:
+	
+[2021-08-02 23:28:07] - 
+	c.b.S.c.ProcessoController:
+	
+[2021-08-02 23:28:07] - 
+	c.b.S.c.RegistrationController:
+	
+[2021-08-02 23:28:07] - 
+	c.b.S.c.TarefasDeManutencaoController:
+	
+[2021-08-02 23:28:07] - 
+	c.b.S.c.TrocaController:
+	
+[2021-08-02 23:28:07] - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'simpleBrokerMessageHandler'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'userDestinationMessageHandler'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'userDestinationResolver'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'userRegistry'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'userRegistryMessageHandler'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'taskExecutorBuilder'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties'
+[2021-08-02 23:28:07] - Autowiring by type from bean name 'taskExecutorBuilder' via factory method to bean named 'spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration'
+[2021-08-02 23:28:07] - Creating shared instance of singleton bean 'error'

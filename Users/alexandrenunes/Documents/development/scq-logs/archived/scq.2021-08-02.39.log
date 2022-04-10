@@ -1,0 +1,2048 @@
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1669]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1694]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = beatriz.volpato
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-06-01 16:51:01.081
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Attribute (`unidade`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 3
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.MateriaPrima#4]
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 71.4
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1694]
+[2021-08-02 23:30:55] - 1 collections were found in result set for role: com.bluebudy.SCQ.domain.Etapa.montagem
+[2021-08-02 23:30:55] - Collection fully initialized: [com.bluebudy.SCQ.domain.Etapa.montagem#1]
+[2021-08-02 23:30:55] - 1 collections initialized for role: com.bluebudy.SCQ.domain.Etapa.montagem
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1779]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = melissayasminhable
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-06-02 16:09:41.741
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done loading collection
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 3
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 71.2
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1779]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1843]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = melissayasminhable
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-06-04 17:09:48.467
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 3
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 79.0
+[2021-08-02 23:30:55] - Loading collection: [com.bluebudy.SCQ.domain.Etapa.montagem#9]
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - select montagem0_.etapa_id as etapa_id3_6_0_, montagem0_.id as id1_6_0_, montagem0_.id as id1_6_1_, montagem0_.etapa_id as etapa_id3_6_1_, montagem0_.materia_prima_id as materia_4_6_1_, montagem0_.quantidade as quantida2_6_1_, materiapri1_.id as id1_5_2_, materiapri1_.fator_titulometrico as fator_ti2_5_2_, materiapri1_.fornecedor as forneced3_5_2_, materiapri1_.nome as nome4_5_2_, materiapri1_.preco as preco5_5_2_, materiapri1_.unidade as unidade6_5_2_ from montagem_composition montagem0_ left outer join materia_prima materiapri1_ on montagem0_.materia_prima_id=materiapri1_.id where montagem0_.etapa_id=?
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1843]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1880]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = melissayasminhable
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-06-07 13:31:31.74
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 3
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 82.0
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1880]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1913]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = melissayasminhable
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-06-08 14:56:24.515
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 3
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 74.2
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1913]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1933]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = melissayasminhable
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-06-09 14:55:58.773
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 3
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 72.2
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1933]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1992]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Alexandre
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-06-30 13:54:18.802
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 3
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 50.0
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1992]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1997]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = null
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-07-01 10:32:47.21
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 3
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 63.0
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1997]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1998]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = null
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-07-01 10:34:23.277
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 3
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 63.0
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1998]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1999]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = null
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-07-01 10:35:21.03
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 3
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 63.0
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1999]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#2000]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = null
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-07-07 21:43:24.118
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = false
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 3
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 70.0
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#2000]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#2004]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Alexandre
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-07-07 21:49:31.232
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = false
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 3
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 68.0
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#2004]
+[2021-08-02 23:30:55] - 1 collections were found in result set for role: com.bluebudy.SCQ.domain.Parametro.analises
+[2021-08-02 23:30:55] - Collection fully initialized: [com.bluebudy.SCQ.domain.Parametro.analises#3]
+[2021-08-02 23:30:55] - 1 collections initialized for role: com.bluebudy.SCQ.domain.Parametro.analises
+[2021-08-02 23:30:55] - Done loading collection
+[2021-08-02 23:30:55] - Preparing collection initializer : [com.bluebudy.SCQ.domain.Etapa.montagem#9]
+[2021-08-02 23:30:55] - Loading collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - select analises0_.parametro_id as parametr6_2_0_, analises0_.id as id1_2_0_, analises0_.id as id1_2_1_, analises0_.analista as analista2_2_1_, analises0_.data as data3_2_1_, analises0_.need_correcao as need_cor4_2_1_, analises0_.parametro_id as parametr6_2_1_, analises0_.resultado as resultad5_2_1_ from analise analises0_ where analises0_.parametro_id=?
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Etapa.montagem#9]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.MontagemComposition#16]
+[2021-08-02 23:30:55] - Processing attribute `etapa` : value = 9
+[2021-08-02 23:30:55] - Attribute (`etapa`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `materiaPrima` : value = 2
+[2021-08-02 23:30:55] - Attribute (`materiaPrima`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `quantidade` : value = 150.0
+[2021-08-02 23:30:55] - Attribute (`quantidade`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.MontagemComposition#16]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.MateriaPrima#2]
+[2021-08-02 23:30:55] - Processing attribute `adicao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`adicao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `fatorTitulometrico` : value = 1.0
+[2021-08-02 23:30:55] - Attribute (`fatorTitulometrico`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `fornecedor` : value = Macdermid
+[2021-08-02 23:30:55] - Attribute (`fornecedor`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `nome` : value = Endox B
+[2021-08-02 23:30:55] - Attribute (`nome`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `preco` : value = 13.42
+[2021-08-02 23:30:55] - Attribute (`preco`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `unidade` : value = Kg
+[2021-08-02 23:30:55] - Attribute (`unidade`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.MateriaPrima#2]
+[2021-08-02 23:30:55] - 1 collections were found in result set for role: com.bluebudy.SCQ.domain.Etapa.montagem
+[2021-08-02 23:30:55] - Collection fully initialized: [com.bluebudy.SCQ.domain.Etapa.montagem#9]
+[2021-08-02 23:30:55] - 1 collections initialized for role: com.bluebudy.SCQ.domain.Etapa.montagem
+[2021-08-02 23:30:55] - Done loading collection
+[2021-08-02 23:30:55] - Loading collection: [com.bluebudy.SCQ.domain.Etapa.montagem#8]
+[2021-08-02 23:30:55] - select montagem0_.etapa_id as etapa_id3_6_0_, montagem0_.id as id1_6_0_, montagem0_.id as id1_6_1_, montagem0_.etapa_id as etapa_id3_6_1_, montagem0_.materia_prima_id as materia_4_6_1_, montagem0_.quantidade as quantida2_6_1_, materiapri1_.id as id1_5_2_, materiapri1_.fator_titulometrico as fator_ti2_5_2_, materiapri1_.fornecedor as forneced3_5_2_, materiapri1_.nome as nome4_5_2_, materiapri1_.preco as preco5_5_2_, materiapri1_.unidade as unidade6_5_2_ from montagem_composition montagem0_ left outer join materia_prima materiapri1_ on montagem0_.materia_prima_id=materiapri1_.id where montagem0_.etapa_id=?
+[2021-08-02 23:30:55] - Preparing collection initializer : [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Preparing collection initializer : [com.bluebudy.SCQ.domain.Etapa.montagem#8]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Etapa.montagem#8]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Etapa.montagem#8]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.MontagemComposition#13]
+[2021-08-02 23:30:55] - Processing attribute `etapa` : value = 8
+[2021-08-02 23:30:55] - Attribute (`etapa`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `materiaPrima` : value = 11
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Attribute (`materiaPrima`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `quantidade` : value = 6500.0
+[2021-08-02 23:30:55] - Attribute (`quantidade`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.MontagemComposition#13]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.MateriaPrima#11]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Processing attribute `adicao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`adicao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Processing attribute `fatorTitulometrico` : value = 3.546
+[2021-08-02 23:30:55] - Attribute (`fatorTitulometrico`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `fornecedor` : value = Aksell
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Attribute (`fornecedor`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Processing attribute `nome` : value = Cloreto de Potassio
+[2021-08-02 23:30:55] - Attribute (`nome`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `preco` : value = 6.6
+[2021-08-02 23:30:55] - Attribute (`preco`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Processing attribute `unidade` : value = Kg
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Attribute (`unidade`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.MateriaPrima#11]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.MontagemComposition#14]
+[2021-08-02 23:30:55] - Processing attribute `etapa` : value = 8
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Attribute (`etapa`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Processing attribute `materiaPrima` : value = 12
+[2021-08-02 23:30:55] - Attribute (`materiaPrima`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Processing attribute `quantidade` : value = 700.0
+[2021-08-02 23:30:55] - Attribute (`quantidade`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.MontagemComposition#14]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.MateriaPrima#12]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Processing attribute `adicao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`adicao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `fatorTitulometrico` : value = 3.092
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Attribute (`fatorTitulometrico`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `fornecedor` : value = Surtec
+[2021-08-02 23:30:55] - Attribute (`fornecedor`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `nome` : value = Ácido Bórico
+[2021-08-02 23:30:55] - Attribute (`nome`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Processing attribute `preco` : value = 14.29
+[2021-08-02 23:30:55] - Attribute (`preco`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `unidade` : value = Kg
+[2021-08-02 23:30:55] - Attribute (`unidade`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.MateriaPrima#12]
+[2021-08-02 23:30:55] - 1 collections were found in result set for role: com.bluebudy.SCQ.domain.Etapa.montagem
+[2021-08-02 23:30:55] - Collection fully initialized: [com.bluebudy.SCQ.domain.Etapa.montagem#8]
+[2021-08-02 23:30:55] - 1 collections initialized for role: com.bluebudy.SCQ.domain.Etapa.montagem
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Done loading collection
+[2021-08-02 23:30:55] - Loading collection: [com.bluebudy.SCQ.domain.Etapa.montagem#3]
+[2021-08-02 23:30:55] - select montagem0_.etapa_id as etapa_id3_6_0_, montagem0_.id as id1_6_0_, montagem0_.id as id1_6_1_, montagem0_.etapa_id as etapa_id3_6_1_, montagem0_.materia_prima_id as materia_4_6_1_, montagem0_.quantidade as quantida2_6_1_, materiapri1_.id as id1_5_2_, materiapri1_.fator_titulometrico as fator_ti2_5_2_, materiapri1_.fornecedor as forneced3_5_2_, materiapri1_.nome as nome4_5_2_, materiapri1_.preco as preco5_5_2_, materiapri1_.unidade as unidade6_5_2_ from montagem_composition montagem0_ left outer join materia_prima materiapri1_ on montagem0_.materia_prima_id=materiapri1_.id where montagem0_.etapa_id=?
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Preparing collection initializer : [com.bluebudy.SCQ.domain.Etapa.montagem#3]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Etapa.montagem#3]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.MontagemComposition#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Processing attribute `etapa` : value = 3
+[2021-08-02 23:30:55] - Attribute (`etapa`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `materiaPrima` : value = 5
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Attribute (`materiaPrima`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `quantidade` : value = 250.0
+[2021-08-02 23:30:55] - Attribute (`quantidade`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.MontagemComposition#5]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.MateriaPrima#5]
+[2021-08-02 23:30:55] - Processing attribute `adicao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`adicao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Processing attribute `fatorTitulometrico` : value = 1.0
+[2021-08-02 23:30:55] - Attribute (`fatorTitulometrico`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `fornecedor` : value = Atotech
+[2021-08-02 23:30:55] - Attribute (`fornecedor`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `nome` : value = Sealer 300W 2.0
+[2021-08-02 23:30:55] - Attribute (`nome`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Processing attribute `preco` : value = 111.71
+[2021-08-02 23:30:55] - Attribute (`preco`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Processing attribute `unidade` : value = Kg
+[2021-08-02 23:30:55] - Attribute (`unidade`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.MateriaPrima#5]
+[2021-08-02 23:30:55] - 1 collections were found in result set for role: com.bluebudy.SCQ.domain.Etapa.montagem
+[2021-08-02 23:30:55] - Collection fully initialized: [com.bluebudy.SCQ.domain.Etapa.montagem#3]
+[2021-08-02 23:30:55] - 1 collections initialized for role: com.bluebudy.SCQ.domain.Etapa.montagem
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Done loading collection
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Loading collection: [com.bluebudy.SCQ.domain.Etapa.montagem#2]
+[2021-08-02 23:30:55] - select montagem0_.etapa_id as etapa_id3_6_0_, montagem0_.id as id1_6_0_, montagem0_.id as id1_6_1_, montagem0_.etapa_id as etapa_id3_6_1_, montagem0_.materia_prima_id as materia_4_6_1_, montagem0_.quantidade as quantida2_6_1_, materiapri1_.id as id1_5_2_, materiapri1_.fator_titulometrico as fator_ti2_5_2_, materiapri1_.fornecedor as forneced3_5_2_, materiapri1_.nome as nome4_5_2_, materiapri1_.preco as preco5_5_2_, materiapri1_.unidade as unidade6_5_2_ from montagem_composition montagem0_ left outer join materia_prima materiapri1_ on montagem0_.materia_prima_id=materiapri1_.id where montagem0_.etapa_id=?
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#24]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-02-16 15:59:39.293
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.2
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#24]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#161]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-02-17 15:11:59.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.3
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#161]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#162]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-02-18 15:13:09.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.5
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#162]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#163]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-02-19 15:14:17.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.3
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#163]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#164]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-02-22 15:14:38.0
+[2021-08-02 23:30:55] - Preparing collection initializer : [com.bluebudy.SCQ.domain.Etapa.montagem#2]
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Etapa.montagem#2]
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.2
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#164]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#165]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-02-23 15:14:53.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.2
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#165]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#166]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-02-24 15:16:01.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.2
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#166]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#167]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-02-25 15:16:17.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.3
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#167]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#168]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-02-26 15:16:44.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.3
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#168]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#169]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-03-01 15:17:12.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.3
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#169]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#170]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-03-02 15:17:31.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.3
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#170]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#171]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-03-03 15:22:06.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.3
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#171]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#172]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-03-04 15:23:46.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.3
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#172]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#173]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-03-05 15:24:00.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Etapa.montagem#2]
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.4
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#173]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#174]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-03-08 15:24:15.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.MontagemComposition#3]
+[2021-08-02 23:30:55] - Processing attribute `etapa` : value = 2
+[2021-08-02 23:30:55] - Attribute (`etapa`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `materiaPrima` : value = 1
+[2021-08-02 23:30:55] - Attribute (`materiaPrima`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.3
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#174]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#175]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-03-09 15:24:45.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.2
+[2021-08-02 23:30:55] - Processing attribute `quantidade` : value = 250.0
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Attribute (`quantidade`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#175]
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.MontagemComposition#3]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.MateriaPrima#1]
+[2021-08-02 23:30:55] - Processing attribute `adicao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`adicao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `fatorTitulometrico` : value = 8.647
+[2021-08-02 23:30:55] - Attribute (`fatorTitulometrico`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `fornecedor` : value = Macdermid
+[2021-08-02 23:30:55] - Attribute (`fornecedor`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `nome` : value = Endox A
+[2021-08-02 23:30:55] - Attribute (`nome`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `preco` : value = 13.84
+[2021-08-02 23:30:55] - Attribute (`preco`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `unidade` : value = Kg
+[2021-08-02 23:30:55] - Attribute (`unidade`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.MateriaPrima#1]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.MontagemComposition#4]
+[2021-08-02 23:30:55] - Processing attribute `etapa` : value = 2
+[2021-08-02 23:30:55] - Attribute (`etapa`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `materiaPrima` : value = 2
+[2021-08-02 23:30:55] - Attribute (`materiaPrima`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `quantidade` : value = 100.0
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#176]
+[2021-08-02 23:30:55] - Attribute (`quantidade`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.MontagemComposition#4]
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-03-10 15:24:59.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.2
+[2021-08-02 23:30:55] - 1 collections were found in result set for role: com.bluebudy.SCQ.domain.Etapa.montagem
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#176]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#177]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-03-11 15:25:19.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.4
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#177]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#178]
+[2021-08-02 23:30:55] - Collection fully initialized: [com.bluebudy.SCQ.domain.Etapa.montagem#2]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - 1 collections initialized for role: com.bluebudy.SCQ.domain.Etapa.montagem
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-03-12 15:25:48.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done loading collection
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.4
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#178]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#179]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-03-15 15:26:06.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.4
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#179]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#180]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-03-16 15:28:22.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Initiating transaction commit
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.4
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#180]
+[2021-08-02 23:30:55] - Committing JPA transaction on EntityManager [SessionImpl(1478649315<open>)]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#181]
+[2021-08-02 23:30:55] - committing
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-03-17 15:28:54.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.4
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#181]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#182]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-03-18 15:31:01.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.4
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#182]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#183]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-03-19 15:31:19.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.4
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#183]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#184]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-03-22 15:31:33.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.3
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#184]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#238]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-03-23 17:45:36.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.2
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#238]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#239]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-03-24 17:45:59.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.2
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#239]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#240]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-03-25 17:46:19.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1551666524 wrapping com.mysql.cj.jdbc.ConnectionImpl@52e3c9cc]
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.3
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#240]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#241]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-03-26 17:46:42.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.0
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#241]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#242]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-03-29 17:47:02.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.4
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#242]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#243]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-03-30 17:47:22.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.3
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#243]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#244]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-03-31 17:47:46.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.2
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#244]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#245]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-04-01 17:50:08.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Not closing pre-bound JPA EntityManager after transaction
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.3
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#245]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#246]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-04-05 17:50:34.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.2
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#246]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#247]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-04-06 17:50:57.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.1
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#247]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#248]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-04-07 17:51:21.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.2
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#248]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#249]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-04-08 17:51:42.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.2
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#249]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#250]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-04-09 17:52:05.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.2
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#250]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#251]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-04-12 17:52:37.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.2
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#251]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#416]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-04-13 13:41:36.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.2
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#416]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#417]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-04-14 13:42:06.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.1
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#417]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#418]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-04-15 13:42:27.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.1
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#418]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#419]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-04-16 13:42:54.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.1
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#419]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#420]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-04-19 13:43:17.819
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.2
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#420]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1036]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-04-20 12:33:11.971
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.1
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1036]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1110]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-04-22 10:11:30.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.1
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1110]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1116]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-04-23 10:13:43.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.1
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1116]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1122]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-04-26 10:16:34.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.1
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1122]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1128]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-04-27 10:19:30.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.1
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1128]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1151]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-04-28 11:46:43.205
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.1
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1151]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1165]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-04-29 13:36:08.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.1
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1165]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1166]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-04-30 13:36:29.277
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Loading collection: [com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes#1]
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - select adicoes0_.ordem_id as ordem_id7_1_0_, adicoes0_.id as id1_1_0_, adicoes0_.id as id1_1_1_, adicoes0_.data as data2_1_1_, adicoes0_.materia_prima_id as materia_6_1_1_, adicoes0_.ordem_id as ordem_id7_1_1_, adicoes0_.quantidade as quantida3_1_1_, adicoes0_.status as status4_1_1_, adicoes0_.unidade as unidade5_1_1_, materiapri1_.id as id1_5_2_, materiapri1_.fator_titulometrico as fator_ti2_5_2_, materiapri1_.fornecedor as forneced3_5_2_, materiapri1_.nome as nome4_5_2_, materiapri1_.preco as preco5_5_2_, materiapri1_.unidade as unidade6_5_2_ from adicao adicoes0_ left outer join materia_prima materiapri1_ on adicoes0_.materia_prima_id=materiapri1_.id where adicoes0_.ordem_id=?
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.1
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1166]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1235]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-05-03 09:34:40.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.1
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1235]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1236]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-05-04 09:34:54.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.1
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1236]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1237]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-05-05 09:35:12.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.1
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1237]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1283]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-05-06 13:40:49.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.2
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1283]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1284]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-05-07 13:41:02.405
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.2
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1284]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1303]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-05-10 16:18:32.222
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.2
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1303]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1314]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-05-11 08:26:11.194
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.1
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1314]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1344]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-05-12 09:42:32.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.1
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1344]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1350]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-05-13 09:45:10.717
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.1
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1350]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1375]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-05-14 12:22:57.926
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.2
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1375]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1400]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-05-17 07:32:37.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.1
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1400]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1406]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-05-18 07:34:59.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.1
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1406]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1484]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = beatriz.volpato
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-05-19 09:55:10.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.2
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1484]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1490]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = beatriz.volpato
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-05-20 09:58:00.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.2
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1490]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1618]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = beatriz.volpato
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-05-24 11:24:25.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.2
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1618]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1619]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = beatriz.volpato
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-05-25 11:29:12.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.2
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1619]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1620]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = beatriz.volpato
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-05-26 11:29:33.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.2
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1620]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1621]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = beatriz.volpato
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-05-27 11:29:46.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 3.9
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1621]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1622]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = beatriz.volpato
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-05-28 11:30:00.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.0
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1622]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1670]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = beatriz.volpato
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-05-31 09:42:00.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.1
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1670]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1695]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = beatriz.volpato
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-06-01 16:51:20.657
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.2
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1695]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1796]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = melissayasminhable
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-06-04 16:14:55.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.1
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1796]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1826]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = melissayasminhable
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-06-02 13:09:00.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Preparing collection initializer : [com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes#1]
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 4.1
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1826]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1881]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = melissayasminhable
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-06-07 13:31:50.041
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 3.9
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1881]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1914]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = melissayasminhable
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-06-08 14:56:42.961
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 3.9
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1914]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#1934]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = melissayasminhable
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-06-09 14:56:22.349
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 4
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 3.9
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#1934]
+[2021-08-02 23:30:55] - 1 collections were found in result set for role: com.bluebudy.SCQ.domain.Parametro.analises
+[2021-08-02 23:30:55] - Collection fully initialized: [com.bluebudy.SCQ.domain.Parametro.analises#4]
+[2021-08-02 23:30:55] - 1 collections initialized for role: com.bluebudy.SCQ.domain.Parametro.analises
+[2021-08-02 23:30:55] - Done loading collection
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes#1]
+[2021-08-02 23:30:55] - Loading collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - select analises0_.parametro_id as parametr6_2_0_, analises0_.id as id1_2_0_, analises0_.id as id1_2_1_, analises0_.analista as analista2_2_1_, analises0_.data as data3_2_1_, analises0_.need_correcao as need_cor4_2_1_, analises0_.parametro_id as parametr6_2_1_, analises0_.resultado as resultad5_2_1_ from analise analises0_ where analises0_.parametro_id=?
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes#1]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Adicao#1]
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-05-28 00:26:45.938
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `materiaPrima` : value = 3
+[2021-08-02 23:30:55] - Attribute (`materiaPrima`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = 1
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `quantidade` : value = 0.0
+[2021-08-02 23:30:55] - Attribute (`quantidade`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `status` : value = true
+[2021-08-02 23:30:55] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `unidade` : value = Kg
+[2021-08-02 23:30:55] - Attribute (`unidade`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Adicao#1]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Adicao#2]
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-05-28 00:26:45.949
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `materiaPrima` : value = 4
+[2021-08-02 23:30:55] - Attribute (`materiaPrima`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = 1
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `quantidade` : value = 0.0
+[2021-08-02 23:30:55] - Attribute (`quantidade`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `status` : value = true
+[2021-08-02 23:30:55] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `unidade` : value = Lts
+[2021-08-02 23:30:55] - Attribute (`unidade`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Adicao#2]
+[2021-08-02 23:30:55] - 1 collections were found in result set for role: com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes
+[2021-08-02 23:30:55] - Collection fully initialized: [com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes#1]
+[2021-08-02 23:30:55] - 1 collections initialized for role: com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes
+[2021-08-02 23:30:55] - Done loading collection
+[2021-08-02 23:30:55] - Preparing collection initializer : [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Loading collection: [com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes#2]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - select adicoes0_.ordem_id as ordem_id7_1_0_, adicoes0_.id as id1_1_0_, adicoes0_.id as id1_1_1_, adicoes0_.data as data2_1_1_, adicoes0_.materia_prima_id as materia_6_1_1_, adicoes0_.ordem_id as ordem_id7_1_1_, adicoes0_.quantidade as quantida3_1_1_, adicoes0_.status as status4_1_1_, adicoes0_.unidade as unidade5_1_1_, materiapri1_.id as id1_5_2_, materiapri1_.fator_titulometrico as fator_ti2_5_2_, materiapri1_.fornecedor as forneced3_5_2_, materiapri1_.nome as nome4_5_2_, materiapri1_.preco as preco5_5_2_, materiapri1_.unidade as unidade6_5_2_ from adicao adicoes0_ left outer join materia_prima materiapri1_ on adicoes0_.materia_prima_id=materiapri1_.id where adicoes0_.ordem_id=?
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Preparing collection initializer : [com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes#2]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes#2]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes#2]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Adicao#3]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-05-28 00:29:47.945
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Processing attribute `materiaPrima` : value = 3
+[2021-08-02 23:30:55] - Attribute (`materiaPrima`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = 2
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Processing attribute `quantidade` : value = 61.0
+[2021-08-02 23:30:55] - Attribute (`quantidade`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `status` : value = true
+[2021-08-02 23:30:55] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `unidade` : value = Kg
+[2021-08-02 23:30:55] - Attribute (`unidade`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Adicao#3]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Adicao#4]
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-05-28 00:29:47.953
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `materiaPrima` : value = 4
+[2021-08-02 23:30:55] - Attribute (`materiaPrima`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = 2
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Processing attribute `quantidade` : value = 11.0
+[2021-08-02 23:30:55] - Attribute (`quantidade`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `status` : value = true
+[2021-08-02 23:30:55] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `unidade` : value = Lts
+[2021-08-02 23:30:55] - Attribute (`unidade`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Adicao#4]
+[2021-08-02 23:30:55] - 1 collections were found in result set for role: com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes
+[2021-08-02 23:30:55] - Collection fully initialized: [com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes#2]
+[2021-08-02 23:30:55] - 1 collections initialized for role: com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes
+[2021-08-02 23:30:55] - Done loading collection
+[2021-08-02 23:30:55] - Loading collection: [com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes#3]
+[2021-08-02 23:30:55] - select adicoes0_.ordem_id as ordem_id7_1_0_, adicoes0_.id as id1_1_0_, adicoes0_.id as id1_1_1_, adicoes0_.data as data2_1_1_, adicoes0_.materia_prima_id as materia_6_1_1_, adicoes0_.ordem_id as ordem_id7_1_1_, adicoes0_.quantidade as quantida3_1_1_, adicoes0_.status as status4_1_1_, adicoes0_.unidade as unidade5_1_1_, materiapri1_.id as id1_5_2_, materiapri1_.fator_titulometrico as fator_ti2_5_2_, materiapri1_.fornecedor as forneced3_5_2_, materiapri1_.nome as nome4_5_2_, materiapri1_.preco as preco5_5_2_, materiapri1_.unidade as unidade6_5_2_ from adicao adicoes0_ left outer join materia_prima materiapri1_ on adicoes0_.materia_prima_id=materiapri1_.id where adicoes0_.ordem_id=?
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Preparing collection initializer : [com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes#3]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes#3]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes#3]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Adicao#5]
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-05-28 10:52:24.814
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Processing attribute `materiaPrima` : value = 3
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Attribute (`materiaPrima`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = 3
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Processing attribute `quantidade` : value = 75.0
+[2021-08-02 23:30:55] - Attribute (`quantidade`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `status` : value = true
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `unidade` : value = Kg
+[2021-08-02 23:30:55] - Attribute (`unidade`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Adicao#5]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Adicao#6]
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-05-28 10:52:24.837
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `materiaPrima` : value = 4
+[2021-08-02 23:30:55] - Attribute (`materiaPrima`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = 3
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Processing attribute `quantidade` : value = 15.0
+[2021-08-02 23:30:55] - Attribute (`quantidade`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `status` : value = true
+[2021-08-02 23:30:55] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `unidade` : value = Lts
+[2021-08-02 23:30:55] - Attribute (`unidade`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Adicao#6]
+[2021-08-02 23:30:55] - 1 collections were found in result set for role: com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes
+[2021-08-02 23:30:55] - Collection fully initialized: [com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes#3]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - 1 collections initialized for role: com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Done loading collection
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.Parametro.analises#5]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#5]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-02-15 09:50:20.416
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 5
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Loading collection: [com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes#4]
+[2021-08-02 23:30:55] - select adicoes0_.ordem_id as ordem_id7_1_0_, adicoes0_.id as id1_1_0_, adicoes0_.id as id1_1_1_, adicoes0_.data as data2_1_1_, adicoes0_.materia_prima_id as materia_6_1_1_, adicoes0_.ordem_id as ordem_id7_1_1_, adicoes0_.quantidade as quantida3_1_1_, adicoes0_.status as status4_1_1_, adicoes0_.unidade as unidade5_1_1_, materiapri1_.id as id1_5_2_, materiapri1_.fator_titulometrico as fator_ti2_5_2_, materiapri1_.fornecedor as forneced3_5_2_, materiapri1_.nome as nome4_5_2_, materiapri1_.preco as preco5_5_2_, materiapri1_.unidade as unidade6_5_2_ from adicao adicoes0_ left outer join materia_prima materiapri1_ on adicoes0_.materia_prima_id=materiapri1_.id where adicoes0_.ordem_id=?
+[2021-08-02 23:30:55] - Preparing collection initializer : [com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes#4]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes#4]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Adicao#7]
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-05-28 10:55:43.77
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `materiaPrima` : value = 3
+[2021-08-02 23:30:55] - Attribute (`materiaPrima`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = 4
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `quantidade` : value = 50.0
+[2021-08-02 23:30:55] - Attribute (`quantidade`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `status` : value = true
+[2021-08-02 23:30:55] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `unidade` : value = Kg
+[2021-08-02 23:30:55] - Attribute (`unidade`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Adicao#7]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Adicao#8]
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-05-28 10:55:43.83
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `materiaPrima` : value = 4
+[2021-08-02 23:30:55] - Attribute (`materiaPrima`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = 4
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `quantidade` : value = 10.0
+[2021-08-02 23:30:55] - Attribute (`quantidade`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `status` : value = true
+[2021-08-02 23:30:55] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `unidade` : value = Lts
+[2021-08-02 23:30:55] - Attribute (`unidade`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Adicao#8]
+[2021-08-02 23:30:55] - 1 collections were found in result set for role: com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes
+[2021-08-02 23:30:55] - Collection fully initialized: [com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes#4]
+[2021-08-02 23:30:55] - 1 collections initialized for role: com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes
+[2021-08-02 23:30:55] - Done loading collection
+[2021-08-02 23:30:55] - Loading collection: [com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes#5]
+[2021-08-02 23:30:55] - select adicoes0_.ordem_id as ordem_id7_1_0_, adicoes0_.id as id1_1_0_, adicoes0_.id as id1_1_1_, adicoes0_.data as data2_1_1_, adicoes0_.materia_prima_id as materia_6_1_1_, adicoes0_.ordem_id as ordem_id7_1_1_, adicoes0_.quantidade as quantida3_1_1_, adicoes0_.status as status4_1_1_, adicoes0_.unidade as unidade5_1_1_, materiapri1_.id as id1_5_2_, materiapri1_.fator_titulometrico as fator_ti2_5_2_, materiapri1_.fornecedor as forneced3_5_2_, materiapri1_.nome as nome4_5_2_, materiapri1_.preco as preco5_5_2_, materiapri1_.unidade as unidade6_5_2_ from adicao adicoes0_ left outer join materia_prima materiapri1_ on adicoes0_.materia_prima_id=materiapri1_.id where adicoes0_.ordem_id=?
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 2.06
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#5]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#15]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-02-16 09:17:23.529
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 5
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 1.84
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#15]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#42]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-02-18 13:10:47.771
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = false
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 5
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 1.98
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#42]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#931]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-02-17 08:50:10.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 5
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 2.34
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#931]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#933]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-02-19 08:50:44.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 5
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 1.97
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#933]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#934]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-02-22 08:50:58.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 5
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 1.95
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#934]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#935]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-02-23 08:51:13.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 5
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 1.94
+[2021-08-02 23:30:55] - Preparing collection initializer : [com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes#5]
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#935]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#936]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-02-24 08:51:29.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 5
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 1.88
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#936]
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes#5]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#937]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-02-25 08:51:45.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Found row of collection: [com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes#5]
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 5
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 1.97
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Adicao#9]
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-05-28 11:02:06.062
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `materiaPrima` : value = 3
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#937]
+[2021-08-02 23:30:55] - Attribute (`materiaPrima`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = 5
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#938]
+[2021-08-02 23:30:55] - Processing attribute `quantidade` : value = 34.0
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`quantidade`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `status` : value = true
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-02-26 08:51:58.0
+[2021-08-02 23:30:55] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `unidade` : value = Kg
+[2021-08-02 23:30:55] - Attribute (`unidade`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Adicao#9]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Adicao#10]
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-05-28 11:02:06.094
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `materiaPrima` : value = 4
+[2021-08-02 23:30:55] - Attribute (`materiaPrima`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = 5
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Processing attribute `quantidade` : value = 6.0
+[2021-08-02 23:30:55] - Attribute (`quantidade`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `status` : value = true
+[2021-08-02 23:30:55] - Attribute (`status`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `unidade` : value = Lts
+[2021-08-02 23:30:55] - Attribute (`unidade`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Adicao#10]
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - 1 collections were found in result set for role: com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Collection fully initialized: [com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes#5]
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - 1 collections initialized for role: com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 5
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done loading collection
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 2.09
+[2021-08-02 23:30:55] - Loading collection: [com.bluebudy.SCQ.domain.OrdemDeCorrecao.adicoes#6]
+[2021-08-02 23:30:55] - select adicoes0_.ordem_id as ordem_id7_1_0_, adicoes0_.id as id1_1_0_, adicoes0_.id as id1_1_1_, adicoes0_.data as data2_1_1_, adicoes0_.materia_prima_id as materia_6_1_1_, adicoes0_.ordem_id as ordem_id7_1_1_, adicoes0_.quantidade as quantida3_1_1_, adicoes0_.status as status4_1_1_, adicoes0_.unidade as unidade5_1_1_, materiapri1_.id as id1_5_2_, materiapri1_.fator_titulometrico as fator_ti2_5_2_, materiapri1_.fornecedor as forneced3_5_2_, materiapri1_.nome as nome4_5_2_, materiapri1_.preco as preco5_5_2_, materiapri1_.unidade as unidade6_5_2_ from adicao adicoes0_ left outer join materia_prima materiapri1_ on adicoes0_.materia_prima_id=materiapri1_.id where adicoes0_.ordem_id=?
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#938]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#939]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-03-01 08:52:15.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 5
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 2.05
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#939]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#940]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-03-02 08:52:29.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 5
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 1.98
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#940]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#941]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-03-03 08:52:43.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 5
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 1.99
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#941]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#942]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-03-04 08:53:04.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 5
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 1.98
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#942]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#943]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-03-05 08:58:22.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 5
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 1.99
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#943]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#944]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-03-08 08:58:36.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 5
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 1.98
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#944]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#945]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-03-09 08:58:52.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 5
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 1.98
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#945]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#946]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-03-10 08:59:06.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 5
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 1.98
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Done materializing entity [com.bluebudy.SCQ.domain.Analise#946]
+[2021-08-02 23:30:55] - Resolving attributes for [com.bluebudy.SCQ.domain.Analise#947]
+[2021-08-02 23:30:55] - Processing attribute `analista` : value = Beatriz
+[2021-08-02 23:30:55] - Attribute (`analista`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `data` : value = 2021-03-11 08:59:21.0
+[2021-08-02 23:30:55] - Attribute (`data`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `needCorrecao` : value = true
+[2021-08-02 23:30:55] - Attribute (`needCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `ordemDeCorrecao` : value = NOT NULL COLLECTION
+[2021-08-02 23:30:55] - Attribute (`ordemDeCorrecao`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `parametro` : value = 5
+[2021-08-02 23:30:55] - Attribute (`parametro`)  - enhanced for lazy-loading? - false
+[2021-08-02 23:30:55] - Processing attribute `resultado` : value = 1.93
+[2021-08-02 23:30:55] - Attribute (`resultado`)  - enhanced for lazy-loading? - false
