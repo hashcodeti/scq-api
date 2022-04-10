@@ -1,2 +1,2 @@
-# scq-app
-front end of scq
+# scq-api
+back-end of scq
